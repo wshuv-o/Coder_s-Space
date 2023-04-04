@@ -1,43 +1,22 @@
-﻿using Coder_s_space;
-using System;
-using System.Runtime.InteropServices;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace media
+namespace Coder_s_space
 {
-    static class Program
+    internal static class Program
     {
-        [DllImport("shcore.dll")]
-        private static extern int SetProcessDpiAwareness(int awareness);
-
-        private const int PROCESS_SYSTEM_DPI_AWARE = 1;
-        private const int PROCESS_PER_MONITOR_DPI_AWARE = 2;
-
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
         [STAThread]
         static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-
-            // Set DPI awareness
-            if (Environment.OSVersion.Version.Major >= 6)
-            {
-                try
-                {
-                    SetProcessDpiAwareness(PROCESS_PER_MONITOR_DPI_AWARE);
-                }
-                catch (EntryPointNotFoundException)
-                {
-                    // Fall back to SetProcessDPIAware() if SetProcessDpiAwareness() is not found
-                    SetProcessDPIAware();
-                }
-            }
-
-            
             Application.Run(new Form1());
         }
-
-        [DllImport("user32.dll")]
-        private static extern bool SetProcessDPIAware();
     }
 }
