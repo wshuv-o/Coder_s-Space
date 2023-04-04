@@ -373,6 +373,16 @@ namespace Coder_s_space.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_490043254_612x612 {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-490043254-612x612", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap job_search {
             get {
                 object obj = ResourceManager.GetObject("job-search", resourceCulture);

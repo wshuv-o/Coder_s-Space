@@ -70,6 +70,18 @@
     <Compile Include="Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formregistation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formregistation.Designer.cs">
+      <DependentUpon>Formregistation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSignInPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSignInPage.Designer.cs">
+      <DependentUpon>FormSignInPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="FunctionsAll.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -81,6 +93,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formregistation.resx">
+      <DependentUpon>Formregistation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSignInPage.resx">
+      <DependentUpon>FormSignInPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -264,6 +282,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\speed-radar %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-490043254-612x612.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
