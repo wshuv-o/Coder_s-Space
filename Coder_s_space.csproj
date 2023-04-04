@@ -64,11 +64,11 @@
     <Compile Include="Community.Designer.cs">
       <DependentUpon>Community.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
+    <Compile Include="FormProfile.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <Compile Include="FormProfile.Designer.cs">
+      <DependentUpon>FormProfile.cs</DependentUpon>
     </Compile>
     <Compile Include="Formregistation.cs">
       <SubType>Form</SubType>
@@ -91,8 +91,8 @@
     <EmbeddedResource Include="Community.resx">
       <DependentUpon>Community.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <EmbeddedResource Include="FormProfile.resx">
+      <DependentUpon>FormProfile.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formregistation.resx">
       <DependentUpon>Formregistation.cs</DependentUpon>
@@ -284,7 +284,7 @@
     <None Include="Resources\speed-radar %281%29.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\istockphoto-490043254-612x612.jpg" />
+
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

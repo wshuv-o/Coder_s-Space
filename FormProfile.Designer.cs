@@ -1,6 +1,6 @@
 ﻿namespace Coder_s_space
 {
-    partial class Form3
+    partial class FormProfile
     {
         /// <summary>
         /// Required designer variable.
@@ -63,6 +63,7 @@
             this.label1.Size = new System.Drawing.Size(408, 50);
             this.label1.TabIndex = 1;
             this.label1.Text = "Wahiduzzaman Shuvo";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // pictureBox3
             // 
@@ -70,7 +71,7 @@
             this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.pictureBox3.BackgroundImage = global::Coder_s_space.Properties.Resources.WhatsApp_Image_2023_03_31_at_3_45_58_AM;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox3.Image = global::Coder_s_space.Properties.Resources.rafsanh;
+            this.pictureBox3.Image = global::Coder_s_space.Properties.Resources.Wahid;
             this.pictureBox3.Location = new System.Drawing.Point(1149, 19);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(173, 167);
@@ -89,14 +90,14 @@
             this.guna2Panel1.Size = new System.Drawing.Size(1366, 639);
             this.guna2Panel1.TabIndex = 3;
             // 
-            // Form3
+            // FormProfile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1366, 639);
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form3";
+            this.Name = "FormProfile";
             this.Text = "Form3";
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();

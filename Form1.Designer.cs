@@ -55,8 +55,8 @@ namespace Coder_s_space
             this.panel7 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel11 = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panelMenu.SuspendLayout();
             this.panel10.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -67,8 +67,8 @@ namespace Coder_s_space
             this.panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMenu
@@ -81,7 +81,7 @@ namespace Coder_s_space
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
             this.panelMenu.Name = "panelMenu";
             this.panelMenu.Padding = new System.Windows.Forms.Padding(0, 0, 0, 10);
-            this.panelMenu.Size = new System.Drawing.Size(84, 675);
+            this.panelMenu.Size = new System.Drawing.Size(84, 732);
             this.panelMenu.TabIndex = 0;
             this.panelMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -89,7 +89,7 @@ namespace Coder_s_space
             // 
             this.panel10.Controls.Add(this.button1);
             this.panel10.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel10.Location = new System.Drawing.Point(0, 605);
+            this.panel10.Location = new System.Drawing.Point(0, 662);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(84, 60);
             this.panel10.TabIndex = 2;
@@ -280,7 +280,7 @@ namespace Coder_s_space
             // buttonCourse
             // 
             this.buttonCourse.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.buttonCourse.BackgroundImage = global::Coder_s_space.Properties.Resources.security;
+            //this.buttonCourse.BackgroundImage = global::Coder_s_space.Properties.Resources.security;
             this.buttonCourse.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.buttonCourse.Dock = System.Windows.Forms.DockStyle.Top;
             this.buttonCourse.FlatAppearance.BorderSize = 0;
@@ -347,7 +347,7 @@ namespace Coder_s_space
             this.panel5.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel5.Location = new System.Drawing.Point(105, 0);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1366, 675);
+            this.panel5.Size = new System.Drawing.Size(1366, 732);
             this.panel5.TabIndex = 3;
             this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
             // 
@@ -391,16 +391,6 @@ namespace Coder_s_space
             this.pictureBox1.MouseLeave += new System.EventHandler(this.pictureBox1_MouseLeave);
             this.pictureBox1.MouseHover += new System.EventHandler(this.pictureBox1_MouseHover);
             // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.pictureBox3.BackColor = System.Drawing.Color.Aquamarine;
-            this.pictureBox3.Location = new System.Drawing.Point(81, 99);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(878, 480);
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
-            // 
             // panel11
             // 
             this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -411,6 +401,16 @@ namespace Coder_s_space
             this.panel11.TabIndex = 3;
             this.panel11.Paint += new System.Windows.Forms.PaintEventHandler(this.panel11_Paint);
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.pictureBox3.BackColor = System.Drawing.Color.Aquamarine;
+            this.pictureBox3.Location = new System.Drawing.Point(81, 99);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(878, 480);
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
@@ -418,7 +418,7 @@ namespace Coder_s_space
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.Red;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(1471, 675);
+            this.ClientSize = new System.Drawing.Size(1471, 732);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panelMenu);
             this.Controls.Add(this.panel3);
@@ -438,8 +438,8 @@ namespace Coder_s_space
             this.panel7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel11.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }

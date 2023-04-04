@@ -12,9 +12,9 @@ using System.Windows.Forms;
 
 namespace Coder_s_space
 {
-    public partial class Form3 : Form
+    public partial class FormProfile : Form
     {
-        public Form3()
+        public FormProfile()
         {
             InitializeComponent();
 
@@ -38,6 +38,11 @@ namespace Coder_s_space
         }
 
         private void panel6_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
