@@ -169,5 +169,13 @@ namespace Coder_s_space
         {
 
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 f = new Form1();
+            f.ShowDialog();
+            this.Close();
+        }
     }
 }

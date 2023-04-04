@@ -280,7 +280,7 @@ namespace Coder_s_space
             // buttonCourse
             // 
             this.buttonCourse.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.buttonCourse.BackgroundImage = global::Coder_s_space.Properties.Resources.security;
+            //this.buttonCourse.BackgroundImage = global::Coder_s_space.Properties.Resources.security;
             this.buttonCourse.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.buttonCourse.Dock = System.Windows.Forms.DockStyle.Top;
             this.buttonCourse.FlatAppearance.BorderSize = 0;

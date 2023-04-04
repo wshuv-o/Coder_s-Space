@@ -48,7 +48,6 @@
             // guna2Panel1
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Panel1.BackgroundImage = global::Coder_s_space.Properties.Resources.istockphoto_490043254_612x612;
             this.guna2Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.guna2Panel1.Controls.Add(this.panel1);
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -178,6 +177,7 @@
             this.button1.TabIndex = 17;
             this.button1.Text = "Login";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // checkboxShowPass
             // 
@@ -195,7 +195,6 @@
             // 
             // guna2PictureBox1
             // 
-            this.guna2PictureBox1.BackgroundImage = global::Coder_s_space.Properties.Resources.logo_CSpace;
             this.guna2PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.guna2PictureBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.guna2PictureBox1.ImageRotate = 0F;
