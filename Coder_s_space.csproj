@@ -64,11 +64,11 @@
     <Compile Include="Community.Designer.cs">
       <DependentUpon>Community.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
+    <Compile Include="FormProfile.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <Compile Include="FormProfile.Designer.cs">
+      <DependentUpon>FormProfile.cs</DependentUpon>
     </Compile>
     <Compile Include="FunctionsAll.cs" />
     <Compile Include="Program.cs" />
@@ -79,8 +79,8 @@
     <EmbeddedResource Include="Community.resx">
       <DependentUpon>Community.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <EmbeddedResource Include="FormProfile.resx">
+      <DependentUpon>FormProfile.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -264,6 +264,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\speed-radar %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-c++-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-c++-100.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

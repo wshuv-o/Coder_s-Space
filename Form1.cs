@@ -29,13 +29,13 @@ namespace Coder_s_space
         public Form1()
         {
             InitializeComponent();
-            OpenChildForm(new Form3(), panel11);
+            OpenChildForm(new FormProfile(), panel11);
             // Make the form transparent
             this.BackColor = Color.Magenta;
             this.TransparencyKey = Color.Magenta;
             this.FormBorderStyle = FormBorderStyle.None;
 
-            Form3 form3= new Form3();
+            FormProfile form3= new FormProfile();
             // Make the panel transparent
             panel3.BackColor = Color.Transparent;
             panel3.Parent = this;
@@ -184,7 +184,7 @@ namespace Coder_s_space
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            OpenChildForm(new Form3(), panel11);
+            OpenChildForm(new FormProfile(), panel11);
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -274,7 +274,7 @@ namespace Coder_s_space
 
         private void buttonPortfolio_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Form3(), panel11);
+            OpenChildForm(new FormProfile(), panel11);
         }
 
         private void buttonWork_Click(object sender, EventArgs e)
