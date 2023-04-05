@@ -88,6 +88,12 @@
     <Compile Include="FormSignInPage.Designer.cs">
       <DependentUpon>FormSignInPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormVote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVote.Designer.cs">
+      <DependentUpon>FormVote.cs</DependentUpon>
+    </Compile>
     <Compile Include="FunctionsAll.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -108,6 +114,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormSignInPage.resx">
       <DependentUpon>FormSignInPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVote.resx">
+      <DependentUpon>FormVote.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -324,6 +333,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\send.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-96.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -2,7 +2,7 @@
 
 namespace Coder_s_space
 {
-    partial class FormChatBox
+    partial class FormVote
     {
         /// <summary>
         /// Required designer variable.
@@ -31,17 +31,14 @@ namespace Coder_s_space
         private void InitializeComponent()
         {
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.richTextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.chatBoxLabel = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.chatBoxLabel = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.guna2CustomGradientPanel1.SuspendLayout();
             this.guna2CustomGradientPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -63,58 +60,6 @@ namespace Coder_s_space
             this.guna2CustomGradientPanel1.Padding = new System.Windows.Forms.Padding(10);
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(655, 54);
             this.guna2CustomGradientPanel1.TabIndex = 0;
-            this.guna2CustomGradientPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2CustomGradientPanel1_Paint);
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.AcceptsReturn = true;
-            this.richTextBox1.AcceptsTab = true;
-            this.richTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.richTextBox1.BackColor = System.Drawing.Color.Transparent;
-            this.richTextBox1.BorderColor = System.Drawing.Color.Transparent;
-            this.richTextBox1.BorderRadius = 20;
-            this.richTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.richTextBox1.DefaultText = "";
-            this.richTextBox1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.richTextBox1.Location = new System.Drawing.Point(56, 6);
-            this.richTextBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.richTextBox1.Multiline = true;
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Padding = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.richTextBox1.PasswordChar = '\0';
-            this.richTextBox1.PlaceholderText = "";
-            this.richTextBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.richTextBox1.SelectedText = "";
-            this.richTextBox1.Size = new System.Drawing.Size(558, 44);
-            this.richTextBox1.TabIndex = 1;
-            this.richTextBox1.TabStop = false;
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 54);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(655, 554);
-            this.flowLayoutPanel1.TabIndex = 2;
-            // 
-            // guna2CustomGradientPanel2
-            // 
-            this.guna2CustomGradientPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
-            this.guna2CustomGradientPanel2.Controls.Add(this.pictureBox3);
-            this.guna2CustomGradientPanel2.Controls.Add(this.pictureBox2);
-            this.guna2CustomGradientPanel2.Controls.Add(this.richTextBox1);
-            this.guna2CustomGradientPanel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.guna2CustomGradientPanel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.guna2CustomGradientPanel2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.guna2CustomGradientPanel2.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.guna2CustomGradientPanel2.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(0, 607);
-            this.guna2CustomGradientPanel2.Name = "guna2CustomGradientPanel2";
-            this.guna2CustomGradientPanel2.Padding = new System.Windows.Forms.Padding(7);
-            this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(655, 57);
-            this.guna2CustomGradientPanel2.TabIndex = 3;
             // 
             // chatBoxLabel
             // 
@@ -125,32 +70,43 @@ namespace Coder_s_space
             this.chatBoxLabel.Name = "chatBoxLabel";
             this.chatBoxLabel.Size = new System.Drawing.Size(149, 37);
             this.chatBoxLabel.TabIndex = 2;
-            this.chatBoxLabel.Text = "public_chat";
+            this.chatBoxLabel.Text = "vote";
             this.chatBoxLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 54);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(655, 546);
+            this.flowLayoutPanel1.TabIndex = 2;
+            // 
+            // guna2CustomGradientPanel2
+            // 
+            this.guna2CustomGradientPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))), ((int)(((byte)(100)))));
+            this.guna2CustomGradientPanel2.Controls.Add(this.pictureBox3);
+            this.guna2CustomGradientPanel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.guna2CustomGradientPanel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.guna2CustomGradientPanel2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.guna2CustomGradientPanel2.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.guna2CustomGradientPanel2.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.guna2CustomGradientPanel2.Location = new System.Drawing.Point(0, 599);
+            this.guna2CustomGradientPanel2.Name = "guna2CustomGradientPanel2";
+            this.guna2CustomGradientPanel2.Padding = new System.Windows.Forms.Padding(2);
+            this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(655, 65);
+            this.guna2CustomGradientPanel2.TabIndex = 3;
             // 
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pictureBox3.Image = global::Coder_s_space.Properties.Resources.send;
-            this.pictureBox3.Location = new System.Drawing.Point(623, 7);
+            this.pictureBox3.Image = global::Coder_s_space.Properties.Resources.icons8_add_96;
+            this.pictureBox3.Location = new System.Drawing.Point(4, 4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(25, 43);
+            this.pictureBox3.Size = new System.Drawing.Size(647, 57);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBox2.Image = global::Coder_s_space.Properties.Resources.attacg;
-            this.pictureBox2.Location = new System.Drawing.Point(7, 7);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(40, 43);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            this.pictureBox3.MouseHover += new System.EventHandler(this.pictureBox3_MouseHover);
             // 
             // pictureBox1
             // 
@@ -164,7 +120,7 @@ namespace Coder_s_space
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // FormChatBox
+            // FormVote
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -175,12 +131,11 @@ namespace Coder_s_space
             this.Controls.Add(this.guna2CustomGradientPanel1);
             this.ForeColor = System.Drawing.Color.CornflowerBlue;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "FormChatBox";
+            this.Name = "FormVote";
             this.Text = "FormChatBox";
             this.guna2CustomGradientPanel1.ResumeLayout(false);
             this.guna2CustomGradientPanel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -190,11 +145,9 @@ namespace Coder_s_space
 
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private Guna.UI2.WinForms.Guna2TextBox richTextBox1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel2;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label chatBoxLabel;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }

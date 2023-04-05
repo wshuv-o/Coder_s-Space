@@ -240,7 +240,7 @@ namespace Coder_s_space
 
         private void voteLabel_Click(object sender, EventArgs e)
         {
-
+            OpenChildForm(new FormVote(), panel8);
         }
         private void voteLabel_MouseEnter(object sender, EventArgs e)
         {
