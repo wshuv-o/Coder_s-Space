@@ -48,6 +48,7 @@
             // guna2Panel1
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel1.BackgroundImage = global::Coder_s_space.Properties.Resources._595291_transformed;
             this.guna2Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.guna2Panel1.Controls.Add(this.panel1);
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -195,12 +196,13 @@
             // 
             // guna2PictureBox1
             // 
+            this.guna2PictureBox1.BackgroundImage = global::Coder_s_space.Properties.Resources.Coder_s_Space__1__removebg_preview;
             this.guna2PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.guna2PictureBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(104, 3);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(129, 3);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(284, 163);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(216, 156);
             this.guna2PictureBox1.TabIndex = 21;
             this.guna2PictureBox1.TabStop = false;
             // 

@@ -293,7 +293,23 @@
     <None Include="Resources\speed-radar %281%29.png" />
   </ItemGroup>
   <ItemGroup>
+
     <None Include="Resources\image-6YHNokQdsN-transformed-removebg-preview.png" />
+      <ItemGroup>
+
+    <None Include="Resources\1000_F_363879182_4kwbz4cBHylPJXDZH6p8v3kDmzntpULk.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1000_F_363879182_4kwbz4cBHylPJXDZH6p8v3kDmzntpULk1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cropped-1920-1080-595291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\595291-transformed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1000_F_363879182_4kwbz4cBHylPJXDZH6p8v3kDmzntpULk-transformed.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
