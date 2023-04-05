@@ -58,11 +58,17 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Community.cs">
+    <Compile Include="FormCommunity.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Community.Designer.cs">
-      <DependentUpon>Community.cs</DependentUpon>
+    <Compile Include="FormCommunity.Designer.cs">
+      <DependentUpon>FormCommunity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormChatBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormChatBox.Designer.cs">
+      <DependentUpon>FormChatBox.cs</DependentUpon>
     </Compile>
     <Compile Include="FormProfile.cs">
       <SubType>Form</SubType>
@@ -88,8 +94,11 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Community.resx">
-      <DependentUpon>Community.cs</DependentUpon>
+    <EmbeddedResource Include="FormCommunity.resx">
+      <DependentUpon>FormCommunity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormChatBox.resx">
+      <DependentUpon>FormChatBox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormProfile.resx">
       <DependentUpon>FormProfile.cs</DependentUpon>
@@ -297,6 +306,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\1000_F_363879182_4kwbz4cBHylPJXDZH6p8v3kDmzntpULk-transformed.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-hashtag-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2023-04-05 221704.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2023-04-05_221704-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attacg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-email-send-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\send.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

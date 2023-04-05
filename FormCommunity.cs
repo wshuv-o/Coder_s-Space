@@ -11,14 +11,18 @@ using System.Windows.Forms;
 
 namespace Coder_s_space
 {
-    public partial class Community : Form
+    public partial class FormCommunity : Form
     {
-        public Community()
+        Form activeForm = null;
+
+        public FormCommunity()
         {
             InitializeComponent();
             FunctionsAll.RoundPanel(tableLayoutPanel1, 40);
             FunctionsAll.RoundPanel(tableLayoutPanel2, 40);
             FunctionsAll.RoundPanel(panel7, 40);
+            FunctionsAll.RoundPanel(tableLayoutPanel3, 40);
+            FunctionsAll.RoundPanel(panel8, 40);
             FunctionsAll.RoundPanel(guna2Panel5, 40);
            // guna2GradientButton2.TextImageRelation = TextImageRelation.ImageBeforeText; // or other desired alignment
             FormProfile form3 = new FormProfile();
@@ -47,7 +51,37 @@ namespace Coder_s_space
 
         private void chatBoxLabel_Click(object sender, EventArgs e)
         {
+            OpenChildForm(new FormChatBox(), panel8);
+        }
 
+        public void OpenChildForm(Form childForm, Panel parentPanel)
+        {
+            if (activeForm != null)
+            {
+                activeForm.Close();
+                activeForm = childForm;
+                childForm.TopLevel = false;
+                childForm.FormBorderStyle = FormBorderStyle.None;
+                childForm.Dock = DockStyle.Fill;
+                parentPanel.Controls.Add(childForm);
+                parentPanel.Tag = childForm;
+                childForm.BringToFront();
+                childForm.Show();
+                // childForm.Size = parentPanel.Size;
+            }
+            else
+            {
+                activeForm = childForm;
+                childForm.TopLevel = false;
+                childForm.FormBorderStyle = FormBorderStyle.None;
+                childForm.Dock = DockStyle.Fill;
+                parentPanel.Controls.Add(childForm);
+                parentPanel.Tag = childForm;
+                childForm.BringToFront();
+                childForm.Show();
+                // childForm.Size = parentPanel.Size;
+
+            }
         }
         private void chatBoxLabel_MouseEnter(object sender, EventArgs e)
         {
@@ -221,6 +255,16 @@ namespace Coder_s_space
         private void guna2GradientButton3_Click(object sender, EventArgs e)
         {
             ////
+
+        }
+
+        private void panel8_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2Button2_Click_1(object sender, EventArgs e)
+        {
 
         }
     }

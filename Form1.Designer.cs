@@ -280,7 +280,6 @@ namespace Coder_s_space
             // buttonCourse
             // 
             this.buttonCourse.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            //this.buttonCourse.BackgroundImage = global::Coder_s_space.Properties.Resources.security;
             this.buttonCourse.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.buttonCourse.Dock = System.Windows.Forms.DockStyle.Top;
             this.buttonCourse.FlatAppearance.BorderSize = 0;
@@ -404,10 +403,10 @@ namespace Coder_s_space
             // pictureBox3
             // 
             this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.pictureBox3.BackColor = System.Drawing.Color.Aquamarine;
+            this.pictureBox3.BackColor = System.Drawing.Color.Blue;
             this.pictureBox3.Location = new System.Drawing.Point(81, 99);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(878, 480);
+            this.pictureBox3.Size = new System.Drawing.Size(403, 480);
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
             // 

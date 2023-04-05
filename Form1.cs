@@ -25,11 +25,13 @@ namespace Coder_s_space
         [DllImport("user32.dll")]
         static extern bool AnimateWindow(IntPtr hWnd, int dwTime, int dwFlags);
 
+        Form activeForm = null;
 
         public Form1()
         {
             InitializeComponent();
-            OpenChildForm(new FormProfile(), panel11);
+
+             OpenChildForm(new FormProfile(), panel11);
             // Make the form transparent
             this.BackColor = Color.Magenta;
             this.TransparencyKey = Color.Magenta;
@@ -184,7 +186,7 @@ namespace Coder_s_space
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            OpenChildForm(new FormProfile(), panel11);
+             OpenChildForm(new FormProfile(), panel11);
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -274,7 +276,7 @@ namespace Coder_s_space
 
         private void buttonPortfolio_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new FormProfile(), panel11);
+             OpenChildForm(new FormProfile(), panel11);
         }
 
         private void buttonWork_Click(object sender, EventArgs e)
@@ -289,7 +291,7 @@ namespace Coder_s_space
 
         private void buttonComm_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Community(), panel11);
+             OpenChildForm(new FormCommunity(), panel11);
         }
 
         private void buttonCompile_Click(object sender, EventArgs e)
@@ -306,8 +308,19 @@ namespace Coder_s_space
         {
 
         }
-        Form activeForm= null;
-        public void OpenChildForm(Form childForm, Panel parentPanel)
+       
+
+        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel11_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        public  void OpenChildForm(Form childForm, Panel parentPanel)
         {
             if (activeForm != null)
             {
@@ -320,7 +333,7 @@ namespace Coder_s_space
                 parentPanel.Tag = childForm;
                 childForm.BringToFront();
                 childForm.Show();
-                childForm.Size = panel11.Size;
+                // childForm.Size = parentPanel.Size;
             }
             else
             {
@@ -332,19 +345,9 @@ namespace Coder_s_space
                 parentPanel.Tag = childForm;
                 childForm.BringToFront();
                 childForm.Show();
-                childForm.Size = panel11.Size;
+                // childForm.Size = parentPanel.Size;
 
             }
-        }
-
-        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel11_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }

@@ -355,6 +355,20 @@ namespace Coder_s_space
             return outputImage;
         }
 
+        public static void RoundRichTextBox(RichTextBox richTextBox, int radius)
+        {
+            // Create a rounded rectangle path
+            GraphicsPath path = new GraphicsPath();
+            RectangleF rect = new RectangleF(richTextBox.Location.X, richTextBox.Location.Y, richTextBox.Width, richTextBox.Height);
+            path.AddArc(rect.X, rect.Y, radius, radius, 180, 90);
+            path.AddArc(rect.X + rect.Width - radius, rect.Y, radius, radius, 270, 90);
+            path.AddArc(rect.X + rect.Width - radius, rect.Y + rect.Height - radius, radius, radius, 0, 90);
+            path.AddArc(rect.X, rect.Y + rect.Height - radius, radius, radius, 90, 90);
+            path.CloseAllFigures();
+
+            // Set the region of the RichTextBox to the rounded rectangle path
+            richTextBox.Region = new Region(path);
+        }
 
 
 

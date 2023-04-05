@@ -163,6 +163,16 @@ namespace Coder_s_space.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap attacg {
+            get {
+                object obj = ResourceManager.GetObject("attacg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap brain {
             get {
                 object obj = ResourceManager.GetObject("brain", resourceCulture);
@@ -306,6 +316,26 @@ namespace Coder_s_space.Properties {
         internal static System.Drawing.Bitmap icons8_code_32 {
             get {
                 object obj = ResourceManager.GetObject("icons8-code-32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_email_send_32 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-email-send-32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_hashtag_32 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-hashtag-32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -526,6 +556,36 @@ namespace Coder_s_space.Properties {
         internal static System.Drawing.Bitmap rsz_image_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("rsz_image-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2023_04_05_221704 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2023-04-05 221704", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2023_04_05_221704_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot_2023-04-05_221704-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap send {
+            get {
+                object obj = ResourceManager.GetObject("send", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
