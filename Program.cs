@@ -16,7 +16,7 @@ namespace Coder_s_space
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ChatBox());
+            Application.Run(new Formregistation());
         }
     }
 }
