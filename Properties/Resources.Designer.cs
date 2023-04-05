@@ -413,16 +413,6 @@ namespace Coder_s_space.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap image_6YHNokQdsN_transformed_removebg_preview {
-            get {
-                object obj = ResourceManager.GetObject("image-6YHNokQdsN-transformed-removebg-preview", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap IMG_20221118_215329 {
             get {
                 object obj = ResourceManager.GetObject("IMG_20221118_215329", resourceCulture);
