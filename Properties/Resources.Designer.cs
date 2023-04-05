@@ -63,6 +63,36 @@ namespace Coder_s_space.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1000_F_363879182_4kwbz4cBHylPJXDZH6p8v3kDmzntpULk {
+            get {
+                object obj = ResourceManager.GetObject("1000_F_363879182_4kwbz4cBHylPJXDZH6p8v3kDmzntpULk", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1000_F_363879182_4kwbz4cBHylPJXDZH6p8v3kDmzntpULk_transformed {
+            get {
+                object obj = ResourceManager.GetObject("1000_F_363879182_4kwbz4cBHylPJXDZH6p8v3kDmzntpULk-transformed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1000_F_363879182_4kwbz4cBHylPJXDZH6p8v3kDmzntpULk1 {
+            get {
+                object obj = ResourceManager.GetObject("1000_F_363879182_4kwbz4cBHylPJXDZH6p8v3kDmzntpULk1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _20221020055447_IMG_8419f {
             get {
                 object obj = ResourceManager.GetObject("20221020055447_IMG_8419f", resourceCulture);
@@ -96,6 +126,16 @@ namespace Coder_s_space.Properties {
         internal static System.Drawing.Bitmap _337538979_746079400231183_538522486434599490_n1 {
             get {
                 object obj = ResourceManager.GetObject("337538979_746079400231183_538522486434599490_n1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _595291_transformed {
+            get {
+                object obj = ResourceManager.GetObject("595291-transformed", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -206,6 +246,16 @@ namespace Coder_s_space.Properties {
         internal static System.Drawing.Bitmap Croped_Sajin {
             get {
                 object obj = ResourceManager.GetObject("Croped Sajin", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cropped_1920_1080_595291 {
+            get {
+                object obj = ResourceManager.GetObject("cropped-1920-1080-595291", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
