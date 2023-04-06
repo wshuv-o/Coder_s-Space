@@ -15,6 +15,14 @@ namespace Coder_s_space
         public FormVote()
         {
             InitializeComponent();
+            FunctionsAll.MakePictureBoxRound(pictureBox3);
+        }
+        void rndmfn()
+        {
+            pictureBox3.BringToFront();
+            pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((Bottom)));
+            pictureBox3.Location = new System.Drawing.Point(300, 700);
+            pictureBox3.Dock = System.Windows.Forms.DockStyle.Bottom;
         }
 
         private void FormVote_Load(object sender, EventArgs e)
@@ -27,6 +35,31 @@ namespace Coder_s_space
 
         }
         private void pictureBox3_MouseHover(object sender, EventArgs e)
+        {
+            pictureBox3.Image = Properties.Resources.button;
+        }
+
+        private void pictureBox3_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox3.Image = Properties.Resources.icons8_add_96;
+        }
+
+        private void guna2CustomGradientPanel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2CustomGradientPanel5_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2CustomGradientPanel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2ShadowPanel1_Paint(object sender, PaintEventArgs e)
         {
 
         }

@@ -369,6 +369,18 @@ namespace Coder_s_space
             // Set the region of the RichTextBox to the rounded rectangle path
             richTextBox.Region = new Region(path);
         }
+        public static void MakePictureBoxRound(PictureBox pictureBox)
+        {
+            // Calculate the diameter of the circle.
+            int diameter = Math.Min(pictureBox.Width, pictureBox.Height);
+
+            // Create a new circle region.
+            System.Drawing.Drawing2D.GraphicsPath circlePath = new System.Drawing.Drawing2D.GraphicsPath();
+            circlePath.AddEllipse(0, 0, diameter, diameter);
+
+            // Set the region of the picture box to the new circle region.
+            pictureBox.Region = new System.Drawing.Region(circlePath);
+        }
 
 
 
