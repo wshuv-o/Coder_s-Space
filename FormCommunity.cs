@@ -51,6 +51,8 @@ namespace Coder_s_space
 
         private void chatBoxLabel_Click(object sender, EventArgs e)
         {
+            chatBoxLabel.ForeColor = Color.FromArgb(250, 250, 250);
+
             OpenChildForm(new FormChatBox(), panel8);
         }
 
@@ -226,6 +228,7 @@ namespace Coder_s_space
 
         private void label7_Click(object sender, EventArgs e)
         {
+            label7.ForeColor = Color.FromArgb(155, 155, 155);
 
         }
         private void label7_MouseEnter(object sender, EventArgs e)
