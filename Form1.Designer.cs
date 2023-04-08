@@ -57,6 +57,11 @@ namespace Coder_s_space
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel11 = new System.Windows.Forms.Panel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.toolTipClose = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTipMin = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTipTeams = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip4 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip5 = new System.Windows.Forms.ToolTip(this.components);
             this.panelMenu.SuspendLayout();
             this.panel10.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -220,6 +225,7 @@ namespace Coder_s_space
             this.buttonComm.Name = "buttonComm";
             this.buttonComm.Size = new System.Drawing.Size(53, 53);
             this.buttonComm.TabIndex = 16;
+            this.toolTipTeams.SetToolTip(this.buttonComm, "Community");
             this.buttonComm.UseVisualStyleBackColor = false;
             this.buttonComm.Click += new System.EventHandler(this.buttonComm_Click);
             // 
@@ -373,6 +379,7 @@ namespace Coder_s_space
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 3;
             this.pictureBox2.TabStop = false;
+            this.toolTipMin.SetToolTip(this.pictureBox2, "Minimize");
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             this.pictureBox2.MouseLeave += new System.EventHandler(this.pictureBox2_MouseLeave);
             this.pictureBox2.MouseHover += new System.EventHandler(this.pictureBox2_MouseHover);
@@ -386,6 +393,7 @@ namespace Coder_s_space
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
+            this.toolTipClose.SetToolTip(this.pictureBox1, "Close");
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             this.pictureBox1.MouseLeave += new System.EventHandler(this.pictureBox1_MouseLeave);
             this.pictureBox1.MouseHover += new System.EventHandler(this.pictureBox1_MouseHover);
@@ -409,6 +417,11 @@ namespace Coder_s_space
             this.pictureBox3.Size = new System.Drawing.Size(403, 480);
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
+            // 
+            // toolTipClose
+            // 
+            this.toolTipClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(9)))), ((int)(((byte)(9)))));
+            this.toolTipClose.ForeColor = System.Drawing.Color.LightSalmon;
             // 
             // Form1
             // 
@@ -469,6 +482,11 @@ namespace Coder_s_space
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.ToolTip toolTipClose;
+        private System.Windows.Forms.ToolTip toolTipMin;
+        private System.Windows.Forms.ToolTip toolTipTeams;
+        private System.Windows.Forms.ToolTip toolTip4;
+        private System.Windows.Forms.ToolTip toolTip5;
     }
 }
 
