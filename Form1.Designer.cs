@@ -60,8 +60,8 @@ namespace Coder_s_space
             this.toolTipClose = new System.Windows.Forms.ToolTip(this.components);
             this.toolTipMin = new System.Windows.Forms.ToolTip(this.components);
             this.toolTipTeams = new System.Windows.Forms.ToolTip(this.components);
-            this.toolTip4 = new System.Windows.Forms.ToolTip(this.components);
-            this.toolTip5 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTipJob = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTipPortfolio = new System.Windows.Forms.ToolTip(this.components);
             this.panelMenu.SuspendLayout();
             this.panel10.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -153,6 +153,7 @@ namespace Coder_s_space
             this.buttonJob.Name = "buttonJob";
             this.buttonJob.Size = new System.Drawing.Size(53, 53);
             this.buttonJob.TabIndex = 20;
+            this.toolTipJob.SetToolTip(this.buttonJob, "Jobs");
             this.buttonJob.UseVisualStyleBackColor = false;
             this.buttonJob.Click += new System.EventHandler(this.buttonJob_Click);
             // 
@@ -171,6 +172,7 @@ namespace Coder_s_space
             this.buttonPortfolio.Name = "buttonPortfolio";
             this.buttonPortfolio.Size = new System.Drawing.Size(53, 53);
             this.buttonPortfolio.TabIndex = 19;
+            this.toolTipPortfolio.SetToolTip(this.buttonPortfolio, "Portfolio");
             this.buttonPortfolio.UseVisualStyleBackColor = false;
             this.buttonPortfolio.Click += new System.EventHandler(this.buttonPortfolio_Click);
             // 
@@ -485,8 +487,8 @@ namespace Coder_s_space
         private System.Windows.Forms.ToolTip toolTipClose;
         private System.Windows.Forms.ToolTip toolTipMin;
         private System.Windows.Forms.ToolTip toolTipTeams;
-        private System.Windows.Forms.ToolTip toolTip4;
-        private System.Windows.Forms.ToolTip toolTip5;
+        private System.Windows.Forms.ToolTip toolTipJob;
+        private System.Windows.Forms.ToolTip toolTipPortfolio;
     }
 }
 
