@@ -59,9 +59,7 @@ namespace Coder_s_space
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.toolTipClose = new System.Windows.Forms.ToolTip(this.components);
             this.toolTipMin = new System.Windows.Forms.ToolTip(this.components);
-            this.toolTipTeams = new System.Windows.Forms.ToolTip(this.components);
-            this.toolTipJob = new System.Windows.Forms.ToolTip(this.components);
-            this.toolTipPortfolio = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.panelMenu.SuspendLayout();
             this.panel10.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -153,7 +151,7 @@ namespace Coder_s_space
             this.buttonJob.Name = "buttonJob";
             this.buttonJob.Size = new System.Drawing.Size(53, 53);
             this.buttonJob.TabIndex = 20;
-            this.toolTipJob.SetToolTip(this.buttonJob, "Jobs");
+            this.toolTip.SetToolTip(this.buttonJob, "Jobs");
             this.buttonJob.UseVisualStyleBackColor = false;
             this.buttonJob.Click += new System.EventHandler(this.buttonJob_Click);
             // 
@@ -172,7 +170,7 @@ namespace Coder_s_space
             this.buttonPortfolio.Name = "buttonPortfolio";
             this.buttonPortfolio.Size = new System.Drawing.Size(53, 53);
             this.buttonPortfolio.TabIndex = 19;
-            this.toolTipPortfolio.SetToolTip(this.buttonPortfolio, "Portfolio");
+            this.toolTip.SetToolTip(this.buttonPortfolio, "Portfolio");
             this.buttonPortfolio.UseVisualStyleBackColor = false;
             this.buttonPortfolio.Click += new System.EventHandler(this.buttonPortfolio_Click);
             // 
@@ -191,6 +189,7 @@ namespace Coder_s_space
             this.buttonWork.Name = "buttonWork";
             this.buttonWork.Size = new System.Drawing.Size(53, 53);
             this.buttonWork.TabIndex = 18;
+            this.toolTip.SetToolTip(this.buttonWork, "Type Test");
             this.buttonWork.UseVisualStyleBackColor = false;
             this.buttonWork.Click += new System.EventHandler(this.buttonWork_Click);
             // 
@@ -209,6 +208,7 @@ namespace Coder_s_space
             this.buttonProblems.Name = "buttonProblems";
             this.buttonProblems.Size = new System.Drawing.Size(53, 53);
             this.buttonProblems.TabIndex = 17;
+            this.toolTip.SetToolTip(this.buttonProblems, "Problem Solving");
             this.buttonProblems.UseVisualStyleBackColor = false;
             this.buttonProblems.Click += new System.EventHandler(this.buttonProblems_Click);
             // 
@@ -227,7 +227,7 @@ namespace Coder_s_space
             this.buttonComm.Name = "buttonComm";
             this.buttonComm.Size = new System.Drawing.Size(53, 53);
             this.buttonComm.TabIndex = 16;
-            this.toolTipTeams.SetToolTip(this.buttonComm, "Community");
+            this.toolTip.SetToolTip(this.buttonComm, "Community");
             this.buttonComm.UseVisualStyleBackColor = false;
             this.buttonComm.Click += new System.EventHandler(this.buttonComm_Click);
             // 
@@ -246,6 +246,7 @@ namespace Coder_s_space
             this.buttonCompile.Name = "buttonCompile";
             this.buttonCompile.Size = new System.Drawing.Size(53, 53);
             this.buttonCompile.TabIndex = 15;
+            this.toolTip.SetToolTip(this.buttonCompile, "Compilers");
             this.buttonCompile.UseVisualStyleBackColor = false;
             this.buttonCompile.Click += new System.EventHandler(this.buttonCompile_Click);
             // 
@@ -264,6 +265,7 @@ namespace Coder_s_space
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(53, 53);
             this.button3.TabIndex = 14;
+            this.toolTip.SetToolTip(this.button3, "Courses");
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click_1);
             // 
@@ -282,6 +284,7 @@ namespace Coder_s_space
             this.buttonArticle.Name = "buttonArticle";
             this.buttonArticle.Size = new System.Drawing.Size(53, 53);
             this.buttonArticle.TabIndex = 13;
+            this.toolTip.SetToolTip(this.buttonArticle, "Jobs");
             this.buttonArticle.UseVisualStyleBackColor = false;
             this.buttonArticle.Click += new System.EventHandler(this.buttonArticle_Click);
             // 
@@ -486,9 +489,7 @@ namespace Coder_s_space
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.ToolTip toolTipClose;
         private System.Windows.Forms.ToolTip toolTipMin;
-        private System.Windows.Forms.ToolTip toolTipTeams;
-        private System.Windows.Forms.ToolTip toolTipJob;
-        private System.Windows.Forms.ToolTip toolTipPortfolio;
+        private System.Windows.Forms.ToolTip toolTip;
     }
 }
 
