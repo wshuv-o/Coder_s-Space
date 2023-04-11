@@ -79,6 +79,12 @@
     <Compile Include="FormChatBox.Designer.cs">
       <DependentUpon>FormChatBox.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormCompiler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCompiler.Designer.cs">
+      <DependentUpon>FormCompiler.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormProfile.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,6 +123,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormChatBox.resx">
       <DependentUpon>FormChatBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCompiler.resx">
+      <DependentUpon>FormCompiler.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormProfile.resx">
       <DependentUpon>FormProfile.cs</DependentUpon>

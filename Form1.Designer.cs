@@ -39,11 +39,11 @@ namespace Coder_s_space
             this.panel2 = new System.Windows.Forms.Panel();
             this.buttonJob = new System.Windows.Forms.Button();
             this.buttonPortfolio = new System.Windows.Forms.Button();
-            this.buttonWork = new System.Windows.Forms.Button();
+            this.buttonKeySpeed = new System.Windows.Forms.Button();
             this.buttonProblems = new System.Windows.Forms.Button();
             this.buttonComm = new System.Windows.Forms.Button();
             this.buttonCompile = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.buttonCourses = new System.Windows.Forms.Button();
             this.buttonArticle = new System.Windows.Forms.Button();
             this.buttonCourse = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -122,11 +122,11 @@ namespace Coder_s_space
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel2.Controls.Add(this.buttonJob);
             this.panel2.Controls.Add(this.buttonPortfolio);
-            this.panel2.Controls.Add(this.buttonWork);
+            this.panel2.Controls.Add(this.buttonKeySpeed);
             this.panel2.Controls.Add(this.buttonProblems);
             this.panel2.Controls.Add(this.buttonComm);
             this.panel2.Controls.Add(this.buttonCompile);
-            this.panel2.Controls.Add(this.button3);
+            this.panel2.Controls.Add(this.buttonCourses);
             this.panel2.Controls.Add(this.buttonArticle);
             this.panel2.Controls.Add(this.buttonCourse);
             this.panel2.Location = new System.Drawing.Point(0, 99);
@@ -174,24 +174,24 @@ namespace Coder_s_space
             this.buttonPortfolio.UseVisualStyleBackColor = false;
             this.buttonPortfolio.Click += new System.EventHandler(this.buttonPortfolio_Click);
             // 
-            // buttonWork
+            // buttonKeySpeed
             // 
-            this.buttonWork.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.buttonWork.BackgroundImage = global::Coder_s_space.Properties.Resources.speed_radar__1_;
-            this.buttonWork.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.buttonWork.Dock = System.Windows.Forms.DockStyle.Top;
-            this.buttonWork.FlatAppearance.BorderSize = 0;
-            this.buttonWork.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Tomato;
-            this.buttonWork.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(127)))), ((int)(((byte)(255)))), ((int)(((byte)(212)))));
-            this.buttonWork.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonWork.ForeColor = System.Drawing.Color.Cyan;
-            this.buttonWork.Location = new System.Drawing.Point(12, 344);
-            this.buttonWork.Name = "buttonWork";
-            this.buttonWork.Size = new System.Drawing.Size(53, 53);
-            this.buttonWork.TabIndex = 18;
-            this.toolTip.SetToolTip(this.buttonWork, "Type Test");
-            this.buttonWork.UseVisualStyleBackColor = false;
-            this.buttonWork.Click += new System.EventHandler(this.buttonWork_Click);
+            this.buttonKeySpeed.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.buttonKeySpeed.BackgroundImage = global::Coder_s_space.Properties.Resources.speed_radar__1_;
+            this.buttonKeySpeed.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.buttonKeySpeed.Dock = System.Windows.Forms.DockStyle.Top;
+            this.buttonKeySpeed.FlatAppearance.BorderSize = 0;
+            this.buttonKeySpeed.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Tomato;
+            this.buttonKeySpeed.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(127)))), ((int)(((byte)(255)))), ((int)(((byte)(212)))));
+            this.buttonKeySpeed.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonKeySpeed.ForeColor = System.Drawing.Color.Cyan;
+            this.buttonKeySpeed.Location = new System.Drawing.Point(12, 344);
+            this.buttonKeySpeed.Name = "buttonKeySpeed";
+            this.buttonKeySpeed.Size = new System.Drawing.Size(53, 53);
+            this.buttonKeySpeed.TabIndex = 18;
+            this.toolTip.SetToolTip(this.buttonKeySpeed, "Type Test");
+            this.buttonKeySpeed.UseVisualStyleBackColor = false;
+            this.buttonKeySpeed.Click += new System.EventHandler(this.buttonWork_Click);
             // 
             // buttonProblems
             // 
@@ -250,24 +250,24 @@ namespace Coder_s_space
             this.buttonCompile.UseVisualStyleBackColor = false;
             this.buttonCompile.Click += new System.EventHandler(this.buttonCompile_Click);
             // 
-            // button3
+            // buttonCourses
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button3.BackgroundImage = global::Coder_s_space.Properties.Resources.icons8_international_jobs_32__1_;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Tomato;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(127)))), ((int)(((byte)(255)))), ((int)(((byte)(212)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.ForeColor = System.Drawing.Color.Cyan;
-            this.button3.Location = new System.Drawing.Point(12, 132);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(53, 53);
-            this.button3.TabIndex = 14;
-            this.toolTip.SetToolTip(this.button3, "Courses");
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click_1);
+            this.buttonCourses.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.buttonCourses.BackgroundImage = global::Coder_s_space.Properties.Resources.icons8_international_jobs_32__1_;
+            this.buttonCourses.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.buttonCourses.Dock = System.Windows.Forms.DockStyle.Top;
+            this.buttonCourses.FlatAppearance.BorderSize = 0;
+            this.buttonCourses.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Tomato;
+            this.buttonCourses.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(127)))), ((int)(((byte)(255)))), ((int)(((byte)(212)))));
+            this.buttonCourses.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonCourses.ForeColor = System.Drawing.Color.Cyan;
+            this.buttonCourses.Location = new System.Drawing.Point(12, 132);
+            this.buttonCourses.Name = "buttonCourses";
+            this.buttonCourses.Size = new System.Drawing.Size(53, 53);
+            this.buttonCourses.TabIndex = 14;
+            this.toolTip.SetToolTip(this.buttonCourses, "Courses");
+            this.buttonCourses.UseVisualStyleBackColor = false;
+            this.buttonCourses.Click += new System.EventHandler(this.button3_Click_1);
             // 
             // buttonArticle
             // 
@@ -284,7 +284,7 @@ namespace Coder_s_space
             this.buttonArticle.Name = "buttonArticle";
             this.buttonArticle.Size = new System.Drawing.Size(53, 53);
             this.buttonArticle.TabIndex = 13;
-            this.toolTip.SetToolTip(this.buttonArticle, "Jobs");
+            this.toolTip.SetToolTip(this.buttonArticle, "Article");
             this.buttonArticle.UseVisualStyleBackColor = false;
             this.buttonArticle.Click += new System.EventHandler(this.buttonArticle_Click);
             // 
@@ -475,11 +475,11 @@ namespace Coder_s_space
         private System.Windows.Forms.Button buttonCourse;
         private System.Windows.Forms.Button buttonJob;
         private System.Windows.Forms.Button buttonPortfolio;
-        private System.Windows.Forms.Button buttonWork;
+        private System.Windows.Forms.Button buttonKeySpeed;
         private System.Windows.Forms.Button buttonProblems;
         private System.Windows.Forms.Button buttonComm;
         private System.Windows.Forms.Button buttonCompile;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button buttonCourses;
         private System.Windows.Forms.Button buttonArticle;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.PictureBox pictureBox2;
