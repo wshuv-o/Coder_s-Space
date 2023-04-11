@@ -271,7 +271,7 @@ namespace Coder_s_space
 
         private void buttonArticle_Click(object sender, EventArgs e)
         {
-
+            OpenChildForm(new FormArticle(), panel11);
         }
 
         private void buttonPortfolio_Click(object sender, EventArgs e)
