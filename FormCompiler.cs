@@ -16,5 +16,10 @@ namespace Coder_s_space
         {
             InitializeComponent();
         }
+
+        private void FormCompiler_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

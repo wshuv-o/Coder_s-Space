@@ -183,6 +183,26 @@ namespace Coder_s_space.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bug_report {
+            get {
+                object obj = ResourceManager.GetObject("bug-report", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bug_report__1_ {
+            get {
+                object obj = ResourceManager.GetObject("bug-report (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap button {
             get {
                 object obj = ResourceManager.GetObject("button", resourceCulture);
@@ -436,6 +456,16 @@ namespace Coder_s_space.Properties {
         internal static System.Drawing.Bitmap icons8_speed_32 {
             get {
                 object obj = ResourceManager.GetObject("icons8-speed-32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_teaching_32 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-teaching-32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

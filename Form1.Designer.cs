@@ -36,6 +36,18 @@ namespace Coder_s_space
             this.panelMenu = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.toolTipControlPanel = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.buttonJob = new System.Windows.Forms.Button();
             this.buttonPortfolio = new System.Windows.Forms.Button();
@@ -43,35 +55,22 @@ namespace Coder_s_space
             this.buttonProblems = new System.Windows.Forms.Button();
             this.buttonComm = new System.Windows.Forms.Button();
             this.buttonCompile = new System.Windows.Forms.Button();
-            this.buttonCourses = new System.Windows.Forms.Button();
+            this.buttonCloud = new System.Windows.Forms.Button();
             this.buttonArticle = new System.Windows.Forms.Button();
             this.buttonCourse = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.toolTipClose = new System.Windows.Forms.ToolTip(this.components);
-            this.toolTipMin = new System.Windows.Forms.ToolTip(this.components);
-            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.panelMenu.SuspendLayout();
             this.panel10.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel7.SuspendLayout();
+            this.panel11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMenu
@@ -115,6 +114,117 @@ namespace Coder_s_space
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.pictureBox5);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(84, 75);
+            this.panel1.TabIndex = 0;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint_3);
+            // 
+            // notifyIcon1
+            // 
+            this.notifyIcon1.Text = "notifyIcon1";
+            this.notifyIcon1.Visible = true;
+            // 
+            // panel4
+            // 
+            this.panel4.Location = new System.Drawing.Point(102, 2);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(722, 48);
+            this.panel4.TabIndex = 0;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.panel3.Controls.Add(this.panel4);
+            this.panel3.Location = new System.Drawing.Point(75, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(24, 761);
+            this.panel3.TabIndex = 2;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.Black;
+            this.panel5.Controls.Add(this.panel7);
+            this.panel5.Controls.Add(this.panel11);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel5.Location = new System.Drawing.Point(105, 0);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(1366, 732);
+            this.panel5.TabIndex = 3;
+            this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.panel7.Controls.Add(this.pictureBox2);
+            this.panel7.Controls.Add(this.pictureBox1);
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel7.Location = new System.Drawing.Point(0, 0);
+            this.panel7.Margin = new System.Windows.Forms.Padding(0);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(1366, 33);
+            this.panel7.TabIndex = 2;
+            // 
+            // panel11
+            // 
+            this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.panel11.Controls.Add(this.pictureBox3);
+            this.panel11.Location = new System.Drawing.Point(0, 36);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(1366, 768);
+            this.panel11.TabIndex = 3;
+            this.panel11.Paint += new System.Windows.Forms.PaintEventHandler(this.panel11_Paint);
+            // 
+            // toolTipControlPanel
+            // 
+            this.toolTipControlPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(9)))), ((int)(((byte)(9)))));
+            this.toolTipControlPanel.ForeColor = System.Drawing.Color.LightSalmon;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Coder_s_space.Properties.Resources.mac_mix_removebg_preview;
+            this.pictureBox2.Location = new System.Drawing.Point(1306, 3);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.pictureBox2.Size = new System.Drawing.Size(15, 28);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 3;
+            this.pictureBox2.TabStop = false;
+            this.toolTipControlPanel.SetToolTip(this.pictureBox2, "Min.");
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.pictureBox2.MouseLeave += new System.EventHandler(this.pictureBox2_MouseLeave);
+            this.pictureBox2.MouseHover += new System.EventHandler(this.pictureBox2_MouseHover);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Coder_s_space.Properties.Resources.rsz_image_removebg_preview;
+            this.pictureBox1.Location = new System.Drawing.Point(1325, 4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(22, 27);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            this.toolTipControlPanel.SetToolTip(this.pictureBox1, "Close");
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.pictureBox1.MouseLeave += new System.EventHandler(this.pictureBox1_MouseLeave);
+            this.pictureBox1.MouseHover += new System.EventHandler(this.pictureBox1_MouseHover);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.pictureBox3.BackColor = System.Drawing.Color.Blue;
+            this.pictureBox3.Location = new System.Drawing.Point(81, 99);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(403, 480);
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
+            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -126,20 +236,21 @@ namespace Coder_s_space
             this.panel2.Controls.Add(this.buttonProblems);
             this.panel2.Controls.Add(this.buttonComm);
             this.panel2.Controls.Add(this.buttonCompile);
-            this.panel2.Controls.Add(this.buttonCourses);
+            this.panel2.Controls.Add(this.buttonCloud);
             this.panel2.Controls.Add(this.buttonArticle);
             this.panel2.Controls.Add(this.buttonCourse);
-            this.panel2.Location = new System.Drawing.Point(0, 99);
+            this.panel2.Location = new System.Drawing.Point(0, 106);
             this.panel2.Name = "panel2";
             this.panel2.Padding = new System.Windows.Forms.Padding(12, 26, 12, 26);
-            this.panel2.Size = new System.Drawing.Size(77, 547);
+            this.panel2.Size = new System.Drawing.Size(77, 540);
             this.panel2.TabIndex = 1;
+            this.toolTip.SetToolTip(this.panel2, "Courses");
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // buttonJob
             // 
             this.buttonJob.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.buttonJob.BackgroundImage = global::Coder_s_space.Properties.Resources.job_search__2_;
+            this.buttonJob.BackgroundImage = global::Coder_s_space.Properties.Resources.bug_report__1_;
             this.buttonJob.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.buttonJob.Dock = System.Windows.Forms.DockStyle.Top;
             this.buttonJob.FlatAppearance.BorderSize = 0;
@@ -250,24 +361,24 @@ namespace Coder_s_space
             this.buttonCompile.UseVisualStyleBackColor = false;
             this.buttonCompile.Click += new System.EventHandler(this.buttonCompile_Click);
             // 
-            // buttonCourses
+            // buttonCloud
             // 
-            this.buttonCourses.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.buttonCourses.BackgroundImage = global::Coder_s_space.Properties.Resources.icons8_international_jobs_32__1_;
-            this.buttonCourses.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.buttonCourses.Dock = System.Windows.Forms.DockStyle.Top;
-            this.buttonCourses.FlatAppearance.BorderSize = 0;
-            this.buttonCourses.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Tomato;
-            this.buttonCourses.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(127)))), ((int)(((byte)(255)))), ((int)(((byte)(212)))));
-            this.buttonCourses.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonCourses.ForeColor = System.Drawing.Color.Cyan;
-            this.buttonCourses.Location = new System.Drawing.Point(12, 132);
-            this.buttonCourses.Name = "buttonCourses";
-            this.buttonCourses.Size = new System.Drawing.Size(53, 53);
-            this.buttonCourses.TabIndex = 14;
-            this.toolTip.SetToolTip(this.buttonCourses, "Courses");
-            this.buttonCourses.UseVisualStyleBackColor = false;
-            this.buttonCourses.Click += new System.EventHandler(this.button3_Click_1);
+            this.buttonCloud.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.buttonCloud.BackgroundImage = global::Coder_s_space.Properties.Resources.icons8_international_jobs_32__1_;
+            this.buttonCloud.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.buttonCloud.Dock = System.Windows.Forms.DockStyle.Top;
+            this.buttonCloud.FlatAppearance.BorderSize = 0;
+            this.buttonCloud.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Tomato;
+            this.buttonCloud.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(127)))), ((int)(((byte)(255)))), ((int)(((byte)(212)))));
+            this.buttonCloud.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonCloud.ForeColor = System.Drawing.Color.Cyan;
+            this.buttonCloud.Location = new System.Drawing.Point(12, 132);
+            this.buttonCloud.Name = "buttonCloud";
+            this.buttonCloud.Size = new System.Drawing.Size(53, 53);
+            this.buttonCloud.TabIndex = 14;
+            this.toolTip.SetToolTip(this.buttonCloud, " Clouds");
+            this.buttonCloud.UseVisualStyleBackColor = false;
+            this.buttonCloud.Click += new System.EventHandler(this.button3_Click_1);
             // 
             // buttonArticle
             // 
@@ -291,6 +402,7 @@ namespace Coder_s_space
             // buttonCourse
             // 
             this.buttonCourse.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.buttonCourse.BackgroundImage = global::Coder_s_space.Properties.Resources.icons8_teaching_32;
             this.buttonCourse.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.buttonCourse.Dock = System.Windows.Forms.DockStyle.Top;
             this.buttonCourse.FlatAppearance.BorderSize = 0;
@@ -303,18 +415,9 @@ namespace Coder_s_space
             this.buttonCourse.Size = new System.Drawing.Size(53, 53);
             this.buttonCourse.TabIndex = 12;
             this.buttonCourse.Text = " ";
+            this.toolTip.SetToolTip(this.buttonCourse, "Courses");
             this.buttonCourse.UseVisualStyleBackColor = false;
             this.buttonCourse.Click += new System.EventHandler(this.button10_Click);
-            // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.pictureBox5);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(84, 75);
-            this.panel1.TabIndex = 0;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint_3);
             // 
             // pictureBox5
             // 
@@ -326,107 +429,6 @@ namespace Coder_s_space
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 3;
             this.pictureBox5.TabStop = false;
-            // 
-            // notifyIcon1
-            // 
-            this.notifyIcon1.Text = "notifyIcon1";
-            this.notifyIcon1.Visible = true;
-            // 
-            // panel4
-            // 
-            this.panel4.Location = new System.Drawing.Point(102, 2);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(722, 48);
-            this.panel4.TabIndex = 0;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.panel3.Controls.Add(this.panel4);
-            this.panel3.Location = new System.Drawing.Point(75, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(24, 761);
-            this.panel3.TabIndex = 2;
-            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.Black;
-            this.panel5.Controls.Add(this.panel7);
-            this.panel5.Controls.Add(this.panel11);
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel5.Location = new System.Drawing.Point(105, 0);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1366, 732);
-            this.panel5.TabIndex = 3;
-            this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
-            // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.panel7.Controls.Add(this.pictureBox2);
-            this.panel7.Controls.Add(this.pictureBox1);
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel7.Location = new System.Drawing.Point(0, 0);
-            this.panel7.Margin = new System.Windows.Forms.Padding(0);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(1366, 33);
-            this.panel7.TabIndex = 2;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Coder_s_space.Properties.Resources.mac_mix_removebg_preview;
-            this.pictureBox2.Location = new System.Drawing.Point(1306, 3);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.pictureBox2.Size = new System.Drawing.Size(15, 28);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 3;
-            this.pictureBox2.TabStop = false;
-            this.toolTipMin.SetToolTip(this.pictureBox2, "Minimize");
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            this.pictureBox2.MouseLeave += new System.EventHandler(this.pictureBox2_MouseLeave);
-            this.pictureBox2.MouseHover += new System.EventHandler(this.pictureBox2_MouseHover);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Coder_s_space.Properties.Resources.rsz_image_removebg_preview;
-            this.pictureBox1.Location = new System.Drawing.Point(1325, 4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(22, 27);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
-            this.toolTipClose.SetToolTip(this.pictureBox1, "Close");
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            this.pictureBox1.MouseLeave += new System.EventHandler(this.pictureBox1_MouseLeave);
-            this.pictureBox1.MouseHover += new System.EventHandler(this.pictureBox1_MouseHover);
-            // 
-            // panel11
-            // 
-            this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.panel11.Controls.Add(this.pictureBox3);
-            this.panel11.Location = new System.Drawing.Point(0, 36);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(1366, 768);
-            this.panel11.TabIndex = 3;
-            this.panel11.Paint += new System.Windows.Forms.PaintEventHandler(this.panel11_Paint);
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.pictureBox3.BackColor = System.Drawing.Color.Blue;
-            this.pictureBox3.Location = new System.Drawing.Point(81, 99);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(403, 480);
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
-            // 
-            // toolTipClose
-            // 
-            this.toolTipClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(9)))), ((int)(((byte)(9)))));
-            this.toolTipClose.ForeColor = System.Drawing.Color.LightSalmon;
             // 
             // Form1
             // 
@@ -447,16 +449,16 @@ namespace Coder_s_space
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panelMenu.ResumeLayout(false);
             this.panel10.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
+            this.panel11.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel11.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -479,7 +481,7 @@ namespace Coder_s_space
         private System.Windows.Forms.Button buttonProblems;
         private System.Windows.Forms.Button buttonComm;
         private System.Windows.Forms.Button buttonCompile;
-        private System.Windows.Forms.Button buttonCourses;
+        private System.Windows.Forms.Button buttonCloud;
         private System.Windows.Forms.Button buttonArticle;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.PictureBox pictureBox2;
@@ -487,8 +489,7 @@ namespace Coder_s_space
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.ToolTip toolTipClose;
-        private System.Windows.Forms.ToolTip toolTipMin;
+        private System.Windows.Forms.ToolTip toolTipControlPanel;
         private System.Windows.Forms.ToolTip toolTip;
     }
 }
