@@ -35,10 +35,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.voteLabel = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.webBrowser1 = new System.Windows.Forms.WebBrowser();
+            this.panelBrowser = new System.Windows.Forms.Panel();
+            this.webView21 = new Microsoft.Web.WebView2.WinForms.WebView2();
             this.guna2Panel1.SuspendLayout();
-            this.guna2CustomGradientPanel1.SuspendLayout();
+            this.panelBrowser.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.webView21)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Panel1
@@ -134,38 +135,42 @@
             this.label7.TabIndex = 1;
             this.label7.Text = "C#";
             // 
-            // guna2CustomGradientPanel1
+            // panelBrowser
             // 
-            this.guna2CustomGradientPanel1.Controls.Add(this.webBrowser1);
-            this.guna2CustomGradientPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(0, 36);
-            this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
-            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1350, 693);
-            this.guna2CustomGradientPanel1.TabIndex = 3;
+            this.panelBrowser.BackColor = System.Drawing.Color.Transparent;
+            this.panelBrowser.Controls.Add(this.webView21);
+            this.panelBrowser.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelBrowser.Location = new System.Drawing.Point(0, 36);
+            this.panelBrowser.Name = "panelBrowser";
+            this.panelBrowser.Size = new System.Drawing.Size(1350, 692);
+            this.panelBrowser.TabIndex = 3;
             // 
-            // webBrowser1
+            // webView21
             // 
-            this.webBrowser1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.webBrowser1.Location = new System.Drawing.Point(0, 0);
-            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
-            this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(1350, 693);
-            this.webBrowser1.TabIndex = 0;
-            this.webBrowser1.Url = new System.Uri("https://www.jdoodle.com/online-compiler-c++/", System.UriKind.Absolute);
+            this.webView21.AllowExternalDrop = true;
+            this.webView21.CreationProperties = null;
+            this.webView21.DefaultBackgroundColor = System.Drawing.Color.White;
+            this.webView21.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.webView21.Location = new System.Drawing.Point(0, 0);
+            this.webView21.Name = "webView21";
+            this.webView21.Size = new System.Drawing.Size(1350, 692);
+            this.webView21.TabIndex = 0;
+            this.webView21.ZoomFactor = 1D;
             // 
             // FormCompiler
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Coral;
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1350, 729);
-            this.Controls.Add(this.guna2CustomGradientPanel1);
+            this.Controls.Add(this.panelBrowser);
             this.Controls.Add(this.guna2Panel1);
             this.Name = "FormCompiler";
             this.Text = "FormCompiler";
             this.Load += new System.EventHandler(this.FormCompiler_Load);
             this.guna2Panel1.ResumeLayout(false);
-            this.guna2CustomGradientPanel1.ResumeLayout(false);
+            this.panelBrowser.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.webView21)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -175,10 +180,10 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label voteLabel;
         private System.Windows.Forms.Label label7;
-        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.WebBrowser webBrowser1;
+        private System.Windows.Forms.Panel panelBrowser;
+        private Microsoft.Web.WebView2.WinForms.WebView2 webView21;
     }
 }

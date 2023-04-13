@@ -239,10 +239,10 @@ namespace Coder_s_space
             this.panel2.Controls.Add(this.buttonCloud);
             this.panel2.Controls.Add(this.buttonArticle);
             this.panel2.Controls.Add(this.buttonCourse);
-            this.panel2.Location = new System.Drawing.Point(0, 106);
+            this.panel2.Location = new System.Drawing.Point(0, 95);
             this.panel2.Name = "panel2";
             this.panel2.Padding = new System.Windows.Forms.Padding(12, 26, 12, 26);
-            this.panel2.Size = new System.Drawing.Size(77, 540);
+            this.panel2.Size = new System.Drawing.Size(77, 550);
             this.panel2.TabIndex = 1;
             this.toolTip.SetToolTip(this.panel2, "Courses");
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
