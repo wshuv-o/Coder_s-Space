@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.webView21 = new Microsoft.Web.WebView2.WinForms.WebView2();
             this.panelBrowser = new System.Windows.Forms.Panel();
@@ -42,6 +43,7 @@
             this.guna2ButtonCpp = new Guna.UI2.WinForms.Guna2Button();
             this.guna2ButtonCs = new Guna.UI2.WinForms.Guna2Button();
             this.guna2ButtonSwift = new Guna.UI2.WinForms.Guna2Button();
+            this.toolTipCompilers = new System.Windows.Forms.ToolTip(this.components);
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.webView21)).BeginInit();
             this.panelBrowser.SuspendLayout();
@@ -132,6 +134,7 @@
             this.guna2ButtonJs.Name = "guna2ButtonJs";
             this.guna2ButtonJs.Size = new System.Drawing.Size(57, 49);
             this.guna2ButtonJs.TabIndex = 24;
+            this.toolTipCompilers.SetToolTip(this.guna2ButtonJs, "Javascript Compiler");
             this.guna2ButtonJs.Click += new System.EventHandler(this.guna2Button9_Click);
             // 
             // guna2ButtonHtml
@@ -154,6 +157,7 @@
             this.guna2ButtonHtml.Name = "guna2ButtonHtml";
             this.guna2ButtonHtml.Size = new System.Drawing.Size(57, 49);
             this.guna2ButtonHtml.TabIndex = 23;
+            this.toolTipCompilers.SetToolTip(this.guna2ButtonHtml, "HTML Editor");
             this.guna2ButtonHtml.Click += new System.EventHandler(this.guna2Button8_Click);
             // 
             // guna2ButtonPhp
@@ -176,6 +180,7 @@
             this.guna2ButtonPhp.Name = "guna2ButtonPhp";
             this.guna2ButtonPhp.Size = new System.Drawing.Size(57, 49);
             this.guna2ButtonPhp.TabIndex = 22;
+            this.toolTipCompilers.SetToolTip(this.guna2ButtonPhp, "Php Compiler");
             this.guna2ButtonPhp.Click += new System.EventHandler(this.guna2Button7_Click);
             // 
             // guna2ButtonSQL
@@ -198,6 +203,7 @@
             this.guna2ButtonSQL.Name = "guna2ButtonSQL";
             this.guna2ButtonSQL.Size = new System.Drawing.Size(57, 49);
             this.guna2ButtonSQL.TabIndex = 21;
+            this.toolTipCompilers.SetToolTip(this.guna2ButtonSQL, "SQL Editor");
             this.guna2ButtonSQL.Click += new System.EventHandler(this.guna2Button6_Click);
             // 
             // guna2ButtonPython
@@ -220,6 +226,7 @@
             this.guna2ButtonPython.Name = "guna2ButtonPython";
             this.guna2ButtonPython.Size = new System.Drawing.Size(57, 49);
             this.guna2ButtonPython.TabIndex = 20;
+            this.toolTipCompilers.SetToolTip(this.guna2ButtonPython, "Python Compiler");
             this.guna2ButtonPython.Click += new System.EventHandler(this.guna2Button5_Click);
             // 
             // guna2ButtonJava
@@ -242,6 +249,7 @@
             this.guna2ButtonJava.Name = "guna2ButtonJava";
             this.guna2ButtonJava.Size = new System.Drawing.Size(57, 49);
             this.guna2ButtonJava.TabIndex = 19;
+            this.toolTipCompilers.SetToolTip(this.guna2ButtonJava, "JavaCompiler");
             this.guna2ButtonJava.Click += new System.EventHandler(this.guna2Button4_Click);
             // 
             // guna2ButtonCp
@@ -264,6 +272,7 @@
             this.guna2ButtonCp.Name = "guna2ButtonCp";
             this.guna2ButtonCp.Size = new System.Drawing.Size(57, 49);
             this.guna2ButtonCp.TabIndex = 18;
+            this.toolTipCompilers.SetToolTip(this.guna2ButtonCp, "C Compiler");
             this.guna2ButtonCp.Click += new System.EventHandler(this.guna2Button3_Click);
             // 
             // guna2ButtonCpp
@@ -286,6 +295,7 @@
             this.guna2ButtonCpp.Name = "guna2ButtonCpp";
             this.guna2ButtonCpp.Size = new System.Drawing.Size(57, 49);
             this.guna2ButtonCpp.TabIndex = 17;
+            this.toolTipCompilers.SetToolTip(this.guna2ButtonCpp, "C++ Compiler");
             this.guna2ButtonCpp.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // guna2ButtonCs
@@ -308,6 +318,7 @@
             this.guna2ButtonCs.Name = "guna2ButtonCs";
             this.guna2ButtonCs.Size = new System.Drawing.Size(57, 49);
             this.guna2ButtonCs.TabIndex = 16;
+            this.toolTipCompilers.SetToolTip(this.guna2ButtonCs, "C# Compiler");
             this.guna2ButtonCs.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // guna2ButtonSwift
@@ -330,6 +341,7 @@
             this.guna2ButtonSwift.Name = "guna2ButtonSwift";
             this.guna2ButtonSwift.Size = new System.Drawing.Size(57, 49);
             this.guna2ButtonSwift.TabIndex = 25;
+            this.toolTipCompilers.SetToolTip(this.guna2ButtonSwift, "Swift Compiler");
             this.guna2ButtonSwift.Click += new System.EventHandler(this.guna2Button10_Click);
             // 
             // FormCompiler
@@ -366,5 +378,6 @@
         private Guna.UI2.WinForms.Guna2Button guna2ButtonHtml;
         private Guna.UI2.WinForms.Guna2Button guna2ButtonJs;
         private Guna.UI2.WinForms.Guna2Button guna2ButtonSwift;
+        private System.Windows.Forms.ToolTip toolTipCompilers;
     }
 }
