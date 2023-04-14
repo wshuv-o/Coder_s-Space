@@ -396,6 +396,54 @@
   <ItemGroup>
     <None Include="Resources\icons8-teaching-32.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-c-sharp-logo-32 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-c-sharp-logo-32 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-c-sharp-logo-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c-sharp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c-sharp %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c-.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus_logo_c_icon_214621.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c-plus-plus-14367.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-c-programming-32 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\java.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\python.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-database-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\php.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\html_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\javascript_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swift_icon.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

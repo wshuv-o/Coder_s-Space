@@ -23,6 +23,9 @@ namespace Coder_s_space
         {
             InitializeComponent();
             InitWebView();
+
+            //FunctionsAll.RoundButtonParams(20, buttonCpp,buttonCs);
+
             /*var settings = new CefSettings();
             settings.PersistSessionCookies = true;
 
@@ -31,13 +34,7 @@ namespace Coder_s_space
              browser = new ChromiumWebBrowser("https://www.facebook.com");
             browser.Dock = DockStyle.Fill;
             panelBrowser.Controls.Add(browser); */
-
             
-
-
-
-
-
         }
 
         private async void FormCompiler_Load(object sender, EventArgs e)
@@ -105,6 +102,68 @@ namespace Coder_s_space
         }
 
         private void guna2CustomGradientPanel1_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void buttonCourse_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2ImageButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            webView21.CoreWebView2.Navigate("https://www.tutorialspoint.com/compile_csharp_online.php");
+        }
+
+        private void guna2Button10_Click(object sender, EventArgs e)
+        {
+            webView21.CoreWebView2.Navigate("https://www.tutorialspoint.com/compile_csharp_online.php");
+        }
+
+        private void guna2Button9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+            webView21.CoreWebView2.Navigate("https://www.tutorialspoint.com/compile_csharp_online.php");
+
+        }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            webView21.CoreWebView2.Navigate("https://www.tutorialspoint.com/compile_csharp_online.php");
+
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            webView21.CoreWebView2.Navigate("https://www.tutorialspoint.com/compile_csharp_online.php");
+        }
+
+        private void guna2Button6_Click(object sender, EventArgs e)
         {
 
         }
