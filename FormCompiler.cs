@@ -128,21 +128,25 @@ namespace Coder_s_space
 
         private void guna2Button9_Click(object sender, EventArgs e)
         {
+            webView21.CoreWebView2.Navigate("https://www.tutorialspoint.com/compile_csharp_online.php");
 
         }
 
         private void guna2Button8_Click(object sender, EventArgs e)
         {
+            webView21.CoreWebView2.Navigate("https://www.tutorialspoint.com/compile_csharp_online.php");
 
         }
 
         private void guna2Button7_Click(object sender, EventArgs e)
         {
+            webView21.CoreWebView2.Navigate("https://www.tutorialspoint.com/compile_csharp_online.php");
 
         }
 
         private void guna2Button5_Click(object sender, EventArgs e)
         {
+            webView21.CoreWebView2.Navigate("https://www.tutorialspoint.com/compile_csharp_online.php");
 
         }
 
@@ -165,6 +169,7 @@ namespace Coder_s_space
 
         private void guna2Button6_Click(object sender, EventArgs e)
         {
+            webView21.CoreWebView2.Navigate("https://www.tutorialspoint.com/compile_csharp_online.php");
 
         }
     }
