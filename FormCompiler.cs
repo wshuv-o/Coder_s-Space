@@ -123,53 +123,53 @@ namespace Coder_s_space
 
         private void guna2Button10_Click(object sender, EventArgs e)
         {
-            webView21.CoreWebView2.Navigate("https://www.tutorialspoint.com/compile_csharp_online.php");
+            webView21.CoreWebView2.Navigate("https://www.tutorialspoint.com/compile_swift_online.php");
         }
 
         private void guna2Button9_Click(object sender, EventArgs e)
         {
-            webView21.CoreWebView2.Navigate("https://www.tutorialspoint.com/compile_csharp_online.php");
+            webView21.CoreWebView2.Navigate("https://www.tutorialspoint.com/online_javascript_editor.php");
 
         }
 
         private void guna2Button8_Click(object sender, EventArgs e)
         {
-            webView21.CoreWebView2.Navigate("https://www.tutorialspoint.com/compile_csharp_online.php");
+            webView21.CoreWebView2.Navigate("https://www.tutorialspoint.com/online_html_editor.php");
 
         }
 
         private void guna2Button7_Click(object sender, EventArgs e)
         {
-            webView21.CoreWebView2.Navigate("https://www.tutorialspoint.com/compile_csharp_online.php");
+            webView21.CoreWebView2.Navigate("https://www.tutorialspoint.com/execute_php_online.php");
 
         }
 
         private void guna2Button5_Click(object sender, EventArgs e)
         {
-            webView21.CoreWebView2.Navigate("https://www.tutorialspoint.com/compile_csharp_online.php");
+            webView21.CoreWebView2.Navigate("https://www.tutorialspoint.com/execute_python_online.php");
 
         }
 
         private void guna2Button4_Click(object sender, EventArgs e)
         {
-            webView21.CoreWebView2.Navigate("https://www.tutorialspoint.com/compile_csharp_online.php");
+            webView21.CoreWebView2.Navigate("https://www.tutorialspoint.com/compile_java_online.php");
 
         }
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
-            webView21.CoreWebView2.Navigate("https://www.tutorialspoint.com/compile_csharp_online.php");
+            webView21.CoreWebView2.Navigate("https://www.tutorialspoint.com/compile_c_online.php");
 
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-            webView21.CoreWebView2.Navigate("https://www.tutorialspoint.com/compile_csharp_online.php");
+            webView21.CoreWebView2.Navigate("https://www.tutorialspoint.com/compile_cpp_online.php");
         }
 
         private void guna2Button6_Click(object sender, EventArgs e)
         {
-            webView21.CoreWebView2.Navigate("https://www.tutorialspoint.com/compile_csharp_online.php");
+            webView21.CoreWebView2.Navigate("https://www.tutorialspoint.com/execute_sql_online.php");
 
         }
     }
