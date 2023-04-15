@@ -108,6 +108,12 @@
     <Compile Include="FormCompiler.Designer.cs">
       <DependentUpon>FormCompiler.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormTypeSpeed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTypeSpeed.Designer.cs">
+      <DependentUpon>FormTypeSpeed.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormProfile.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -149,6 +155,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormCompiler.resx">
       <DependentUpon>FormCompiler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTypeSpeed.resx">
+      <DependentUpon>FormTypeSpeed.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormProfile.resx">
       <DependentUpon>FormProfile.cs</DependentUpon>

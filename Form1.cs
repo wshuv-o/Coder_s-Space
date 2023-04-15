@@ -281,7 +281,7 @@ namespace Coder_s_space
 
         private void buttonWork_Click(object sender, EventArgs e)
         {
-
+            OpenChildForm(new FormTypeSpeed(), panel11);
         }
 
         private void buttonProblems_Click(object sender, EventArgs e)
