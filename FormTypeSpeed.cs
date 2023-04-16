@@ -19,14 +19,29 @@ namespace Coder_s_space
         public FormTypeSpeed()
         {
             InitializeComponent();
-            InitWebView();
+            // InitWebView();
+            webView21.CreationProperties = new CoreWebView2CreationProperties()
+            {
+                // Set the browser's user data folder to store cookies, history, and settings
+                UserDataFolder = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + @"\MyWebView2UserData",
+                
+                // Enable built-in ad-blocking
+                AdditionalBrowserArguments = "--disable-features=PreloadMediaEngagementData,AutoplayIgnoreWebAudio," +
+                "AsyncFrameScrolling,AdaptiveFlingPhysics,WebFontsInterventionTrigger,LayoutNG,HeavyAdIntervention,HeavyAdPrivacyMitigations",
+            };
+
+            webView21.CoreWebView2InitializationCompleted += WebView21_CoreWebView2InitializationCompleted;
+            webView21.EnsureCoreWebView2Async();
         }
 
-        async void InitWebView()
+        private void WebView21_CoreWebView2InitializationCompleted(object sender, CoreWebView2InitializationCompletedEventArgs e)
         {
-            await webView21.EnsureCoreWebView2Async(null);
-            webView21.CoreWebView2.Navigate("https://monkeytype.com/");
-
+            if (e.IsSuccess)
+            {
+                // Navigate to your desired website
+                webView21.CoreWebView2.Navigate("https://www.monkeytype.com");
+            }
         }
     }
+
 }

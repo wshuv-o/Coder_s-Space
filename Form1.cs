@@ -77,8 +77,6 @@ namespace Coder_s_space
         }
         
 
-
-
         private void Form1_Load(object sender, EventArgs e)
         {
 
