@@ -299,7 +299,7 @@ namespace Coder_s_space
 
         private void button3_Click_1(object sender, EventArgs e)
         {
-
+            OpenChildForm(new FormCloud(), panel11);
         }
 
         private void buttonJob_Click(object sender, EventArgs e)

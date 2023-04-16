@@ -90,6 +90,12 @@
     <Compile Include="FormArticle.Designer.cs">
       <DependentUpon>FormArticle.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormCloud.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCloud.Designer.cs">
+      <DependentUpon>FormCloud.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormCommunity.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -146,6 +152,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormArticle.resx">
       <DependentUpon>FormArticle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCloud.resx">
+      <DependentUpon>FormCloud.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormCommunity.resx">
       <DependentUpon>FormCommunity.cs</DependentUpon>
