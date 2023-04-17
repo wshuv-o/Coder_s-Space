@@ -15,15 +15,16 @@ namespace Coder_s_space
         {
             InitializeComponent();
 
-            _images.Add(Coder_s_space.Properties.Resources.online_training_web_banner_design_free_vector);
-            _images.Add(Coder_s_space.Properties.Resources.graphic_design_courses_hyderabad);
-            _images.Add(Coder_s_space.Properties.Resources._10302556_4413474);
+            _images.Add(Coder_s_space.Properties.Resources.banner_for_Coder_s_space);
+            _images.Add(Coder_s_space.Properties.Resources.banner_for_Coder_s_space__3_);
+            _images.Add(Coder_s_space.Properties.Resources.banner_for_Coder_s_space__1_);
+            _images.Add(Coder_s_space.Properties.Resources.banner_for_Coder_s_space__2_);
 
             // Set the initial image in the picture box
             guna2PictureBox1.Image = _images[_currentIndex];
 
             // Set the timer properties
-            _timer.Interval = 3000; // 5 seconds
+            _timer.Interval = 5000; // 5 seconds
             _timer.Tick += timer_Tick;
             //_timer.Start();
         }

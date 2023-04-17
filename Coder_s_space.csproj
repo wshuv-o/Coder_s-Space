@@ -474,6 +474,18 @@
   <ItemGroup>
     <None Include="Resources\10302556_4413474.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banner for Coder%27s space.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banner for Coder%27s space %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banner for Coder%27s space %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banner for Coder%27s space %283%29.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
