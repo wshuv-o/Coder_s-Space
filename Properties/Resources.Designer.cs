@@ -93,6 +93,16 @@ namespace Coder_s_space.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _10302556_4413474 {
+            get {
+                object obj = ResourceManager.GetObject("10302556_4413474", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _20221020055447_IMG_8419f {
             get {
                 object obj = ResourceManager.GetObject("20221020055447_IMG_8419f", resourceCulture);
@@ -346,6 +356,16 @@ namespace Coder_s_space.Properties {
         internal static System.Drawing.Bitmap data {
             get {
                 object obj = ResourceManager.GetObject("data", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap graphic_design_courses_hyderabad {
+            get {
+                object obj = ResourceManager.GetObject("graphic-design-courses-hyderabad", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -713,6 +733,16 @@ namespace Coder_s_space.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap online_training_web_banner_design_free_vector {
+            get {
+                object obj = ResourceManager.GetObject("online-training-web-banner-design-free-vector", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap php {
             get {
                 object obj = ResourceManager.GetObject("php", resourceCulture);
@@ -826,6 +856,16 @@ namespace Coder_s_space.Properties {
         internal static System.Drawing.Bitmap swift_icon {
             get {
                 object obj = ResourceManager.GetObject("swift_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap uiux_design {
+            get {
+                object obj = ResourceManager.GetObject("uiux-design", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

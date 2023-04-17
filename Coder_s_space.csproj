@@ -90,11 +90,11 @@
     <Compile Include="FormArticle.Designer.cs">
       <DependentUpon>FormArticle.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormCloud.cs">
+    <Compile Include="FormProblems.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormCloud.Designer.cs">
-      <DependentUpon>FormCloud.cs</DependentUpon>
+    <Compile Include="FormProblems.Designer.cs">
+      <DependentUpon>FormProblems.cs</DependentUpon>
     </Compile>
     <Compile Include="FormCommunity.cs">
       <SubType>Form</SubType>
@@ -153,8 +153,8 @@
     <EmbeddedResource Include="FormArticle.resx">
       <DependentUpon>FormArticle.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormCloud.resx">
-      <DependentUpon>FormCloud.cs</DependentUpon>
+    <EmbeddedResource Include="FormProblems.resx">
+      <DependentUpon>FormProblems.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormCommunity.resx">
       <DependentUpon>FormCommunity.cs</DependentUpon>
@@ -461,6 +461,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\swift_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uiux-design.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\graphic-design-courses-hyderabad.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\online-training-web-banner-design-free-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10302556_4413474.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
