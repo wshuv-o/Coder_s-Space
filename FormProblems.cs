@@ -16,7 +16,7 @@ namespace Coder_s_space
             InitializeComponent();
 
             _images.Add(Coder_s_space.Properties.Resources.banner_for_Coder_s_space);
-            _images.Add(Coder_s_space.Properties.Resources.banner_for_Coder_s_space__3_);
+            _images.Add(Coder_s_space.Properties.Resources.banner_for_Coder_s_space__4_);
             _images.Add(Coder_s_space.Properties.Resources.banner_for_Coder_s_space__1_);
             _images.Add(Coder_s_space.Properties.Resources.banner_for_Coder_s_space__2_);
 
@@ -24,9 +24,9 @@ namespace Coder_s_space
             guna2PictureBox1.Image = _images[_currentIndex];
 
             // Set the timer properties
-            _timer.Interval = 5000; // 5 seconds
+            _timer.Interval = 4000; // 5 seconds
             _timer.Tick += timer_Tick;
-            //_timer.Start();
+            
         }
 
 
