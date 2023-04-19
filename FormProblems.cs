@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Guna.UI2.WinForms;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
@@ -14,7 +15,7 @@ namespace Coder_s_space
         public FormProblems()
         {
             InitializeComponent();
-
+            
             _images.Add(Coder_s_space.Properties.Resources.banner_for_Coder_s_space);
             _images.Add(Coder_s_space.Properties.Resources.banner_for_Coder_s_space__4_);
             _images.Add(Coder_s_space.Properties.Resources.banner_for_Coder_s_space__1_);
@@ -43,6 +44,11 @@ namespace Coder_s_space
         {
             // Start the timer when the form is loaded
             _timer.Start();
+        }
+
+        private void guna2ImageButton1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
