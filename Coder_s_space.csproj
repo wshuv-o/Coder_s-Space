@@ -496,6 +496,12 @@
   <ItemGroup>
     <None Include="Resources\LeetCode_Sharing.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICPC_International_Collegiate_Programming_Contest_logo,_Aug_2018.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mainLogoMobile.cf0665dd.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

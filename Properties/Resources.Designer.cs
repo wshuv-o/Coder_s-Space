@@ -653,6 +653,16 @@ namespace Coder_s_space.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ICPC_International_Collegiate_Programming_Contest_logo__Aug_2018 {
+            get {
+                object obj = ResourceManager.GetObject("ICPC_International_Collegiate_Programming_Contest_logo,_Aug_2018", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap idea__1_ {
             get {
                 object obj = ResourceManager.GetObject("idea (1)", resourceCulture);
@@ -786,6 +796,16 @@ namespace Coder_s_space.Properties {
         internal static System.Drawing.Bitmap mac_mix_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("mac_mix-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mainLogoMobile_cf0665dd {
+            get {
+                object obj = ResourceManager.GetObject("mainLogoMobile.cf0665dd", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
