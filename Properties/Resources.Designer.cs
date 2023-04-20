@@ -113,6 +113,26 @@ namespace Coder_s_space.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _2023_topcoder {
+            get {
+                object obj = ResourceManager.GetObject("2023_topcoder", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2023_topcoder_open {
+            get {
+                object obj = ResourceManager.GetObject("2023_topcoder_open", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _2949355041594722067_128 {
             get {
                 object obj = ResourceManager.GetObject("2949355041594722067-128", resourceCulture);
@@ -423,6 +443,16 @@ namespace Coder_s_space.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap google_hash_code_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("google_hash_code-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap graphic_design_courses_hyderabad {
             get {
                 object obj = ResourceManager.GetObject("graphic-design-courses-hyderabad", resourceCulture);
@@ -693,6 +723,36 @@ namespace Coder_s_space.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap image__1__removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("image__1_-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image__2_ {
+            get {
+                object obj = ResourceManager.GetObject("image (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image__2__removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("image__2_-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap IMG_20221118_215329 {
             get {
                 object obj = ResourceManager.GetObject("IMG_20221118_215329", resourceCulture);
@@ -706,6 +766,16 @@ namespace Coder_s_space.Properties {
         internal static System.Drawing.Bitmap IMG_2211__3_ {
             get {
                 object obj = ResourceManager.GetObject("IMG_2211 (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap InternationalOlympiadInInformatics {
+            get {
+                object obj = ResourceManager.GetObject("InternationalOlympiadInInformatics", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

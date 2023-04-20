@@ -15,12 +15,13 @@ namespace Coder_s_space
         public FormProblems()
         {
             InitializeComponent();
-            
-            _images.Add(Coder_s_space.Properties.Resources.banner_for_Coder_s_space);
-            _images.Add(Coder_s_space.Properties.Resources.banner_for_Coder_s_space__4_);
-            _images.Add(Coder_s_space.Properties.Resources.banner_for_Coder_s_space__1_);
-            _images.Add(Coder_s_space.Properties.Resources.banner_for_Coder_s_space__2_);
+             _images.Add(Coder_s_space.Properties.Resources.article);
 
+            /*  _images.Add(Coder_s_space.Properties.Resources.banner_for_Coder_s_space);
+              _images.Add(Coder_s_space.Properties.Resources.banner_for_Coder_s_space__4_);
+              _images.Add(Coder_s_space.Properties.Resources.banner_for_Coder_s_space__1_);
+              _images.Add(Coder_s_space.Properties.Resources.banner_for_Coder_s_space__2_);
+  */
             // Set the initial image in the picture box
             guna2PictureBox1.Image = _images[_currentIndex];
 
@@ -52,6 +53,11 @@ namespace Coder_s_space
         }
 
         private void flowLayoutPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2ImageButton10_Click(object sender, EventArgs e)
         {
 
         }

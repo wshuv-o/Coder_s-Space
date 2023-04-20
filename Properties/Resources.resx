@@ -127,14 +127,14 @@
   <data name="1000_F_363879182_4kwbz4cBHylPJXDZH6p8v3kDmzntpULk" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1000_F_363879182_4kwbz4cBHylPJXDZH6p8v3kDmzntpULk.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="1000_F_363879182_4kwbz4cBHylPJXDZH6p8v3kDmzntpULk1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1000_F_363879182_4kwbz4cBHylPJXDZH6p8v3kDmzntpULk1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="brain" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\brain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="logo_CSpace" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logo_CSpace.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="compiler" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\compiler.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-people-working-together-40" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-people-working-together-40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,11 +157,17 @@
   <data name="banner for Coder's space (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\banner for Coder's space (3).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="google_hash_code-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\google_hash_code-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8-people-working-together-30 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-people-working-together-30 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="IMG_2211 (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IMG_2211 (3).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2949355041594722067-128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2949355041594722067-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="community" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\community.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -171,9 +177,6 @@
   </data>
   <data name="python" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\python.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="c-sharp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\c-sharp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-code-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-code-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,8 +196,11 @@
   <data name="icons8-c++-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-c++-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-email-send-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-email-send-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="idea (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\idea (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image__1_-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image__1_-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-database-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-database-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -204,9 +210,6 @@
   </data>
   <data name="coding-team" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\coding-team.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Screenshot_2023-04-05_221704-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Screenshot_2023-04-05_221704-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Wahid" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Wahid.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -225,6 +228,9 @@
   </data>
   <data name="rsz_image-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\rsz_image-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="337538979_746079400231183_538522486434599490_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\337538979_746079400231183_538522486434599490_n1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="337538979_746079400231183_538522486434599490_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\337538979_746079400231183_538522486434599490_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -265,14 +271,20 @@
   <data name="icons8-add-96" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-add-96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="article" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\article.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-email-send-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-email-send-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="IMG_20221118_215329" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IMG_20221118_215329.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="image (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="aggregate-supply" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\aggregate-supply.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mainLogoMobile.cf0665dd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mainLogoMobile.cf0665dd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="job-search" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\job-search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -292,26 +304,26 @@
   <data name="banner for Coder's space (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\banner for Coder's space (1).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="c-plus-plus-14367" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\c-plus-plus-14367.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="online-training-web-banner-design-free-vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\online-training-web-banner-design-free-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="job-search (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\job-search (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bug-report (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bug-report (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="c-sharp (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\c-sharp (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cropped-1920-1080-595291" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cropped-1920-1080-595291.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="20221020055447_IMG_8419f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\20221020055447_IMG_8419f.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-international-jobs-32 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-international-jobs-32 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="1000_F_363879182_4kwbz4cBHylPJXDZH6p8v3kDmzntpULk1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1000_F_363879182_4kwbz4cBHylPJXDZH6p8v3kDmzntpULk1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="article" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\article.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="plus_logo_c_icon_214621" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\plus_logo_c_icon_214621.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -322,6 +334,9 @@
   <data name="banner for Coder's space (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\banner for Coder's space (2).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icons8-teaching-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-teaching-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="user (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -331,14 +346,11 @@
   <data name="icons8-add-100" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-add-100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="idea (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\idea (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Screenshot_2023-04-05_221704-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot_2023-04-05_221704-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-speed-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-speed-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="coder's space" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\coder's space.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="WhatsApp Image 2023-03-31 at 3.45.58 AM" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WhatsApp Image 2023-03-31 at 3.45.58 AM.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -358,29 +370,29 @@
   <data name="Vector 1 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Vector 1 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-teaching-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-teaching-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="InternationalOlympiadInInformatics" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InternationalOlympiadInInformatics.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="attacg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\attacg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="337538979_746079400231183_538522486434599490_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\337538979_746079400231183_538522486434599490_n1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="c-sharp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c-sharp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-brain-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-brain-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bug-report (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bug-report (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cropped-1920-1080-595291" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cropped-1920-1080-595291.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="problem-solving" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\problem-solving.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="20221020055447_IMG_8419f" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\20221020055447_IMG_8419f.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="coder's space" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coder's space.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="compiler (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\compiler (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="compiler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\compiler.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="LeetCode_Sharing" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LeetCode_Sharing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -388,14 +400,20 @@
   <data name="javascript_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\javascript_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="compiler (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\compiler (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image__2_-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image__2_-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="user (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="minimizeAfter" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\minimizeAfter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="2949355041594722067-128" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2949355041594722067-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="c-plus-plus-14367" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c-plus-plus-14367.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-people-working-together-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-people-working-together-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -403,13 +421,16 @@
   <data name="ICPC_International_Collegiate_Programming_Contest_logo,_Aug_2018" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ICPC_International_Collegiate_Programming_Contest_logo,_Aug_2018.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="2023_topcoder_open" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023_topcoder_open.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="banner for Coder's space" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\banner for Coder's space.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="swift_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\swift_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="mainLogoMobile.cf0665dd" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mainLogoMobile.cf0665dd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="2023_topcoder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023_topcoder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
