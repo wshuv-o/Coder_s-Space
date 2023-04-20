@@ -124,8 +124,8 @@
   <data name="icons8-c-sharp-logo-32 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-c-sharp-logo-32 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="1000_F_363879182_4kwbz4cBHylPJXDZH6p8v3kDmzntpULk" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1000_F_363879182_4kwbz4cBHylPJXDZH6p8v3kDmzntpULk.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Imaginecup-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Imaginecup-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="1000_F_363879182_4kwbz4cBHylPJXDZH6p8v3kDmzntpULk1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1000_F_363879182_4kwbz4cBHylPJXDZH6p8v3kDmzntpULk1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -178,6 +178,9 @@
   <data name="python" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\python.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="maxresdefault-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\maxresdefault-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8-code-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-code-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -208,6 +211,9 @@
   <data name="job-search (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\job-search (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="2023_topcoder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023_topcoder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="coding-team" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\coding-team.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -234,6 +240,9 @@
   </data>
   <data name="337538979_746079400231183_538522486434599490_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\337538979_746079400231183_538522486434599490_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="itch.io" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\itch.io.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-hashtag-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-hashtag-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -274,6 +283,9 @@
   <data name="icons8-email-send-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-email-send-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="itchii" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\itchii.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="IMG_20221118_215329" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IMG_20221118_215329.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -283,8 +295,14 @@
   <data name="aggregate-supply" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\aggregate-supply.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="IEEEXtreme-16-logo-1024x496" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IEEEXtreme-16-logo-1024x496.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="mainLogoMobile.cf0665dd" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mainLogoMobile.cf0665dd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image-removebg-preview (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="job-search" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\job-search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -316,6 +334,9 @@
   <data name="c-sharp (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\c-sharp (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="image (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="20221020055447_IMG_8419f" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\20221020055447_IMG_8419f.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -334,6 +355,9 @@
   <data name="banner for Coder's space (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\banner for Coder's space (2).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8-teaching-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-teaching-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -351,6 +375,9 @@
   </data>
   <data name="icons8-speed-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-speed-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1000_F_363879182_4kwbz4cBHylPJXDZH6p8v3kDmzntpULk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1000_F_363879182_4kwbz4cBHylPJXDZH6p8v3kDmzntpULk.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="WhatsApp Image 2023-03-31 at 3.45.58 AM" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WhatsApp Image 2023-03-31 at 3.45.58 AM.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -430,7 +457,7 @@
   <data name="swift_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\swift_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="2023_topcoder" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2023_topcoder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hackerrank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hackerrank.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
