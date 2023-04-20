@@ -117,12 +117,6 @@
     <Compile Include="FormCompiler.Designer.cs">
       <DependentUpon>FormCompiler.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormProblemWeb.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormProblemWeb.Designer.cs">
-      <DependentUpon>FormProblemWeb.cs</DependentUpon>
-    </Compile>
     <Compile Include="FormTypeSpeed.cs">
       <SubType>Form</SubType>
     </Compile>
