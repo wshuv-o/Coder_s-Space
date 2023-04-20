@@ -15,13 +15,12 @@ namespace Coder_s_space
         public FormProblems()
         {
             InitializeComponent();
-             _images.Add(Coder_s_space.Properties.Resources.article);
 
-            /*  _images.Add(Coder_s_space.Properties.Resources.banner_for_Coder_s_space);
-              _images.Add(Coder_s_space.Properties.Resources.banner_for_Coder_s_space__4_);
-              _images.Add(Coder_s_space.Properties.Resources.banner_for_Coder_s_space__1_);
-              _images.Add(Coder_s_space.Properties.Resources.banner_for_Coder_s_space__2_);
-  */
+            _images.Add(Coder_s_space.Properties.Resources.banner_for_Coder_s_space);
+            _images.Add(Coder_s_space.Properties.Resources.banner_for_Coder_s_space__4_);
+            _images.Add(Coder_s_space.Properties.Resources.banner_for_Coder_s_space__1_);
+            _images.Add(Coder_s_space.Properties.Resources.banner_for_Coder_s_space__2_);
+
             // Set the initial image in the picture box
             guna2PictureBox1.Image = _images[_currentIndex];
 
@@ -63,6 +62,16 @@ namespace Coder_s_space
         }
 
         private void guna2ImageButton7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2ImageButton16_Click(object sender, EventArgs e)
         {
 
         }
