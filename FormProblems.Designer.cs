@@ -281,6 +281,7 @@
             this.label18.TabIndex = 11;
             this.label18.Text = "Codeforces";
             this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label18.Click += new System.EventHandler(this.label18_Click);
             // 
             // guna2CustomGradientPanel20
             // 
@@ -318,6 +319,7 @@
             this.guna2ImageButton17.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton17.Size = new System.Drawing.Size(140, 118);
             this.guna2ImageButton17.TabIndex = 0;
+            this.guna2ImageButton17.Click += new System.EventHandler(this.guna2ImageButton17_Click);
             // 
             // label19
             // 
@@ -331,6 +333,7 @@
             this.label19.TabIndex = 11;
             this.label19.Text = "LeetCode";
             this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label19.Click += new System.EventHandler(this.label19_Click);
             // 
             // guna2CustomGradientPanel21
             // 
@@ -419,6 +422,7 @@
             this.guna2ImageButton19.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton19.Size = new System.Drawing.Size(140, 118);
             this.guna2ImageButton19.TabIndex = 0;
+            this.guna2ImageButton19.Click += new System.EventHandler(this.guna2ImageButton19_Click);
             // 
             // label21
             // 
@@ -432,6 +436,7 @@
             this.label21.TabIndex = 11;
             this.label21.Text = "Hackerearth";
             this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label21.Click += new System.EventHandler(this.label21_Click);
             // 
             // guna2CustomGradientPanel23
             // 
@@ -469,6 +474,7 @@
             this.guna2ImageButton20.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton20.Size = new System.Drawing.Size(140, 118);
             this.guna2ImageButton20.TabIndex = 0;
+            this.guna2ImageButton20.Click += new System.EventHandler(this.guna2ImageButton20_Click);
             // 
             // label22
             // 
@@ -480,8 +486,9 @@
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(140, 31);
             this.label22.TabIndex = 11;
-            this.label22.Text = "Hackerearth";
+            this.label22.Text = "SPOJ";
             this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label22.Click += new System.EventHandler(this.label22_Click);
             // 
             // guna2CustomGradientPanel24
             // 
@@ -519,6 +526,7 @@
             this.guna2ImageButton21.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton21.Size = new System.Drawing.Size(140, 118);
             this.guna2ImageButton21.TabIndex = 0;
+            this.guna2ImageButton21.Click += new System.EventHandler(this.guna2ImageButton21_Click);
             // 
             // label23
             // 
@@ -532,6 +540,7 @@
             this.label23.TabIndex = 11;
             this.label23.Text = "Kattis";
             this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label23.Click += new System.EventHandler(this.label23_Click);
             // 
             // guna2CustomGradientPanel25
             // 
@@ -569,6 +578,7 @@
             this.guna2ImageButton22.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton22.Size = new System.Drawing.Size(140, 118);
             this.guna2ImageButton22.TabIndex = 0;
+            this.guna2ImageButton22.Click += new System.EventHandler(this.guna2ImageButton22_Click);
             // 
             // label24
             // 
@@ -582,6 +592,7 @@
             this.label24.TabIndex = 11;
             this.label24.Text = "Coderbyte";
             this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label24.Click += new System.EventHandler(this.label24_Click);
             // 
             // guna2CustomGradientPanel26
             // 
@@ -619,6 +630,7 @@
             this.guna2ImageButton23.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton23.Size = new System.Drawing.Size(140, 118);
             this.guna2ImageButton23.TabIndex = 0;
+            this.guna2ImageButton23.Click += new System.EventHandler(this.guna2ImageButton23_Click);
             // 
             // label25
             // 
@@ -632,6 +644,7 @@
             this.label25.TabIndex = 11;
             this.label25.Text = "CodeChef";
             this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label25.Click += new System.EventHandler(this.label25_Click);
             // 
             // guna2CustomGradientPanel4
             // 
@@ -669,6 +682,7 @@
             this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton1.Size = new System.Drawing.Size(140, 118);
             this.guna2ImageButton1.TabIndex = 0;
+            this.guna2ImageButton1.Click += new System.EventHandler(this.guna2ImageButton1_Click_1);
             // 
             // label2
             // 
@@ -682,6 +696,7 @@
             this.label2.TabIndex = 11;
             this.label2.Text = "GfG";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // guna2CustomGradientPanel5
             // 
@@ -719,6 +734,7 @@
             this.guna2ImageButton2.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton2.Size = new System.Drawing.Size(140, 118);
             this.guna2ImageButton2.TabIndex = 0;
+            this.guna2ImageButton2.Click += new System.EventHandler(this.guna2ImageButton2_Click);
             // 
             // label3
             // 
@@ -732,6 +748,7 @@
             this.label3.TabIndex = 11;
             this.label3.Text = "EOlymp";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // guna2CustomGradientPanel6
             // 
@@ -769,6 +786,7 @@
             this.guna2ImageButton3.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton3.Size = new System.Drawing.Size(140, 118);
             this.guna2ImageButton3.TabIndex = 0;
+            this.guna2ImageButton3.Click += new System.EventHandler(this.guna2ImageButton3_Click);
             // 
             // label4
             // 
@@ -820,6 +838,7 @@
             this.guna2ImageButton25.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton25.Size = new System.Drawing.Size(140, 118);
             this.guna2ImageButton25.TabIndex = 0;
+            this.guna2ImageButton25.Click += new System.EventHandler(this.guna2ImageButton25_Click);
             // 
             // label27
             // 
@@ -833,6 +852,7 @@
             this.label27.TabIndex = 11;
             this.label27.Text = "LightOJ";
             this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label27.Click += new System.EventHandler(this.label27_Click);
             // 
             // guna2CustomGradientPanel29
             // 

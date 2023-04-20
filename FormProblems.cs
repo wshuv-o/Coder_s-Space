@@ -81,11 +81,14 @@ namespace Coder_s_space
 
         private void label4_Click(object sender, EventArgs e)
         {
+            NavigateToWeb("https://dmoj.ca/");
 
         }
 
         private async void guna2ImageButton16_Click(object sender, EventArgs e)
         {
+            NavigateToWeb(" https://codeforces.com/");
+
         }
 
         private async void guna2ImageButton18_Click(object sender, EventArgs e)
@@ -101,11 +104,132 @@ namespace Coder_s_space
         public async void NavigateToWeb(string url)
         {
             flowLayoutPanel1.Controls.Clear();
-            flowLayoutPanel1.Padding = new Padding(0);
+            flowLayoutPanel1.Padding=new Padding(0,0,0,0);
+
             flowLayoutPanel1.Controls.Add(webView2k);
+            flowLayoutPanel1.AutoScroll = false;
             webView2k.BackColor=Color.White;
-            webView2k.Size = new System.Drawing.Size(1366, 768);
-            webView2k.CoreWebView2.Navigate("https://www.tutorialspoint.com/compile_csharp_online.php");
+            webView2k.Size = new System.Drawing.Size(1366, 750);
+            webView2k.CoreWebView2.Navigate(url);
+        }
+
+        private void label18_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb(" https://codeforces.com/");
+
+        }
+
+        private void guna2ImageButton17_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb("https://leetcode.com/");
+        }
+
+        private void label19_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb("https://leetcode.com/");
+
+        }
+
+        private void guna2ImageButton19_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb("https://www.hackerearth.com/");
+
+        }
+
+        private void label21_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb("https://www.hackerearth.com/");
+
+        }
+
+        private void guna2ImageButton20_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb("https://www.spoj.com/");
+
+        }
+
+        private void label22_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb("https://www.spoj.com/");
+
+        }
+
+        private void guna2ImageButton21_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb("https://open.kattis.com/");
+
+        }
+
+        private void label23_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb("https://open.kattis.com/");
+
+        }
+
+        private void guna2ImageButton22_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb("https://coderbyte.com/");
+
+        }
+
+        private void label24_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb("https://coderbyte.com/");
+
+        }
+
+        private void guna2ImageButton23_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb("https://www.codechef.com/");
+
+        }
+
+        private void label25_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb("https://www.codechef.com/");
+
+        }
+
+        private void guna2ImageButton1_Click_1(object sender, EventArgs e)
+        {
+            NavigateToWeb("https://www.geeksforgeeks.org/");
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb("https://www.geeksforgeeks.org/");
+
+        }
+
+        private void guna2ImageButton2_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb("https://www.e-olymp.com/");
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb("https://www.e-olymp.com/");
+
+        }
+
+        private void guna2ImageButton3_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb("https://dmoj.ca/");
+
+        }
+
+        private void guna2ImageButton25_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb("https://lightoj.com/");
+
+        }
+
+        private void label27_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb("https://lightoj.com/");
+
         }
     }
 }
