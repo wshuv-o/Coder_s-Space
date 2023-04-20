@@ -203,6 +203,16 @@ namespace Coder_s_space.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap B1rm7i_y_400x400 {
+            get {
+                object obj = ResourceManager.GetObject("B1rm7i-y_400x400", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap banner_for_Coder_s_space {
             get {
                 object obj = ResourceManager.GetObject("banner for Coder\'s space", resourceCulture);
@@ -466,6 +476,16 @@ namespace Coder_s_space.Properties {
         internal static System.Drawing.Bitmap group {
             get {
                 object obj = ResourceManager.GetObject("group", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap HackerEarth_logo {
+            get {
+                object obj = ResourceManager.GetObject("HackerEarth_logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
