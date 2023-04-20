@@ -694,6 +694,7 @@
             this.guna2ImageButton18.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton18.Size = new System.Drawing.Size(140, 118);
             this.guna2ImageButton18.TabIndex = 0;
+            this.guna2ImageButton18.Click += new System.EventHandler(this.guna2ImageButton18_Click);
             // 
             // guna2ImageButton19
             // 
