@@ -93,6 +93,7 @@ namespace Coder_s_space
             return mostCommonColor;
         }
 
+
         public static Color GetMostCommonClothColor(Image image)
         {
             // Set the target area of the cloth in the lower-middle part of the image
@@ -380,6 +381,16 @@ namespace Coder_s_space
 
             // Set the region of the picture box to the new circle region.
             pictureBox.Region = new System.Drawing.Region(circlePath);
+        }
+        public static void RoundWebView(Microsoft.Web.WebView2.WinForms.WebView2 webView, int radius)
+        {
+            GraphicsPath path = new GraphicsPath();
+            path.AddArc(0, 0, radius, radius, 180, 90);
+            path.AddArc(webView.Width - radius, 0, radius, radius, 270, 90);
+            path.AddArc(webView.Width - radius, webView.Height - radius, radius, radius, 0, 90);
+            path.AddArc(0, webView.Height - radius, radius, radius, 90, 90);
+            path.CloseFigure();
+            webView.Region = new Region(path);
         }
 
 

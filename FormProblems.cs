@@ -7,6 +7,7 @@ using System.Drawing;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Microsoft.Web.WebView2.WinForms;
+using System.Drawing.Drawing2D;
 
 namespace Coder_s_space
 {
@@ -29,11 +30,12 @@ namespace Coder_s_space
             _images.Add(Coder_s_space.Properties.Resources.banner_for_Coder_s_space__1_);
             _images.Add(Coder_s_space.Properties.Resources.banner_for_Coder_s_space__2_);
 
+
             // Set the initial image in the picture box
             guna2PictureBox1.Image = _images[_currentIndex];
 
             // Set the timer properties
-            _timer.Interval = 4000; // 5 seconds
+            _timer.Interval = 4000; // 4 seconds
             _timer.Tick += timer_Tick;
         }
 
@@ -48,37 +50,19 @@ namespace Coder_s_space
         async void InitWebView()
         {
             await webView2k.EnsureCoreWebView2Async(null);
-            webView2k.CoreWebView2.Navigate("https://www.tutorialspoint.com/compile_csharp_online.php");
-
+            _timer.Start();
         }
 
-        private async void FormProblems_Load(object sender, EventArgs e)
+       /* private async void FormProblems_Load(object sender, EventArgs e)
         {
             // Start the timer when the form is loaded
             _timer.Start();
-        }
+        }*/
 
         private void guna2ImageButton1_Click(object sender, EventArgs e)
         {
 
         }
-
-        private void flowLayoutPanel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-
-        private void guna2ImageButton10_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2ImageButton7_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void label4_Click(object sender, EventArgs e)
         {
             NavigateToWeb("https://dmoj.ca/");
@@ -105,14 +89,14 @@ namespace Coder_s_space
         {
             flowLayoutPanel1.Controls.Clear();
             flowLayoutPanel1.Padding=new Padding(0,0,0,0);
-
             flowLayoutPanel1.Controls.Add(webView2k);
             flowLayoutPanel1.AutoScroll = false;
             webView2k.BackColor=Color.White;
-            webView2k.Size = new System.Drawing.Size(1366, 750);
+            webView2k.Size = new System.Drawing.Size(1360, 710);
+            FunctionsAll.RoundWebView(webView2k, 30);
             webView2k.CoreWebView2.Navigate(url);
         }
-
+       
         private void label18_Click(object sender, EventArgs e)
         {
             NavigateToWeb(" https://codeforces.com/");
@@ -229,6 +213,155 @@ namespace Coder_s_space
         private void label27_Click(object sender, EventArgs e)
         {
             NavigateToWeb("https://lightoj.com/");
+
+        }
+
+        private void label20_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb("https://www.hackerrank.com/");
+
+        }
+
+        private void guna2ImageButton4_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb("https://icpc.global/");
+
+        }
+
+        private void guna2ImageButton28_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb("https://codingcompetitions.withgoogle.com/codejam");
+        }
+
+        private void label30_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb("https://codingcompetitions.withgoogle.com/codejam");
+
+        }
+
+        private void guna2ImageButton27_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb("https://www.facebook.com/codingcompetitions/hacker-cup/");
+
+        }
+
+        private void label29_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb("https://www.facebook.com/codingcompetitions/hacker-cup/");
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb("https://icpc.global/");
+
+        }
+
+        private void guna2ImageButton29_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb("https://ioinformatics.org/");
+
+        }
+
+        private void label31_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb("https://ioinformatics.org/");
+
+        }
+
+        private void guna2ImageButton26_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb(" https://www.topcoder.com/community/topcoder-open/");
+
+        }
+
+        private void label28_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb(" https://www.topcoder.com/community/topcoder-open/");
+
+        }
+
+        private void guna2ImageButton31_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb(" https://imaginecup.microsoft.com/en-us");
+
+        }
+
+        private void guna2ImageButton30_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb("  https://codingcompetitions.withgoogle.com/hashcode");
+
+        }
+
+        private void label33_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb(" https://imaginecup.microsoft.com/en-us");
+
+        }
+
+        private void label32_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb("  https://codingcompetitions.withgoogle.com/hashcode");
+
+        }
+
+        private void guna2ImageButton32_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb(" https://ieeextreme.org/");
+
+        }
+
+        private void label38_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb(" https://itch.io/jams");
+
+        }
+
+        private void label35_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb(" https://icfc2019.github.io/");
+
+        }
+
+        private void label34_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb(" https://ieeextreme.org/"); ;
+
+        }
+
+        private void guna2ImageButton34_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb(" https://atcoder.jp/");
+
+        }
+
+        private void label36_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb(" https://atcoder.jp/");
+
+        }
+
+        private void guna2ImageButton35_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb("https://www.codewars.com/");
+
+        }
+
+        private void label37_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb("https://www.codewars.com/");
+
+        }
+
+        private void guna2ImageButton36_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb(" https://itch.io/jams");
+
+        }
+
+        private void guna2ImageButton33_Click(object sender, EventArgs e)
+        {
+            NavigateToWeb("https://icfc2019.github.io/");
 
         }
     }

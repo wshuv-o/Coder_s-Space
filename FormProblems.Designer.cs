@@ -111,6 +111,7 @@
             this.label38 = new System.Windows.Forms.Label();
             this.guna2CustomGradientPanel43 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.label1 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.directoryEntry1 = new System.DirectoryServices.DirectoryEntry();
             this.flowLayoutPanel1.SuspendLayout();
             this.guna2CustomGradientPanel1.SuspendLayout();
@@ -154,6 +155,7 @@
             this.flowLayoutPanel1.Controls.Add(this.guna2CustomGradientPanel1);
             this.flowLayoutPanel1.Controls.Add(this.guna2CustomGradientPanel3);
             this.flowLayoutPanel1.Controls.Add(this.guna2CustomGradientPanel30);
+            this.flowLayoutPanel1.Controls.Add(this.panel1);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
@@ -385,6 +387,7 @@
             this.label20.TabIndex = 11;
             this.label20.Text = "Hackerrank";
             this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label20.Click += new System.EventHandler(this.label20_Click);
             // 
             // guna2CustomGradientPanel22
             // 
@@ -776,7 +779,7 @@
             this.guna2ImageButton3.BackColor = System.Drawing.Color.Black;
             this.guna2ImageButton3.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2ImageButton3.HoverState.ImageSize = new System.Drawing.Size(130, 65);
+            this.guna2ImageButton3.HoverState.ImageSize = new System.Drawing.Size(140, 50);
             this.guna2ImageButton3.Image = global::Coder_s_space.Properties.Resources.logo_021be82ad4a6;
             this.guna2ImageButton3.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageButton3.ImageRotate = 0F;
@@ -828,7 +831,7 @@
             this.guna2ImageButton25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(103)))), ((int)(((byte)(196)))));
             this.guna2ImageButton25.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton25.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2ImageButton25.HoverState.ImageSize = new System.Drawing.Size(130, 65);
+            this.guna2ImageButton25.HoverState.ImageSize = new System.Drawing.Size(140, 60);
             this.guna2ImageButton25.Image = global::Coder_s_space.Properties.Resources.loj_logo_inverted;
             this.guna2ImageButton25.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageButton25.ImageRotate = 0F;
@@ -958,6 +961,7 @@
             this.guna2ImageButton4.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton4.Size = new System.Drawing.Size(140, 118);
             this.guna2ImageButton4.TabIndex = 0;
+            this.guna2ImageButton4.Click += new System.EventHandler(this.guna2ImageButton4_Click);
             // 
             // label5
             // 
@@ -971,6 +975,7 @@
             this.label5.TabIndex = 11;
             this.label5.Text = "ICPC";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // guna2CustomGradientPanel32
             // 
@@ -1008,6 +1013,7 @@
             this.guna2ImageButton26.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton26.Size = new System.Drawing.Size(140, 118);
             this.guna2ImageButton26.TabIndex = 0;
+            this.guna2ImageButton26.Click += new System.EventHandler(this.guna2ImageButton26_Click);
             // 
             // label28
             // 
@@ -1021,6 +1027,7 @@
             this.label28.TabIndex = 11;
             this.label28.Text = "Topcoder";
             this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label28.Click += new System.EventHandler(this.label28_Click);
             // 
             // guna2CustomGradientPanel33
             // 
@@ -1058,6 +1065,7 @@
             this.guna2ImageButton27.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton27.Size = new System.Drawing.Size(140, 118);
             this.guna2ImageButton27.TabIndex = 0;
+            this.guna2ImageButton27.Click += new System.EventHandler(this.guna2ImageButton27_Click);
             // 
             // label29
             // 
@@ -1071,6 +1079,7 @@
             this.label29.TabIndex = 11;
             this.label29.Text = "Hacker Cup";
             this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label29.Click += new System.EventHandler(this.label29_Click);
             // 
             // guna2CustomGradientPanel34
             // 
@@ -1108,6 +1117,7 @@
             this.guna2ImageButton28.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton28.Size = new System.Drawing.Size(140, 118);
             this.guna2ImageButton28.TabIndex = 0;
+            this.guna2ImageButton28.Click += new System.EventHandler(this.guna2ImageButton28_Click);
             // 
             // label30
             // 
@@ -1121,6 +1131,7 @@
             this.label30.TabIndex = 11;
             this.label30.Text = "Code Jam";
             this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label30.Click += new System.EventHandler(this.label30_Click);
             // 
             // guna2CustomGradientPanel35
             // 
@@ -1158,6 +1169,7 @@
             this.guna2ImageButton29.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton29.Size = new System.Drawing.Size(140, 118);
             this.guna2ImageButton29.TabIndex = 0;
+            this.guna2ImageButton29.Click += new System.EventHandler(this.guna2ImageButton29_Click);
             // 
             // label31
             // 
@@ -1171,6 +1183,7 @@
             this.label31.TabIndex = 11;
             this.label31.Text = "IOI";
             this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label31.Click += new System.EventHandler(this.label31_Click);
             // 
             // guna2CustomGradientPanel36
             // 
@@ -1208,6 +1221,7 @@
             this.guna2ImageButton30.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton30.Size = new System.Drawing.Size(140, 118);
             this.guna2ImageButton30.TabIndex = 0;
+            this.guna2ImageButton30.Click += new System.EventHandler(this.guna2ImageButton30_Click);
             // 
             // label32
             // 
@@ -1221,6 +1235,7 @@
             this.label32.TabIndex = 11;
             this.label32.Text = "Hash Code";
             this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label32.Click += new System.EventHandler(this.label32_Click);
             // 
             // guna2CustomGradientPanel37
             // 
@@ -1258,6 +1273,7 @@
             this.guna2ImageButton31.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton31.Size = new System.Drawing.Size(140, 118);
             this.guna2ImageButton31.TabIndex = 0;
+            this.guna2ImageButton31.Click += new System.EventHandler(this.guna2ImageButton31_Click);
             // 
             // label33
             // 
@@ -1271,6 +1287,7 @@
             this.label33.TabIndex = 11;
             this.label33.Text = "Imagine Cup";
             this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label33.Click += new System.EventHandler(this.label33_Click);
             // 
             // guna2CustomGradientPanel38
             // 
@@ -1308,6 +1325,7 @@
             this.guna2ImageButton32.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton32.Size = new System.Drawing.Size(140, 118);
             this.guna2ImageButton32.TabIndex = 0;
+            this.guna2ImageButton32.Click += new System.EventHandler(this.guna2ImageButton32_Click);
             // 
             // label34
             // 
@@ -1321,6 +1339,7 @@
             this.label34.TabIndex = 11;
             this.label34.Text = "IEEEXtreme";
             this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label34.Click += new System.EventHandler(this.label34_Click);
             // 
             // guna2CustomGradientPanel39
             // 
@@ -1358,6 +1377,7 @@
             this.guna2ImageButton33.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton33.Size = new System.Drawing.Size(140, 118);
             this.guna2ImageButton33.TabIndex = 0;
+            this.guna2ImageButton33.Click += new System.EventHandler(this.guna2ImageButton33_Click);
             // 
             // label35
             // 
@@ -1371,6 +1391,7 @@
             this.label35.TabIndex = 11;
             this.label35.Text = "ICFC";
             this.label35.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label35.Click += new System.EventHandler(this.label35_Click);
             // 
             // guna2CustomGradientPanel40
             // 
@@ -1408,6 +1429,7 @@
             this.guna2ImageButton34.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton34.Size = new System.Drawing.Size(140, 118);
             this.guna2ImageButton34.TabIndex = 0;
+            this.guna2ImageButton34.Click += new System.EventHandler(this.guna2ImageButton34_Click);
             // 
             // label36
             // 
@@ -1421,6 +1443,7 @@
             this.label36.TabIndex = 11;
             this.label36.Text = "Atcoder";
             this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label36.Click += new System.EventHandler(this.label36_Click);
             // 
             // guna2CustomGradientPanel41
             // 
@@ -1458,6 +1481,7 @@
             this.guna2ImageButton35.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton35.Size = new System.Drawing.Size(140, 118);
             this.guna2ImageButton35.TabIndex = 0;
+            this.guna2ImageButton35.Click += new System.EventHandler(this.guna2ImageButton35_Click);
             // 
             // label37
             // 
@@ -1469,8 +1493,9 @@
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(140, 31);
             this.label37.TabIndex = 11;
-            this.label37.Text = "ICFC";
+            this.label37.Text = "Codewars";
             this.label37.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label37.Click += new System.EventHandler(this.label37_Click);
             // 
             // guna2CustomGradientPanel42
             // 
@@ -1508,6 +1533,7 @@
             this.guna2ImageButton36.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton36.Size = new System.Drawing.Size(140, 118);
             this.guna2ImageButton36.TabIndex = 0;
+            this.guna2ImageButton36.Click += new System.EventHandler(this.guna2ImageButton36_Click);
             // 
             // label38
             // 
@@ -1521,6 +1547,7 @@
             this.label38.TabIndex = 11;
             this.label38.Text = "Game Jams";
             this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label38.Click += new System.EventHandler(this.label38_Click);
             // 
             // guna2CustomGradientPanel43
             // 
@@ -1548,6 +1575,13 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Programming/Development Contests";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel1
+            // 
+            this.panel1.Location = new System.Drawing.Point(18, 1246);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1318, 74);
+            this.panel1.TabIndex = 46;
             // 
             // FormProblems
             // 
@@ -1683,5 +1717,6 @@
         private System.Windows.Forms.Label label38;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel43;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel1;
     }
 }
