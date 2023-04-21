@@ -1389,7 +1389,7 @@
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(140, 31);
             this.label35.TabIndex = 11;
-            this.label35.Text = "ICFC";
+            this.label35.Text = "ICFP";
             this.label35.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label35.Click += new System.EventHandler(this.label35_Click);
             // 

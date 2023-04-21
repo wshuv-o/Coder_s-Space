@@ -271,13 +271,13 @@ namespace Coder_s_space
 
         private void guna2ImageButton26_Click(object sender, EventArgs e)
         {
-            NavigateToWeb(" https://www.topcoder.com/community/topcoder-open/");
+            NavigateToWeb(" https://tco23.topcoder.com/");
 
         }
 
         private void label28_Click(object sender, EventArgs e)
         {
-            NavigateToWeb(" https://www.topcoder.com/community/topcoder-open/");
+            NavigateToWeb("https://tco23.topcoder.com/");
 
         }
 
@@ -319,8 +319,7 @@ namespace Coder_s_space
 
         private void label35_Click(object sender, EventArgs e)
         {
-            NavigateToWeb(" https://icfc2019.github.io/");
-
+            NavigateToWeb("https://www.icfpconference.org/");
         }
 
         private void label34_Click(object sender, EventArgs e)
@@ -361,7 +360,7 @@ namespace Coder_s_space
 
         private void guna2ImageButton33_Click(object sender, EventArgs e)
         {
-            NavigateToWeb("https://icfc2019.github.io/");
+            NavigateToWeb("https://www.icfpconference.org/");
 
         }
     }
