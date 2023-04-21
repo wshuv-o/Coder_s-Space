@@ -93,6 +93,12 @@
     <Compile Include="FormArticle.Designer.cs">
       <DependentUpon>FormArticle.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormClouds.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormClouds.Designer.cs">
+      <DependentUpon>FormClouds.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormProblems.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -155,6 +161,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormArticle.resx">
       <DependentUpon>FormArticle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormClouds.resx">
+      <DependentUpon>FormClouds.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormProblems.resx">
       <DependentUpon>FormProblems.cs</DependentUpon>
