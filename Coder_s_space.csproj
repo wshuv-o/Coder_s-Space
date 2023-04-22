@@ -99,6 +99,12 @@
     <Compile Include="FormClouds.Designer.cs">
       <DependentUpon>FormClouds.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormJobs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormJobs.Designer.cs">
+      <DependentUpon>FormJobs.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormProblems.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -164,6 +170,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormClouds.resx">
       <DependentUpon>FormClouds.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormJobs.resx">
+      <DependentUpon>FormJobs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormProblems.resx">
       <DependentUpon>FormProblems.cs</DependentUpon>
