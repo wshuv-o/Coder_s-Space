@@ -44,7 +44,6 @@ namespace Coder_s_space
             this.buttonComm = new System.Windows.Forms.Button();
             this.buttonCompile = new System.Windows.Forms.Button();
             this.buttonCloud = new System.Windows.Forms.Button();
-            this.buttonArticle = new System.Windows.Forms.Button();
             this.buttonCourse = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
@@ -59,6 +58,7 @@ namespace Coder_s_space
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.toolTipControlPanel = new System.Windows.Forms.ToolTip(this.components);
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+            this.buttonArticle = new System.Windows.Forms.Button();
             this.panelMenu.SuspendLayout();
             this.panel10.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -119,6 +119,7 @@ namespace Coder_s_space
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.panel2.BackgroundImage = global::Coder_s_space.Properties.Resources.Vector_1__1_;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel2.Controls.Add(this.buttonArticle);
             this.panel2.Controls.Add(this.buttonJob);
             this.panel2.Controls.Add(this.buttonPortfolio);
             this.panel2.Controls.Add(this.buttonKeySpeed);
@@ -126,7 +127,6 @@ namespace Coder_s_space
             this.panel2.Controls.Add(this.buttonComm);
             this.panel2.Controls.Add(this.buttonCompile);
             this.panel2.Controls.Add(this.buttonCloud);
-            this.panel2.Controls.Add(this.buttonArticle);
             this.panel2.Controls.Add(this.buttonCourse);
             this.panel2.Location = new System.Drawing.Point(0, 95);
             this.panel2.Name = "panel2";
@@ -147,7 +147,7 @@ namespace Coder_s_space
             this.buttonJob.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(127)))), ((int)(((byte)(255)))), ((int)(((byte)(212)))));
             this.buttonJob.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonJob.ForeColor = System.Drawing.Color.Cyan;
-            this.buttonJob.Location = new System.Drawing.Point(12, 450);
+            this.buttonJob.Location = new System.Drawing.Point(12, 397);
             this.buttonJob.Name = "buttonJob";
             this.buttonJob.Size = new System.Drawing.Size(53, 53);
             this.buttonJob.TabIndex = 20;
@@ -166,7 +166,7 @@ namespace Coder_s_space
             this.buttonPortfolio.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(127)))), ((int)(((byte)(255)))), ((int)(((byte)(212)))));
             this.buttonPortfolio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonPortfolio.ForeColor = System.Drawing.Color.Cyan;
-            this.buttonPortfolio.Location = new System.Drawing.Point(12, 397);
+            this.buttonPortfolio.Location = new System.Drawing.Point(12, 344);
             this.buttonPortfolio.Name = "buttonPortfolio";
             this.buttonPortfolio.Size = new System.Drawing.Size(53, 53);
             this.buttonPortfolio.TabIndex = 19;
@@ -185,7 +185,7 @@ namespace Coder_s_space
             this.buttonKeySpeed.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(127)))), ((int)(((byte)(255)))), ((int)(((byte)(212)))));
             this.buttonKeySpeed.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonKeySpeed.ForeColor = System.Drawing.Color.Cyan;
-            this.buttonKeySpeed.Location = new System.Drawing.Point(12, 344);
+            this.buttonKeySpeed.Location = new System.Drawing.Point(12, 291);
             this.buttonKeySpeed.Name = "buttonKeySpeed";
             this.buttonKeySpeed.Size = new System.Drawing.Size(53, 53);
             this.buttonKeySpeed.TabIndex = 18;
@@ -204,7 +204,7 @@ namespace Coder_s_space
             this.buttonProblems.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(127)))), ((int)(((byte)(255)))), ((int)(((byte)(212)))));
             this.buttonProblems.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonProblems.ForeColor = System.Drawing.Color.Cyan;
-            this.buttonProblems.Location = new System.Drawing.Point(12, 291);
+            this.buttonProblems.Location = new System.Drawing.Point(12, 238);
             this.buttonProblems.Name = "buttonProblems";
             this.buttonProblems.Size = new System.Drawing.Size(53, 53);
             this.buttonProblems.TabIndex = 17;
@@ -223,7 +223,7 @@ namespace Coder_s_space
             this.buttonComm.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(127)))), ((int)(((byte)(255)))), ((int)(((byte)(212)))));
             this.buttonComm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonComm.ForeColor = System.Drawing.Color.Cyan;
-            this.buttonComm.Location = new System.Drawing.Point(12, 238);
+            this.buttonComm.Location = new System.Drawing.Point(12, 185);
             this.buttonComm.Name = "buttonComm";
             this.buttonComm.Size = new System.Drawing.Size(53, 53);
             this.buttonComm.TabIndex = 16;
@@ -242,7 +242,7 @@ namespace Coder_s_space
             this.buttonCompile.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(127)))), ((int)(((byte)(255)))), ((int)(((byte)(212)))));
             this.buttonCompile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonCompile.ForeColor = System.Drawing.Color.Cyan;
-            this.buttonCompile.Location = new System.Drawing.Point(12, 185);
+            this.buttonCompile.Location = new System.Drawing.Point(12, 132);
             this.buttonCompile.Name = "buttonCompile";
             this.buttonCompile.Size = new System.Drawing.Size(53, 53);
             this.buttonCompile.TabIndex = 15;
@@ -261,32 +261,13 @@ namespace Coder_s_space
             this.buttonCloud.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(127)))), ((int)(((byte)(255)))), ((int)(((byte)(212)))));
             this.buttonCloud.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonCloud.ForeColor = System.Drawing.Color.Cyan;
-            this.buttonCloud.Location = new System.Drawing.Point(12, 132);
+            this.buttonCloud.Location = new System.Drawing.Point(12, 79);
             this.buttonCloud.Name = "buttonCloud";
             this.buttonCloud.Size = new System.Drawing.Size(53, 53);
             this.buttonCloud.TabIndex = 14;
             this.toolTip.SetToolTip(this.buttonCloud, " Clouds");
             this.buttonCloud.UseVisualStyleBackColor = false;
             this.buttonCloud.Click += new System.EventHandler(this.button3_Click_1);
-            // 
-            // buttonArticle
-            // 
-            this.buttonArticle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.buttonArticle.BackgroundImage = global::Coder_s_space.Properties.Resources.compiler__1_;
-            this.buttonArticle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.buttonArticle.Dock = System.Windows.Forms.DockStyle.Top;
-            this.buttonArticle.FlatAppearance.BorderSize = 0;
-            this.buttonArticle.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Tomato;
-            this.buttonArticle.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(127)))), ((int)(((byte)(255)))), ((int)(((byte)(212)))));
-            this.buttonArticle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonArticle.ForeColor = System.Drawing.Color.Cyan;
-            this.buttonArticle.Location = new System.Drawing.Point(12, 79);
-            this.buttonArticle.Name = "buttonArticle";
-            this.buttonArticle.Size = new System.Drawing.Size(53, 53);
-            this.buttonArticle.TabIndex = 13;
-            this.toolTip.SetToolTip(this.buttonArticle, "Article");
-            this.buttonArticle.UseVisualStyleBackColor = false;
-            this.buttonArticle.Click += new System.EventHandler(this.buttonArticle_Click);
             // 
             // buttonCourse
             // 
@@ -431,6 +412,24 @@ namespace Coder_s_space
             this.toolTipControlPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(9)))), ((int)(((byte)(9)))));
             this.toolTipControlPanel.ForeColor = System.Drawing.Color.LightSalmon;
             // 
+            // buttonArticle
+            // 
+            this.buttonArticle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.buttonArticle.BackgroundImage = global::Coder_s_space.Properties.Resources.compiler__1_;
+            this.buttonArticle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.buttonArticle.Dock = System.Windows.Forms.DockStyle.Top;
+            this.buttonArticle.FlatAppearance.BorderSize = 0;
+            this.buttonArticle.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Tomato;
+            this.buttonArticle.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(127)))), ((int)(((byte)(255)))), ((int)(((byte)(212)))));
+            this.buttonArticle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonArticle.ForeColor = System.Drawing.Color.Cyan;
+            this.buttonArticle.Location = new System.Drawing.Point(12, 450);
+            this.buttonArticle.Name = "buttonArticle";
+            this.buttonArticle.Size = new System.Drawing.Size(53, 53);
+            this.buttonArticle.TabIndex = 21;
+            this.toolTip.SetToolTip(this.buttonArticle, "Article");
+            this.buttonArticle.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
@@ -483,7 +482,6 @@ namespace Coder_s_space
         private System.Windows.Forms.Button buttonComm;
         private System.Windows.Forms.Button buttonCompile;
         private System.Windows.Forms.Button buttonCloud;
-        private System.Windows.Forms.Button buttonArticle;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
@@ -492,6 +490,7 @@ namespace Coder_s_space
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.ToolTip toolTipControlPanel;
         private System.Windows.Forms.ToolTip toolTip;
+        private System.Windows.Forms.Button buttonArticle;
     }
 }
 
