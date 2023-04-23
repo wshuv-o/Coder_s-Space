@@ -699,6 +699,12 @@
   <ItemGroup>
     <None Include="Resources\rsz_images_41.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61753063868.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maxresdefault %281%29.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

@@ -173,6 +173,16 @@ namespace Coder_s_space.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _61753063868 {
+            get {
+                object obj = ResourceManager.GetObject("61753063868", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _8cc57f8ba9c4c884ec562d163cd506cc {
             get {
                 object obj = ResourceManager.GetObject("8cc57f8ba9c4c884ec562d163cd506cc", resourceCulture);
@@ -1096,6 +1106,16 @@ namespace Coder_s_space.Properties {
         internal static System.Drawing.Bitmap mainLogoMobile_cf0665dd {
             get {
                 object obj = ResourceManager.GetObject("mainLogoMobile.cf0665dd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap maxresdefault__1_ {
+            get {
+                object obj = ResourceManager.GetObject("maxresdefault (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
