@@ -264,7 +264,7 @@ namespace Coder_s_space
 
         private void button10_Click(object sender, EventArgs e)
         {
-
+            OpenChildForm(new FormCourses(), panel11);
         }
 
         private void buttonArticle_Click(object sender, EventArgs e)
@@ -348,6 +348,9 @@ namespace Coder_s_space
             }
         }
 
-        
+        private void buttonArticle_Click_1(object sender, EventArgs e)
+        {
+            OpenChildForm(new FormJobs(),panel11);
+        }
     }
 }

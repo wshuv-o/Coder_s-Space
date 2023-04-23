@@ -415,7 +415,7 @@ namespace Coder_s_space
             // buttonArticle
             // 
             this.buttonArticle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.buttonArticle.BackgroundImage = global::Coder_s_space.Properties.Resources.compiler__1_;
+            this.buttonArticle.BackgroundImage = global::Coder_s_space.Properties.Resources.job_search;
             this.buttonArticle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.buttonArticle.Dock = System.Windows.Forms.DockStyle.Top;
             this.buttonArticle.FlatAppearance.BorderSize = 0;
@@ -429,6 +429,7 @@ namespace Coder_s_space
             this.buttonArticle.TabIndex = 21;
             this.toolTip.SetToolTip(this.buttonArticle, "Article");
             this.buttonArticle.UseVisualStyleBackColor = false;
+            this.buttonArticle.Click += new System.EventHandler(this.buttonArticle_Click_1);
             // 
             // Form1
             // 
