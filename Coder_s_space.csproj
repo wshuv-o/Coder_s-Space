@@ -87,6 +87,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="formAbout.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="formAbout.Designer.cs">
+      <DependentUpon>formAbout.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormArticle.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +104,12 @@
     </Compile>
     <Compile Include="FormClouds.Designer.cs">
       <DependentUpon>FormClouds.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formContact.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="formContact.Designer.cs">
+      <DependentUpon>formContact.cs</DependentUpon>
     </Compile>
     <Compile Include="FormJobs.cs">
       <SubType>Form</SubType>
@@ -159,17 +171,29 @@
     <Compile Include="FormVote.Designer.cs">
       <DependentUpon>FormVote.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmContact.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmContact.Designer.cs">
+      <DependentUpon>frmContact.cs</DependentUpon>
+    </Compile>
     <Compile Include="FunctionsAll.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="formAbout.resx">
+      <DependentUpon>formAbout.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormArticle.resx">
       <DependentUpon>FormArticle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormClouds.resx">
       <DependentUpon>FormClouds.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formContact.resx">
+      <DependentUpon>formContact.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormJobs.resx">
       <DependentUpon>FormJobs.cs</DependentUpon>
@@ -200,6 +224,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormVote.resx">
       <DependentUpon>FormVote.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmContact.resx">
+      <DependentUpon>frmContact.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -596,6 +623,72 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\loj-logo-inverted.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_12images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_1download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_pngtree-minus-vector-icon-png-image_696413.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_download_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_download_11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_download_1 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_download_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_download_4 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_download_1 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_download_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_download_3 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_168823536-stock-photo-office-desk-table-with-laptop.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%291.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %283%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_images_31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_1download_71.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_images_41.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
