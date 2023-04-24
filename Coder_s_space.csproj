@@ -741,6 +741,18 @@
   <ItemGroup>
     <None Include="Resources\cpp11.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\py4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\py3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\py2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\py1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

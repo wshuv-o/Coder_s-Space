@@ -40,6 +40,18 @@
             this.guna2CustomGradientPanel6 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.guna2ImageButton3 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.label6 = new System.Windows.Forms.Label();
+            this.guna2CustomGradientPanel19 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.guna2ImageButton14 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.label18 = new System.Windows.Forms.Label();
+            this.guna2CustomGradientPanel20 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.guna2ImageButton15 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.label19 = new System.Windows.Forms.Label();
+            this.guna2CustomGradientPanel21 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.guna2ImageButton16 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.label20 = new System.Windows.Forms.Label();
+            this.guna2CustomGradientPanel22 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.guna2ImageButton17 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.label21 = new System.Windows.Forms.Label();
             this.guna2CustomGradientPanel29 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.label10 = new System.Windows.Forms.Label();
             this.guna2CustomGradientPanel30 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
@@ -47,6 +59,27 @@
             this.guna2CustomGradientPanel35 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.label3 = new System.Windows.Forms.Label();
             this.guna2ImageButton29 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.guna2CustomGradientPanel7 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.guna2ImageButton4 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.guna2CustomGradientPanel8 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.label8 = new System.Windows.Forms.Label();
+            this.guna2ImageButton5 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.guna2CustomGradientPanel9 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.label9 = new System.Windows.Forms.Label();
+            this.guna2ImageButton6 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.guna2CustomGradientPanel11 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.label12 = new System.Windows.Forms.Label();
+            this.guna2ImageButton8 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.guna2CustomGradientPanel18 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.label17 = new System.Windows.Forms.Label();
+            this.guna2ImageButton13 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.guna2CustomGradientPanel14 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.label15 = new System.Windows.Forms.Label();
+            this.guna2ImageButton11 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.guna2CustomGradientPanel10 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.label11 = new System.Windows.Forms.Label();
+            this.guna2ImageButton7 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2CustomGradientPanel43 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
@@ -86,39 +119,15 @@
             this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2CustomGradientPanel7 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.guna2ImageButton4 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2CustomGradientPanel8 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.guna2ImageButton5 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2CustomGradientPanel9 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.label9 = new System.Windows.Forms.Label();
-            this.guna2ImageButton6 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2CustomGradientPanel10 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.label11 = new System.Windows.Forms.Label();
-            this.guna2ImageButton7 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2CustomGradientPanel11 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.label12 = new System.Windows.Forms.Label();
-            this.guna2ImageButton8 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2CustomGradientPanel14 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.label15 = new System.Windows.Forms.Label();
-            this.guna2ImageButton11 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2CustomGradientPanel18 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.label17 = new System.Windows.Forms.Label();
-            this.guna2ImageButton13 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2CustomGradientPanel19 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.guna2ImageButton14 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.label18 = new System.Windows.Forms.Label();
-            this.guna2CustomGradientPanel20 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.guna2ImageButton15 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.label19 = new System.Windows.Forms.Label();
-            this.guna2CustomGradientPanel21 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.guna2ImageButton16 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.label20 = new System.Windows.Forms.Label();
-            this.guna2CustomGradientPanel22 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.guna2ImageButton17 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.label21 = new System.Windows.Forms.Label();
+            this.guna2CustomGradientPanel23 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.guna2ImageButton18 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.label22 = new System.Windows.Forms.Label();
+            this.guna2CustomGradientPanel24 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.guna2ImageButton19 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.label23 = new System.Windows.Forms.Label();
+            this.guna2CustomGradientPanel25 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.guna2ImageButton20 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.label24 = new System.Windows.Forms.Label();
             this.flowLayoutPanel1.SuspendLayout();
             this.guna2CustomGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -126,10 +135,21 @@
             this.flowLayoutPanel3.SuspendLayout();
             this.guna2CustomGradientPanel12.SuspendLayout();
             this.guna2CustomGradientPanel6.SuspendLayout();
+            this.guna2CustomGradientPanel19.SuspendLayout();
+            this.guna2CustomGradientPanel20.SuspendLayout();
+            this.guna2CustomGradientPanel21.SuspendLayout();
+            this.guna2CustomGradientPanel22.SuspendLayout();
             this.guna2CustomGradientPanel29.SuspendLayout();
             this.guna2CustomGradientPanel30.SuspendLayout();
             this.flowLayoutPanel4.SuspendLayout();
             this.guna2CustomGradientPanel35.SuspendLayout();
+            this.guna2CustomGradientPanel7.SuspendLayout();
+            this.guna2CustomGradientPanel8.SuspendLayout();
+            this.guna2CustomGradientPanel9.SuspendLayout();
+            this.guna2CustomGradientPanel11.SuspendLayout();
+            this.guna2CustomGradientPanel18.SuspendLayout();
+            this.guna2CustomGradientPanel14.SuspendLayout();
+            this.guna2CustomGradientPanel10.SuspendLayout();
             this.guna2CustomGradientPanel43.SuspendLayout();
             this.guna2CustomGradientPanel2.SuspendLayout();
             this.flowLayoutPanel5.SuspendLayout();
@@ -148,17 +168,9 @@
             this.guna2CustomGradientPanel17.SuspendLayout();
             this.guna2CustomGradientPanel61.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
-            this.guna2CustomGradientPanel7.SuspendLayout();
-            this.guna2CustomGradientPanel8.SuspendLayout();
-            this.guna2CustomGradientPanel9.SuspendLayout();
-            this.guna2CustomGradientPanel10.SuspendLayout();
-            this.guna2CustomGradientPanel11.SuspendLayout();
-            this.guna2CustomGradientPanel14.SuspendLayout();
-            this.guna2CustomGradientPanel18.SuspendLayout();
-            this.guna2CustomGradientPanel19.SuspendLayout();
-            this.guna2CustomGradientPanel20.SuspendLayout();
-            this.guna2CustomGradientPanel21.SuspendLayout();
-            this.guna2CustomGradientPanel22.SuspendLayout();
+            this.guna2CustomGradientPanel23.SuspendLayout();
+            this.guna2CustomGradientPanel24.SuspendLayout();
+            this.guna2CustomGradientPanel25.SuspendLayout();
             this.SuspendLayout();
             // 
             // flowLayoutPanel1
@@ -343,6 +355,206 @@
             this.label6.Text = "C# in 100 Seconds";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // guna2CustomGradientPanel19
+            // 
+            this.guna2CustomGradientPanel19.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel19.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel19.BorderRadius = 15;
+            this.guna2CustomGradientPanel19.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.guna2CustomGradientPanel19.BorderThickness = 10;
+            this.guna2CustomGradientPanel19.Controls.Add(this.guna2ImageButton14);
+            this.guna2CustomGradientPanel19.Controls.Add(this.label18);
+            this.guna2CustomGradientPanel19.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel19.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.guna2CustomGradientPanel19.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.guna2CustomGradientPanel19.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.guna2CustomGradientPanel19.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.guna2CustomGradientPanel19.Location = new System.Drawing.Point(568, 20);
+            this.guna2CustomGradientPanel19.Margin = new System.Windows.Forms.Padding(10);
+            this.guna2CustomGradientPanel19.Name = "guna2CustomGradientPanel19";
+            this.guna2CustomGradientPanel19.Size = new System.Drawing.Size(194, 146);
+            this.guna2CustomGradientPanel19.TabIndex = 44;
+            // 
+            // guna2ImageButton14
+            // 
+            this.guna2ImageButton14.AnimatedGIF = true;
+            this.guna2ImageButton14.BackColor = System.Drawing.Color.White;
+            this.guna2ImageButton14.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton14.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2ImageButton14.HoverState.ImageSize = new System.Drawing.Size(200, 115);
+            this.guna2ImageButton14.Image = global::Coder_s_space.Properties.Resources.c_3;
+            this.guna2ImageButton14.ImageOffset = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton14.ImageRotate = 0F;
+            this.guna2ImageButton14.ImageSize = new System.Drawing.Size(194, 112);
+            this.guna2ImageButton14.Location = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton14.Name = "guna2ImageButton14";
+            this.guna2ImageButton14.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton14.Size = new System.Drawing.Size(194, 112);
+            this.guna2ImageButton14.TabIndex = 0;
+            // 
+            // label18
+            // 
+            this.label18.BackColor = System.Drawing.Color.Transparent;
+            this.label18.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.label18.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.Color.White;
+            this.label18.Location = new System.Drawing.Point(0, 115);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(194, 31);
+            this.label18.TabIndex = 11;
+            this.label18.Text = "The MANY things you can build with C#";
+            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2CustomGradientPanel20
+            // 
+            this.guna2CustomGradientPanel20.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel20.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel20.BorderRadius = 15;
+            this.guna2CustomGradientPanel20.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.guna2CustomGradientPanel20.BorderThickness = 10;
+            this.guna2CustomGradientPanel20.Controls.Add(this.guna2ImageButton15);
+            this.guna2CustomGradientPanel20.Controls.Add(this.label19);
+            this.guna2CustomGradientPanel20.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel20.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.guna2CustomGradientPanel20.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.guna2CustomGradientPanel20.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.guna2CustomGradientPanel20.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.guna2CustomGradientPanel20.Location = new System.Drawing.Point(782, 20);
+            this.guna2CustomGradientPanel20.Margin = new System.Windows.Forms.Padding(10);
+            this.guna2CustomGradientPanel20.Name = "guna2CustomGradientPanel20";
+            this.guna2CustomGradientPanel20.Size = new System.Drawing.Size(194, 146);
+            this.guna2CustomGradientPanel20.TabIndex = 45;
+            // 
+            // guna2ImageButton15
+            // 
+            this.guna2ImageButton15.AnimatedGIF = true;
+            this.guna2ImageButton15.BackColor = System.Drawing.Color.White;
+            this.guna2ImageButton15.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton15.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2ImageButton15.HoverState.ImageSize = new System.Drawing.Size(200, 115);
+            this.guna2ImageButton15.Image = global::Coder_s_space.Properties.Resources.c_4;
+            this.guna2ImageButton15.ImageOffset = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton15.ImageRotate = 0F;
+            this.guna2ImageButton15.ImageSize = new System.Drawing.Size(194, 112);
+            this.guna2ImageButton15.Location = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton15.Name = "guna2ImageButton15";
+            this.guna2ImageButton15.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton15.Size = new System.Drawing.Size(194, 112);
+            this.guna2ImageButton15.TabIndex = 0;
+            // 
+            // label19
+            // 
+            this.label19.BackColor = System.Drawing.Color.Transparent;
+            this.label19.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.label19.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.Color.White;
+            this.label19.Location = new System.Drawing.Point(0, 115);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(194, 31);
+            this.label19.TabIndex = 11;
+            this.label19.Text = "C# Fundamentals for Beginners";
+            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2CustomGradientPanel21
+            // 
+            this.guna2CustomGradientPanel21.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel21.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel21.BorderRadius = 15;
+            this.guna2CustomGradientPanel21.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.guna2CustomGradientPanel21.BorderThickness = 10;
+            this.guna2CustomGradientPanel21.Controls.Add(this.guna2ImageButton16);
+            this.guna2CustomGradientPanel21.Controls.Add(this.label20);
+            this.guna2CustomGradientPanel21.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel21.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.guna2CustomGradientPanel21.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.guna2CustomGradientPanel21.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.guna2CustomGradientPanel21.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.guna2CustomGradientPanel21.Location = new System.Drawing.Point(140, 186);
+            this.guna2CustomGradientPanel21.Margin = new System.Windows.Forms.Padding(10);
+            this.guna2CustomGradientPanel21.Name = "guna2CustomGradientPanel21";
+            this.guna2CustomGradientPanel21.Size = new System.Drawing.Size(194, 146);
+            this.guna2CustomGradientPanel21.TabIndex = 45;
+            // 
+            // guna2ImageButton16
+            // 
+            this.guna2ImageButton16.AnimatedGIF = true;
+            this.guna2ImageButton16.BackColor = System.Drawing.Color.White;
+            this.guna2ImageButton16.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton16.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2ImageButton16.HoverState.ImageSize = new System.Drawing.Size(200, 115);
+            this.guna2ImageButton16.Image = global::Coder_s_space.Properties.Resources.c_5;
+            this.guna2ImageButton16.ImageOffset = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton16.ImageRotate = 0F;
+            this.guna2ImageButton16.ImageSize = new System.Drawing.Size(194, 112);
+            this.guna2ImageButton16.Location = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton16.Name = "guna2ImageButton16";
+            this.guna2ImageButton16.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton16.Size = new System.Drawing.Size(194, 112);
+            this.guna2ImageButton16.TabIndex = 0;
+            // 
+            // label20
+            // 
+            this.label20.BackColor = System.Drawing.Color.Transparent;
+            this.label20.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.label20.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.Color.White;
+            this.label20.Location = new System.Drawing.Point(0, 115);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(194, 31);
+            this.label20.TabIndex = 11;
+            this.label20.Text = "C# Full Course-Learn C# and .NET 6 in 7 hours";
+            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2CustomGradientPanel22
+            // 
+            this.guna2CustomGradientPanel22.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel22.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel22.BorderRadius = 15;
+            this.guna2CustomGradientPanel22.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.guna2CustomGradientPanel22.BorderThickness = 10;
+            this.guna2CustomGradientPanel22.Controls.Add(this.guna2ImageButton17);
+            this.guna2CustomGradientPanel22.Controls.Add(this.label21);
+            this.guna2CustomGradientPanel22.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel22.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.guna2CustomGradientPanel22.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.guna2CustomGradientPanel22.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.guna2CustomGradientPanel22.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.guna2CustomGradientPanel22.Location = new System.Drawing.Point(354, 186);
+            this.guna2CustomGradientPanel22.Margin = new System.Windows.Forms.Padding(10);
+            this.guna2CustomGradientPanel22.Name = "guna2CustomGradientPanel22";
+            this.guna2CustomGradientPanel22.Size = new System.Drawing.Size(194, 146);
+            this.guna2CustomGradientPanel22.TabIndex = 46;
+            // 
+            // guna2ImageButton17
+            // 
+            this.guna2ImageButton17.AnimatedGIF = true;
+            this.guna2ImageButton17.BackColor = System.Drawing.Color.White;
+            this.guna2ImageButton17.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton17.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2ImageButton17.HoverState.ImageSize = new System.Drawing.Size(200, 115);
+            this.guna2ImageButton17.Image = global::Coder_s_space.Properties.Resources.c_6;
+            this.guna2ImageButton17.ImageOffset = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton17.ImageRotate = 0F;
+            this.guna2ImageButton17.ImageSize = new System.Drawing.Size(194, 112);
+            this.guna2ImageButton17.Location = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton17.Name = "guna2ImageButton17";
+            this.guna2ImageButton17.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton17.Size = new System.Drawing.Size(194, 112);
+            this.guna2ImageButton17.TabIndex = 0;
+            // 
+            // label21
+            // 
+            this.label21.BackColor = System.Drawing.Color.Transparent;
+            this.label21.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.label21.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.ForeColor = System.Drawing.Color.White;
+            this.label21.Location = new System.Drawing.Point(0, 115);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(194, 31);
+            this.label21.TabIndex = 11;
+            this.label21.Text = "C# Full Project Tutorial (Management System)";
+            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // guna2CustomGradientPanel29
             // 
             this.guna2CustomGradientPanel29.BorderRadius = 20;
@@ -457,6 +669,358 @@
             this.guna2ImageButton29.Size = new System.Drawing.Size(194, 118);
             this.guna2ImageButton29.TabIndex = 0;
             // 
+            // guna2CustomGradientPanel7
+            // 
+            this.guna2CustomGradientPanel7.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel7.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel7.BorderRadius = 15;
+            this.guna2CustomGradientPanel7.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.guna2CustomGradientPanel7.BorderThickness = 10;
+            this.guna2CustomGradientPanel7.Controls.Add(this.label7);
+            this.guna2CustomGradientPanel7.Controls.Add(this.guna2ImageButton4);
+            this.guna2CustomGradientPanel7.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel7.FillColor = System.Drawing.Color.Aqua;
+            this.guna2CustomGradientPanel7.FillColor2 = System.Drawing.Color.PaleTurquoise;
+            this.guna2CustomGradientPanel7.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.guna2CustomGradientPanel7.FillColor4 = System.Drawing.Color.Fuchsia;
+            this.guna2CustomGradientPanel7.Location = new System.Drawing.Point(354, 20);
+            this.guna2CustomGradientPanel7.Margin = new System.Windows.Forms.Padding(10);
+            this.guna2CustomGradientPanel7.Name = "guna2CustomGradientPanel7";
+            this.guna2CustomGradientPanel7.Size = new System.Drawing.Size(194, 146);
+            this.guna2CustomGradientPanel7.TabIndex = 41;
+            // 
+            // label7
+            // 
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.label7.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.Black;
+            this.label7.Location = new System.Drawing.Point(0, 115);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(194, 31);
+            this.label7.TabIndex = 12;
+            this.label7.Text = "C++ Tutorial in Hindi Full Course | C++ Tutorial \r\n";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2ImageButton4
+            // 
+            this.guna2ImageButton4.AnimatedGIF = true;
+            this.guna2ImageButton4.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.guna2ImageButton4.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2ImageButton4.HoverState.ImageSize = new System.Drawing.Size(200, 120);
+            this.guna2ImageButton4.Image = global::Coder_s_space.Properties.Resources.cpp2;
+            this.guna2ImageButton4.ImageOffset = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton4.ImageRotate = 0F;
+            this.guna2ImageButton4.ImageSize = new System.Drawing.Size(194, 118);
+            this.guna2ImageButton4.Location = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton4.Name = "guna2ImageButton4";
+            this.guna2ImageButton4.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton4.Size = new System.Drawing.Size(194, 118);
+            this.guna2ImageButton4.TabIndex = 0;
+            // 
+            // guna2CustomGradientPanel8
+            // 
+            this.guna2CustomGradientPanel8.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel8.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel8.BorderRadius = 15;
+            this.guna2CustomGradientPanel8.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.guna2CustomGradientPanel8.BorderThickness = 10;
+            this.guna2CustomGradientPanel8.Controls.Add(this.label8);
+            this.guna2CustomGradientPanel8.Controls.Add(this.guna2ImageButton5);
+            this.guna2CustomGradientPanel8.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel8.FillColor = System.Drawing.Color.Aqua;
+            this.guna2CustomGradientPanel8.FillColor2 = System.Drawing.Color.PaleTurquoise;
+            this.guna2CustomGradientPanel8.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.guna2CustomGradientPanel8.FillColor4 = System.Drawing.Color.Fuchsia;
+            this.guna2CustomGradientPanel8.Location = new System.Drawing.Point(568, 20);
+            this.guna2CustomGradientPanel8.Margin = new System.Windows.Forms.Padding(10);
+            this.guna2CustomGradientPanel8.Name = "guna2CustomGradientPanel8";
+            this.guna2CustomGradientPanel8.Size = new System.Drawing.Size(194, 146);
+            this.guna2CustomGradientPanel8.TabIndex = 42;
+            // 
+            // label8
+            // 
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.label8.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.Black;
+            this.label8.Location = new System.Drawing.Point(0, 115);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(194, 31);
+            this.label8.TabIndex = 12;
+            this.label8.Text = "BEST WAY to make Desktop Applications in C++";
+            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2ImageButton5
+            // 
+            this.guna2ImageButton5.AnimatedGIF = true;
+            this.guna2ImageButton5.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.guna2ImageButton5.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2ImageButton5.HoverState.ImageSize = new System.Drawing.Size(200, 120);
+            this.guna2ImageButton5.Image = global::Coder_s_space.Properties.Resources.cpp3;
+            this.guna2ImageButton5.ImageOffset = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton5.ImageRotate = 0F;
+            this.guna2ImageButton5.ImageSize = new System.Drawing.Size(194, 118);
+            this.guna2ImageButton5.Location = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton5.Name = "guna2ImageButton5";
+            this.guna2ImageButton5.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton5.Size = new System.Drawing.Size(194, 118);
+            this.guna2ImageButton5.TabIndex = 0;
+            // 
+            // guna2CustomGradientPanel9
+            // 
+            this.guna2CustomGradientPanel9.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel9.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel9.BorderRadius = 15;
+            this.guna2CustomGradientPanel9.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.guna2CustomGradientPanel9.BorderThickness = 10;
+            this.guna2CustomGradientPanel9.Controls.Add(this.label9);
+            this.guna2CustomGradientPanel9.Controls.Add(this.guna2ImageButton6);
+            this.guna2CustomGradientPanel9.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel9.FillColor = System.Drawing.Color.Aqua;
+            this.guna2CustomGradientPanel9.FillColor2 = System.Drawing.Color.PaleTurquoise;
+            this.guna2CustomGradientPanel9.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.guna2CustomGradientPanel9.FillColor4 = System.Drawing.Color.Fuchsia;
+            this.guna2CustomGradientPanel9.Location = new System.Drawing.Point(782, 20);
+            this.guna2CustomGradientPanel9.Margin = new System.Windows.Forms.Padding(10);
+            this.guna2CustomGradientPanel9.Name = "guna2CustomGradientPanel9";
+            this.guna2CustomGradientPanel9.Size = new System.Drawing.Size(194, 146);
+            this.guna2CustomGradientPanel9.TabIndex = 43;
+            // 
+            // label9
+            // 
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.label9.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.Black;
+            this.label9.Location = new System.Drawing.Point(0, 115);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(194, 31);
+            this.label9.TabIndex = 12;
+            this.label9.Text = "C++ Tutorial for Beginners - Learn C++ in 1 HourC++ Tutorial for Beginners - Lear" +
+    "n C++ in 1 Hour";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2ImageButton6
+            // 
+            this.guna2ImageButton6.AnimatedGIF = true;
+            this.guna2ImageButton6.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.guna2ImageButton6.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2ImageButton6.HoverState.ImageSize = new System.Drawing.Size(200, 120);
+            this.guna2ImageButton6.Image = global::Coder_s_space.Properties.Resources.cpp4;
+            this.guna2ImageButton6.ImageOffset = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton6.ImageRotate = 0F;
+            this.guna2ImageButton6.ImageSize = new System.Drawing.Size(194, 118);
+            this.guna2ImageButton6.Location = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton6.Name = "guna2ImageButton6";
+            this.guna2ImageButton6.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton6.Size = new System.Drawing.Size(194, 118);
+            this.guna2ImageButton6.TabIndex = 0;
+            // 
+            // guna2CustomGradientPanel11
+            // 
+            this.guna2CustomGradientPanel11.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel11.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel11.BorderRadius = 15;
+            this.guna2CustomGradientPanel11.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.guna2CustomGradientPanel11.BorderThickness = 10;
+            this.guna2CustomGradientPanel11.Controls.Add(this.label12);
+            this.guna2CustomGradientPanel11.Controls.Add(this.guna2ImageButton8);
+            this.guna2CustomGradientPanel11.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel11.FillColor = System.Drawing.Color.Aqua;
+            this.guna2CustomGradientPanel11.FillColor2 = System.Drawing.Color.PaleTurquoise;
+            this.guna2CustomGradientPanel11.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.guna2CustomGradientPanel11.FillColor4 = System.Drawing.Color.Fuchsia;
+            this.guna2CustomGradientPanel11.Location = new System.Drawing.Point(140, 186);
+            this.guna2CustomGradientPanel11.Margin = new System.Windows.Forms.Padding(10);
+            this.guna2CustomGradientPanel11.Name = "guna2CustomGradientPanel11";
+            this.guna2CustomGradientPanel11.Size = new System.Drawing.Size(194, 146);
+            this.guna2CustomGradientPanel11.TabIndex = 45;
+            // 
+            // label12
+            // 
+            this.label12.BackColor = System.Drawing.Color.Transparent;
+            this.label12.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.label12.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.Black;
+            this.label12.Location = new System.Drawing.Point(0, 115);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(194, 31);
+            this.label12.TabIndex = 12;
+            this.label12.Text = "C++ Crash Course 👨‍💻 -Learn to code today-(𝙁𝙧𝙚𝙚)\r\n";
+            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2ImageButton8
+            // 
+            this.guna2ImageButton8.AnimatedGIF = true;
+            this.guna2ImageButton8.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.guna2ImageButton8.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton8.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2ImageButton8.HoverState.ImageSize = new System.Drawing.Size(200, 120);
+            this.guna2ImageButton8.Image = global::Coder_s_space.Properties.Resources.cpp5;
+            this.guna2ImageButton8.ImageOffset = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton8.ImageRotate = 0F;
+            this.guna2ImageButton8.ImageSize = new System.Drawing.Size(194, 118);
+            this.guna2ImageButton8.Location = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton8.Name = "guna2ImageButton8";
+            this.guna2ImageButton8.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton8.Size = new System.Drawing.Size(194, 118);
+            this.guna2ImageButton8.TabIndex = 0;
+            // 
+            // guna2CustomGradientPanel18
+            // 
+            this.guna2CustomGradientPanel18.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel18.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel18.BorderRadius = 15;
+            this.guna2CustomGradientPanel18.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.guna2CustomGradientPanel18.BorderThickness = 10;
+            this.guna2CustomGradientPanel18.Controls.Add(this.label17);
+            this.guna2CustomGradientPanel18.Controls.Add(this.guna2ImageButton13);
+            this.guna2CustomGradientPanel18.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel18.FillColor = System.Drawing.Color.Aqua;
+            this.guna2CustomGradientPanel18.FillColor2 = System.Drawing.Color.PaleTurquoise;
+            this.guna2CustomGradientPanel18.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.guna2CustomGradientPanel18.FillColor4 = System.Drawing.Color.Fuchsia;
+            this.guna2CustomGradientPanel18.Location = new System.Drawing.Point(354, 186);
+            this.guna2CustomGradientPanel18.Margin = new System.Windows.Forms.Padding(10);
+            this.guna2CustomGradientPanel18.Name = "guna2CustomGradientPanel18";
+            this.guna2CustomGradientPanel18.Size = new System.Drawing.Size(194, 146);
+            this.guna2CustomGradientPanel18.TabIndex = 47;
+            // 
+            // label17
+            // 
+            this.label17.BackColor = System.Drawing.Color.Transparent;
+            this.label17.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.label17.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.Color.Black;
+            this.label17.Location = new System.Drawing.Point(0, 115);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(194, 31);
+            this.label17.TabIndex = 12;
+            this.label17.Text = "C++ Tutorial : C++ Full Course";
+            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2ImageButton13
+            // 
+            this.guna2ImageButton13.AnimatedGIF = true;
+            this.guna2ImageButton13.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.guna2ImageButton13.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton13.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2ImageButton13.HoverState.ImageSize = new System.Drawing.Size(200, 120);
+            this.guna2ImageButton13.Image = global::Coder_s_space.Properties.Resources.cpp6;
+            this.guna2ImageButton13.ImageOffset = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton13.ImageRotate = 0F;
+            this.guna2ImageButton13.ImageSize = new System.Drawing.Size(194, 118);
+            this.guna2ImageButton13.Location = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton13.Name = "guna2ImageButton13";
+            this.guna2ImageButton13.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton13.Size = new System.Drawing.Size(194, 118);
+            this.guna2ImageButton13.TabIndex = 0;
+            // 
+            // guna2CustomGradientPanel14
+            // 
+            this.guna2CustomGradientPanel14.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel14.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel14.BorderRadius = 15;
+            this.guna2CustomGradientPanel14.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.guna2CustomGradientPanel14.BorderThickness = 10;
+            this.guna2CustomGradientPanel14.Controls.Add(this.label15);
+            this.guna2CustomGradientPanel14.Controls.Add(this.guna2ImageButton11);
+            this.guna2CustomGradientPanel14.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel14.FillColor = System.Drawing.Color.Aqua;
+            this.guna2CustomGradientPanel14.FillColor2 = System.Drawing.Color.PaleTurquoise;
+            this.guna2CustomGradientPanel14.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.guna2CustomGradientPanel14.FillColor4 = System.Drawing.Color.Fuchsia;
+            this.guna2CustomGradientPanel14.Location = new System.Drawing.Point(568, 186);
+            this.guna2CustomGradientPanel14.Margin = new System.Windows.Forms.Padding(10);
+            this.guna2CustomGradientPanel14.Name = "guna2CustomGradientPanel14";
+            this.guna2CustomGradientPanel14.Size = new System.Drawing.Size(194, 146);
+            this.guna2CustomGradientPanel14.TabIndex = 46;
+            // 
+            // label15
+            // 
+            this.label15.BackColor = System.Drawing.Color.Transparent;
+            this.label15.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.label15.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.Black;
+            this.label15.Location = new System.Drawing.Point(0, 115);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(194, 31);
+            this.label15.TabIndex = 12;
+            this.label15.Text = "Object Oriented Programming (OOP) in C++ CourseObject Oriented Programming (OOP) " +
+    "in C++ Course";
+            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2ImageButton11
+            // 
+            this.guna2ImageButton11.AnimatedGIF = true;
+            this.guna2ImageButton11.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.guna2ImageButton11.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton11.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2ImageButton11.HoverState.ImageSize = new System.Drawing.Size(200, 120);
+            this.guna2ImageButton11.Image = global::Coder_s_space.Properties.Resources.cpp7;
+            this.guna2ImageButton11.ImageOffset = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton11.ImageRotate = 0F;
+            this.guna2ImageButton11.ImageSize = new System.Drawing.Size(194, 118);
+            this.guna2ImageButton11.Location = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton11.Name = "guna2ImageButton11";
+            this.guna2ImageButton11.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton11.Size = new System.Drawing.Size(194, 118);
+            this.guna2ImageButton11.TabIndex = 0;
+            // 
+            // guna2CustomGradientPanel10
+            // 
+            this.guna2CustomGradientPanel10.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel10.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel10.BorderRadius = 15;
+            this.guna2CustomGradientPanel10.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.guna2CustomGradientPanel10.BorderThickness = 10;
+            this.guna2CustomGradientPanel10.Controls.Add(this.label11);
+            this.guna2CustomGradientPanel10.Controls.Add(this.guna2ImageButton7);
+            this.guna2CustomGradientPanel10.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel10.FillColor = System.Drawing.Color.Aqua;
+            this.guna2CustomGradientPanel10.FillColor2 = System.Drawing.Color.PaleTurquoise;
+            this.guna2CustomGradientPanel10.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.guna2CustomGradientPanel10.FillColor4 = System.Drawing.Color.Fuchsia;
+            this.guna2CustomGradientPanel10.Location = new System.Drawing.Point(782, 186);
+            this.guna2CustomGradientPanel10.Margin = new System.Windows.Forms.Padding(10);
+            this.guna2CustomGradientPanel10.Name = "guna2CustomGradientPanel10";
+            this.guna2CustomGradientPanel10.Size = new System.Drawing.Size(194, 146);
+            this.guna2CustomGradientPanel10.TabIndex = 44;
+            // 
+            // label11
+            // 
+            this.label11.BackColor = System.Drawing.Color.Transparent;
+            this.label11.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.label11.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.Black;
+            this.label11.Location = new System.Drawing.Point(0, 115);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(194, 31);
+            this.label11.TabIndex = 12;
+            this.label11.Text = "Pointers in C / C++ [Full Course]Pointers in C / C++ [Full Course]";
+            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2ImageButton7
+            // 
+            this.guna2ImageButton7.AnimatedGIF = true;
+            this.guna2ImageButton7.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.guna2ImageButton7.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2ImageButton7.HoverState.ImageSize = new System.Drawing.Size(200, 120);
+            this.guna2ImageButton7.Image = global::Coder_s_space.Properties.Resources.cpp8;
+            this.guna2ImageButton7.ImageOffset = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton7.ImageRotate = 0F;
+            this.guna2ImageButton7.ImageSize = new System.Drawing.Size(194, 118);
+            this.guna2ImageButton7.Location = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton7.Name = "guna2ImageButton7";
+            this.guna2ImageButton7.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton7.Size = new System.Drawing.Size(194, 118);
+            this.guna2ImageButton7.TabIndex = 0;
+            // 
             // guna2CustomGradientPanel43
             // 
             this.guna2CustomGradientPanel43.BorderRadius = 20;
@@ -505,6 +1069,9 @@
             // 
             this.flowLayoutPanel5.BackColor = System.Drawing.Color.Transparent;
             this.flowLayoutPanel5.Controls.Add(this.guna2CustomGradientPanel4);
+            this.flowLayoutPanel5.Controls.Add(this.guna2CustomGradientPanel23);
+            this.flowLayoutPanel5.Controls.Add(this.guna2CustomGradientPanel24);
+            this.flowLayoutPanel5.Controls.Add(this.guna2CustomGradientPanel25);
             this.flowLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel5.Location = new System.Drawing.Point(0, 44);
             this.flowLayoutPanel5.Margin = new System.Windows.Forms.Padding(20);
@@ -541,13 +1108,13 @@
             this.guna2ImageButton1.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton1.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2ImageButton1.HoverState.ImageSize = new System.Drawing.Size(200, 115);
-            this.guna2ImageButton1.Image = global::Coder_s_space.Properties.Resources._61753063868;
+            this.guna2ImageButton1.Image = global::Coder_s_space.Properties.Resources.py1;
             this.guna2ImageButton1.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageButton1.ImageRotate = 0F;
             this.guna2ImageButton1.ImageSize = new System.Drawing.Size(194, 112);
             this.guna2ImageButton1.Location = new System.Drawing.Point(0, 0);
             this.guna2ImageButton1.Name = "guna2ImageButton1";
-            this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(194, 112);
             this.guna2ImageButton1.Size = new System.Drawing.Size(194, 112);
             this.guna2ImageButton1.TabIndex = 0;
             // 
@@ -561,7 +1128,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(194, 31);
             this.label4.TabIndex = 11;
-            this.label4.Text = "C# Tutorial - Full Course for Beginners";
+            this.label4.Text = "Python Tutorial for Beginners | Learn in 1.5 Hr\r\n";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // guna2CustomGradientPanel15
@@ -1042,557 +1609,156 @@
             this.guna2Button8.TabIndex = 9;
             this.guna2Button8.Text = "guna2Button8";
             // 
-            // guna2CustomGradientPanel7
-            // 
-            this.guna2CustomGradientPanel7.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel7.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel7.BorderRadius = 15;
-            this.guna2CustomGradientPanel7.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            this.guna2CustomGradientPanel7.BorderThickness = 10;
-            this.guna2CustomGradientPanel7.Controls.Add(this.label7);
-            this.guna2CustomGradientPanel7.Controls.Add(this.guna2ImageButton4);
-            this.guna2CustomGradientPanel7.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel7.FillColor = System.Drawing.Color.Aqua;
-            this.guna2CustomGradientPanel7.FillColor2 = System.Drawing.Color.PaleTurquoise;
-            this.guna2CustomGradientPanel7.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.guna2CustomGradientPanel7.FillColor4 = System.Drawing.Color.Fuchsia;
-            this.guna2CustomGradientPanel7.Location = new System.Drawing.Point(354, 20);
-            this.guna2CustomGradientPanel7.Margin = new System.Windows.Forms.Padding(10);
-            this.guna2CustomGradientPanel7.Name = "guna2CustomGradientPanel7";
-            this.guna2CustomGradientPanel7.Size = new System.Drawing.Size(194, 146);
-            this.guna2CustomGradientPanel7.TabIndex = 41;
-            // 
-            // label7
-            // 
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label7.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(0, 115);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(194, 31);
-            this.label7.TabIndex = 12;
-            this.label7.Text = "C++ Tutorial in Hindi Full Course | C++ Tutorial \r\n";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2ImageButton4
-            // 
-            this.guna2ImageButton4.AnimatedGIF = true;
-            this.guna2ImageButton4.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.guna2ImageButton4.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2ImageButton4.HoverState.ImageSize = new System.Drawing.Size(200, 120);
-            this.guna2ImageButton4.Image = global::Coder_s_space.Properties.Resources.cpp2;
-            this.guna2ImageButton4.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton4.ImageRotate = 0F;
-            this.guna2ImageButton4.ImageSize = new System.Drawing.Size(194, 118);
-            this.guna2ImageButton4.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton4.Name = "guna2ImageButton4";
-            this.guna2ImageButton4.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton4.Size = new System.Drawing.Size(194, 118);
-            this.guna2ImageButton4.TabIndex = 0;
-            // 
-            // guna2CustomGradientPanel8
-            // 
-            this.guna2CustomGradientPanel8.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel8.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel8.BorderRadius = 15;
-            this.guna2CustomGradientPanel8.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            this.guna2CustomGradientPanel8.BorderThickness = 10;
-            this.guna2CustomGradientPanel8.Controls.Add(this.label8);
-            this.guna2CustomGradientPanel8.Controls.Add(this.guna2ImageButton5);
-            this.guna2CustomGradientPanel8.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel8.FillColor = System.Drawing.Color.Aqua;
-            this.guna2CustomGradientPanel8.FillColor2 = System.Drawing.Color.PaleTurquoise;
-            this.guna2CustomGradientPanel8.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.guna2CustomGradientPanel8.FillColor4 = System.Drawing.Color.Fuchsia;
-            this.guna2CustomGradientPanel8.Location = new System.Drawing.Point(568, 20);
-            this.guna2CustomGradientPanel8.Margin = new System.Windows.Forms.Padding(10);
-            this.guna2CustomGradientPanel8.Name = "guna2CustomGradientPanel8";
-            this.guna2CustomGradientPanel8.Size = new System.Drawing.Size(194, 146);
-            this.guna2CustomGradientPanel8.TabIndex = 42;
-            // 
-            // label8
-            // 
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label8.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(0, 115);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(194, 31);
-            this.label8.TabIndex = 12;
-            this.label8.Text = "BEST WAY to make Desktop Applications in C++";
-            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2ImageButton5
-            // 
-            this.guna2ImageButton5.AnimatedGIF = true;
-            this.guna2ImageButton5.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.guna2ImageButton5.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2ImageButton5.HoverState.ImageSize = new System.Drawing.Size(200, 120);
-            this.guna2ImageButton5.Image = global::Coder_s_space.Properties.Resources.cpp3;
-            this.guna2ImageButton5.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton5.ImageRotate = 0F;
-            this.guna2ImageButton5.ImageSize = new System.Drawing.Size(194, 118);
-            this.guna2ImageButton5.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton5.Name = "guna2ImageButton5";
-            this.guna2ImageButton5.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton5.Size = new System.Drawing.Size(194, 118);
-            this.guna2ImageButton5.TabIndex = 0;
-            // 
-            // guna2CustomGradientPanel9
-            // 
-            this.guna2CustomGradientPanel9.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel9.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel9.BorderRadius = 15;
-            this.guna2CustomGradientPanel9.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            this.guna2CustomGradientPanel9.BorderThickness = 10;
-            this.guna2CustomGradientPanel9.Controls.Add(this.label9);
-            this.guna2CustomGradientPanel9.Controls.Add(this.guna2ImageButton6);
-            this.guna2CustomGradientPanel9.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel9.FillColor = System.Drawing.Color.Aqua;
-            this.guna2CustomGradientPanel9.FillColor2 = System.Drawing.Color.PaleTurquoise;
-            this.guna2CustomGradientPanel9.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.guna2CustomGradientPanel9.FillColor4 = System.Drawing.Color.Fuchsia;
-            this.guna2CustomGradientPanel9.Location = new System.Drawing.Point(782, 20);
-            this.guna2CustomGradientPanel9.Margin = new System.Windows.Forms.Padding(10);
-            this.guna2CustomGradientPanel9.Name = "guna2CustomGradientPanel9";
-            this.guna2CustomGradientPanel9.Size = new System.Drawing.Size(194, 146);
-            this.guna2CustomGradientPanel9.TabIndex = 43;
-            // 
-            // label9
-            // 
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label9.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(0, 115);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(194, 31);
-            this.label9.TabIndex = 12;
-            this.label9.Text = "C++ Tutorial for Beginners - Learn C++ in 1 HourC++ Tutorial for Beginners - Lear" +
-    "n C++ in 1 Hour";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2ImageButton6
-            // 
-            this.guna2ImageButton6.AnimatedGIF = true;
-            this.guna2ImageButton6.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.guna2ImageButton6.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2ImageButton6.HoverState.ImageSize = new System.Drawing.Size(200, 120);
-            this.guna2ImageButton6.Image = global::Coder_s_space.Properties.Resources.cpp4;
-            this.guna2ImageButton6.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton6.ImageRotate = 0F;
-            this.guna2ImageButton6.ImageSize = new System.Drawing.Size(194, 118);
-            this.guna2ImageButton6.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton6.Name = "guna2ImageButton6";
-            this.guna2ImageButton6.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton6.Size = new System.Drawing.Size(194, 118);
-            this.guna2ImageButton6.TabIndex = 0;
-            // 
-            // guna2CustomGradientPanel10
-            // 
-            this.guna2CustomGradientPanel10.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel10.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel10.BorderRadius = 15;
-            this.guna2CustomGradientPanel10.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            this.guna2CustomGradientPanel10.BorderThickness = 10;
-            this.guna2CustomGradientPanel10.Controls.Add(this.label11);
-            this.guna2CustomGradientPanel10.Controls.Add(this.guna2ImageButton7);
-            this.guna2CustomGradientPanel10.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel10.FillColor = System.Drawing.Color.Aqua;
-            this.guna2CustomGradientPanel10.FillColor2 = System.Drawing.Color.PaleTurquoise;
-            this.guna2CustomGradientPanel10.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.guna2CustomGradientPanel10.FillColor4 = System.Drawing.Color.Fuchsia;
-            this.guna2CustomGradientPanel10.Location = new System.Drawing.Point(782, 186);
-            this.guna2CustomGradientPanel10.Margin = new System.Windows.Forms.Padding(10);
-            this.guna2CustomGradientPanel10.Name = "guna2CustomGradientPanel10";
-            this.guna2CustomGradientPanel10.Size = new System.Drawing.Size(194, 146);
-            this.guna2CustomGradientPanel10.TabIndex = 44;
-            // 
-            // label11
-            // 
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label11.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.Black;
-            this.label11.Location = new System.Drawing.Point(0, 115);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(194, 31);
-            this.label11.TabIndex = 12;
-            this.label11.Text = "Pointers in C / C++ [Full Course]Pointers in C / C++ [Full Course]";
-            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2ImageButton7
-            // 
-            this.guna2ImageButton7.AnimatedGIF = true;
-            this.guna2ImageButton7.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.guna2ImageButton7.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2ImageButton7.HoverState.ImageSize = new System.Drawing.Size(200, 120);
-            this.guna2ImageButton7.Image = global::Coder_s_space.Properties.Resources.cpp8;
-            this.guna2ImageButton7.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton7.ImageRotate = 0F;
-            this.guna2ImageButton7.ImageSize = new System.Drawing.Size(194, 118);
-            this.guna2ImageButton7.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton7.Name = "guna2ImageButton7";
-            this.guna2ImageButton7.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton7.Size = new System.Drawing.Size(194, 118);
-            this.guna2ImageButton7.TabIndex = 0;
-            // 
-            // guna2CustomGradientPanel11
-            // 
-            this.guna2CustomGradientPanel11.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel11.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel11.BorderRadius = 15;
-            this.guna2CustomGradientPanel11.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            this.guna2CustomGradientPanel11.BorderThickness = 10;
-            this.guna2CustomGradientPanel11.Controls.Add(this.label12);
-            this.guna2CustomGradientPanel11.Controls.Add(this.guna2ImageButton8);
-            this.guna2CustomGradientPanel11.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel11.FillColor = System.Drawing.Color.Aqua;
-            this.guna2CustomGradientPanel11.FillColor2 = System.Drawing.Color.PaleTurquoise;
-            this.guna2CustomGradientPanel11.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.guna2CustomGradientPanel11.FillColor4 = System.Drawing.Color.Fuchsia;
-            this.guna2CustomGradientPanel11.Location = new System.Drawing.Point(140, 186);
-            this.guna2CustomGradientPanel11.Margin = new System.Windows.Forms.Padding(10);
-            this.guna2CustomGradientPanel11.Name = "guna2CustomGradientPanel11";
-            this.guna2CustomGradientPanel11.Size = new System.Drawing.Size(194, 146);
-            this.guna2CustomGradientPanel11.TabIndex = 45;
-            // 
-            // label12
-            // 
-            this.label12.BackColor = System.Drawing.Color.Transparent;
-            this.label12.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label12.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.Black;
-            this.label12.Location = new System.Drawing.Point(0, 115);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(194, 31);
-            this.label12.TabIndex = 12;
-            this.label12.Text = "C++ Crash Course 👨‍💻 -Learn to code today-(𝙁𝙧𝙚𝙚)\r\n";
-            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2ImageButton8
-            // 
-            this.guna2ImageButton8.AnimatedGIF = true;
-            this.guna2ImageButton8.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.guna2ImageButton8.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2ImageButton8.HoverState.ImageSize = new System.Drawing.Size(200, 120);
-            this.guna2ImageButton8.Image = global::Coder_s_space.Properties.Resources.cpp5;
-            this.guna2ImageButton8.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton8.ImageRotate = 0F;
-            this.guna2ImageButton8.ImageSize = new System.Drawing.Size(194, 118);
-            this.guna2ImageButton8.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton8.Name = "guna2ImageButton8";
-            this.guna2ImageButton8.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton8.Size = new System.Drawing.Size(194, 118);
-            this.guna2ImageButton8.TabIndex = 0;
-            // 
-            // guna2CustomGradientPanel14
-            // 
-            this.guna2CustomGradientPanel14.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel14.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel14.BorderRadius = 15;
-            this.guna2CustomGradientPanel14.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            this.guna2CustomGradientPanel14.BorderThickness = 10;
-            this.guna2CustomGradientPanel14.Controls.Add(this.label15);
-            this.guna2CustomGradientPanel14.Controls.Add(this.guna2ImageButton11);
-            this.guna2CustomGradientPanel14.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel14.FillColor = System.Drawing.Color.Aqua;
-            this.guna2CustomGradientPanel14.FillColor2 = System.Drawing.Color.PaleTurquoise;
-            this.guna2CustomGradientPanel14.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.guna2CustomGradientPanel14.FillColor4 = System.Drawing.Color.Fuchsia;
-            this.guna2CustomGradientPanel14.Location = new System.Drawing.Point(568, 186);
-            this.guna2CustomGradientPanel14.Margin = new System.Windows.Forms.Padding(10);
-            this.guna2CustomGradientPanel14.Name = "guna2CustomGradientPanel14";
-            this.guna2CustomGradientPanel14.Size = new System.Drawing.Size(194, 146);
-            this.guna2CustomGradientPanel14.TabIndex = 46;
-            // 
-            // label15
-            // 
-            this.label15.BackColor = System.Drawing.Color.Transparent;
-            this.label15.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label15.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.Black;
-            this.label15.Location = new System.Drawing.Point(0, 115);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(194, 31);
-            this.label15.TabIndex = 12;
-            this.label15.Text = "Object Oriented Programming (OOP) in C++ CourseObject Oriented Programming (OOP) " +
-    "in C++ Course";
-            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2ImageButton11
-            // 
-            this.guna2ImageButton11.AnimatedGIF = true;
-            this.guna2ImageButton11.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.guna2ImageButton11.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton11.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2ImageButton11.HoverState.ImageSize = new System.Drawing.Size(200, 120);
-            this.guna2ImageButton11.Image = global::Coder_s_space.Properties.Resources.cpp7;
-            this.guna2ImageButton11.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton11.ImageRotate = 0F;
-            this.guna2ImageButton11.ImageSize = new System.Drawing.Size(194, 118);
-            this.guna2ImageButton11.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton11.Name = "guna2ImageButton11";
-            this.guna2ImageButton11.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton11.Size = new System.Drawing.Size(194, 118);
-            this.guna2ImageButton11.TabIndex = 0;
-            // 
-            // guna2CustomGradientPanel18
-            // 
-            this.guna2CustomGradientPanel18.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel18.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel18.BorderRadius = 15;
-            this.guna2CustomGradientPanel18.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            this.guna2CustomGradientPanel18.BorderThickness = 10;
-            this.guna2CustomGradientPanel18.Controls.Add(this.label17);
-            this.guna2CustomGradientPanel18.Controls.Add(this.guna2ImageButton13);
-            this.guna2CustomGradientPanel18.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel18.FillColor = System.Drawing.Color.Aqua;
-            this.guna2CustomGradientPanel18.FillColor2 = System.Drawing.Color.PaleTurquoise;
-            this.guna2CustomGradientPanel18.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.guna2CustomGradientPanel18.FillColor4 = System.Drawing.Color.Fuchsia;
-            this.guna2CustomGradientPanel18.Location = new System.Drawing.Point(354, 186);
-            this.guna2CustomGradientPanel18.Margin = new System.Windows.Forms.Padding(10);
-            this.guna2CustomGradientPanel18.Name = "guna2CustomGradientPanel18";
-            this.guna2CustomGradientPanel18.Size = new System.Drawing.Size(194, 146);
-            this.guna2CustomGradientPanel18.TabIndex = 47;
-            // 
-            // label17
-            // 
-            this.label17.BackColor = System.Drawing.Color.Transparent;
-            this.label17.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label17.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.ForeColor = System.Drawing.Color.Black;
-            this.label17.Location = new System.Drawing.Point(0, 115);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(194, 31);
-            this.label17.TabIndex = 12;
-            this.label17.Text = "C++ Tutorial : C++ Full Course";
-            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2ImageButton13
-            // 
-            this.guna2ImageButton13.AnimatedGIF = true;
-            this.guna2ImageButton13.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.guna2ImageButton13.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton13.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2ImageButton13.HoverState.ImageSize = new System.Drawing.Size(200, 120);
-            this.guna2ImageButton13.Image = global::Coder_s_space.Properties.Resources.cpp6;
-            this.guna2ImageButton13.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton13.ImageRotate = 0F;
-            this.guna2ImageButton13.ImageSize = new System.Drawing.Size(194, 118);
-            this.guna2ImageButton13.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton13.Name = "guna2ImageButton13";
-            this.guna2ImageButton13.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton13.Size = new System.Drawing.Size(194, 118);
-            this.guna2ImageButton13.TabIndex = 0;
-            // 
-            // guna2CustomGradientPanel19
-            // 
-            this.guna2CustomGradientPanel19.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel19.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel19.BorderRadius = 15;
-            this.guna2CustomGradientPanel19.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            this.guna2CustomGradientPanel19.BorderThickness = 10;
-            this.guna2CustomGradientPanel19.Controls.Add(this.guna2ImageButton14);
-            this.guna2CustomGradientPanel19.Controls.Add(this.label18);
-            this.guna2CustomGradientPanel19.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel19.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.guna2CustomGradientPanel19.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.guna2CustomGradientPanel19.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.guna2CustomGradientPanel19.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.guna2CustomGradientPanel19.Location = new System.Drawing.Point(568, 20);
-            this.guna2CustomGradientPanel19.Margin = new System.Windows.Forms.Padding(10);
-            this.guna2CustomGradientPanel19.Name = "guna2CustomGradientPanel19";
-            this.guna2CustomGradientPanel19.Size = new System.Drawing.Size(194, 146);
-            this.guna2CustomGradientPanel19.TabIndex = 44;
-            // 
-            // guna2ImageButton14
-            // 
-            this.guna2ImageButton14.AnimatedGIF = true;
-            this.guna2ImageButton14.BackColor = System.Drawing.Color.White;
-            this.guna2ImageButton14.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton14.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2ImageButton14.HoverState.ImageSize = new System.Drawing.Size(200, 115);
-            this.guna2ImageButton14.Image = global::Coder_s_space.Properties.Resources.c_3;
-            this.guna2ImageButton14.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton14.ImageRotate = 0F;
-            this.guna2ImageButton14.ImageSize = new System.Drawing.Size(194, 112);
-            this.guna2ImageButton14.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton14.Name = "guna2ImageButton14";
-            this.guna2ImageButton14.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton14.Size = new System.Drawing.Size(194, 112);
-            this.guna2ImageButton14.TabIndex = 0;
-            // 
-            // label18
-            // 
-            this.label18.BackColor = System.Drawing.Color.Transparent;
-            this.label18.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label18.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.Color.White;
-            this.label18.Location = new System.Drawing.Point(0, 115);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(194, 31);
-            this.label18.TabIndex = 11;
-            this.label18.Text = "The MANY things you can build with C#";
-            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2CustomGradientPanel20
-            // 
-            this.guna2CustomGradientPanel20.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel20.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel20.BorderRadius = 15;
-            this.guna2CustomGradientPanel20.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            this.guna2CustomGradientPanel20.BorderThickness = 10;
-            this.guna2CustomGradientPanel20.Controls.Add(this.guna2ImageButton15);
-            this.guna2CustomGradientPanel20.Controls.Add(this.label19);
-            this.guna2CustomGradientPanel20.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel20.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.guna2CustomGradientPanel20.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.guna2CustomGradientPanel20.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.guna2CustomGradientPanel20.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.guna2CustomGradientPanel20.Location = new System.Drawing.Point(782, 20);
-            this.guna2CustomGradientPanel20.Margin = new System.Windows.Forms.Padding(10);
-            this.guna2CustomGradientPanel20.Name = "guna2CustomGradientPanel20";
-            this.guna2CustomGradientPanel20.Size = new System.Drawing.Size(194, 146);
-            this.guna2CustomGradientPanel20.TabIndex = 45;
-            // 
-            // guna2ImageButton15
-            // 
-            this.guna2ImageButton15.AnimatedGIF = true;
-            this.guna2ImageButton15.BackColor = System.Drawing.Color.White;
-            this.guna2ImageButton15.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton15.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2ImageButton15.HoverState.ImageSize = new System.Drawing.Size(200, 115);
-            this.guna2ImageButton15.Image = global::Coder_s_space.Properties.Resources.c_4;
-            this.guna2ImageButton15.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton15.ImageRotate = 0F;
-            this.guna2ImageButton15.ImageSize = new System.Drawing.Size(194, 112);
-            this.guna2ImageButton15.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton15.Name = "guna2ImageButton15";
-            this.guna2ImageButton15.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton15.Size = new System.Drawing.Size(194, 112);
-            this.guna2ImageButton15.TabIndex = 0;
-            // 
-            // label19
-            // 
-            this.label19.BackColor = System.Drawing.Color.Transparent;
-            this.label19.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label19.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.Color.White;
-            this.label19.Location = new System.Drawing.Point(0, 115);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(194, 31);
-            this.label19.TabIndex = 11;
-            this.label19.Text = "C# Fundamentals for Beginners";
-            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2CustomGradientPanel21
-            // 
-            this.guna2CustomGradientPanel21.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel21.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel21.BorderRadius = 15;
-            this.guna2CustomGradientPanel21.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            this.guna2CustomGradientPanel21.BorderThickness = 10;
-            this.guna2CustomGradientPanel21.Controls.Add(this.guna2ImageButton16);
-            this.guna2CustomGradientPanel21.Controls.Add(this.label20);
-            this.guna2CustomGradientPanel21.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel21.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.guna2CustomGradientPanel21.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.guna2CustomGradientPanel21.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.guna2CustomGradientPanel21.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.guna2CustomGradientPanel21.Location = new System.Drawing.Point(140, 186);
-            this.guna2CustomGradientPanel21.Margin = new System.Windows.Forms.Padding(10);
-            this.guna2CustomGradientPanel21.Name = "guna2CustomGradientPanel21";
-            this.guna2CustomGradientPanel21.Size = new System.Drawing.Size(194, 146);
-            this.guna2CustomGradientPanel21.TabIndex = 45;
-            // 
-            // guna2ImageButton16
-            // 
-            this.guna2ImageButton16.AnimatedGIF = true;
-            this.guna2ImageButton16.BackColor = System.Drawing.Color.White;
-            this.guna2ImageButton16.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton16.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2ImageButton16.HoverState.ImageSize = new System.Drawing.Size(200, 115);
-            this.guna2ImageButton16.Image = global::Coder_s_space.Properties.Resources.c_5;
-            this.guna2ImageButton16.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton16.ImageRotate = 0F;
-            this.guna2ImageButton16.ImageSize = new System.Drawing.Size(194, 112);
-            this.guna2ImageButton16.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton16.Name = "guna2ImageButton16";
-            this.guna2ImageButton16.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton16.Size = new System.Drawing.Size(194, 112);
-            this.guna2ImageButton16.TabIndex = 0;
-            // 
-            // label20
-            // 
-            this.label20.BackColor = System.Drawing.Color.Transparent;
-            this.label20.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label20.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.Color.White;
-            this.label20.Location = new System.Drawing.Point(0, 115);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(194, 31);
-            this.label20.TabIndex = 11;
-            this.label20.Text = "C# Full Course-Learn C# and .NET 6 in 7 hours";
-            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2CustomGradientPanel22
-            // 
-            this.guna2CustomGradientPanel22.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel22.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel22.BorderRadius = 15;
-            this.guna2CustomGradientPanel22.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            this.guna2CustomGradientPanel22.BorderThickness = 10;
-            this.guna2CustomGradientPanel22.Controls.Add(this.guna2ImageButton17);
-            this.guna2CustomGradientPanel22.Controls.Add(this.label21);
-            this.guna2CustomGradientPanel22.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel22.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.guna2CustomGradientPanel22.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.guna2CustomGradientPanel22.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.guna2CustomGradientPanel22.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.guna2CustomGradientPanel22.Location = new System.Drawing.Point(354, 186);
-            this.guna2CustomGradientPanel22.Margin = new System.Windows.Forms.Padding(10);
-            this.guna2CustomGradientPanel22.Name = "guna2CustomGradientPanel22";
-            this.guna2CustomGradientPanel22.Size = new System.Drawing.Size(194, 146);
-            this.guna2CustomGradientPanel22.TabIndex = 46;
-            // 
-            // guna2ImageButton17
-            // 
-            this.guna2ImageButton17.AnimatedGIF = true;
-            this.guna2ImageButton17.BackColor = System.Drawing.Color.White;
-            this.guna2ImageButton17.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton17.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2ImageButton17.HoverState.ImageSize = new System.Drawing.Size(200, 115);
-            this.guna2ImageButton17.Image = global::Coder_s_space.Properties.Resources.c_6;
-            this.guna2ImageButton17.ImageOffset = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton17.ImageRotate = 0F;
-            this.guna2ImageButton17.ImageSize = new System.Drawing.Size(194, 112);
-            this.guna2ImageButton17.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton17.Name = "guna2ImageButton17";
-            this.guna2ImageButton17.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton17.Size = new System.Drawing.Size(194, 112);
-            this.guna2ImageButton17.TabIndex = 0;
-            // 
-            // label21
-            // 
-            this.label21.BackColor = System.Drawing.Color.Transparent;
-            this.label21.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label21.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.ForeColor = System.Drawing.Color.White;
-            this.label21.Location = new System.Drawing.Point(0, 115);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(194, 31);
-            this.label21.TabIndex = 11;
-            this.label21.Text = "C# Full Project Tutorial (Management System)";
-            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // guna2CustomGradientPanel23
+            // 
+            this.guna2CustomGradientPanel23.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel23.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel23.BorderRadius = 15;
+            this.guna2CustomGradientPanel23.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.guna2CustomGradientPanel23.BorderThickness = 10;
+            this.guna2CustomGradientPanel23.Controls.Add(this.guna2ImageButton18);
+            this.guna2CustomGradientPanel23.Controls.Add(this.label22);
+            this.guna2CustomGradientPanel23.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel23.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.guna2CustomGradientPanel23.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.guna2CustomGradientPanel23.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.guna2CustomGradientPanel23.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.guna2CustomGradientPanel23.Location = new System.Drawing.Point(354, 20);
+            this.guna2CustomGradientPanel23.Margin = new System.Windows.Forms.Padding(10);
+            this.guna2CustomGradientPanel23.Name = "guna2CustomGradientPanel23";
+            this.guna2CustomGradientPanel23.Size = new System.Drawing.Size(194, 146);
+            this.guna2CustomGradientPanel23.TabIndex = 44;
+            // 
+            // guna2ImageButton18
+            // 
+            this.guna2ImageButton18.AnimatedGIF = true;
+            this.guna2ImageButton18.BackColor = System.Drawing.Color.White;
+            this.guna2ImageButton18.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton18.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2ImageButton18.HoverState.ImageSize = new System.Drawing.Size(200, 115);
+            this.guna2ImageButton18.Image = global::Coder_s_space.Properties.Resources.py2;
+            this.guna2ImageButton18.ImageOffset = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton18.ImageRotate = 0F;
+            this.guna2ImageButton18.ImageSize = new System.Drawing.Size(194, 112);
+            this.guna2ImageButton18.Location = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton18.Name = "guna2ImageButton18";
+            this.guna2ImageButton18.PressedState.ImageSize = new System.Drawing.Size(194, 112);
+            this.guna2ImageButton18.Size = new System.Drawing.Size(194, 112);
+            this.guna2ImageButton18.TabIndex = 0;
+            // 
+            // label22
+            // 
+            this.label22.BackColor = System.Drawing.Color.Transparent;
+            this.label22.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.label22.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.Color.White;
+            this.label22.Location = new System.Drawing.Point(0, 115);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(194, 31);
+            this.label22.TabIndex = 11;
+            this.label22.Text = "Python Full Course for free 🐍";
+            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2CustomGradientPanel24
+            // 
+            this.guna2CustomGradientPanel24.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel24.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel24.BorderRadius = 15;
+            this.guna2CustomGradientPanel24.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.guna2CustomGradientPanel24.BorderThickness = 10;
+            this.guna2CustomGradientPanel24.Controls.Add(this.guna2ImageButton19);
+            this.guna2CustomGradientPanel24.Controls.Add(this.label23);
+            this.guna2CustomGradientPanel24.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel24.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.guna2CustomGradientPanel24.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.guna2CustomGradientPanel24.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.guna2CustomGradientPanel24.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.guna2CustomGradientPanel24.Location = new System.Drawing.Point(568, 20);
+            this.guna2CustomGradientPanel24.Margin = new System.Windows.Forms.Padding(10);
+            this.guna2CustomGradientPanel24.Name = "guna2CustomGradientPanel24";
+            this.guna2CustomGradientPanel24.Size = new System.Drawing.Size(194, 146);
+            this.guna2CustomGradientPanel24.TabIndex = 45;
+            // 
+            // guna2ImageButton19
+            // 
+            this.guna2ImageButton19.AnimatedGIF = true;
+            this.guna2ImageButton19.BackColor = System.Drawing.Color.White;
+            this.guna2ImageButton19.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton19.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2ImageButton19.HoverState.ImageSize = new System.Drawing.Size(200, 115);
+            this.guna2ImageButton19.Image = global::Coder_s_space.Properties.Resources.py3;
+            this.guna2ImageButton19.ImageOffset = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton19.ImageRotate = 0F;
+            this.guna2ImageButton19.ImageSize = new System.Drawing.Size(194, 112);
+            this.guna2ImageButton19.Location = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton19.Name = "guna2ImageButton19";
+            this.guna2ImageButton19.PressedState.ImageSize = new System.Drawing.Size(194, 112);
+            this.guna2ImageButton19.Size = new System.Drawing.Size(194, 112);
+            this.guna2ImageButton19.TabIndex = 0;
+            // 
+            // label23
+            // 
+            this.label23.BackColor = System.Drawing.Color.Transparent;
+            this.label23.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.label23.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.ForeColor = System.Drawing.Color.White;
+            this.label23.Location = new System.Drawing.Point(0, 115);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(194, 31);
+            this.label23.TabIndex = 11;
+            this.label23.Text = "Python for Beginners – Full Course [Programming]";
+            this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2CustomGradientPanel25
+            // 
+            this.guna2CustomGradientPanel25.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel25.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel25.BorderRadius = 15;
+            this.guna2CustomGradientPanel25.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.guna2CustomGradientPanel25.BorderThickness = 10;
+            this.guna2CustomGradientPanel25.Controls.Add(this.guna2ImageButton20);
+            this.guna2CustomGradientPanel25.Controls.Add(this.label24);
+            this.guna2CustomGradientPanel25.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel25.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.guna2CustomGradientPanel25.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.guna2CustomGradientPanel25.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.guna2CustomGradientPanel25.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.guna2CustomGradientPanel25.Location = new System.Drawing.Point(782, 20);
+            this.guna2CustomGradientPanel25.Margin = new System.Windows.Forms.Padding(10);
+            this.guna2CustomGradientPanel25.Name = "guna2CustomGradientPanel25";
+            this.guna2CustomGradientPanel25.Size = new System.Drawing.Size(194, 146);
+            this.guna2CustomGradientPanel25.TabIndex = 46;
+            // 
+            // guna2ImageButton20
+            // 
+            this.guna2ImageButton20.AnimatedGIF = true;
+            this.guna2ImageButton20.BackColor = System.Drawing.Color.White;
+            this.guna2ImageButton20.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton20.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2ImageButton20.HoverState.ImageSize = new System.Drawing.Size(200, 115);
+            this.guna2ImageButton20.Image = global::Coder_s_space.Properties.Resources.py4;
+            this.guna2ImageButton20.ImageOffset = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton20.ImageRotate = 0F;
+            this.guna2ImageButton20.ImageSize = new System.Drawing.Size(194, 112);
+            this.guna2ImageButton20.Location = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton20.Name = "guna2ImageButton20";
+            this.guna2ImageButton20.PressedState.ImageSize = new System.Drawing.Size(194, 112);
+            this.guna2ImageButton20.Size = new System.Drawing.Size(194, 112);
+            this.guna2ImageButton20.TabIndex = 0;
+            // 
+            // label24
+            // 
+            this.label24.BackColor = System.Drawing.Color.Transparent;
+            this.label24.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.label24.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.ForeColor = System.Drawing.Color.White;
+            this.label24.Location = new System.Drawing.Point(0, 115);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(194, 31);
+            this.label24.TabIndex = 11;
+            this.label24.Text = "পাইথন দিয়ে প্রেম ❤️ | বাংলা পাইথন টিউটোরিয়াল | Python for beginner | Python tut" +
+    "orial Jhankar Mahbub";
+            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // FormCourses
             // 
@@ -1611,10 +1777,21 @@
             this.flowLayoutPanel3.ResumeLayout(false);
             this.guna2CustomGradientPanel12.ResumeLayout(false);
             this.guna2CustomGradientPanel6.ResumeLayout(false);
+            this.guna2CustomGradientPanel19.ResumeLayout(false);
+            this.guna2CustomGradientPanel20.ResumeLayout(false);
+            this.guna2CustomGradientPanel21.ResumeLayout(false);
+            this.guna2CustomGradientPanel22.ResumeLayout(false);
             this.guna2CustomGradientPanel29.ResumeLayout(false);
             this.guna2CustomGradientPanel30.ResumeLayout(false);
             this.flowLayoutPanel4.ResumeLayout(false);
             this.guna2CustomGradientPanel35.ResumeLayout(false);
+            this.guna2CustomGradientPanel7.ResumeLayout(false);
+            this.guna2CustomGradientPanel8.ResumeLayout(false);
+            this.guna2CustomGradientPanel9.ResumeLayout(false);
+            this.guna2CustomGradientPanel11.ResumeLayout(false);
+            this.guna2CustomGradientPanel18.ResumeLayout(false);
+            this.guna2CustomGradientPanel14.ResumeLayout(false);
+            this.guna2CustomGradientPanel10.ResumeLayout(false);
             this.guna2CustomGradientPanel43.ResumeLayout(false);
             this.guna2CustomGradientPanel2.ResumeLayout(false);
             this.flowLayoutPanel5.ResumeLayout(false);
@@ -1633,17 +1810,9 @@
             this.guna2CustomGradientPanel17.ResumeLayout(false);
             this.guna2CustomGradientPanel61.ResumeLayout(false);
             this.flowLayoutPanel2.ResumeLayout(false);
-            this.guna2CustomGradientPanel7.ResumeLayout(false);
-            this.guna2CustomGradientPanel8.ResumeLayout(false);
-            this.guna2CustomGradientPanel9.ResumeLayout(false);
-            this.guna2CustomGradientPanel10.ResumeLayout(false);
-            this.guna2CustomGradientPanel11.ResumeLayout(false);
-            this.guna2CustomGradientPanel14.ResumeLayout(false);
-            this.guna2CustomGradientPanel18.ResumeLayout(false);
-            this.guna2CustomGradientPanel19.ResumeLayout(false);
-            this.guna2CustomGradientPanel20.ResumeLayout(false);
-            this.guna2CustomGradientPanel21.ResumeLayout(false);
-            this.guna2CustomGradientPanel22.ResumeLayout(false);
+            this.guna2CustomGradientPanel23.ResumeLayout(false);
+            this.guna2CustomGradientPanel24.ResumeLayout(false);
+            this.guna2CustomGradientPanel25.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1741,5 +1910,14 @@
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel22;
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton17;
         private System.Windows.Forms.Label label21;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel23;
+        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton18;
+        private System.Windows.Forms.Label label22;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel24;
+        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton19;
+        private System.Windows.Forms.Label label23;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel25;
+        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton20;
+        private System.Windows.Forms.Label label24;
     }
 }

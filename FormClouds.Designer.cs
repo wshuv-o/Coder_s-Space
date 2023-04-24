@@ -34,7 +34,7 @@
             // 
             // guna2PictureBox1
             // 
-            this.guna2PictureBox1.Image = global::Coder_s_space.Properties.Resources.cpp1;
+            this.guna2PictureBox1.Image = global::Coder_s_space.Properties.Resources.php;
             this.guna2PictureBox1.ImageRotate = 0F;
             this.guna2PictureBox1.Location = new System.Drawing.Point(192, 112);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
