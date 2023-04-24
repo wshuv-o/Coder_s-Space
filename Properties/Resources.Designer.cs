@@ -403,6 +403,16 @@ namespace Coder_s_space.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap CC_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("CC-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap coder_s_space {
             get {
                 object obj = ResourceManager.GetObject("coder\'s space", resourceCulture);

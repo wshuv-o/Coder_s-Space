@@ -352,5 +352,15 @@ namespace Coder_s_space
         {
             OpenChildForm(new FormJobs(),panel11);
         }
+
+        private void panel7_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2ImageButton1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

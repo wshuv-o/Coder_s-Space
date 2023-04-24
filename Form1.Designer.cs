@@ -37,6 +37,7 @@ namespace Coder_s_space
             this.panel10 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.buttonArticle = new System.Windows.Forms.Button();
             this.buttonJob = new System.Windows.Forms.Button();
             this.buttonPortfolio = new System.Windows.Forms.Button();
             this.buttonKeySpeed = new System.Windows.Forms.Button();
@@ -58,7 +59,12 @@ namespace Coder_s_space
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.toolTipControlPanel = new System.Windows.Forms.ToolTip(this.components);
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.buttonArticle = new System.Windows.Forms.Button();
+            this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.label25 = new System.Windows.Forms.Label();
+            this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.panelMenu.SuspendLayout();
             this.panel10.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -71,6 +77,10 @@ namespace Coder_s_space
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.guna2GradientPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.guna2GradientPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMenu
@@ -135,6 +145,25 @@ namespace Coder_s_space
             this.panel2.TabIndex = 1;
             this.toolTip.SetToolTip(this.panel2, "Courses");
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // buttonArticle
+            // 
+            this.buttonArticle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.buttonArticle.BackgroundImage = global::Coder_s_space.Properties.Resources.job_search;
+            this.buttonArticle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.buttonArticle.Dock = System.Windows.Forms.DockStyle.Top;
+            this.buttonArticle.FlatAppearance.BorderSize = 0;
+            this.buttonArticle.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Tomato;
+            this.buttonArticle.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(127)))), ((int)(((byte)(255)))), ((int)(((byte)(212)))));
+            this.buttonArticle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonArticle.ForeColor = System.Drawing.Color.Cyan;
+            this.buttonArticle.Location = new System.Drawing.Point(12, 450);
+            this.buttonArticle.Name = "buttonArticle";
+            this.buttonArticle.Size = new System.Drawing.Size(53, 53);
+            this.buttonArticle.TabIndex = 21;
+            this.toolTip.SetToolTip(this.buttonArticle, "Article");
+            this.buttonArticle.UseVisualStyleBackColor = false;
+            this.buttonArticle.Click += new System.EventHandler(this.buttonArticle_Click_1);
             // 
             // buttonJob
             // 
@@ -347,6 +376,7 @@ namespace Coder_s_space
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.panel7.Controls.Add(this.guna2GradientPanel2);
             this.panel7.Controls.Add(this.pictureBox2);
             this.panel7.Controls.Add(this.pictureBox1);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
@@ -355,6 +385,7 @@ namespace Coder_s_space
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(1366, 33);
             this.panel7.TabIndex = 2;
+            this.panel7.Paint += new System.Windows.Forms.PaintEventHandler(this.panel7_Paint);
             // 
             // pictureBox2
             // 
@@ -389,6 +420,7 @@ namespace Coder_s_space
             // panel11
             // 
             this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.panel11.Controls.Add(this.guna2GradientPanel1);
             this.panel11.Controls.Add(this.pictureBox3);
             this.panel11.Location = new System.Drawing.Point(0, 36);
             this.panel11.Name = "panel11";
@@ -412,24 +444,80 @@ namespace Coder_s_space
             this.toolTipControlPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(9)))), ((int)(((byte)(9)))));
             this.toolTipControlPanel.ForeColor = System.Drawing.Color.LightSalmon;
             // 
-            // buttonArticle
+            // guna2GradientPanel1
             // 
-            this.buttonArticle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.buttonArticle.BackgroundImage = global::Coder_s_space.Properties.Resources.job_search;
-            this.buttonArticle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.buttonArticle.Dock = System.Windows.Forms.DockStyle.Top;
-            this.buttonArticle.FlatAppearance.BorderSize = 0;
-            this.buttonArticle.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Tomato;
-            this.buttonArticle.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(127)))), ((int)(((byte)(255)))), ((int)(((byte)(212)))));
-            this.buttonArticle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonArticle.ForeColor = System.Drawing.Color.Cyan;
-            this.buttonArticle.Location = new System.Drawing.Point(12, 450);
-            this.buttonArticle.Name = "buttonArticle";
-            this.buttonArticle.Size = new System.Drawing.Size(53, 53);
-            this.buttonArticle.TabIndex = 21;
-            this.toolTip.SetToolTip(this.buttonArticle, "Article");
-            this.buttonArticle.UseVisualStyleBackColor = false;
-            this.buttonArticle.Click += new System.EventHandler(this.buttonArticle_Click_1);
+            this.guna2GradientPanel1.BorderColor = System.Drawing.Color.Gold;
+            this.guna2GradientPanel1.BorderRadius = 10;
+            this.guna2GradientPanel1.BorderThickness = 2;
+            this.guna2GradientPanel1.Controls.Add(this.pictureBox4);
+            this.guna2GradientPanel1.Controls.Add(this.label25);
+            this.guna2GradientPanel1.CustomBorderColor = System.Drawing.Color.Red;
+            this.guna2GradientPanel1.Location = new System.Drawing.Point(530, 254);
+            this.guna2GradientPanel1.Name = "guna2GradientPanel1";
+            this.guna2GradientPanel1.Padding = new System.Windows.Forms.Padding(2);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(56, 26);
+            this.guna2GradientPanel1.TabIndex = 43;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureBox4.Image = global::Coder_s_space.Properties.Resources.CC_removebg_preview;
+            this.pictureBox4.Location = new System.Drawing.Point(2, 2);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(22, 22);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 0;
+            this.pictureBox4.TabStop = false;
+            // 
+            // label25
+            // 
+            this.label25.BackColor = System.Drawing.Color.Transparent;
+            this.label25.Dock = System.Windows.Forms.DockStyle.Right;
+            this.label25.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.ForeColor = System.Drawing.Color.White;
+            this.label25.Location = new System.Drawing.Point(14, 2);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(40, 22);
+            this.label25.TabIndex = 13;
+            this.label25.Text = "1.6";
+            this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // guna2GradientPanel2
+            // 
+            this.guna2GradientPanel2.BorderColor = System.Drawing.Color.Gold;
+            this.guna2GradientPanel2.BorderRadius = 10;
+            this.guna2GradientPanel2.Controls.Add(this.pictureBox6);
+            this.guna2GradientPanel2.Controls.Add(this.label1);
+            this.guna2GradientPanel2.CustomBorderColor = System.Drawing.Color.Red;
+            this.guna2GradientPanel2.Location = new System.Drawing.Point(11, 4);
+            this.guna2GradientPanel2.Name = "guna2GradientPanel2";
+            this.guna2GradientPanel2.Padding = new System.Windows.Forms.Padding(2);
+            this.guna2GradientPanel2.Size = new System.Drawing.Size(61, 26);
+            this.guna2GradientPanel2.TabIndex = 44;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureBox6.Image = global::Coder_s_space.Properties.Resources.CC_removebg_preview;
+            this.pictureBox6.Location = new System.Drawing.Point(2, 2);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(22, 22);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 0;
+            this.pictureBox6.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(19, 2);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(40, 22);
+            this.label1.TabIndex = 13;
+            this.label1.Text = "150.6";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // Form1
             // 
@@ -460,6 +548,10 @@ namespace Coder_s_space
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel11.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.guna2GradientPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.guna2GradientPanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -492,6 +584,12 @@ namespace Coder_s_space
         private System.Windows.Forms.ToolTip toolTipControlPanel;
         private System.Windows.Forms.ToolTip toolTip;
         private System.Windows.Forms.Button buttonArticle;
+        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Label label25;
+        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel2;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.Label label1;
     }
 }
 
