@@ -705,6 +705,42 @@
   <ItemGroup>
     <None Include="Resources\maxresdefault %281%29.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c#61.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c#51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c#41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c#31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cpp81.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cpp71.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cpp61.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cpp51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cpp41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cpp31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cpp21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cpp11.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
