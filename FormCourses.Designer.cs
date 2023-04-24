@@ -103,8 +103,6 @@
             this.guna2CustomGradientPanel13 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.label2 = new System.Windows.Forms.Label();
             this.guna2ImageButton10 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.guna2CustomGradientPanel32 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.label28 = new System.Windows.Forms.Label();
             this.guna2CustomGradientPanel33 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
@@ -130,7 +128,6 @@
             this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
-            this.label25 = new System.Windows.Forms.Label();
             this.flowLayoutPanel1.SuspendLayout();
             this.guna2CustomGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -164,8 +161,6 @@
             this.guna2CustomGradientPanel16.SuspendLayout();
             this.flowLayoutPanel6.SuspendLayout();
             this.guna2CustomGradientPanel13.SuspendLayout();
-            this.guna2GradientPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.guna2CustomGradientPanel32.SuspendLayout();
             this.guna2CustomGradientPanel33.SuspendLayout();
             this.flowLayoutPanel7.SuspendLayout();
@@ -1335,7 +1330,6 @@
             // 
             this.flowLayoutPanel6.BackColor = System.Drawing.Color.Transparent;
             this.flowLayoutPanel6.Controls.Add(this.guna2CustomGradientPanel13);
-            this.flowLayoutPanel6.Controls.Add(this.guna2GradientPanel1);
             this.flowLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel6.Location = new System.Drawing.Point(0, 44);
             this.flowLayoutPanel6.Margin = new System.Windows.Forms.Padding(20);
@@ -1394,31 +1388,6 @@
             this.guna2ImageButton10.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton10.Size = new System.Drawing.Size(194, 118);
             this.guna2ImageButton10.TabIndex = 0;
-            // 
-            // guna2GradientPanel1
-            // 
-            this.guna2GradientPanel1.BorderColor = System.Drawing.Color.Gold;
-            this.guna2GradientPanel1.BorderRadius = 10;
-            this.guna2GradientPanel1.BorderThickness = 3;
-            this.guna2GradientPanel1.Controls.Add(this.pictureBox1);
-            this.guna2GradientPanel1.Controls.Add(this.label25);
-            this.guna2GradientPanel1.CustomBorderColor = System.Drawing.Color.Red;
-            this.guna2GradientPanel1.Location = new System.Drawing.Point(347, 13);
-            this.guna2GradientPanel1.Name = "guna2GradientPanel1";
-            this.guna2GradientPanel1.Padding = new System.Windows.Forms.Padding(3);
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(67, 27);
-            this.guna2GradientPanel1.TabIndex = 42;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pictureBox1.Image = global::Coder_s_space.Properties.Resources.CC_removebg_preview;
-            this.pictureBox1.Location = new System.Drawing.Point(32, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(32, 21);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // guna2CustomGradientPanel32
             // 
@@ -1791,19 +1760,6 @@
             this.guna2Button8.TabIndex = 9;
             this.guna2Button8.Text = "guna2Button8";
             // 
-            // label25
-            // 
-            this.label25.BackColor = System.Drawing.Color.Transparent;
-            this.label25.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label25.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.ForeColor = System.Drawing.Color.White;
-            this.label25.Location = new System.Drawing.Point(3, 3);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(40, 21);
-            this.label25.TabIndex = 13;
-            this.label25.Text = "1.6";
-            this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
             // FormCourses
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1847,8 +1803,6 @@
             this.guna2CustomGradientPanel16.ResumeLayout(false);
             this.flowLayoutPanel6.ResumeLayout(false);
             this.guna2CustomGradientPanel13.ResumeLayout(false);
-            this.guna2GradientPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.guna2CustomGradientPanel32.ResumeLayout(false);
             this.guna2CustomGradientPanel33.ResumeLayout(false);
             this.flowLayoutPanel7.ResumeLayout(false);
@@ -1965,8 +1919,5 @@
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel25;
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton20;
         private System.Windows.Forms.Label label24;
-        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label25;
     }
 }

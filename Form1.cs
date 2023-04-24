@@ -44,6 +44,8 @@ namespace Coder_s_space
             panel3.BackColor = Color.Transparent; // Set the background color of panel3 to transparent
             panel3.BorderStyle = BorderStyle.None; // Set the border style of panel3 to none to remove the frame
             button1.BackgroundImage = FunctionsAll.GetCircularImage(form3.pictureBox3.Image);
+
+            label1.Visible = false;
             
             // button1.BackgroundImage = Properties.Resources.user__2_;
 
@@ -362,5 +364,22 @@ namespace Coder_s_space
         {
 
         }
+
+        private void pictureBox6_Click_1(object sender, EventArgs e)
+        {
+
+        }
+        private void pictureBox6_MouseHover(object sender, EventArgs e)
+        {
+            label1.Visible = true;
+            guna2GradientPanel2.BorderThickness = 2;
+        }
+
+        private void pictureBox6_MouseLeave(object sender, EventArgs e)
+        {
+            label1.Visible = false;
+            guna2GradientPanel2.BorderThickness=0;
+        }
+
     }
 }

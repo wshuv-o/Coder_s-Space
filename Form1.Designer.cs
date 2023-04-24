@@ -53,18 +53,18 @@ namespace Coder_s_space
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.toolTipControlPanel = new System.Windows.Forms.ToolTip(this.components);
-            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.label25 = new System.Windows.Forms.Label();
             this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.label25 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.toolTipControlPanel = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.panelMenu.SuspendLayout();
             this.panel10.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -73,14 +73,14 @@ namespace Coder_s_space
             this.panel3.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel7.SuspendLayout();
+            this.guna2GradientPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel11.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.guna2GradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.guna2GradientPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMenu
@@ -387,6 +387,46 @@ namespace Coder_s_space
             this.panel7.TabIndex = 2;
             this.panel7.Paint += new System.Windows.Forms.PaintEventHandler(this.panel7_Paint);
             // 
+            // guna2GradientPanel2
+            // 
+            this.guna2GradientPanel2.BorderColor = System.Drawing.Color.Gold;
+            this.guna2GradientPanel2.BorderRadius = 10;
+            this.guna2GradientPanel2.Controls.Add(this.pictureBox6);
+            this.guna2GradientPanel2.Controls.Add(this.label1);
+            this.guna2GradientPanel2.CustomBorderColor = System.Drawing.Color.Red;
+            this.guna2GradientPanel2.Location = new System.Drawing.Point(13, 6);
+            this.guna2GradientPanel2.Name = "guna2GradientPanel2";
+            this.guna2GradientPanel2.Padding = new System.Windows.Forms.Padding(2);
+            this.guna2GradientPanel2.Size = new System.Drawing.Size(61, 26);
+            this.guna2GradientPanel2.TabIndex = 44;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureBox6.Image = global::Coder_s_space.Properties.Resources.CC_removebg_preview;
+            this.pictureBox6.Location = new System.Drawing.Point(2, 2);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(22, 22);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 0;
+            this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click_1);
+            this.pictureBox6.MouseLeave += new System.EventHandler(this.pictureBox6_MouseLeave);
+            this.pictureBox6.MouseHover += new System.EventHandler(this.pictureBox6_MouseHover);
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(19, 2);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(40, 22);
+            this.label1.TabIndex = 13;
+            this.label1.Text = "5.0";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Coder_s_space.Properties.Resources.mac_mix_removebg_preview;
@@ -428,22 +468,6 @@ namespace Coder_s_space
             this.panel11.TabIndex = 3;
             this.panel11.Paint += new System.Windows.Forms.PaintEventHandler(this.panel11_Paint);
             // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.pictureBox3.BackColor = System.Drawing.Color.Blue;
-            this.pictureBox3.Image = global::Coder_s_space.Properties.Resources.logo;
-            this.pictureBox3.Location = new System.Drawing.Point(81, 99);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(403, 480);
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
-            // 
-            // toolTipControlPanel
-            // 
-            this.toolTipControlPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(9)))), ((int)(((byte)(9)))));
-            this.toolTipControlPanel.ForeColor = System.Drawing.Color.LightSalmon;
-            // 
             // guna2GradientPanel1
             // 
             this.guna2GradientPanel1.BorderColor = System.Drawing.Color.Gold;
@@ -482,42 +506,21 @@ namespace Coder_s_space
             this.label25.Text = "1.6";
             this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // guna2GradientPanel2
+            // pictureBox3
             // 
-            this.guna2GradientPanel2.BorderColor = System.Drawing.Color.Gold;
-            this.guna2GradientPanel2.BorderRadius = 10;
-            this.guna2GradientPanel2.Controls.Add(this.pictureBox6);
-            this.guna2GradientPanel2.Controls.Add(this.label1);
-            this.guna2GradientPanel2.CustomBorderColor = System.Drawing.Color.Red;
-            this.guna2GradientPanel2.Location = new System.Drawing.Point(11, 4);
-            this.guna2GradientPanel2.Name = "guna2GradientPanel2";
-            this.guna2GradientPanel2.Padding = new System.Windows.Forms.Padding(2);
-            this.guna2GradientPanel2.Size = new System.Drawing.Size(61, 26);
-            this.guna2GradientPanel2.TabIndex = 44;
+            this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.pictureBox3.BackColor = System.Drawing.Color.Blue;
+            this.pictureBox3.Image = global::Coder_s_space.Properties.Resources.logo;
+            this.pictureBox3.Location = new System.Drawing.Point(81, 99);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(403, 480);
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
             // 
-            // pictureBox6
+            // toolTipControlPanel
             // 
-            this.pictureBox6.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBox6.Image = global::Coder_s_space.Properties.Resources.CC_removebg_preview;
-            this.pictureBox6.Location = new System.Drawing.Point(2, 2);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(22, 22);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 0;
-            this.pictureBox6.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(19, 2);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 22);
-            this.label1.TabIndex = 13;
-            this.label1.Text = "150.6";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.toolTipControlPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(9)))), ((int)(((byte)(9)))));
+            this.toolTipControlPanel.ForeColor = System.Drawing.Color.LightSalmon;
             // 
             // Form1
             // 
@@ -544,14 +547,14 @@ namespace Coder_s_space
             this.panel3.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
+            this.guna2GradientPanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel11.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.guna2GradientPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            this.guna2GradientPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }
