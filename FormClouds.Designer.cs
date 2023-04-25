@@ -34,11 +34,12 @@
             // 
             // guna2PictureBox1
             // 
-            this.guna2PictureBox1.Image = global::Coder_s_space.Properties.Resources.php;
+            this.guna2PictureBox1.Image = global::Coder_s_space.Properties.Resources.download__4_;
             this.guna2PictureBox1.ImageRotate = 0F;
             this.guna2PictureBox1.Location = new System.Drawing.Point(192, 112);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.Size = new System.Drawing.Size(192, 112);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox1.TabIndex = 0;
             this.guna2PictureBox1.TabStop = false;
             // 

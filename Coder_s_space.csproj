@@ -756,6 +756,48 @@
   <ItemGroup>
     <None Include="Resources\CC-removebg-preview.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MkcfB7S4fq0mq.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jv6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jv5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jv4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jv3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jv2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jv1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wb3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wb2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wb1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
