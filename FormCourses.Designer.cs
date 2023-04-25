@@ -380,6 +380,7 @@
             this.guna2ImageButton3.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton3.Size = new System.Drawing.Size(194, 112);
             this.guna2ImageButton3.TabIndex = 0;
+            this.guna2ImageButton3.Click += new System.EventHandler(this.guna2ImageButton3_Click);
             // 
             // label6
             // 
@@ -2240,7 +2241,7 @@
             this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 57);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.flowLayoutPanel2.Padding = new System.Windows.Forms.Padding(5, 5, 20, 5);
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(199, 660);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(216, 660);
             this.flowLayoutPanel2.TabIndex = 2;
             // 
             // guna2CustomGradientPanel41

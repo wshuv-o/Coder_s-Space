@@ -20,16 +20,16 @@ namespace Coder_s_space
 
         private void guna2ImageButton31_Click(object sender, EventArgs e)
         {
-            ButtonAdder(sender);
+            ButtonAdder(sender, e);
         }
         private void guna2ImageButton29_Click(object sender, EventArgs e)
         {
-            ButtonAdder(sender);
+            ButtonAdder(sender,e);
         }
 
         private void guna2ImageButton9_Click(object sender, EventArgs e)
         {
-            ButtonAdder(sender);
+            ButtonAdder(sender,e);
         }
         private void FormCourses_Load(object sender, EventArgs e)
         {
@@ -41,7 +41,7 @@ namespace Coder_s_space
             }
         }
 
-        private void ButtonAdder(object sender)
+        private void ButtonAdder(object sender,EventArgs e)
         {
             //MessageBox.Show("gg.");
             
@@ -50,7 +50,7 @@ namespace Coder_s_space
             // Set the properties of the new button based on the clicked button
             Guna2ImageButton clickedButton = (Guna2ImageButton)sender;
             newButton.Height = clickedButton.Height;
-            newButton.Width = flowLayoutPanel2.Width - 15;
+            newButton.Width = flowLayoutPanel2.Width - 30;
             newButton.Image = clickedButton.Image;
             newButton.ImageSize = clickedButton.ImageSize;
 
@@ -58,6 +58,10 @@ namespace Coder_s_space
             flowLayoutPanel2.Controls.Add(newButton);
         }
 
+        private void guna2ImageButton3_Click(object sender, EventArgs e)
+        {
+            ButtonAdder(sender, e);
 
+        }
     }
 }
