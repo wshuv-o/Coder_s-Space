@@ -16,52 +16,53 @@ namespace Coder_s_space
         public FormCourses()
         {
             InitializeComponent();
-        }
-
-        private void guna2ImageButton31_Click(object sender, EventArgs e)
-        {
-            ButtonAdder(sender, e);
-        }
-        private void guna2ImageButton29_Click(object sender, EventArgs e)
-        {
-            ButtonAdder(sender,e);
-        }
-
-        private void guna2ImageButton9_Click(object sender, EventArgs e)
-        {
-            ButtonAdder(sender,e);
-        }
-        private void FormCourses_Load(object sender, EventArgs e)
-        {
-            MessageBox.Show("gg.");
-            foreach (Guna2ImageButton btn in this.Controls.OfType<Guna2ImageButton>())
+            FlowLayoutPanel[] flowPanels = { flowLayoutPanel3,flowLayoutPanel4, flowLayoutPanel5, flowLayoutPanel6, flowLayoutPanel7, flowLayoutPanel8 };
+            foreach (FlowLayoutPanel flowPanel in flowPanels)
             {
-                btn.ImageRotate = 90;
-                //btn.Click += new System.EventHandler(this.ButtonAdder);
+                foreach (Guna2CustomGradientPanel pnl in flowPanel.Controls.OfType<Guna2CustomGradientPanel>())
+                {
+                    Guna2ImageButton button = pnl.Controls.OfType<Guna2ImageButton>().FirstOrDefault();
+                    if (button != null)
+                    {
+                        button.Click += ButtonAdder;
+                    }
+                }
+            }
+
+
+
+        }
+
+
+
+        private List<Guna2ImageButton> addedButtons = new List<Guna2ImageButton>();
+
+        private void ButtonAdder(object sender, EventArgs e)
+        {
+            Guna2ImageButton clickedButton = (Guna2ImageButton)sender;
+
+            // Check if the button has already been added
+            if (!addedButtons.Contains(clickedButton))
+            {
+                // Create a new button and add it to the list of added buttons
+                Guna2ImageButton newButton = new Guna2ImageButton();
+                newButton.Height = clickedButton.Height;
+                newButton.Width = flowLayoutPanel2.Width - 30;
+                newButton.Image = clickedButton.Image;
+                newButton.HoverState.ImageSize = new System.Drawing.Size(220, 125);
+                newButton.ImageSize = clickedButton.ImageSize;
+                addedButtons.Add(clickedButton);
+
+                // Add the new button to the FlowLayoutPanel
+                flowLayoutPanel2.Controls.Add(newButton);
+            }
+            else
+            {
+                MessageBox.Show("This course has Already been Owned");
             }
         }
 
-        private void ButtonAdder(object sender,EventArgs e)
-        {
-            //MessageBox.Show("gg.");
-            
-            Guna2ImageButton newButton = new Guna2ImageButton();
 
-            // Set the properties of the new button based on the clicked button
-            Guna2ImageButton clickedButton = (Guna2ImageButton)sender;
-            newButton.Height = clickedButton.Height;
-            newButton.Width = flowLayoutPanel2.Width - 30;
-            newButton.Image = clickedButton.Image;
-            newButton.ImageSize = clickedButton.ImageSize;
 
-            // Add the new button to the FlowLayoutPanel
-            flowLayoutPanel2.Controls.Add(newButton);
-        }
-
-        private void guna2ImageButton3_Click(object sender, EventArgs e)
-        {
-            ButtonAdder(sender, e);
-
-        }
     }
 }
