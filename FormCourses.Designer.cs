@@ -225,7 +225,7 @@
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Padding = new System.Windows.Forms.Padding(17, 10, 15, 15);
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1145, 729);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1216, 729);
             this.flowLayoutPanel1.TabIndex = 1;
             // 
             // guna2CustomGradientPanel1
@@ -247,12 +247,12 @@
             this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1.BorderRadius = 20;
             this.guna2PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2PictureBox1.Image = global::Coder_s_space.Properties.Resources.attacg;
+            this.guna2PictureBox1.Image = global::Coder_s_space.Properties.Resources._20221020055447_IMG_8419f;
             this.guna2PictureBox1.ImageRotate = 0F;
             this.guna2PictureBox1.Location = new System.Drawing.Point(3, 3);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.Size = new System.Drawing.Size(1122, 347);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox1.TabIndex = 1;
             this.guna2PictureBox1.TabStop = false;
             this.guna2PictureBox1.UseTransparentBackground = true;
@@ -329,7 +329,6 @@
             this.guna2ImageButton9.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton9.Size = new System.Drawing.Size(194, 112);
             this.guna2ImageButton9.TabIndex = 0;
-           
             // 
             // label13
             // 
@@ -380,7 +379,6 @@
             this.guna2ImageButton3.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton3.Size = new System.Drawing.Size(194, 112);
             this.guna2ImageButton3.TabIndex = 0;
-           // this.guna2ImageButton3.Click += new System.EventHandler(this.guna2ImageButton3_Click);
             // 
             // label6
             // 
@@ -431,7 +429,6 @@
             this.guna2ImageButton14.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton14.Size = new System.Drawing.Size(194, 112);
             this.guna2ImageButton14.TabIndex = 0;
-            //this.guna2ImageButton14.Click += new System.EventHandler(this.guna2ImageButton14_Click);
             // 
             // label18
             // 
@@ -759,7 +756,6 @@
             this.guna2ImageButton29.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton29.Size = new System.Drawing.Size(194, 118);
             this.guna2ImageButton29.TabIndex = 0;
-           // this.guna2ImageButton29.Click += new System.EventHandler(this.guna2ImageButton29_Click);
             // 
             // guna2CustomGradientPanel7
             // 
@@ -2206,7 +2202,6 @@
             this.guna2ImageButton31.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton31.Size = new System.Drawing.Size(194, 118);
             this.guna2ImageButton31.TabIndex = 0;
-           // this.guna2ImageButton31.Click += new System.EventHandler(this.guna2ImageButton31_Click);
             // 
             // guna2CustomGradientPanel61
             // 

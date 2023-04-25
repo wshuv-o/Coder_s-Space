@@ -798,6 +798,30 @@
   <ItemGroup>
     <None Include="Resources\game1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cs1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cs2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cs3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cs4.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\csi1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\csi2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\csi3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\csi4.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

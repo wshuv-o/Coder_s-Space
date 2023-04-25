@@ -13,9 +13,24 @@ namespace Coder_s_space
 {
     public partial class FormCourses : Form
     {
+        private List<Image> _images = new List<Image>(); // List of images to display
+        private int _currentIndex = 0; // Index of the current image being displayed
+        private Timer _timer = new Timer(); // Timer to move the picture
         public FormCourses()
         {
             InitializeComponent();
+            _images.Add(Coder_s_space.Properties.Resources.csi1);
+            _images.Add(Coder_s_space.Properties.Resources.csi2);
+            _images.Add(Coder_s_space.Properties.Resources.csi3);
+            _images.Add(Coder_s_space.Properties.Resources.csi4);
+            // Set the initial image in the picture box
+            guna2PictureBox1.Image = _images[_currentIndex];
+
+            // Set the timer properties
+            _timer.Interval = 2000; // 4 seconds
+            _timer.Tick += timer_Tick;
+            _timer.Start();
+
             FlowLayoutPanel[] flowPanels = { flowLayoutPanel3,flowLayoutPanel4, flowLayoutPanel5, flowLayoutPanel6, flowLayoutPanel7, flowLayoutPanel8 };
             foreach (FlowLayoutPanel flowPanel in flowPanels)
             {
@@ -31,6 +46,14 @@ namespace Coder_s_space
 
 
 
+        }
+        void timer_Tick(object sender, EventArgs e)
+        {
+            // Increment the index and reset to 0 when the last image has been displayed
+            _currentIndex = (_currentIndex + 1) % _images.Count;
+
+            // Set the next image in the list
+            guna2PictureBox1.Image = _images[_currentIndex];
         }
 
 
