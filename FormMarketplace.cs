@@ -12,6 +12,7 @@ namespace Coder_s_space
 {
     public partial class FormMarketplace : Form
     {
+        
         public FormMarketplace()
         {
             InitializeComponent();
@@ -25,6 +26,31 @@ namespace Coder_s_space
         private void label2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void guna2Separator1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonGitHub_Click(object sender, EventArgs e)
+        {
+            AddTask(new TaskPost(), flowLayoutPanel1);
+        }
+
+        public void AddTask(Form childForm, FlowLayoutPanel parentPanel)
+        {
+                    
+                childForm.TopLevel = false;
+                childForm.FormBorderStyle = FormBorderStyle.None;
+                childForm.Dock = DockStyle.Top;
+                parentPanel.Controls.Add(childForm);
+                parentPanel.Tag = childForm;
+                childForm.BringToFront();
+                childForm.Show();
+                // childForm.Size = parentPanel.Size;
+         
+            
         }
     }
 }

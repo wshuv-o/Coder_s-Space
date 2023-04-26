@@ -29,6 +29,10 @@
         private void InitializeComponent()
         {
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.panelBrowser = new System.Windows.Forms.Panel();
+            this.webView21 = new Microsoft.Web.WebView2.WinForms.WebView2();
             this.buttonCodeSandbox = new Guna.UI2.WinForms.Guna2Button();
             this.buttonJSFiddle = new Guna.UI2.WinForms.Guna2Button();
             this.buttonPasteCode = new Guna.UI2.WinForms.Guna2Button();
@@ -38,10 +42,6 @@
             this.buttonBitBucket = new Guna.UI2.WinForms.Guna2Button();
             this.buttonGitLab = new Guna.UI2.WinForms.Guna2Button();
             this.buttonGitHub = new Guna.UI2.WinForms.Guna2Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.panelBrowser = new System.Windows.Forms.Panel();
-            this.webView21 = new Microsoft.Web.WebView2.WinForms.WebView2();
             this.guna2Panel1.SuspendLayout();
             this.panelBrowser.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.webView21)).BeginInit();
@@ -71,6 +71,56 @@
             this.guna2Panel1.Padding = new System.Windows.Forms.Padding(1);
             this.guna2Panel1.Size = new System.Drawing.Size(105, 729);
             this.guna2Panel1.TabIndex = 4;
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label1.Font = new System.Drawing.Font("Lucida Calligraphy", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.LightGray;
+            this.label1.Location = new System.Drawing.Point(1, 1);
+            this.label1.Margin = new System.Windows.Forms.Padding(0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(103, 133);
+            this.label1.TabIndex = 26;
+            this.label1.Text = "#Contribute";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.panel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.panel1.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.panel1.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
+            this.panel1.Location = new System.Drawing.Point(0, 719);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1245, 10);
+            this.panel1.TabIndex = 1;
+            // 
+            // panelBrowser
+            // 
+            this.panelBrowser.BackColor = System.Drawing.Color.Transparent;
+            this.panelBrowser.Controls.Add(this.webView21);
+            this.panelBrowser.Controls.Add(this.panel1);
+            this.panelBrowser.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelBrowser.Location = new System.Drawing.Point(0, 0);
+            this.panelBrowser.Name = "panelBrowser";
+            this.panelBrowser.Size = new System.Drawing.Size(1245, 729);
+            this.panelBrowser.TabIndex = 5;
+            // 
+            // webView21
+            // 
+            this.webView21.AllowExternalDrop = true;
+            this.webView21.CreationProperties = null;
+            this.webView21.DefaultBackgroundColor = System.Drawing.Color.White;
+            this.webView21.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.webView21.Location = new System.Drawing.Point(0, 0);
+            this.webView21.Name = "webView21";
+            this.webView21.Size = new System.Drawing.Size(1245, 719);
+            this.webView21.TabIndex = 0;
+            this.webView21.ZoomFactor = 1D;
             // 
             // buttonCodeSandbox
             // 
@@ -326,56 +376,6 @@
             this.buttonGitHub.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.buttonGitHub.TextOffset = new System.Drawing.Point(-4, 0);
             this.buttonGitHub.Click += new System.EventHandler(this.buttonGitHub_Click);
-            // 
-            // label1
-            // 
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label1.Font = new System.Drawing.Font("Franklin Gothic Demi", 12.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.LightGray;
-            this.label1.Location = new System.Drawing.Point(1, 1);
-            this.label1.Margin = new System.Windows.Forms.Padding(0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(103, 133);
-            this.label1.TabIndex = 26;
-            this.label1.Text = "#Contribute";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.panel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.panel1.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.panel1.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
-            this.panel1.Location = new System.Drawing.Point(0, 719);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1245, 10);
-            this.panel1.TabIndex = 1;
-            // 
-            // panelBrowser
-            // 
-            this.panelBrowser.BackColor = System.Drawing.Color.Transparent;
-            this.panelBrowser.Controls.Add(this.webView21);
-            this.panelBrowser.Controls.Add(this.panel1);
-            this.panelBrowser.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelBrowser.Location = new System.Drawing.Point(0, 0);
-            this.panelBrowser.Name = "panelBrowser";
-            this.panelBrowser.Size = new System.Drawing.Size(1245, 729);
-            this.panelBrowser.TabIndex = 5;
-            // 
-            // webView21
-            // 
-            this.webView21.AllowExternalDrop = true;
-            this.webView21.CreationProperties = null;
-            this.webView21.DefaultBackgroundColor = System.Drawing.Color.White;
-            this.webView21.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.webView21.Location = new System.Drawing.Point(0, 0);
-            this.webView21.Name = "webView21";
-            this.webView21.Size = new System.Drawing.Size(1245, 719);
-            this.webView21.TabIndex = 0;
-            this.webView21.ZoomFactor = 1D;
             // 
             // FormClouds
             // 
