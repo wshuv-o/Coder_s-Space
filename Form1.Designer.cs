@@ -294,7 +294,7 @@ namespace Coder_s_space
             this.buttonCloud.Name = "buttonCloud";
             this.buttonCloud.Size = new System.Drawing.Size(53, 53);
             this.buttonCloud.TabIndex = 14;
-            this.toolTip.SetToolTip(this.buttonCloud, " Clouds");
+            this.toolTip.SetToolTip(this.buttonCloud, "Code Drive");
             this.buttonCloud.UseVisualStyleBackColor = false;
             this.buttonCloud.Click += new System.EventHandler(this.button3_Click_1);
             // 

@@ -52,8 +52,6 @@
             this.guna2CustomGradientPanel22 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.guna2ImageButton17 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.label21 = new System.Windows.Forms.Label();
-            this.guna2CustomGradientPanel47 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.label40 = new System.Windows.Forms.Label();
             this.guna2CustomGradientPanel29 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.label10 = new System.Windows.Forms.Label();
             this.guna2CustomGradientPanel30 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
@@ -151,6 +149,8 @@
             this.guna2ImageButton31 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2CustomGradientPanel61 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.label54 = new System.Windows.Forms.Label();
+            this.guna2CustomGradientPanel47 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.label40 = new System.Windows.Forms.Label();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2CustomGradientPanel41 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.flowLayoutPanel1.SuspendLayout();
@@ -164,7 +164,6 @@
             this.guna2CustomGradientPanel20.SuspendLayout();
             this.guna2CustomGradientPanel21.SuspendLayout();
             this.guna2CustomGradientPanel22.SuspendLayout();
-            this.guna2CustomGradientPanel47.SuspendLayout();
             this.guna2CustomGradientPanel29.SuspendLayout();
             this.guna2CustomGradientPanel30.SuspendLayout();
             this.flowLayoutPanel4.SuspendLayout();
@@ -206,6 +205,7 @@
             this.guna2CustomGradientPanel39.SuspendLayout();
             this.guna2CustomGradientPanel40.SuspendLayout();
             this.guna2CustomGradientPanel61.SuspendLayout();
+            this.guna2CustomGradientPanel47.SuspendLayout();
             this.guna2CustomGradientPanel41.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -589,39 +589,6 @@
             this.label21.TabIndex = 11;
             this.label21.Text = "C# Full Project Tutorial (Management System)";
             this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2CustomGradientPanel47
-            // 
-            this.guna2CustomGradientPanel47.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel47.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel47.BorderRadius = 15;
-            this.guna2CustomGradientPanel47.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            this.guna2CustomGradientPanel47.BorderThickness = 10;
-            this.guna2CustomGradientPanel47.Controls.Add(this.label40);
-            this.guna2CustomGradientPanel47.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel47.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2CustomGradientPanel47.FillColor = System.Drawing.Color.Aqua;
-            this.guna2CustomGradientPanel47.FillColor2 = System.Drawing.Color.PaleTurquoise;
-            this.guna2CustomGradientPanel47.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.guna2CustomGradientPanel47.FillColor4 = System.Drawing.Color.Fuchsia;
-            this.guna2CustomGradientPanel47.Location = new System.Drawing.Point(0, 0);
-            this.guna2CustomGradientPanel47.Margin = new System.Windows.Forms.Padding(10);
-            this.guna2CustomGradientPanel47.Name = "guna2CustomGradientPanel47";
-            this.guna2CustomGradientPanel47.Size = new System.Drawing.Size(199, 76);
-            this.guna2CustomGradientPanel47.TabIndex = 47;
-            // 
-            // label40
-            // 
-            this.label40.BackColor = System.Drawing.Color.Transparent;
-            this.label40.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label40.Font = new System.Drawing.Font("Lucida Bright", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label40.ForeColor = System.Drawing.Color.Black;
-            this.label40.Location = new System.Drawing.Point(0, -9);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(199, 85);
-            this.label40.TabIndex = 12;
-            this.label40.Text = "Owned Courses";
-            this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // guna2CustomGradientPanel29
             // 
@@ -2210,14 +2177,47 @@
             this.label54.Text = "Game development";
             this.label54.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // guna2CustomGradientPanel47
+            // 
+            this.guna2CustomGradientPanel47.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel47.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel47.BorderRadius = 15;
+            this.guna2CustomGradientPanel47.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.guna2CustomGradientPanel47.BorderThickness = 10;
+            this.guna2CustomGradientPanel47.Controls.Add(this.label40);
+            this.guna2CustomGradientPanel47.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel47.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2CustomGradientPanel47.FillColor = System.Drawing.Color.Aqua;
+            this.guna2CustomGradientPanel47.FillColor2 = System.Drawing.Color.PaleTurquoise;
+            this.guna2CustomGradientPanel47.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.guna2CustomGradientPanel47.FillColor4 = System.Drawing.Color.Fuchsia;
+            this.guna2CustomGradientPanel47.Location = new System.Drawing.Point(0, 0);
+            this.guna2CustomGradientPanel47.Margin = new System.Windows.Forms.Padding(10);
+            this.guna2CustomGradientPanel47.Name = "guna2CustomGradientPanel47";
+            this.guna2CustomGradientPanel47.Size = new System.Drawing.Size(199, 65);
+            this.guna2CustomGradientPanel47.TabIndex = 47;
+            // 
+            // label40
+            // 
+            this.label40.BackColor = System.Drawing.Color.Transparent;
+            this.label40.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.label40.Font = new System.Drawing.Font("Lucida Bright", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label40.ForeColor = System.Drawing.Color.Black;
+            this.label40.Location = new System.Drawing.Point(0, -20);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(199, 85);
+            this.label40.TabIndex = 12;
+            this.label40.Text = "Owned Courses";
+            this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // flowLayoutPanel2
             // 
             this.flowLayoutPanel2.AutoScroll = true;
-            this.flowLayoutPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 57);
+            this.flowLayoutPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(36)))), ((int)(((byte)(59)))));
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 42);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.flowLayoutPanel2.Padding = new System.Windows.Forms.Padding(5, 5, 20, 100);
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(216, 669);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(216, 684);
             this.flowLayoutPanel2.TabIndex = 2;
             // 
             // guna2CustomGradientPanel41
@@ -2256,7 +2256,6 @@
             this.guna2CustomGradientPanel20.ResumeLayout(false);
             this.guna2CustomGradientPanel21.ResumeLayout(false);
             this.guna2CustomGradientPanel22.ResumeLayout(false);
-            this.guna2CustomGradientPanel47.ResumeLayout(false);
             this.guna2CustomGradientPanel29.ResumeLayout(false);
             this.guna2CustomGradientPanel30.ResumeLayout(false);
             this.flowLayoutPanel4.ResumeLayout(false);
@@ -2298,6 +2297,7 @@
             this.guna2CustomGradientPanel39.ResumeLayout(false);
             this.guna2CustomGradientPanel40.ResumeLayout(false);
             this.guna2CustomGradientPanel61.ResumeLayout(false);
+            this.guna2CustomGradientPanel47.ResumeLayout(false);
             this.guna2CustomGradientPanel41.ResumeLayout(false);
             this.ResumeLayout(false);
 

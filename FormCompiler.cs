@@ -189,5 +189,15 @@ namespace Coder_s_space
             
             
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void toolTipCompilers_Popup(object sender, PopupEventArgs e)
+        {
+
+        }
     }
 }

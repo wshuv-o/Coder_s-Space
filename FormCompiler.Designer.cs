@@ -30,9 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.webView21 = new Microsoft.Web.WebView2.WinForms.WebView2();
-            this.panelBrowser = new System.Windows.Forms.Panel();
-            this.panel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.guna2ButtonSwift = new Guna.UI2.WinForms.Guna2Button();
             this.guna2ButtonJs = new Guna.UI2.WinForms.Guna2Button();
             this.guna2ButtonHtml = new Guna.UI2.WinForms.Guna2Button();
             this.guna2ButtonPhp = new Guna.UI2.WinForms.Guna2Button();
@@ -42,7 +40,9 @@
             this.guna2ButtonCp = new Guna.UI2.WinForms.Guna2Button();
             this.guna2ButtonCpp = new Guna.UI2.WinForms.Guna2Button();
             this.guna2ButtonCs = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2ButtonSwift = new Guna.UI2.WinForms.Guna2Button();
+            this.webView21 = new Microsoft.Web.WebView2.WinForms.WebView2();
+            this.panelBrowser = new System.Windows.Forms.Panel();
+            this.panel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.toolTipCompilers = new System.Windows.Forms.ToolTip(this.components);
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.webView21)).BeginInit();
@@ -75,44 +75,28 @@
             this.guna2Panel1.TabIndex = 2;
             this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
             // 
-            // webView21
+            // guna2ButtonSwift
             // 
-            this.webView21.AllowExternalDrop = true;
-            this.webView21.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.webView21.CreationProperties = null;
-            this.webView21.DefaultBackgroundColor = System.Drawing.Color.White;
-            this.webView21.Location = new System.Drawing.Point(-1, -93);
-            this.webView21.Name = "webView21";
-            this.webView21.Size = new System.Drawing.Size(1452, 776);
-            this.webView21.TabIndex = 0;
-            this.webView21.ZoomFactor = 1D;
-            this.webView21.Click += new System.EventHandler(this.webView21_Click);
-            // 
-            // panelBrowser
-            // 
-            this.panelBrowser.BackColor = System.Drawing.Color.Transparent;
-            this.panelBrowser.Controls.Add(this.panel1);
-            this.panelBrowser.Controls.Add(this.webView21);
-            this.panelBrowser.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelBrowser.Location = new System.Drawing.Point(0, 0);
-            this.panelBrowser.Name = "panelBrowser";
-            this.panelBrowser.Size = new System.Drawing.Size(1291, 729);
-            this.panelBrowser.TabIndex = 3;
-            this.panelBrowser.Paint += new System.Windows.Forms.PaintEventHandler(this.panelBrowser_Paint);
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.panel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.panel1.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.panel1.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
-            this.panel1.Location = new System.Drawing.Point(0, 670);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1291, 59);
-            this.panel1.TabIndex = 1;
+            this.guna2ButtonSwift.BorderRadius = 15;
+            this.guna2ButtonSwift.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2ButtonSwift.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2ButtonSwift.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2ButtonSwift.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2ButtonSwift.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2ButtonSwift.FillColor = System.Drawing.Color.Transparent;
+            this.guna2ButtonSwift.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2ButtonSwift.ForeColor = System.Drawing.Color.White;
+            this.guna2ButtonSwift.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2ButtonSwift.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.guna2ButtonSwift.HoverState.FillColor = System.Drawing.Color.Violet;
+            this.guna2ButtonSwift.Image = global::Coder_s_space.Properties.Resources.swift_icon;
+            this.guna2ButtonSwift.ImageSize = new System.Drawing.Size(32, 32);
+            this.guna2ButtonSwift.Location = new System.Drawing.Point(1, 541);
+            this.guna2ButtonSwift.Name = "guna2ButtonSwift";
+            this.guna2ButtonSwift.Size = new System.Drawing.Size(57, 49);
+            this.guna2ButtonSwift.TabIndex = 25;
+            this.toolTipCompilers.SetToolTip(this.guna2ButtonSwift, "Swift Compiler");
+            this.guna2ButtonSwift.Click += new System.EventHandler(this.guna2Button10_Click);
             // 
             // guna2ButtonJs
             // 
@@ -321,28 +305,49 @@
             this.toolTipCompilers.SetToolTip(this.guna2ButtonCs, "C# Compiler");
             this.guna2ButtonCs.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
-            // guna2ButtonSwift
+            // webView21
             // 
-            this.guna2ButtonSwift.BorderRadius = 15;
-            this.guna2ButtonSwift.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2ButtonSwift.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2ButtonSwift.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2ButtonSwift.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2ButtonSwift.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2ButtonSwift.FillColor = System.Drawing.Color.Transparent;
-            this.guna2ButtonSwift.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2ButtonSwift.ForeColor = System.Drawing.Color.White;
-            this.guna2ButtonSwift.HoverState.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2ButtonSwift.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.guna2ButtonSwift.HoverState.FillColor = System.Drawing.Color.Violet;
-            this.guna2ButtonSwift.Image = global::Coder_s_space.Properties.Resources.swift_icon;
-            this.guna2ButtonSwift.ImageSize = new System.Drawing.Size(32, 32);
-            this.guna2ButtonSwift.Location = new System.Drawing.Point(1, 541);
-            this.guna2ButtonSwift.Name = "guna2ButtonSwift";
-            this.guna2ButtonSwift.Size = new System.Drawing.Size(57, 49);
-            this.guna2ButtonSwift.TabIndex = 25;
-            this.toolTipCompilers.SetToolTip(this.guna2ButtonSwift, "Swift Compiler");
-            this.guna2ButtonSwift.Click += new System.EventHandler(this.guna2Button10_Click);
+            this.webView21.AllowExternalDrop = true;
+            this.webView21.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.webView21.CreationProperties = null;
+            this.webView21.DefaultBackgroundColor = System.Drawing.Color.White;
+            this.webView21.Location = new System.Drawing.Point(-1, -93);
+            this.webView21.Name = "webView21";
+            this.webView21.Size = new System.Drawing.Size(1452, 776);
+            this.webView21.TabIndex = 0;
+            this.webView21.ZoomFactor = 1D;
+            this.webView21.Click += new System.EventHandler(this.webView21_Click);
+            // 
+            // panelBrowser
+            // 
+            this.panelBrowser.BackColor = System.Drawing.Color.Transparent;
+            this.panelBrowser.Controls.Add(this.panel1);
+            this.panelBrowser.Controls.Add(this.webView21);
+            this.panelBrowser.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelBrowser.Location = new System.Drawing.Point(0, 0);
+            this.panelBrowser.Name = "panelBrowser";
+            this.panelBrowser.Size = new System.Drawing.Size(1291, 729);
+            this.panelBrowser.TabIndex = 3;
+            this.panelBrowser.Paint += new System.Windows.Forms.PaintEventHandler(this.panelBrowser_Paint);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.panel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.panel1.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.panel1.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
+            this.panel1.Location = new System.Drawing.Point(0, 670);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1291, 59);
+            this.panel1.TabIndex = 1;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // toolTipCompilers
+            // 
+            this.toolTipCompilers.Popup += new System.Windows.Forms.PopupEventHandler(this.toolTipCompilers_Popup);
             // 
             // FormCompiler
             // 
