@@ -35,14 +35,20 @@ namespace Coder_s_space
 
         private void buttonGitHub_Click(object sender, EventArgs e)
         {
-            AddTask(new TaskPost(), flowLayoutPanel1);
+            TaskDetails taskDetails = new TaskDetails();
+            taskDetails.Location = new Point(
+                (this.ClientSize.Width - taskDetails.Width) / 2,
+                (this.ClientSize.Height - taskDetails.Height-300) / 2
+            );
+            this.Controls.Add(taskDetails);
+            taskDetails.BringToFront();
         }
 
-        public void AddTask(Form childForm, FlowLayoutPanel parentPanel)
+        public void AddTask(UserControl childForm, FlowLayoutPanel parentPanel)
         {
                     
-                childForm.TopLevel = false;
-                childForm.FormBorderStyle = FormBorderStyle.None;
+               /* childForm.TopLevel = false;
+                childForm.FormBorderStyle = FormBorderStyle.None;*/
                 childForm.Dock = DockStyle.Top;
                 parentPanel.Controls.Add(childForm);
                 parentPanel.Tag = childForm;
