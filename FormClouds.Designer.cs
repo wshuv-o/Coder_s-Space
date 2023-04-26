@@ -349,9 +349,9 @@
             this.panel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
             this.panel1.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
             this.panel1.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
-            this.panel1.Location = new System.Drawing.Point(0, 670);
+            this.panel1.Location = new System.Drawing.Point(0, 719);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1245, 59);
+            this.panel1.Size = new System.Drawing.Size(1245, 10);
             this.panel1.TabIndex = 1;
             // 
             // panelBrowser
@@ -373,7 +373,7 @@
             this.webView21.Dock = System.Windows.Forms.DockStyle.Fill;
             this.webView21.Location = new System.Drawing.Point(0, 0);
             this.webView21.Name = "webView21";
-            this.webView21.Size = new System.Drawing.Size(1245, 670);
+            this.webView21.Size = new System.Drawing.Size(1245, 719);
             this.webView21.TabIndex = 0;
             this.webView21.ZoomFactor = 1D;
             // 

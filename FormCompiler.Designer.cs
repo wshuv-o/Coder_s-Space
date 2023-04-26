@@ -314,7 +314,7 @@
             this.webView21.DefaultBackgroundColor = System.Drawing.Color.White;
             this.webView21.Location = new System.Drawing.Point(-1, -93);
             this.webView21.Name = "webView21";
-            this.webView21.Size = new System.Drawing.Size(1452, 776);
+            this.webView21.Size = new System.Drawing.Size(1452, 818);
             this.webView21.TabIndex = 0;
             this.webView21.ZoomFactor = 1D;
             this.webView21.Click += new System.EventHandler(this.webView21_Click);
@@ -339,9 +339,9 @@
             this.panel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
             this.panel1.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
             this.panel1.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
-            this.panel1.Location = new System.Drawing.Point(0, 670);
+            this.panel1.Location = new System.Drawing.Point(0, 710);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1291, 59);
+            this.panel1.Size = new System.Drawing.Size(1291, 19);
             this.panel1.TabIndex = 1;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 

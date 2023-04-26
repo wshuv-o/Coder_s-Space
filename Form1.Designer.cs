@@ -364,8 +364,8 @@ namespace Coder_s_space
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.Black;
-            this.panel5.Controls.Add(this.panel7);
             this.panel5.Controls.Add(this.panel11);
+            this.panel5.Controls.Add(this.panel7);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel5.Location = new System.Drawing.Point(105, 0);
             this.panel5.Name = "panel5";
@@ -462,9 +462,10 @@ namespace Coder_s_space
             this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.panel11.Controls.Add(this.guna2GradientPanel1);
             this.panel11.Controls.Add(this.pictureBox3);
-            this.panel11.Location = new System.Drawing.Point(0, 36);
+            this.panel11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel11.Location = new System.Drawing.Point(0, 33);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(1366, 768);
+            this.panel11.Size = new System.Drawing.Size(1366, 699);
             this.panel11.TabIndex = 3;
             this.panel11.Paint += new System.Windows.Forms.PaintEventHandler(this.panel11_Paint);
             // 

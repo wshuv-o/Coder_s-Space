@@ -123,6 +123,12 @@
     <Compile Include="FormJobs.Designer.cs">
       <DependentUpon>FormJobs.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormMarketplace.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMarketplace.Designer.cs">
+      <DependentUpon>FormMarketplace.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormProblems.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -206,6 +212,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormJobs.resx">
       <DependentUpon>FormJobs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMarketplace.resx">
+      <DependentUpon>FormMarketplace.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormProblems.resx">
       <DependentUpon>FormProblems.cs</DependentUpon>

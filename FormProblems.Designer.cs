@@ -111,8 +111,8 @@
             this.label38 = new System.Windows.Forms.Label();
             this.guna2CustomGradientPanel43 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.label1 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.directoryEntry1 = new System.DirectoryServices.DirectoryEntry();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1.SuspendLayout();
             this.guna2CustomGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -1580,7 +1580,7 @@
             // 
             this.panel1.Location = new System.Drawing.Point(18, 1246);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1318, 74);
+            this.panel1.Size = new System.Drawing.Size(1318, 10);
             this.panel1.TabIndex = 46;
             // 
             // FormProblems
