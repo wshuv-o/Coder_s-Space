@@ -143,6 +143,16 @@ namespace Coder_s_space.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _298784_gist_icon__1_ {
+            get {
+                object obj = ResourceManager.GetObject("298784_gist_icon (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _337538979_746079400231183_538522486434599490_n {
             get {
                 object obj = ResourceManager.GetObject("337538979_746079400231183_538522486434599490_n", resourceCulture);
@@ -156,6 +166,16 @@ namespace Coder_s_space.Properties {
         internal static System.Drawing.Bitmap _337538979_746079400231183_538522486434599490_n1 {
             get {
                 object obj = ResourceManager.GetObject("337538979_746079400231183_538522486434599490_n1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _3d_outlined_shape {
+            get {
+                object obj = ResourceManager.GetObject("3d-outlined-shape", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -713,6 +733,16 @@ namespace Coder_s_space.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap download__2_2 {
+            get {
+                object obj = ResourceManager.GetObject("download (2)2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap download__3_ {
             get {
                 object obj = ResourceManager.GetObject("download (3)", resourceCulture);
@@ -796,6 +826,36 @@ namespace Coder_s_space.Properties {
         internal static System.Drawing.Bitmap gfg {
             get {
                 object obj = ResourceManager.GetObject("gfg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap github_logo {
+            get {
+                object obj = ResourceManager.GetObject("github-logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gitlab {
+            get {
+                object obj = ResourceManager.GetObject("gitlab", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gitlab__1_ {
+            get {
+                object obj = ResourceManager.GetObject("gitlab (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1153,6 +1213,16 @@ namespace Coder_s_space.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap image__4_ {
+            get {
+                object obj = ResourceManager.GetObject("image (4)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap image_removebg_preview__1_ {
             get {
                 object obj = ResourceManager.GetObject("image-removebg-preview (1)", resourceCulture);
@@ -1276,6 +1346,16 @@ namespace Coder_s_space.Properties {
         internal static System.Drawing.Bitmap job_search__2_ {
             get {
                 object obj = ResourceManager.GetObject("job-search (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap jsfiddle_logo {
+            get {
+                object obj = ResourceManager.GetObject("jsfiddle-logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1493,6 +1573,16 @@ namespace Coder_s_space.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pngegg__1_ {
+            get {
+                object obj = ResourceManager.GetObject("pngegg (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap problem_solving {
             get {
                 object obj = ResourceManager.GetObject("problem-solving", resourceCulture);
@@ -1596,6 +1686,16 @@ namespace Coder_s_space.Properties {
         internal static System.Drawing.Bitmap rsz_1download_71 {
             get {
                 object obj = ResourceManager.GetObject("rsz_1download_71", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rsz_6448e66a77890 {
+            get {
+                object obj = ResourceManager.GetObject("rsz_6448e66a77890", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1826,6 +1926,16 @@ namespace Coder_s_space.Properties {
         internal static System.Drawing.Bitmap speed_radar__1_ {
             get {
                 object obj = ResourceManager.GetObject("speed-radar (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap stop {
+            get {
+                object obj = ResourceManager.GetObject("stop", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
