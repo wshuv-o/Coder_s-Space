@@ -86,7 +86,7 @@
             this.buttonCodeSandbox.ForeColor = System.Drawing.Color.White;
             this.buttonCodeSandbox.HoverState.BorderColor = System.Drawing.Color.Transparent;
             this.buttonCodeSandbox.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.buttonCodeSandbox.HoverState.FillColor = System.Drawing.Color.Tomato;
+            this.buttonCodeSandbox.HoverState.FillColor = System.Drawing.Color.LightSeaGreen;
             this.buttonCodeSandbox.Image = global::Coder_s_space.Properties.Resources.stop;
             this.buttonCodeSandbox.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.buttonCodeSandbox.ImageOffset = new System.Drawing.Point(-2, 0);
@@ -115,7 +115,7 @@
             this.buttonJSFiddle.ForeColor = System.Drawing.Color.White;
             this.buttonJSFiddle.HoverState.BorderColor = System.Drawing.Color.Transparent;
             this.buttonJSFiddle.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.buttonJSFiddle.HoverState.FillColor = System.Drawing.Color.Tomato;
+            this.buttonJSFiddle.HoverState.FillColor = System.Drawing.Color.LightSeaGreen;
             this.buttonJSFiddle.Image = global::Coder_s_space.Properties.Resources.jsfiddle_logo;
             this.buttonJSFiddle.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.buttonJSFiddle.ImageOffset = new System.Drawing.Point(-3, 0);
@@ -143,7 +143,7 @@
             this.buttonPasteCode.ForeColor = System.Drawing.Color.White;
             this.buttonPasteCode.HoverState.BorderColor = System.Drawing.Color.Transparent;
             this.buttonPasteCode.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.buttonPasteCode.HoverState.FillColor = System.Drawing.Color.Tomato;
+            this.buttonPasteCode.HoverState.FillColor = System.Drawing.Color.LightSeaGreen;
             this.buttonPasteCode.Image = global::Coder_s_space.Properties.Resources.image__4_;
             this.buttonPasteCode.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.buttonPasteCode.ImageOffset = new System.Drawing.Point(-6, 0);
@@ -171,7 +171,7 @@
             this.buttonGist.ForeColor = System.Drawing.Color.White;
             this.buttonGist.HoverState.BorderColor = System.Drawing.Color.Transparent;
             this.buttonGist.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.buttonGist.HoverState.FillColor = System.Drawing.Color.Tomato;
+            this.buttonGist.HoverState.FillColor = System.Drawing.Color.LightSeaGreen;
             this.buttonGist.Image = global::Coder_s_space.Properties.Resources._298784_gist_icon__1_;
             this.buttonGist.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.buttonGist.ImageOffset = new System.Drawing.Point(-2, 0);
@@ -199,7 +199,7 @@
             this.buttonReplIt.ForeColor = System.Drawing.Color.White;
             this.buttonReplIt.HoverState.BorderColor = System.Drawing.Color.Transparent;
             this.buttonReplIt.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.buttonReplIt.HoverState.FillColor = System.Drawing.Color.Tomato;
+            this.buttonReplIt.HoverState.FillColor = System.Drawing.Color.LightSeaGreen;
             this.buttonReplIt.Image = global::Coder_s_space.Properties.Resources.rsz_6448e66a77890;
             this.buttonReplIt.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.buttonReplIt.ImageOffset = new System.Drawing.Point(-2, 0);
@@ -227,7 +227,7 @@
             this.buttonCodePen.ForeColor = System.Drawing.Color.White;
             this.buttonCodePen.HoverState.BorderColor = System.Drawing.Color.Transparent;
             this.buttonCodePen.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.buttonCodePen.HoverState.FillColor = System.Drawing.Color.Tomato;
+            this.buttonCodePen.HoverState.FillColor = System.Drawing.Color.LightSeaGreen;
             this.buttonCodePen.Image = global::Coder_s_space.Properties.Resources._3d_outlined_shape;
             this.buttonCodePen.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.buttonCodePen.ImageOffset = new System.Drawing.Point(-2, 0);
@@ -255,7 +255,7 @@
             this.buttonBitBucket.ForeColor = System.Drawing.Color.White;
             this.buttonBitBucket.HoverState.BorderColor = System.Drawing.Color.Transparent;
             this.buttonBitBucket.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.buttonBitBucket.HoverState.FillColor = System.Drawing.Color.Tomato;
+            this.buttonBitBucket.HoverState.FillColor = System.Drawing.Color.LightSeaGreen;
             this.buttonBitBucket.Image = global::Coder_s_space.Properties.Resources.download__2_2;
             this.buttonBitBucket.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.buttonBitBucket.ImageOffset = new System.Drawing.Point(-2, 0);
@@ -283,7 +283,7 @@
             this.buttonGitLab.ForeColor = System.Drawing.Color.White;
             this.buttonGitLab.HoverState.BorderColor = System.Drawing.Color.Transparent;
             this.buttonGitLab.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.buttonGitLab.HoverState.FillColor = System.Drawing.Color.Tomato;
+            this.buttonGitLab.HoverState.FillColor = System.Drawing.Color.LightSeaGreen;
             this.buttonGitLab.Image = global::Coder_s_space.Properties.Resources.gitlab;
             this.buttonGitLab.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.buttonGitLab.ImageOffset = new System.Drawing.Point(-2, 0);
@@ -313,7 +313,7 @@
             this.buttonGitHub.ForeColor = System.Drawing.Color.White;
             this.buttonGitHub.HoverState.BorderColor = System.Drawing.Color.Transparent;
             this.buttonGitHub.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.buttonGitHub.HoverState.FillColor = System.Drawing.Color.Tomato;
+            this.buttonGitHub.HoverState.FillColor = System.Drawing.Color.LightSeaGreen;
             this.buttonGitHub.Image = global::Coder_s_space.Properties.Resources.github_logo;
             this.buttonGitHub.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.buttonGitHub.ImageOffset = new System.Drawing.Point(-2, 0);

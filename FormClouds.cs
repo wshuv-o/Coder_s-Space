@@ -93,42 +93,42 @@ namespace Coder_s_space
         {
             selectedButton = (Guna2Button)sender;
             UpdateButtonColors();
-            webView21.CoreWebView2.Navigate("https://bitbucket.org/");
+            webView21.CoreWebView2.Navigate("https://codepen.io/");
         }
 
         private void buttonReplIt_Click(object sender, EventArgs e)
         {
             selectedButton = (Guna2Button)sender;
             UpdateButtonColors();
-            webView21.CoreWebView2.Navigate("https://github.com/");
+            webView21.CoreWebView2.Navigate("https://repl.it/");
         }
 
         private void buttonGist_Click(object sender, EventArgs e)
         {
             selectedButton = (Guna2Button)sender;
             UpdateButtonColors();
-            webView21.CoreWebView2.Navigate("https://github.com/");
+            webView21.CoreWebView2.Navigate("https://gist.github.com/");
         }
 
         private void buttonPasteCode_Click(object sender, EventArgs e)
         {
             selectedButton = (Guna2Button)sender;
             UpdateButtonColors();
-            webView21.CoreWebView2.Navigate("https://github.com/");
+            webView21.CoreWebView2.Navigate("https://pastecode.io/");
         }
 
         private void buttonJSFiddle_Click(object sender, EventArgs e)
         {
             selectedButton = (Guna2Button)sender;
             UpdateButtonColors();
-            webView21.CoreWebView2.Navigate("https://github.com/");
+            webView21.CoreWebView2.Navigate("https://jsfiddle.net/");
         }
 
         private void buttonCodeSandbox_Click(object sender, EventArgs e)
         {
             selectedButton = (Guna2Button)sender;
             UpdateButtonColors();
-            webView21.CoreWebView2.Navigate("https://github.com/");
+            webView21.CoreWebView2.Navigate("https://codesandbox.io/");
         }
     }
 }
