@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Guna.UI2.WinForms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,7 +13,7 @@ namespace Coder_s_space
 {
     public partial class FormMarketplace : Form
     {
-        
+        private Guna2Button selectedButton;
         public FormMarketplace()
         {
             InitializeComponent();
@@ -84,6 +85,54 @@ namespace Coder_s_space
                 
                 // childForm.Size = parentPanel.Size;
                   
+        }
+        private void UpdateButtonColors()
+        {
+            // Set the background color of all buttons to their default color
+
+            foreach (Guna2Button button in panel2.Controls.OfType<Guna2Button>())
+            {
+                if (button == buttonCreateTask)
+                {
+
+                }
+                else
+                {
+                    if (button != selectedButton)
+                    {
+                        button.BackColor = Color.Transparent;
+                        button.FillColor = Color.Transparent;
+                        button.ForeColor = Color.DarkGray;
+                    }
+                    else
+                    {
+                        button.BorderRadius = 15;
+                        button.FillColor = Color.FromArgb(28, 35, 51);
+                        button.BackColor = Color.Transparent;
+                        button.ForeColor = Color.WhiteSmoke;
+                    }
+                }
+            }
+
+
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            selectedButton=(Guna2Button)sender;
+            UpdateButtonColors();
+        }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            selectedButton=(Guna2Button)sender;
+            UpdateButtonColors();
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            selectedButton = (Guna2Button)sender;
+            UpdateButtonColors();
         }
     }
 }
