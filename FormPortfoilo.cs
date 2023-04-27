@@ -16,5 +16,10 @@ namespace Coder_s_space
         {
             InitializeComponent();
         }
+
+        private void guna2CirclePictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
