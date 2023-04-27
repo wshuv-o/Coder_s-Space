@@ -41,8 +41,8 @@
             // 
             this.labelTitle.BackColor = System.Drawing.Color.Transparent;
             this.labelTitle.Font = new System.Drawing.Font("Franklin Gothic Demi", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTitle.ForeColor = System.Drawing.Color.Black;
-            this.labelTitle.Location = new System.Drawing.Point(10, 4);
+            this.labelTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.labelTitle.Location = new System.Drawing.Point(10, 17);
             this.labelTitle.Margin = new System.Windows.Forms.Padding(0);
             this.labelTitle.Name = "labelTitle";
             this.labelTitle.Size = new System.Drawing.Size(83, 34);
@@ -54,8 +54,8 @@
             // 
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Franklin Gothic Demi", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(10, 42);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label1.Location = new System.Drawing.Point(10, 58);
             this.label1.Margin = new System.Windows.Forms.Padding(0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(83, 34);
@@ -67,8 +67,8 @@
             // 
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Franklin Gothic Demi", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(10, 85);
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label2.Location = new System.Drawing.Point(8, 97);
             this.label2.Margin = new System.Windows.Forms.Padding(0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(141, 34);
@@ -82,6 +82,7 @@
             this.guna2Button4.BorderColor = System.Drawing.Color.Red;
             this.guna2Button4.BorderRadius = 15;
             this.guna2Button4.BorderStyle = System.Drawing.Drawing2D.DashStyle.DashDotDot;
+            this.guna2Button4.CustomizableEdges.BottomLeft = false;
             this.guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -95,7 +96,7 @@
             this.guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button4.ImageOffset = new System.Drawing.Point(-2, 0);
             this.guna2Button4.ImageSize = new System.Drawing.Size(15, 15);
-            this.guna2Button4.Location = new System.Drawing.Point(434, 269);
+            this.guna2Button4.Location = new System.Drawing.Point(437, 300);
             this.guna2Button4.Name = "guna2Button4";
             this.guna2Button4.Size = new System.Drawing.Size(71, 32);
             this.guna2Button4.TabIndex = 36;
@@ -106,9 +107,8 @@
             // 
             this.textBoxDesc.AcceptsReturn = true;
             this.textBoxDesc.AcceptsTab = true;
-            this.textBoxDesc.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxDesc.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.textBoxDesc.Animated = true;
             this.textBoxDesc.BackColor = System.Drawing.Color.Transparent;
             this.textBoxDesc.BorderColor = System.Drawing.Color.Transparent;
             this.textBoxDesc.BorderRadius = 15;
@@ -116,7 +116,7 @@
             this.textBoxDesc.DefaultText = "";
             this.textBoxDesc.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxDesc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.textBoxDesc.Location = new System.Drawing.Point(13, 117);
+            this.textBoxDesc.Location = new System.Drawing.Point(13, 129);
             this.textBoxDesc.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxDesc.Multiline = true;
             this.textBoxDesc.Name = "textBoxDesc";
@@ -125,7 +125,7 @@
             this.textBoxDesc.PlaceholderText = "";
             this.textBoxDesc.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBoxDesc.SelectedText = "";
-            this.textBoxDesc.Size = new System.Drawing.Size(495, 145);
+            this.textBoxDesc.Size = new System.Drawing.Size(495, 164);
             this.textBoxDesc.TabIndex = 37;
             this.textBoxDesc.TabStop = false;
             // 
@@ -133,18 +133,17 @@
             // 
             this.textBoxPrice.AcceptsReturn = true;
             this.textBoxPrice.AcceptsTab = true;
-            this.textBoxPrice.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxPrice.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBoxPrice.Animated = true;
             this.textBoxPrice.BackColor = System.Drawing.Color.Transparent;
             this.textBoxPrice.BorderColor = System.Drawing.Color.Transparent;
             this.textBoxPrice.BorderRadius = 15;
             this.textBoxPrice.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textBoxPrice.CustomizableEdges.BottomLeft = false;
             this.textBoxPrice.DefaultText = "";
             this.textBoxPrice.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxPrice.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.textBoxPrice.Location = new System.Drawing.Point(81, 4);
+            this.textBoxPrice.Location = new System.Drawing.Point(81, 8);
             this.textBoxPrice.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxPrice.Multiline = true;
             this.textBoxPrice.Name = "textBoxPrice";
@@ -153,27 +152,24 @@
             this.textBoxPrice.PlaceholderText = "";
             this.textBoxPrice.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBoxPrice.SelectedText = "";
-            this.textBoxPrice.Size = new System.Drawing.Size(427, 34);
+            this.textBoxPrice.Size = new System.Drawing.Size(427, 41);
             this.textBoxPrice.TabIndex = 38;
-            this.textBoxPrice.TabStop = false;
-            this.textBoxPrice.TextChanged += new System.EventHandler(this.textBoxPrice_TextChanged);
             // 
             // textBoxTitle
             // 
             this.textBoxTitle.AcceptsReturn = true;
             this.textBoxTitle.AcceptsTab = true;
-            this.textBoxTitle.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxTitle.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBoxTitle.Animated = true;
             this.textBoxTitle.BackColor = System.Drawing.Color.Transparent;
             this.textBoxTitle.BorderColor = System.Drawing.Color.Transparent;
             this.textBoxTitle.BorderRadius = 15;
             this.textBoxTitle.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textBoxTitle.CustomizableEdges.BottomLeft = false;
             this.textBoxTitle.DefaultText = "";
             this.textBoxTitle.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.textBoxTitle.Location = new System.Drawing.Point(81, 41);
+            this.textBoxTitle.Location = new System.Drawing.Point(81, 55);
             this.textBoxTitle.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxTitle.Multiline = true;
             this.textBoxTitle.Name = "textBoxTitle";
@@ -182,8 +178,8 @@
             this.textBoxTitle.PlaceholderText = "";
             this.textBoxTitle.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBoxTitle.SelectedText = "";
-            this.textBoxTitle.Size = new System.Drawing.Size(427, 34);
-            this.textBoxTitle.TabIndex = 39;
+            this.textBoxTitle.Size = new System.Drawing.Size(427, 41);
+            this.textBoxTitle.TabIndex = 37;
             this.textBoxTitle.TabStop = false;
             // 
             // TaskDetails
@@ -201,7 +197,7 @@
             this.Location = new System.Drawing.Point(500, 500);
             this.Name = "TaskDetails";
             this.Padding = new System.Windows.Forms.Padding(10);
-            this.Size = new System.Drawing.Size(521, 314);
+            this.Size = new System.Drawing.Size(521, 341);
             this.ResumeLayout(false);
 
         }
@@ -211,9 +207,9 @@
         private System.Windows.Forms.Label labelTitle;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        public Guna.UI2.WinForms.Guna2Button guna2Button4;
-        public Guna.UI2.WinForms.Guna2TextBox textBoxDesc;
         public Guna.UI2.WinForms.Guna2TextBox textBoxPrice;
-        public Guna.UI2.WinForms.Guna2TextBox textBoxTitle;
+        private Guna.UI2.WinForms.Guna2TextBox textBoxDesc;
+        private Guna.UI2.WinForms.Guna2TextBox textBoxTitle;
+        public Guna.UI2.WinForms.Guna2Button guna2Button4;
     }
 }

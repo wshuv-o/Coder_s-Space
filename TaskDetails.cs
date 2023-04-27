@@ -16,7 +16,7 @@ namespace Coder_s_space
         public TaskDetails()
         {
             InitializeComponent();
-            FunctionsAll.RoundUserControl(this, 15);
+            FunctionsAll.RoundUserControl(this, 25);
         }
 
         public double TaskPrice
@@ -51,9 +51,6 @@ namespace Coder_s_space
             
         }
 
-        private void textBoxPrice_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }

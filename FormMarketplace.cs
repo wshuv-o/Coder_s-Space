@@ -55,6 +55,8 @@ namespace Coder_s_space
 
             // Cast the parent control to a TaskDetails user control
             TaskDetails taskDetails = parent as TaskDetails;
+
+            
             DateTime clickTime = DateTime.Now;
             if (taskDetails != null)
             {

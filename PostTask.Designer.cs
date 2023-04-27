@@ -75,7 +75,7 @@
             this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(0, 0);
             this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
             this.guna2CustomGradientPanel1.Padding = new System.Windows.Forms.Padding(3);
-            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1026, 226);
+            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1026, 238);
             this.guna2CustomGradientPanel1.TabIndex = 4;
             // 
             // panel9
@@ -89,7 +89,7 @@
             this.panel9.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(35)))), ((int)(((byte)(51)))));
             this.panel9.Location = new System.Drawing.Point(3, 3);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(1020, 220);
+            this.panel9.Size = new System.Drawing.Size(1020, 232);
             this.panel9.TabIndex = 1;
             this.panel9.UseTransparentBackground = true;
             // 
@@ -101,19 +101,19 @@
             this.panel5.Location = new System.Drawing.Point(0, 48);
             this.panel5.Name = "panel5";
             this.panel5.Padding = new System.Windows.Forms.Padding(10, 5, 10, 3);
-            this.panel5.Size = new System.Drawing.Size(1020, 124);
+            this.panel5.Size = new System.Drawing.Size(1020, 136);
             this.panel5.TabIndex = 1;
             // 
             // labelDesc
             // 
             this.labelDesc.BackColor = System.Drawing.Color.Transparent;
-            this.labelDesc.Dock = System.Windows.Forms.DockStyle.Top;
+            this.labelDesc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelDesc.Font = new System.Drawing.Font("Georgia", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelDesc.ForeColor = System.Drawing.Color.Gainsboro;
-            this.labelDesc.Location = new System.Drawing.Point(10, 39);
+            this.labelDesc.Location = new System.Drawing.Point(10, 51);
             this.labelDesc.Margin = new System.Windows.Forms.Padding(0);
             this.labelDesc.Name = "labelDesc";
-            this.labelDesc.Size = new System.Drawing.Size(1000, 77);
+            this.labelDesc.Size = new System.Drawing.Size(1000, 82);
             this.labelDesc.TabIndex = 30;
             this.labelDesc.Text = "Work with top Creators to turn your ideas into reality.";
             // 
@@ -126,10 +126,9 @@
             this.labelTitle.Location = new System.Drawing.Point(10, 5);
             this.labelTitle.Margin = new System.Windows.Forms.Padding(0);
             this.labelTitle.Name = "labelTitle";
-            this.labelTitle.Size = new System.Drawing.Size(1000, 34);
+            this.labelTitle.Size = new System.Drawing.Size(1000, 46);
             this.labelTitle.TabIndex = 29;
             this.labelTitle.Text = "Marketplace";
-            this.labelTitle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // panel6
             // 
@@ -137,7 +136,7 @@
             this.panel6.Controls.Add(this.label4);
             this.panel6.Controls.Add(this.guna2CirclePictureBox1);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel6.Location = new System.Drawing.Point(0, 172);
+            this.panel6.Location = new System.Drawing.Point(0, 184);
             this.panel6.Name = "panel6";
             this.panel6.Padding = new System.Windows.Forms.Padding(8);
             this.panel6.Size = new System.Drawing.Size(1020, 48);
@@ -227,7 +226,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.guna2CustomGradientPanel1);
             this.Name = "PostTask";
-            this.Size = new System.Drawing.Size(1026, 226);
+            this.Size = new System.Drawing.Size(1026, 238);
             this.guna2CustomGradientPanel1.ResumeLayout(false);
             this.panel9.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
