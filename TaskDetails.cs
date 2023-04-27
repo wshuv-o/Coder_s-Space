@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Guna.UI2.WinForms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -18,17 +19,39 @@ namespace Coder_s_space
             FunctionsAll.RoundUserControl(this, 15);
         }
 
-        private void guna2TextBox3_TextChanged(object sender, EventArgs e)
+        public double TaskPrice
         {
-
+            get
+            {
+                double result;
+                if (double.TryParse(textBoxPrice.Text, out result))
+                {
+                    return result;
+                }
+                else
+                {
+                    // Handle invalid input here
+                    return 0.0;
+                }
+            }
         }
 
-        private void guna2TextBox2_TextChanged(object sender, EventArgs e)
+        public string TaskDescription
         {
-
+            get { return textBoxDesc.Text; }
+        }
+        public string TaskTitle
+        {
+            get { return textBoxTitle.Text;} 
         }
 
-        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
+
+        public void guna2Button4_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void textBoxPrice_TextChanged(object sender, EventArgs e)
         {
 
         }

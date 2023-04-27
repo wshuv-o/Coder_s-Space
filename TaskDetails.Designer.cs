@@ -32,9 +32,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
-            this.richTextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.textBoxDesc = new Guna.UI2.WinForms.Guna2TextBox();
+            this.textBoxPrice = new Guna.UI2.WinForms.Guna2TextBox();
+            this.textBoxTitle = new Guna.UI2.WinForms.Guna2TextBox();
             this.SuspendLayout();
             // 
             // labelTitle
@@ -100,98 +100,100 @@
             this.guna2Button4.Size = new System.Drawing.Size(71, 32);
             this.guna2Button4.TabIndex = 36;
             this.guna2Button4.Text = "Post";
+            this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
             // 
-            // richTextBox1
+            // textBoxDesc
             // 
-            this.richTextBox1.AcceptsReturn = true;
-            this.richTextBox1.AcceptsTab = true;
-            this.richTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.textBoxDesc.AcceptsReturn = true;
+            this.textBoxDesc.AcceptsTab = true;
+            this.textBoxDesc.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.richTextBox1.BackColor = System.Drawing.Color.Transparent;
-            this.richTextBox1.BorderColor = System.Drawing.Color.Transparent;
-            this.richTextBox1.BorderRadius = 15;
-            this.richTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.richTextBox1.DefaultText = "";
-            this.richTextBox1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.richTextBox1.Location = new System.Drawing.Point(13, 117);
-            this.richTextBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.richTextBox1.Multiline = true;
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Padding = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.richTextBox1.PasswordChar = '\0';
-            this.richTextBox1.PlaceholderText = "";
-            this.richTextBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.richTextBox1.SelectedText = "";
-            this.richTextBox1.Size = new System.Drawing.Size(495, 145);
-            this.richTextBox1.TabIndex = 37;
-            this.richTextBox1.TabStop = false;
+            this.textBoxDesc.BackColor = System.Drawing.Color.Transparent;
+            this.textBoxDesc.BorderColor = System.Drawing.Color.Transparent;
+            this.textBoxDesc.BorderRadius = 15;
+            this.textBoxDesc.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textBoxDesc.DefaultText = "";
+            this.textBoxDesc.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxDesc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.textBoxDesc.Location = new System.Drawing.Point(13, 117);
+            this.textBoxDesc.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBoxDesc.Multiline = true;
+            this.textBoxDesc.Name = "textBoxDesc";
+            this.textBoxDesc.Padding = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.textBoxDesc.PasswordChar = '\0';
+            this.textBoxDesc.PlaceholderText = "";
+            this.textBoxDesc.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBoxDesc.SelectedText = "";
+            this.textBoxDesc.Size = new System.Drawing.Size(495, 145);
+            this.textBoxDesc.TabIndex = 37;
+            this.textBoxDesc.TabStop = false;
             // 
-            // guna2TextBox3
+            // textBoxPrice
             // 
-            this.guna2TextBox3.AcceptsReturn = true;
-            this.guna2TextBox3.AcceptsTab = true;
-            this.guna2TextBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.textBoxPrice.AcceptsReturn = true;
+            this.textBoxPrice.AcceptsTab = true;
+            this.textBoxPrice.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2TextBox3.Animated = true;
-            this.guna2TextBox3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2TextBox3.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2TextBox3.BorderRadius = 15;
-            this.guna2TextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox3.DefaultText = "";
-            this.guna2TextBox3.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TextBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.guna2TextBox3.Location = new System.Drawing.Point(81, 4);
-            this.guna2TextBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.guna2TextBox3.Multiline = true;
-            this.guna2TextBox3.Name = "guna2TextBox3";
-            this.guna2TextBox3.Padding = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.guna2TextBox3.PasswordChar = '\0';
-            this.guna2TextBox3.PlaceholderText = "";
-            this.guna2TextBox3.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.guna2TextBox3.SelectedText = "";
-            this.guna2TextBox3.Size = new System.Drawing.Size(427, 34);
-            this.guna2TextBox3.TabIndex = 38;
-            this.guna2TextBox3.TabStop = false;
+            this.textBoxPrice.Animated = true;
+            this.textBoxPrice.BackColor = System.Drawing.Color.Transparent;
+            this.textBoxPrice.BorderColor = System.Drawing.Color.Transparent;
+            this.textBoxPrice.BorderRadius = 15;
+            this.textBoxPrice.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textBoxPrice.DefaultText = "";
+            this.textBoxPrice.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxPrice.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.textBoxPrice.Location = new System.Drawing.Point(81, 4);
+            this.textBoxPrice.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBoxPrice.Multiline = true;
+            this.textBoxPrice.Name = "textBoxPrice";
+            this.textBoxPrice.Padding = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.textBoxPrice.PasswordChar = '\0';
+            this.textBoxPrice.PlaceholderText = "";
+            this.textBoxPrice.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBoxPrice.SelectedText = "";
+            this.textBoxPrice.Size = new System.Drawing.Size(427, 34);
+            this.textBoxPrice.TabIndex = 38;
+            this.textBoxPrice.TabStop = false;
+            this.textBoxPrice.TextChanged += new System.EventHandler(this.textBoxPrice_TextChanged);
             // 
-            // guna2TextBox1
+            // textBoxTitle
             // 
-            this.guna2TextBox1.AcceptsReturn = true;
-            this.guna2TextBox1.AcceptsTab = true;
-            this.guna2TextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.textBoxTitle.AcceptsReturn = true;
+            this.textBoxTitle.AcceptsTab = true;
+            this.textBoxTitle.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2TextBox1.Animated = true;
-            this.guna2TextBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2TextBox1.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2TextBox1.BorderRadius = 15;
-            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox1.DefaultText = "";
-            this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TextBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(81, 41);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.guna2TextBox1.Multiline = true;
-            this.guna2TextBox1.Name = "guna2TextBox1";
-            this.guna2TextBox1.Padding = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.guna2TextBox1.PasswordChar = '\0';
-            this.guna2TextBox1.PlaceholderText = "";
-            this.guna2TextBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.Size = new System.Drawing.Size(427, 34);
-            this.guna2TextBox1.TabIndex = 39;
-            this.guna2TextBox1.TabStop = false;
+            this.textBoxTitle.Animated = true;
+            this.textBoxTitle.BackColor = System.Drawing.Color.Transparent;
+            this.textBoxTitle.BorderColor = System.Drawing.Color.Transparent;
+            this.textBoxTitle.BorderRadius = 15;
+            this.textBoxTitle.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textBoxTitle.DefaultText = "";
+            this.textBoxTitle.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.textBoxTitle.Location = new System.Drawing.Point(81, 41);
+            this.textBoxTitle.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBoxTitle.Multiline = true;
+            this.textBoxTitle.Name = "textBoxTitle";
+            this.textBoxTitle.Padding = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.textBoxTitle.PasswordChar = '\0';
+            this.textBoxTitle.PlaceholderText = "";
+            this.textBoxTitle.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBoxTitle.SelectedText = "";
+            this.textBoxTitle.Size = new System.Drawing.Size(427, 34);
+            this.textBoxTitle.TabIndex = 39;
+            this.textBoxTitle.TabStop = false;
             // 
             // TaskDetails
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Aquamarine;
-            this.Controls.Add(this.guna2TextBox1);
-            this.Controls.Add(this.guna2TextBox3);
-            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.textBoxTitle);
+            this.Controls.Add(this.textBoxPrice);
+            this.Controls.Add(this.textBoxDesc);
             this.Controls.Add(this.guna2Button4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -209,9 +211,9 @@
         private System.Windows.Forms.Label labelTitle;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private Guna.UI2.WinForms.Guna2Button guna2Button4;
-        private Guna.UI2.WinForms.Guna2TextBox richTextBox1;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        public Guna.UI2.WinForms.Guna2Button guna2Button4;
+        public Guna.UI2.WinForms.Guna2TextBox textBoxDesc;
+        public Guna.UI2.WinForms.Guna2TextBox textBoxPrice;
+        public Guna.UI2.WinForms.Guna2TextBox textBoxTitle;
     }
 }

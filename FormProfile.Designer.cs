@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.panel6 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
+            this.labelUserName = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.panel6.SuspendLayout();
@@ -40,7 +40,7 @@
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(234)))), ((int)(((byte)(230)))));
-            this.panel6.Controls.Add(this.label1);
+            this.panel6.Controls.Add(this.labelUserName);
             this.panel6.Controls.Add(this.pictureBox3);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel6.Location = new System.Drawing.Point(10, 0);
@@ -50,20 +50,20 @@
             this.panel6.TabIndex = 1;
             this.panel6.Paint += new System.Windows.Forms.PaintEventHandler(this.panel6_Paint);
             // 
-            // label1
+            // labelUserName
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.labelUserName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(234)))), ((int)(((byte)(230)))), ((int)(((byte)(21)))));
-            this.label1.Font = new System.Drawing.Font("Palatino Linotype", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(46, 78);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(408, 50);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Wahiduzzaman Shuvo";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.labelUserName.AutoSize = true;
+            this.labelUserName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(234)))), ((int)(((byte)(230)))), ((int)(((byte)(21)))));
+            this.labelUserName.Font = new System.Drawing.Font("Palatino Linotype", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelUserName.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.labelUserName.Location = new System.Drawing.Point(46, 78);
+            this.labelUserName.Name = "labelUserName";
+            this.labelUserName.Size = new System.Drawing.Size(408, 50);
+            this.labelUserName.TabIndex = 1;
+            this.labelUserName.Text = "Wahiduzzaman Shuvo";
+            this.labelUserName.Click += new System.EventHandler(this.label1_Click);
             // 
             // pictureBox3
             // 
@@ -109,8 +109,8 @@
 
         #endregion
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Label label1;
         public System.Windows.Forms.PictureBox pictureBox3;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        public System.Windows.Forms.Label labelUserName;
     }
 }

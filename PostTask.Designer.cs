@@ -40,7 +40,6 @@
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
-            this.label3 = new System.Windows.Forms.Label();
             this.guna2CustomGradientPanel1.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -55,10 +54,10 @@
             this.label2.Dock = System.Windows.Forms.DockStyle.Left;
             this.label2.Font = new System.Drawing.Font("Nirmala UI", 16F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(217)))), ((int)(((byte)(126)))));
-            this.label2.Location = new System.Drawing.Point(31, 10);
+            this.label2.Location = new System.Drawing.Point(10, 10);
             this.label2.Margin = new System.Windows.Forms.Padding(0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(121, 28);
+            this.label2.Size = new System.Drawing.Size(201, 28);
             this.label2.TabIndex = 34;
             this.label2.Text = "35.00";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -148,14 +147,14 @@
             // 
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.label1.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(162)))), ((int)(((byte)(159)))));
             this.label1.Location = new System.Drawing.Point(837, 8);
             this.label1.Margin = new System.Windows.Forms.Padding(0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(175, 32);
             this.label1.TabIndex = 34;
-            this.label1.Text = "ImtiajSajin";
+            this.label1.Text = "06/11/23";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label4
@@ -189,7 +188,6 @@
             // 
             this.panel4.Controls.Add(this.label2);
             this.panel4.Controls.Add(this.guna2Button4);
-            this.panel4.Controls.Add(this.label3);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 0);
             this.panel4.Name = "panel4";
@@ -221,20 +219,7 @@
             this.guna2Button4.Size = new System.Drawing.Size(82, 32);
             this.guna2Button4.TabIndex = 33;
             this.guna2Button4.Text = "Apply";
-            // 
-            // label3
-            // 
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label3.Font = new System.Drawing.Font("Nirmala UI", 16F, System.Drawing.FontStyle.Bold);
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(217)))), ((int)(((byte)(126)))));
-            this.label3.Location = new System.Drawing.Point(10, 10);
-            this.label3.Margin = new System.Windows.Forms.Padding(0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(21, 28);
-            this.label3.TabIndex = 32;
-            this.label3.Text = "$";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
             // 
             // PostTask
             // 
@@ -254,8 +239,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label2;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
         private Guna.UI2.WinForms.Guna2Panel panel9;
         private System.Windows.Forms.Panel panel5;
@@ -267,6 +250,6 @@
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
         private System.Windows.Forms.Panel panel4;
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
-        private System.Windows.Forms.Label label3;
+        public System.Windows.Forms.Label label2;
     }
 }

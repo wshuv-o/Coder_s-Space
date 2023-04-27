@@ -37,6 +37,11 @@ namespace Coder_s_space
 
         }
 
+        public string UserName
+        {
+            get { return labelUserName.Text; }
+        }
+
         private void panel6_Paint(object sender, PaintEventArgs e)
         {
 
