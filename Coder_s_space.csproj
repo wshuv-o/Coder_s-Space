@@ -963,6 +963,42 @@
   <ItemGroup>
     <None Include="Resources\BQdeC67wT9z.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %286%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\github_banner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\behance_banner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dribbble.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %288%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %289%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %2810%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image-blogpost-webflow-directory%402x.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Personal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Personal %281%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
