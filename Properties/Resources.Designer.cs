@@ -1173,6 +1173,26 @@ namespace Coder_s_space.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_linkedin_96 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-linkedin-96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_linkedin_96__1_ {
+            get {
+                object obj = ResourceManager.GetObject("icons8-linkedin-96 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_outsourcing_32 {
             get {
                 object obj = ResourceManager.GetObject("icons8-outsourcing-32", resourceCulture);

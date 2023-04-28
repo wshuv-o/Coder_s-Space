@@ -30,14 +30,14 @@
         {
             this.panel3 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.panel8 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.labelDesc = new System.Windows.Forms.Label();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2ImageButton6 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2ImageButton5 = new Guna.UI2.WinForms.Guna2ImageButton();
@@ -47,11 +47,11 @@
             this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.panel3.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
-            this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -77,15 +77,6 @@
             this.flowLayoutPanel1.Size = new System.Drawing.Size(1366, 699);
             this.flowLayoutPanel1.TabIndex = 1;
             // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.panel3);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1366, 699);
-            this.panel1.TabIndex = 1;
-            // 
             // panel2
             // 
             this.panel2.Controls.Add(this.panel4);
@@ -97,6 +88,22 @@
             this.panel2.Padding = new System.Windows.Forms.Padding(0, 20, 0, 10);
             this.panel2.Size = new System.Drawing.Size(1321, 357);
             this.panel2.TabIndex = 6;
+            // 
+            // panel4
+            // 
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel4.Location = new System.Drawing.Point(0, 20);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(540, 116);
+            this.panel4.TabIndex = 6;
+            // 
+            // panel8
+            // 
+            this.panel8.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel8.Location = new System.Drawing.Point(781, 20);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(540, 116);
+            this.panel8.TabIndex = 5;
             // 
             // guna2Panel2
             // 
@@ -110,22 +117,6 @@
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.Size = new System.Drawing.Size(1321, 211);
             this.guna2Panel2.TabIndex = 2;
-            // 
-            // panel8
-            // 
-            this.panel8.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel8.Location = new System.Drawing.Point(781, 20);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(540, 116);
-            this.panel8.TabIndex = 5;
-            // 
-            // panel4
-            // 
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel4.Location = new System.Drawing.Point(0, 20);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(540, 116);
-            this.panel4.TabIndex = 6;
             // 
             // labelDesc
             // 
@@ -152,7 +143,7 @@
             this.guna2Panel1.Location = new System.Drawing.Point(23, 376);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Padding = new System.Windows.Forms.Padding(460, 0, 460, 0);
-            this.guna2Panel1.Size = new System.Drawing.Size(1316, 64);
+            this.guna2Panel1.Size = new System.Drawing.Size(1321, 64);
             this.guna2Panel1.TabIndex = 7;
             // 
             // guna2Panel3
@@ -172,8 +163,17 @@
             this.guna2Panel3.Margin = new System.Windows.Forms.Padding(10);
             this.guna2Panel3.Name = "guna2Panel3";
             this.guna2Panel3.Padding = new System.Windows.Forms.Padding(0, 10, 0, 10);
-            this.guna2Panel3.Size = new System.Drawing.Size(396, 64);
+            this.guna2Panel3.Size = new System.Drawing.Size(401, 64);
             this.guna2Panel3.TabIndex = 8;
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.panel3);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1366, 699);
+            this.panel1.TabIndex = 1;
             // 
             // guna2CirclePictureBox2
             // 
@@ -211,20 +211,19 @@
             // 
             this.guna2ImageButton5.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton5.Dock = System.Windows.Forms.DockStyle.Left;
-            this.guna2ImageButton5.HoverState.Image = global::Coder_s_space.Properties.Resources.youtube__1_;
-            this.guna2ImageButton5.HoverState.ImageOffset = new System.Drawing.Point(0, 5);
+            this.guna2ImageButton5.HoverState.Image = global::Coder_s_space.Properties.Resources.icons8_linkedin_96__1_;
             this.guna2ImageButton5.HoverState.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2ImageButton5.Image = global::Coder_s_space.Properties.Resources.youtube;
-            this.guna2ImageButton5.ImageOffset = new System.Drawing.Point(0, 5);
+            this.guna2ImageButton5.Image = global::Coder_s_space.Properties.Resources.icons8_linkedin_96;
+            this.guna2ImageButton5.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageButton5.ImageRotate = 0F;
             this.guna2ImageButton5.ImageSize = new System.Drawing.Size(40, 40);
             this.guna2ImageButton5.Location = new System.Drawing.Point(264, 10);
             this.guna2ImageButton5.Margin = new System.Windows.Forms.Padding(10);
             this.guna2ImageButton5.Name = "guna2ImageButton5";
-            this.guna2ImageButton5.PressedState.ImageOffset = new System.Drawing.Point(0, 5);
             this.guna2ImageButton5.PressedState.ImageSize = new System.Drawing.Size(40, 40);
             this.guna2ImageButton5.Size = new System.Drawing.Size(66, 44);
             this.guna2ImageButton5.TabIndex = 4;
+            this.guna2ImageButton5.UseTransparentBackground = true;
             // 
             // guna2ImageButton4
             // 
@@ -308,11 +307,11 @@
             this.Text = "FormPortfoilo";
             this.panel3.ResumeLayout(false);
             this.flowLayoutPanel1.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel3.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).EndInit();
             this.ResumeLayout(false);
 
