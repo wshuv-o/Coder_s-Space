@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace Coder_s_space
 {
-    public partial class TaskDetails : UserControl
+    public partial class UserControlTaskDetails : UserControl
     {
-        public TaskDetails()
+        public UserControlTaskDetails()
         {
             InitializeComponent();
             FunctionsAll.RoundUserControl(this, 25);
