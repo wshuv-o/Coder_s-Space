@@ -117,4 +117,8 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Coder's space is a project that aims to provide a platform for programmers to connect, collaborate, and showcase their skills. It features a marketplace for freelance work, a forum for discussion, and tools for project management.
+</value>
+  </data>
 </root>
