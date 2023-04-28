@@ -1,6 +1,6 @@
 ﻿namespace Coder_s_space
 {
-    partial class UserControlProjectAdded
+    partial class UC_ProjectAdded
     {
         /// <summary> 
         /// Required designer variable.
@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserControlProjectAdded));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_ProjectAdded));
             this.guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label7 = new System.Windows.Forms.Label();
+            this.labelTools = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.labelDesc = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.labelTitle = new System.Windows.Forms.Label();
@@ -48,9 +48,9 @@
             this.guna2Panel7.BackColor = System.Drawing.Color.Transparent;
             this.guna2Panel7.BorderColor = System.Drawing.Color.IndianRed;
             this.guna2Panel7.BorderRadius = 20;
-            this.guna2Panel7.Controls.Add(this.label7);
+            this.guna2Panel7.Controls.Add(this.labelTools);
             this.guna2Panel7.Controls.Add(this.label8);
-            this.guna2Panel7.Controls.Add(this.label4);
+            this.guna2Panel7.Controls.Add(this.labelDesc);
             this.guna2Panel7.Controls.Add(this.label6);
             this.guna2Panel7.Controls.Add(this.label5);
             this.guna2Panel7.Controls.Add(this.labelTitle);
@@ -62,19 +62,20 @@
             this.guna2Panel7.Padding = new System.Windows.Forms.Padding(20);
             this.guna2Panel7.Size = new System.Drawing.Size(1255, 294);
             this.guna2Panel7.TabIndex = 4;
+            this.guna2Panel7.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel7_Paint);
             // 
-            // label7
+            // labelTools
             // 
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label7.Font = new System.Drawing.Font("Georgia", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.LightGray;
-            this.label7.Location = new System.Drawing.Point(20, 249);
-            this.label7.Margin = new System.Windows.Forms.Padding(0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(806, 44);
-            this.label7.TabIndex = 38;
-            this.label7.Text = "C#, .Net Framewprk, sql";
+            this.labelTools.BackColor = System.Drawing.Color.Transparent;
+            this.labelTools.Dock = System.Windows.Forms.DockStyle.Top;
+            this.labelTools.Font = new System.Drawing.Font("Georgia", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTools.ForeColor = System.Drawing.Color.LightGray;
+            this.labelTools.Location = new System.Drawing.Point(20, 249);
+            this.labelTools.Margin = new System.Windows.Forms.Padding(0);
+            this.labelTools.Name = "labelTools";
+            this.labelTools.Size = new System.Drawing.Size(806, 44);
+            this.labelTools.TabIndex = 38;
+            this.labelTools.Text = "C#, .Net Framewprk, sql";
             // 
             // label8
             // 
@@ -89,18 +90,18 @@
             this.label8.TabIndex = 37;
             this.label8.Text = "Tools Used:";
             // 
-            // label4
+            // labelDesc
             // 
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label4.Font = new System.Drawing.Font("Georgia", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.LightGray;
-            this.label4.Location = new System.Drawing.Point(20, 120);
-            this.label4.Margin = new System.Windows.Forms.Padding(0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(806, 101);
-            this.label4.TabIndex = 36;
-            this.label4.Text = resources.GetString("label4.Text");
+            this.labelDesc.BackColor = System.Drawing.Color.Transparent;
+            this.labelDesc.Dock = System.Windows.Forms.DockStyle.Top;
+            this.labelDesc.Font = new System.Drawing.Font("Georgia", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelDesc.ForeColor = System.Drawing.Color.LightGray;
+            this.labelDesc.Location = new System.Drawing.Point(20, 120);
+            this.labelDesc.Margin = new System.Windows.Forms.Padding(0);
+            this.labelDesc.Name = "labelDesc";
+            this.labelDesc.Size = new System.Drawing.Size(806, 101);
+            this.labelDesc.TabIndex = 36;
+            this.labelDesc.Text = resources.GetString("labelDesc.Text");
             // 
             // label6
             // 
@@ -172,13 +173,13 @@
             this.guna2PictureBox7.TabStop = false;
             this.guna2PictureBox7.UseTransparentBackground = true;
             // 
-            // UserControlProjectAdded
+            // UC_ProjectAdded
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
             this.Controls.Add(this.guna2Panel7);
-            this.Name = "UserControlProjectAdded";
+            this.Name = "UC_ProjectAdded";
             this.Size = new System.Drawing.Size(1255, 294);
             this.guna2Panel7.ResumeLayout(false);
             this.guna2CustomGradientPanel7.ResumeLayout(false);
@@ -190,9 +191,9 @@
         #endregion
 
         private Guna.UI2.WinForms.Guna2Panel guna2Panel7;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label labelTools;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label labelDesc;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label labelTitle;

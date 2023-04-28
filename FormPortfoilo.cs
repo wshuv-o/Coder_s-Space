@@ -36,5 +36,40 @@ namespace Coder_s_space
         {
 
         }
+
+        private void guna2ImageButton8_Click(object sender, EventArgs e)
+        {
+            UC_ProjectDetails uc1 = new UC_ProjectDetails();
+            uc1.Location = new Point(
+                (this.ClientSize.Width - uc1.Width) / 2,
+                (this.ClientSize.Height - uc1.Height - 300) / 2
+            );
+            this.Controls.Add(uc1);
+            uc1.BringToFront();
+            uc1.guna2Button4.Click += OnPostClicked;
+        }
+
+        private void OnPostClicked(object sender, EventArgs e)
+        {
+            // Get the parent control of the sender button
+            Control parent = ((Control)sender).Parent;
+
+            // Cast the parent control to a projDetails user control
+            UC_ProjectDetails projDetails = parent as UC_ProjectDetails;
+
+
+            //DateTime clickTime = DateTime.Now;
+            if (projDetails != null)
+            {
+                FormProfile formP = new FormProfile();
+                string userName = formP.UserName; // get the username from FormProfile
+                Image userImage = formP.pictureBox3.Image;
+
+                UC_ProjectAdded projAdd = new UC_ProjectAdded(projDetails.textBoxTitle.Text,projDetails.textBoxDesc.Text,projDetails.textBoxTools.Text, Coder_s_space.Properties.Resources.Screenshot__115_);
+                flowLayoutPanel4.Controls.Add(projAdd);
+                projAdd.BringToFront();
+                projDetails.Dispose();
+            }
+        }
     }
 }

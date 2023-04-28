@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace Coder_s_space
 {
-    public partial class UserControlProjectDetails : UserControl
+    public partial class UC_ProjectDetails : UserControl
     {
         public Image imageProj;
-        public UserControlProjectDetails()
+        public UC_ProjectDetails()
         {
             InitializeComponent();
         }
@@ -37,6 +37,16 @@ namespace Coder_s_space
                 MessageBox.Show("An error Occured", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
             }
+        }
+
+        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Coder_s_space
 {
-    partial class UserControlProjectDetails
+    partial class UC_ProjectDetails
     {
         /// <summary> 
         /// Required designer variable.
@@ -35,6 +35,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.labelTitle = new System.Windows.Forms.Label();
             this.guna2ImageButton7 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.textBoxTools = new Guna.UI2.WinForms.Guna2TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textBoxTitle
@@ -76,7 +78,7 @@
             this.textBoxDesc.DefaultText = "";
             this.textBoxDesc.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxDesc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.textBoxDesc.Location = new System.Drawing.Point(15, 129);
+            this.textBoxDesc.Location = new System.Drawing.Point(15, 187);
             this.textBoxDesc.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBoxDesc.Multiline = true;
             this.textBoxDesc.Name = "textBoxDesc";
@@ -85,7 +87,7 @@
             this.textBoxDesc.PlaceholderText = "";
             this.textBoxDesc.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBoxDesc.SelectedText = "";
-            this.textBoxDesc.Size = new System.Drawing.Size(495, 164);
+            this.textBoxDesc.Size = new System.Drawing.Size(495, 157);
             this.textBoxDesc.TabIndex = 44;
             this.textBoxDesc.TabStop = false;
             // 
@@ -109,7 +111,7 @@
             this.guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button4.ImageOffset = new System.Drawing.Point(-2, 0);
             this.guna2Button4.ImageSize = new System.Drawing.Size(15, 15);
-            this.guna2Button4.Location = new System.Drawing.Point(439, 300);
+            this.guna2Button4.Location = new System.Drawing.Point(439, 351);
             this.guna2Button4.Name = "guna2Button4";
             this.guna2Button4.Size = new System.Drawing.Size(71, 32);
             this.guna2Button4.TabIndex = 42;
@@ -120,13 +122,14 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Franklin Gothic Demi", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.LightGray;
-            this.label2.Location = new System.Drawing.Point(10, 97);
+            this.label2.Location = new System.Drawing.Point(12, 149);
             this.label2.Margin = new System.Windows.Forms.Padding(0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(141, 34);
             this.label2.TabIndex = 41;
             this.label2.Text = "Description:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 
@@ -174,11 +177,52 @@
             this.guna2ImageButton7.UseTransparentBackground = true;
             this.guna2ImageButton7.Click += new System.EventHandler(this.guna2ImageButton7_Click);
             // 
-            // UserControlProjectDetails
+            // textBoxTools
+            // 
+            this.textBoxTools.AcceptsReturn = true;
+            this.textBoxTools.AcceptsTab = true;
+            this.textBoxTools.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.textBoxTools.Animated = true;
+            this.textBoxTools.BackColor = System.Drawing.Color.Transparent;
+            this.textBoxTools.BorderColor = System.Drawing.Color.Transparent;
+            this.textBoxTools.BorderRadius = 15;
+            this.textBoxTools.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textBoxTools.DefaultText = "";
+            this.textBoxTools.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxTools.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.textBoxTools.Location = new System.Drawing.Point(83, 104);
+            this.textBoxTools.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBoxTools.Multiline = true;
+            this.textBoxTools.Name = "textBoxTools";
+            this.textBoxTools.Padding = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.textBoxTools.PasswordChar = '\0';
+            this.textBoxTools.PlaceholderText = "";
+            this.textBoxTools.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBoxTools.SelectedText = "";
+            this.textBoxTools.Size = new System.Drawing.Size(427, 41);
+            this.textBoxTools.TabIndex = 47;
+            this.textBoxTools.TabStop = false;
+            // 
+            // label3
+            // 
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Franklin Gothic Demi", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.LightGray;
+            this.label3.Location = new System.Drawing.Point(12, 107);
+            this.label3.Margin = new System.Windows.Forms.Padding(0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(83, 34);
+            this.label3.TabIndex = 46;
+            this.label3.Text = "Tools:";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // UC_ProjectDetails
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InfoText;
+            this.Controls.Add(this.textBoxTools);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.guna2ImageButton7);
             this.Controls.Add(this.textBoxTitle);
             this.Controls.Add(this.textBoxDesc);
@@ -186,20 +230,21 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.labelTitle);
-            this.Name = "UserControlProjectDetails";
-            this.Size = new System.Drawing.Size(521, 341);
+            this.Name = "UC_ProjectDetails";
+            this.Size = new System.Drawing.Size(521, 395);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private Guna.UI2.WinForms.Guna2TextBox textBoxTitle;
-        private Guna.UI2.WinForms.Guna2TextBox textBoxDesc;
         public Guna.UI2.WinForms.Guna2Button guna2Button4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label labelTitle;
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton7;
+        private System.Windows.Forms.Label label3;
+        public Guna.UI2.WinForms.Guna2TextBox textBoxTools;
+        public Guna.UI2.WinForms.Guna2TextBox textBoxTitle;
+        public Guna.UI2.WinForms.Guna2TextBox textBoxDesc;
     }
 }
