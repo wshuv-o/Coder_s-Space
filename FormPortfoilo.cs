@@ -21,5 +21,15 @@ namespace Coder_s_space
         {
 
         }
+
+        private void guna2ImageButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2ImageButton12_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

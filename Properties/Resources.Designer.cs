@@ -303,6 +303,16 @@ namespace Coder_s_space.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BQdeC67wT9z {
+            get {
+                object obj = ResourceManager.GetObject("BQdeC67wT9z", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap brain {
             get {
                 object obj = ResourceManager.GetObject("brain", resourceCulture);
