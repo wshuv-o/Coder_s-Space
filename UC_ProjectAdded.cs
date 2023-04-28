@@ -15,14 +15,14 @@ namespace Coder_s_space
 {
     public partial class UC_ProjectAdded : UserControl
     {
-        public UC_ProjectAdded(string title, string desc, string tools, Image projImage)
+        public UC_ProjectAdded(string title, string desc, string tools, string projImageLoc)
         {
             InitializeComponent();
 
             label5.Text = title;
             labelDesc.Text = desc;
             labelTools.Text = tools;
-            guna2PictureBox7.Image = projImage;
+            guna2PictureBox7.ImageLocation= projImageLoc;
         }
 
         private void guna2Panel7_Paint(object sender, PaintEventArgs e)

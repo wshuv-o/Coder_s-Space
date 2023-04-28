@@ -12,6 +12,7 @@ namespace Coder_s_space
 {
     public partial class FormPortfoilo : Form
     {
+        private int projectAdderClicked = 1;
         public FormPortfoilo()
         {
             InitializeComponent();
@@ -39,6 +40,11 @@ namespace Coder_s_space
 
         private void guna2ImageButton8_Click(object sender, EventArgs e)
         {
+            projectAdderClicked++;
+            if(projectAdderClicked>=2)
+            {
+                panel7.Size = new Size(panel7.Size.Width, panel7.Size.Height + 320);
+            }
             UC_ProjectDetails uc1 = new UC_ProjectDetails();
             uc1.Location = new Point(
                 (this.ClientSize.Width - uc1.Width) / 2,
@@ -65,7 +71,7 @@ namespace Coder_s_space
                 string userName = formP.UserName; // get the username from FormProfile
                 Image userImage = formP.pictureBox3.Image;
 
-                UC_ProjectAdded projAdd = new UC_ProjectAdded(projDetails.textBoxTitle.Text,projDetails.textBoxDesc.Text,projDetails.textBoxTools.Text, Coder_s_space.Properties.Resources.Screenshot__115_);
+                UC_ProjectAdded projAdd = new UC_ProjectAdded(projDetails.textBoxTitle.Text,projDetails.textBoxDesc.Text,projDetails.textBoxTools.Text,projDetails.imageLocation);
                 flowLayoutPanel4.Controls.Add(projAdd);
                 projAdd.BringToFront();
                 projDetails.Dispose();

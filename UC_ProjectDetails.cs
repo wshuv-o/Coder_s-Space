@@ -12,7 +12,7 @@ namespace Coder_s_space
 {
     public partial class UC_ProjectDetails : UserControl
     {
-        public Image imageProj;
+        public String imageLocation = " ";
         public UC_ProjectDetails()
         {
             InitializeComponent();
@@ -20,7 +20,7 @@ namespace Coder_s_space
 
         private void guna2ImageButton7_Click(object sender, EventArgs e)
         {
-            String imageLocation = " ";
+            
             try
             {
                 OpenFileDialog dialog = new OpenFileDialog();

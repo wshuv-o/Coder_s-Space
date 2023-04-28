@@ -76,18 +76,18 @@
             this.panel7 = new System.Windows.Forms.Panel();
             this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2ImageButton8 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
-            this.guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.labelTitle = new System.Windows.Forms.Label();
-            this.guna2CustomGradientPanel7 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.guna2PictureBox7 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2CustomGradientPanel7 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.guna2PictureBox7 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.labelTitle = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel3.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -115,11 +115,11 @@
             this.flowLayoutPanel3.SuspendLayout();
             this.panel7.SuspendLayout();
             this.guna2Panel5.SuspendLayout();
-            this.flowLayoutPanel4.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.guna2Panel7.SuspendLayout();
             this.guna2CustomGradientPanel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).BeginInit();
-            this.panel1.SuspendLayout();
+            this.flowLayoutPanel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel3
@@ -863,7 +863,7 @@
             this.panel7.Location = new System.Drawing.Point(23, 1335);
             this.panel7.Name = "panel7";
             this.panel7.Padding = new System.Windows.Forms.Padding(0, 20, 0, 10);
-            this.panel7.Size = new System.Drawing.Size(1321, 693);
+            this.panel7.Size = new System.Drawing.Size(1321, 456);
             this.panel7.TabIndex = 11;
             // 
             // guna2Panel5
@@ -880,7 +880,7 @@
             this.guna2Panel5.Location = new System.Drawing.Point(0, 20);
             this.guna2Panel5.Name = "guna2Panel5";
             this.guna2Panel5.Padding = new System.Windows.Forms.Padding(20);
-            this.guna2Panel5.Size = new System.Drawing.Size(1321, 663);
+            this.guna2Panel5.Size = new System.Drawing.Size(1321, 426);
             this.guna2Panel5.TabIndex = 2;
             // 
             // guna2ImageButton8
@@ -902,16 +902,28 @@
             this.guna2ImageButton8.UseTransparentBackground = true;
             this.guna2ImageButton8.Click += new System.EventHandler(this.guna2ImageButton8_Click);
             // 
-            // flowLayoutPanel4
+            // label3
             // 
-            this.flowLayoutPanel4.Controls.Add(this.guna2Panel7);
-            this.flowLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel4.Location = new System.Drawing.Point(20, 42);
-            this.flowLayoutPanel4.Margin = new System.Windows.Forms.Padding(0);
-            this.flowLayoutPanel4.Name = "flowLayoutPanel4";
-            this.flowLayoutPanel4.Padding = new System.Windows.Forms.Padding(10);
-            this.flowLayoutPanel4.Size = new System.Drawing.Size(1281, 601);
-            this.flowLayoutPanel4.TabIndex = 34;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Gainsboro;
+            this.label3.Location = new System.Drawing.Point(20, 20);
+            this.label3.Margin = new System.Windows.Forms.Padding(0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(1281, 22);
+            this.label3.TabIndex = 31;
+            this.label3.Text = "Projects";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.panel3);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1366, 699);
+            this.panel1.TabIndex = 1;
             // 
             // guna2Panel7
             // 
@@ -931,84 +943,6 @@
             this.guna2Panel7.Padding = new System.Windows.Forms.Padding(20);
             this.guna2Panel7.Size = new System.Drawing.Size(1255, 294);
             this.guna2Panel7.TabIndex = 3;
-            // 
-            // label7
-            // 
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label7.Font = new System.Drawing.Font("Georgia", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.LightGray;
-            this.label7.Location = new System.Drawing.Point(20, 260);
-            this.label7.Margin = new System.Windows.Forms.Padding(0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(806, 44);
-            this.label7.TabIndex = 38;
-            this.label7.Text = "C#, .Net Framewprk, sql";
-            // 
-            // label8
-            // 
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label8.Font = new System.Drawing.Font("Franklin Gothic Demi", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label8.Location = new System.Drawing.Point(20, 232);
-            this.label8.Margin = new System.Windows.Forms.Padding(0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(806, 28);
-            this.label8.TabIndex = 37;
-            this.label8.Text = "Tools Used:";
-            // 
-            // label4
-            // 
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label4.Font = new System.Drawing.Font("Georgia", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.LightGray;
-            this.label4.Location = new System.Drawing.Point(20, 120);
-            this.label4.Margin = new System.Windows.Forms.Padding(0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(806, 112);
-            this.label4.TabIndex = 36;
-            this.label4.Text = resources.GetString("label4.Text");
-            // 
-            // label6
-            // 
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label6.Font = new System.Drawing.Font("Franklin Gothic Demi", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label6.Location = new System.Drawing.Point(20, 92);
-            this.label6.Margin = new System.Windows.Forms.Padding(0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(806, 28);
-            this.label6.TabIndex = 35;
-            this.label6.Text = "Description:";
-            // 
-            // label5
-            // 
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label5.Font = new System.Drawing.Font("Georgia", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.LightGray;
-            this.label5.Location = new System.Drawing.Point(20, 48);
-            this.label5.Margin = new System.Windows.Forms.Padding(0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(806, 44);
-            this.label5.TabIndex = 33;
-            this.label5.Text = "Coder\'s Space";
-            // 
-            // labelTitle
-            // 
-            this.labelTitle.BackColor = System.Drawing.Color.Transparent;
-            this.labelTitle.Dock = System.Windows.Forms.DockStyle.Top;
-            this.labelTitle.Font = new System.Drawing.Font("Franklin Gothic Demi", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTitle.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.labelTitle.Location = new System.Drawing.Point(20, 20);
-            this.labelTitle.Margin = new System.Windows.Forms.Padding(0);
-            this.labelTitle.Name = "labelTitle";
-            this.labelTitle.Size = new System.Drawing.Size(806, 28);
-            this.labelTitle.TabIndex = 32;
-            this.labelTitle.Text = "Title:";
             // 
             // guna2CustomGradientPanel7
             // 
@@ -1041,28 +975,94 @@
             this.guna2PictureBox7.TabStop = false;
             this.guna2PictureBox7.UseTransparentBackground = true;
             // 
-            // label3
+            // labelTitle
             // 
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Gainsboro;
-            this.label3.Location = new System.Drawing.Point(20, 20);
-            this.label3.Margin = new System.Windows.Forms.Padding(0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(1281, 22);
-            this.label3.TabIndex = 31;
-            this.label3.Text = "Projects";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.labelTitle.BackColor = System.Drawing.Color.Transparent;
+            this.labelTitle.Dock = System.Windows.Forms.DockStyle.Top;
+            this.labelTitle.Font = new System.Drawing.Font("Franklin Gothic Demi", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTitle.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.labelTitle.Location = new System.Drawing.Point(20, 20);
+            this.labelTitle.Margin = new System.Windows.Forms.Padding(0);
+            this.labelTitle.Name = "labelTitle";
+            this.labelTitle.Size = new System.Drawing.Size(806, 28);
+            this.labelTitle.TabIndex = 32;
+            this.labelTitle.Text = "Title:";
             // 
-            // panel1
+            // label5
             // 
-            this.panel1.Controls.Add(this.panel3);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1366, 699);
-            this.panel1.TabIndex = 1;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label5.Font = new System.Drawing.Font("Georgia", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.LightGray;
+            this.label5.Location = new System.Drawing.Point(20, 48);
+            this.label5.Margin = new System.Windows.Forms.Padding(0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(806, 44);
+            this.label5.TabIndex = 33;
+            this.label5.Text = "Coder\'s Space";
+            // 
+            // label6
+            // 
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label6.Font = new System.Drawing.Font("Franklin Gothic Demi", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label6.Location = new System.Drawing.Point(20, 92);
+            this.label6.Margin = new System.Windows.Forms.Padding(0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(806, 28);
+            this.label6.TabIndex = 35;
+            this.label6.Text = "Description:";
+            // 
+            // label4
+            // 
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label4.Font = new System.Drawing.Font("Georgia", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.LightGray;
+            this.label4.Location = new System.Drawing.Point(20, 120);
+            this.label4.Margin = new System.Windows.Forms.Padding(0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(806, 112);
+            this.label4.TabIndex = 36;
+            this.label4.Text = resources.GetString("label4.Text");
+            // 
+            // label8
+            // 
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label8.Font = new System.Drawing.Font("Franklin Gothic Demi", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label8.Location = new System.Drawing.Point(20, 232);
+            this.label8.Margin = new System.Windows.Forms.Padding(0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(806, 28);
+            this.label8.TabIndex = 37;
+            this.label8.Text = "Tools Used:";
+            // 
+            // label7
+            // 
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label7.Font = new System.Drawing.Font("Georgia", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.LightGray;
+            this.label7.Location = new System.Drawing.Point(20, 260);
+            this.label7.Margin = new System.Windows.Forms.Padding(0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(806, 44);
+            this.label7.TabIndex = 38;
+            this.label7.Text = "C#, .Net Framewprk, sql";
+            // 
+            // flowLayoutPanel4
+            // 
+            this.flowLayoutPanel4.Controls.Add(this.guna2Panel7);
+            this.flowLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel4.Location = new System.Drawing.Point(20, 42);
+            this.flowLayoutPanel4.Margin = new System.Windows.Forms.Padding(0);
+            this.flowLayoutPanel4.Name = "flowLayoutPanel4";
+            this.flowLayoutPanel4.Padding = new System.Windows.Forms.Padding(10);
+            this.flowLayoutPanel4.Size = new System.Drawing.Size(1281, 364);
+            this.flowLayoutPanel4.TabIndex = 34;
             // 
             // FormPortfoilo
             // 
@@ -1101,11 +1101,11 @@
             this.flowLayoutPanel3.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
             this.guna2Panel5.ResumeLayout(false);
-            this.flowLayoutPanel4.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
             this.guna2Panel7.ResumeLayout(false);
             this.guna2CustomGradientPanel7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).EndInit();
-            this.panel1.ResumeLayout(false);
+            this.flowLayoutPanel4.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1159,17 +1159,17 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button7;
         private System.Windows.Forms.Panel panel7;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel5;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel4;
         private System.Windows.Forms.Label label3;
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton8;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel4;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel7;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label labelTitle;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel7;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox7;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
     }
 }
