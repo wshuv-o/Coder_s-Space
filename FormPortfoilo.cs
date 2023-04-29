@@ -14,9 +14,12 @@ namespace Coder_s_space
     public partial class FormPortfoilo : Form
     {
         private int projectAdderClicked = 1;
+        
+
         public FormPortfoilo()
         {
             InitializeComponent();
+
         }
 
         private void guna2CirclePictureBox2_Click(object sender, EventArgs e)
@@ -71,8 +74,6 @@ namespace Coder_s_space
                 // Cast the parent control to a projDetails user control
                 UC_ProjectDetails projDetails = parent as UC_ProjectDetails;
 
-
-                //DateTime clickTime = DateTime.Now;
                 if (projDetails != null)
                 {
                     FormProfile formP = new FormProfile();
@@ -138,6 +139,12 @@ namespace Coder_s_space
 
         private void guna2ImageButton7_Click(object sender, EventArgs e)
         {
+            int skillPanelSizer=(flowLayoutPanel3.Controls.Count)/6;
+            
+            if ((flowLayoutPanel3.Controls.Count)%6== 0 && skillPanelSizer >= 3)
+            {
+                panel6.Size = new Size(panel6.Size.Width,panel6.Size.Height +52);
+            }
             UC_SkillDetails uc1 = new UC_SkillDetails();
             uc1.Location = new Point(
                 (this.ClientSize.Width - uc1.Width) / 2,
@@ -146,6 +153,11 @@ namespace Coder_s_space
             this.Controls.Add(uc1);
             uc1.BringToFront();
             uc1.guna2Button4.Click += OnPostClicked;
+
+        }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
 
         }
     }
