@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Guna.UI2.WinForms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -57,25 +58,95 @@ namespace Coder_s_space
 
         private void OnPostClicked(object sender, EventArgs e)
         {
-            // Get the parent control of the sender button
-            Control parent = ((Control)sender).Parent;
+            // Get the parent form of the sender control
+            Control parentForm = ((Control)sender).Parent;
 
-            // Cast the parent control to a projDetails user control
-            UC_ProjectDetails projDetails = parent as UC_ProjectDetails;
-
-
-            //DateTime clickTime = DateTime.Now;
-            if (projDetails != null)
+            // Get the name of the parent form
+            string formName = parentForm.Name;
+            if (formName == "UC_ProjectDetails")
             {
-                FormProfile formP = new FormProfile();
-                string userName = formP.UserName; // get the username from FormProfile
-                Image userImage = formP.pictureBox3.Image;
+                // Get the parent control of the sender button
+                Control parent = ((Control)sender).Parent;
 
-                UC_ProjectAdded projAdd = new UC_ProjectAdded(projDetails.textBoxTitle.Text,projDetails.textBoxDesc.Text,projDetails.textBoxTools.Text,projDetails.imageLocation);
-                flowLayoutPanel4.Controls.Add(projAdd);
-                projAdd.BringToFront();
-                projDetails.Dispose();
+                // Cast the parent control to a projDetails user control
+                UC_ProjectDetails projDetails = parent as UC_ProjectDetails;
+
+
+                //DateTime clickTime = DateTime.Now;
+                if (projDetails != null)
+                {
+                    FormProfile formP = new FormProfile();
+                    string userName = formP.UserName; // get the username from FormProfile
+                    Image userImage = formP.pictureBox3.Image;
+
+                    UC_ProjectAdded projAdd = new UC_ProjectAdded(projDetails.textBoxTitle.Text, projDetails.textBoxDesc.Text, projDetails.textBoxTools.Text, projDetails.imageLocation);
+                    flowLayoutPanel4.Controls.Add(projAdd);
+                    projAdd.BringToFront();
+                    projDetails.Dispose();
+                }
+
             }
+
+            else
+            {
+                // Get the parent control of the sender button
+                Control parent = ((Control)sender).Parent;
+
+                // Cast the parent control to a projDetails user control
+                UC_SkillDetails skillDetails = parent as UC_SkillDetails;
+
+
+                //DateTime clickTime = DateTime.Now;
+                if (skillDetails != null)
+                {
+                   Guna2Button guna2SkillButton= new Guna2Button();
+                   guna2SkillButton.Animated = true;
+                   guna2SkillButton.BorderRadius = 15;
+                   guna2SkillButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+                   guna2SkillButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+                   guna2SkillButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+                   guna2SkillButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+                   guna2SkillButton.FillColor = System.Drawing.Color.Transparent;
+                   guna2SkillButton.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Bold);
+                   guna2SkillButton.ForeColor = System.Drawing.Color.White;
+                   guna2SkillButton.HoverState.BorderColor = System.Drawing.Color.Transparent;
+                   guna2SkillButton.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
+                   guna2SkillButton.HoverState.FillColor = System.Drawing.Color.LightSeaGreen;
+                   guna2SkillButton.Image = global::Coder_s_space.Properties.Resources.stop;
+                   guna2SkillButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+                   guna2SkillButton.ImageOffset = new System.Drawing.Point(-2, 0);
+                   guna2SkillButton.ImageSize = new System.Drawing.Size(25, 25);
+                   guna2SkillButton.Location = new System.Drawing.Point(103, 13);
+                   guna2SkillButton.Name = "guna2SkillButton";
+                   guna2SkillButton.Size = new System.Drawing.Size(171, 49);
+                   guna2SkillButton.TabIndex = 31;
+                   guna2SkillButton.TabStop = false;
+                   guna2SkillButton.Text = skillDetails.textBoxSkill.Text;
+                   guna2SkillButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+
+
+
+                    flowLayoutPanel3.Controls.Add(guna2SkillButton);
+                    guna2SkillButton.BringToFront();
+                    skillDetails.Dispose();
+                }
+
+            }
+            
+            
+        }
+
+        private void guna2ImageButton7_Click(object sender, EventArgs e)
+        {
+            UC_SkillDetails uc1 = new UC_SkillDetails();
+            uc1.Location = new Point(
+                (this.ClientSize.Width - uc1.Width) / 2,
+                (this.ClientSize.Height - uc1.Height - 300) / 2
+            );
+            this.Controls.Add(uc1);
+            uc1.BringToFront();
+            uc1.guna2Button4.Click += OnPostClicked;
+
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Coder_s_space
 {
-    partial class UserControlTaskDetails
+    partial class UCTaskDetails
     {
         /// <summary> 
         /// Required designer variable.

@@ -210,17 +210,23 @@
     <Compile Include="UC_ProjectAdded.Designer.cs">
       <DependentUpon>UC_ProjectAdded.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControlTaskDetails.cs">
+    <Compile Include="UCTaskDetails.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControlTaskDetails.Designer.cs">
-      <DependentUpon>UserControlTaskDetails.cs</DependentUpon>
+    <Compile Include="UCTaskDetails.Designer.cs">
+      <DependentUpon>UCTaskDetails.cs</DependentUpon>
     </Compile>
     <Compile Include="UC_ProjectDetails.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UC_ProjectDetails.Designer.cs">
       <DependentUpon>UC_ProjectDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_SkillDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_SkillDetails.Designer.cs">
+      <DependentUpon>UC_SkillDetails.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -298,8 +304,11 @@
     <EmbeddedResource Include="UC_ProjectDetails.resx">
       <DependentUpon>UC_ProjectDetails.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserControlTaskDetails.resx">
-      <DependentUpon>UserControlTaskDetails.cs</DependentUpon>
+    <EmbeddedResource Include="UCTaskDetails.resx">
+      <DependentUpon>UCTaskDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_SkillDetails.resx">
+      <DependentUpon>UC_SkillDetails.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

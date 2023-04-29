@@ -36,7 +36,7 @@ namespace Coder_s_space
 
         private void buttonGitHub_Click(object sender, EventArgs e)
         {
-            UserControlTaskDetails uc1 = new UserControlTaskDetails();
+            UCTaskDetails uc1 = new UCTaskDetails();
             uc1.Location = new Point(
                 (this.ClientSize.Width - uc1.Width) / 2,
                 (this.ClientSize.Height - uc1.Height-300) / 2
@@ -55,7 +55,7 @@ namespace Coder_s_space
             Control parent = ((Control)sender).Parent;
 
             // Cast the parent control to a TaskDetails user control
-            UserControlTaskDetails taskDetails = parent as UserControlTaskDetails;
+            UCTaskDetails taskDetails = parent as UCTaskDetails;
 
             
             DateTime clickTime = DateTime.Now;
