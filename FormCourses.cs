@@ -120,7 +120,9 @@ namespace Coder_s_space
             }
         }
 
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
 
-
+        }
     }
 }

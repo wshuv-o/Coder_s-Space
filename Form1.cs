@@ -147,7 +147,7 @@ namespace Coder_s_space
 
 
             // Animate the form out
-            AnimateWindow(this.Handle, 200, AW_VER_NEGATIVE | AW_SLIDE | AW_HIDE);
+            AnimateWindow(this.Handle, 600, AW_VER_NEGATIVE | AW_SLIDE | AW_HIDE);
             // Minimize the form
             this.WindowState = FormWindowState.Minimized;
             // Show the form on the taskbar

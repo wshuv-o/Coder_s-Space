@@ -56,7 +56,8 @@ namespace Coder_s_space
         private void button3_Click(object sender, EventArgs e)
         {
             var fa = new formAbout();
-            PanelContainer.Controls.Add(fa);            
+            PanelContainer.Controls.Add(fa);  
+            fa.BringToFront();
         }
 
         private void PanelContainer_Paint(object sender, PaintEventArgs e)
