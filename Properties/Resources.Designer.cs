@@ -103,6 +103,16 @@ namespace Coder_s_space.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _120399 {
+            get {
+                object obj = ResourceManager.GetObject("120399", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _20221020055447_IMG_8419f {
             get {
                 object obj = ResourceManager.GetObject("20221020055447_IMG_8419f", resourceCulture);
@@ -713,9 +723,29 @@ namespace Coder_s_space.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap download {
+            get {
+                object obj = ResourceManager.GetObject("download", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap download__1_ {
             get {
                 object obj = ResourceManager.GetObject("download (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap download__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("download (1)1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1283,6 +1313,16 @@ namespace Coder_s_space.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap IMG_2211__3_1 {
+            get {
+                object obj = ResourceManager.GetObject("IMG_2211 (3)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap InternationalOlympiadInInformatics {
             get {
                 object obj = ResourceManager.GetObject("InternationalOlympiadInInformatics", resourceCulture);
@@ -1713,9 +1753,60 @@ namespace Coder_s_space.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap rsz_1images_2__1_ {
+            get {
+                object obj = ResourceManager.GetObject("rsz_1images_2 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rsz_1images_2__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("rsz_1images_2 (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rsz_2images_1 {
+            get {
+                object obj = ResourceManager.GetObject("rsz_2images_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rsz_337538979_746079400231183_538522486434599490_n1 {
+            get {
+                object obj = ResourceManager.GetObject("rsz_337538979_746079400231183_538522486434599490_n1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap rsz_6448e66a77890 {
             get {
                 object obj = ResourceManager.GetObject("rsz_6448e66a77890", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rsz_desktop_source_code_and_technology_background_developer_or_programer_with_coding_and_programming_wallpaper_by_computer_language_and_source_code_com_pf3nra {
+            get {
+                object obj = ResourceManager.GetObject("rsz_desktop-source-code-and-technology-background-developer-or-programer-with-cod" +
+                        "ing-and-programming-wallpaper-by-computer-language-and-source-code-com-pf3nra", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1863,6 +1954,16 @@ namespace Coder_s_space.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap rsz_images_32 {
+            get {
+                object obj = ResourceManager.GetObject("rsz_images_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap rsz_images_4 {
             get {
                 object obj = ResourceManager.GetObject("rsz_images_4", resourceCulture);
@@ -1886,6 +1987,26 @@ namespace Coder_s_space.Properties {
         internal static System.Drawing.Bitmap rsz_pngtree_minus_vector_icon_png_image_696413 {
             get {
                 object obj = ResourceManager.GetObject("rsz_pngtree-minus-vector-icon-png-image_696413", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rsz_sajin {
+            get {
+                object obj = ResourceManager.GetObject("rsz_sajin", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rsz_wife_1 {
+            get {
+                object obj = ResourceManager.GetObject("rsz_wife_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

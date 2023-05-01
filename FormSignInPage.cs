@@ -2,20 +2,26 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Coder_s_space;
 using Microsoft.Win32;
+using MySql.Data.MySqlClient;
 
 
 namespace Coder_s_space
 {
     public partial class FormSignIn : Form
     {
+        MySqlConnection connection = new MySqlConnection("datasource=localhost;port=3306;username=root;password=");
+        MySqlCommand command;
+        MySqlDataReader mdr;
         public FormSignIn()
         {
             InitializeComponent();
@@ -172,15 +178,64 @@ namespace Coder_s_space
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            this.Hide();
-            Form1 f = new Form1();
-            f.ShowDialog();
-            this.Close();
+            if (string.IsNullOrEmpty(txtUsername.Text) || string.IsNullOrEmpty(textBox1.Text))
+            {
+                MessageBox.Show("Please input Username and Password", "Error");
+            }
+
+            else
+            {
+                connection.Open();
+                string selectQuery = "SELECT * FROM loginregister.userinfo WHERE Username = '" + txtUsername.Text + "' AND Password = '" + textBox1.Text + "';";
+                command = new MySqlCommand(selectQuery, connection);
+                mdr = command.ExecuteReader();
+                if (mdr.Read())
+                {
+                    string MyConnection2 = "datasource=localhost;port=3306;username=root;password=";
+                    string Query = "update loginregister.userinfo set LastLogin='" + dateTimePicker1.Value + "' where Username='" + this.txtUsername.Text + "';";
+                    MySqlConnection MyConn2 = new MySqlConnection(MyConnection2);
+
+                    MySqlCommand MyCommand2 = new MySqlCommand(Query, MyConn2);
+                    MySqlDataReader MyReader2;
+                    MyConn2.Open();
+                    MyReader2 = MyCommand2.ExecuteReader();
+                    while (MyReader2.Read())
+                    {
+                    }
+                    MyConn2.Close();
+
+                    MessageBox.Show("Login Successful!");
+                    this.Hide();
+                    FormCRUD frm2 = new FormCRUD();
+                    frm2.ShowDialog();
+
+                }
+                else
+                {
+
+                    MessageBox.Show("Incorrect Login Information! Try again.");
+                }
+
+                connection.Close();
+            }
         }
 
         private void guna2PictureBox1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void checkboxShowPass_CheckedChanged_1(object sender, EventArgs e)
+        {
+            textBox1.PasswordChar = textBox1.PasswordChar == '\0' ? '*' : '\0';
+
+            checkboxShowPass.Text = textBox1.PasswordChar == '\0' ? "Hide" : "Show";
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            txtUsername.Text = "";
         }
     }
 }
