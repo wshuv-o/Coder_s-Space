@@ -1,4 +1,5 @@
 ﻿using Guna.UI2.WinForms;
+using media.Classes;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,11 +15,12 @@ namespace Coder_s_space
     public partial class FormPortfoilo : Form
     {
         private int projectAdderClicked = 1;
-        
 
-        public FormPortfoilo()
+        User userThs;
+        public FormPortfoilo(User user)
         {
             InitializeComponent();
+            userThs = user;
 
         }
 
@@ -76,9 +78,9 @@ namespace Coder_s_space
 
                 if (projDetails != null)
                 {
-                    FormProfile formP = new FormProfile();
-                    string userName = formP.UserName; // get the username from FormProfile
-                    Image userImage = formP.pictureBox3.Image;
+                    //FormProfile formP = new FormProfile(user);
+                    string userName = userThs.UserName; // get the username from FormProfile
+                    //Image userImage = formP.pictureBox3.Image;
 
                     UC_ProjectAdded projAdd = new UC_ProjectAdded(projDetails.textBoxTitle.Text, projDetails.textBoxDesc.Text, projDetails.textBoxTools.Text, projDetails.imageLocation);
                     flowLayoutPanel4.Controls.Add(projAdd);

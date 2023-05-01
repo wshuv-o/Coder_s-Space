@@ -1,4 +1,5 @@
-﻿using System;
+﻿using media.Classes;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,13 +15,15 @@ namespace Coder_s_space
 {
     public partial class FormProfile : Form
     {
-        public FormProfile()
+        public FormProfile(User user)
         {
             InitializeComponent();
 
             this.BackColor = Color.Magenta;
             this.TransparencyKey = Color.Magenta;
             this.FormBorderStyle = FormBorderStyle.None;
+            
+            labelUserName.Text = user.UserName;
 
             //FunctionsAll.RoundPanel(panel6, 50);
 
@@ -33,6 +36,9 @@ namespace Coder_s_space
             
             FunctionsAll.RoundPanel(panel6, 30);
             FunctionsAll.RoundPictureBox(pictureBox3, 170);
+            Image profileImage = user.ProfilePhoto;
+
+            guna2CirclePictureBox1.Image = profileImage;
             //pictureBox3.Image=FunctionsAll.GetCircularImage(pictureBox3.Image); 
 
         }

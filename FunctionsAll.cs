@@ -250,10 +250,12 @@ namespace Coder_s_space
             g.SetClip(path);
             g.DrawImage(image, new Rectangle(0, 0, size.Width, size.Height), new Rectangle(0, 0, image.Width, image.Height), GraphicsUnit.Pixel);
             return output;
+            
         }
 
         public static Image GetCircularImage(Image img)
         {
+
             Bitmap bmp = new Bitmap(img.Width, img.Height);
             Graphics g = Graphics.FromImage(bmp);
             g.Clear(Color.Transparent);

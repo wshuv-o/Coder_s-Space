@@ -25,8 +25,8 @@ namespace Coder_s_space
             FunctionsAll.RoundPanel(panel8, 40);
             FunctionsAll.RoundPanel(guna2Panel5, 40);
            // guna2GradientButton2.TextImageRelation = TextImageRelation.ImageBeforeText; // or other desired alignment
-            FormProfile form3 = new FormProfile();
-            guna2CirclePictureBox1.Image = form3.pictureBox3.Image;
+            /*FormProfile form3 = new FormProfile();
+            guna2CirclePictureBox1.Image = form3.pictureBox3.Image;*/
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)

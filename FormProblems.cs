@@ -24,6 +24,8 @@ namespace Coder_s_space
         public FormProblems()
         {
             InitializeComponent();
+            this.SetStyle(ControlStyles.OptimizedDoubleBuffer, true);
+
             InitWebView();
             _images.Add(Coder_s_space.Properties.Resources.banner_for_Coder_s_space);
             _images.Add(Coder_s_space.Properties.Resources.banner_for_Coder_s_space__4_);

@@ -1,4 +1,5 @@
 ﻿using System;
+using MySql.Data.MySqlClient;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,7 +11,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Coder_s_space;
 using Microsoft.Win32;
-
+using media.Classes;
+using media;
 
 namespace Coder_s_space
 {
@@ -21,9 +23,9 @@ namespace Coder_s_space
             InitializeComponent();
             //OpenChildForm(this.panel1, 20);
             //RoundPanelCorners(ref panel1, 30);
-            RoundTextBoxCorners(ref txtUsername, 13);
-            RoundTextBoxCorners(ref txtUsername, 13);
-            RoundTextBoxCorners(ref textBox1, 13);
+            RoundTextBoxCorners(ref textBoxEmail, 13);
+            RoundTextBoxCorners(ref textBoxEmail, 13);
+            RoundTextBoxCorners(ref textBoxPass, 13);
             RoundButtonCorners(ref button1, 13);
             RoundButtonCorners(ref button2, 13);
         }
@@ -172,15 +174,110 @@ namespace Coder_s_space
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            this.Hide();
+            
+           /* this.Hide();
             Form1 f = new Form1();
             f.ShowDialog();
-            this.Close();
+            this.Close();*/
+
+            string email = textBoxEmail.Text;
+            string connString = "server=localhost;user=root;database=csdb;port=3306;password=";
+            try
+            {
+                using (MySqlConnection conn = new MySqlConnection(connString))
+                {
+                    conn.Open();
+                    string query = "SELECT user_pass FROM user WHERE user_email= @Email";
+
+                    using (MySqlCommand cmd = new MySqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@Email", email);
+
+                        using (MySqlDataReader reader = cmd.ExecuteReader())
+                        {
+                            if (reader.Read())
+                            {
+                                string password = reader.GetString(0);
+                                if (password.Equals(textBoxPass.Text))
+                                {
+
+                                    this.Hide();
+                                    User user = this.GetUserByEmail(email);
+                                    //MessageBox.Show("userFound!"+"user name is"+user.UserFirstName);
+                                    Form1 f = new Form1 (user);
+                                    //MessageBox.Show(user.Email+"-"+user.UserName+"kkk"+user.Password);
+                                    f.ShowDialog();
+                                    this.Close();
+                                }
+                                else
+                                {
+                                    MessageBox.Show("password not matched");
+                                    return;
+                                }
+                            }
+                            else
+                            {
+                                MessageBox.Show("User not found, or maybe died");
+                                return;
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void guna2PictureBox1_Click(object sender, EventArgs e)
         {
 
         }
+
+        public User GetUserByEmail(string email)
+        {
+            DBImage dbio = new DBImage();
+            User user = new User();
+            try
+            {
+                
+                string connectionString;
+                connectionString = "server=localhost;user=root;database=csdb;port=3306;password=";
+
+
+
+                string query = "SELECT * FROM user WHERE user_email = @Email";
+                MySqlConnection connection = new MySqlConnection(connectionString);
+                MySqlCommand command = new MySqlCommand(query, connection);
+
+                command.Parameters.AddWithValue("@Email", email);
+                connection.Open();
+                MySqlDataReader reader = command.ExecuteReader();
+
+                if (reader.Read())
+                {
+                    user.Key = reader.GetInt32("user_id");
+
+                    //user.UserFirstName = reader.GetString("userfirstname");
+                   // user.UserLastName = reader.GetString("userlastname");
+                   // user.Dob = reader.GetDateTime("dob");
+                    user.Email = reader.GetString("user_email");
+                    user.UserName = reader.GetString("user_name");
+                    user.ProfilePhoto = dbio.LoadImageFromDataBase(reader.GetInt32("user_id"));
+                    //user.Gender = reader.GetString("gender");
+                    //user.Bio = reader.GetString("bio");
+                    //MessageBox.Show(" " + user.Key);
+
+                }
+                reader.Close();
+                connection.Close();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("An error occurred: " + ex.Message);
+            }
+            return user;
+        }  
     }
 }

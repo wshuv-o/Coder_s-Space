@@ -1,4 +1,5 @@
-﻿using System;
+﻿using media.Classes;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -26,24 +27,27 @@ namespace Coder_s_space
         static extern bool AnimateWindow(IntPtr hWnd, int dwTime, int dwFlags);
 
         Form activeForm = null;
-
-        public Form1()
+        User user;
+        public Form1(User user)
         {
             InitializeComponent();
-
-             OpenChildForm(new FormProfile(), panel11);
+            this.user = user;
+             OpenChildForm(new FormProfile(user), panel11);
             // Make the form transparent
             this.BackColor = Color.Magenta;
             this.TransparencyKey = Color.Magenta;
             this.FormBorderStyle = FormBorderStyle.None;
 
-            FormProfile form3= new FormProfile();
+            
             // Make the panel transparent
             panel3.BackColor = Color.Transparent;
             panel3.Parent = this;
             panel3.BackColor = Color.Transparent; // Set the background color of panel3 to transparent
             panel3.BorderStyle = BorderStyle.None; // Set the border style of panel3 to none to remove the frame
-            button1.BackgroundImage = FunctionsAll.GetCircularImage(form3.pictureBox3.Image);
+            //Image a = new Image(user.ProfilePhoto);
+            //GetCircularImage(a);
+           // button1.BackgroundImage = FunctionsAll.GetCircularImage(user.ProfilePhoto);
+
 
             label1.Visible = false;
             
@@ -186,7 +190,7 @@ namespace Coder_s_space
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-             OpenChildForm(new FormProfile(), panel11);
+             OpenChildForm(new FormProfile(user), panel11);
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -276,7 +280,7 @@ namespace Coder_s_space
 
         private void buttonPortfolio_Click(object sender, EventArgs e)
         {
-             OpenChildForm(new FormPortfoilo(), panel11);
+             OpenChildForm(new FormPortfoilo(user), panel11);
         }
 
         private void buttonWork_Click(object sender, EventArgs e)
@@ -306,7 +310,7 @@ namespace Coder_s_space
 
         private void buttonJob_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new FormMarketplace(), panel11); 
+            OpenChildForm(new FormMarketplace(user), panel11); 
         }
        
 

@@ -1,4 +1,5 @@
 ﻿using Guna.UI2.WinForms;
+using media.Classes;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,9 +15,11 @@ namespace Coder_s_space
     public partial class FormMarketplace : Form
     {
         private Guna2Button selectedButton;
-        public FormMarketplace()
+        User user;
+        public FormMarketplace(User user)
         {
             InitializeComponent();
+            this.user = user;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -61,9 +64,10 @@ namespace Coder_s_space
             DateTime clickTime = DateTime.Now;
             if (taskDetails != null)
             {
-                FormProfile formP = new FormProfile();
-                string userName = formP.UserName; // get the username from FormProfile
-                Image userImage = formP.pictureBox3.Image;
+                
+                string userName = user.UserName;// get the username from FormProfile
+                Image userImage = user.ProfilePhoto;
+
                 PostTask postTask = new PostTask(taskDetails.TaskPrice,taskDetails.TaskTitle,taskDetails.TaskDescription,userName,userImage,clickTime);
                 flowLayoutPanel1.Controls.Add(postTask);
                 postTask.BringToFront();

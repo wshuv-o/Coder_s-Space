@@ -58,6 +58,7 @@ namespace Coder_s_space
             var fa = new formAbout();
             PanelContainer.Controls.Add(fa);  
             fa.BringToFront();
+            
         }
 
         private void PanelContainer_Paint(object sender, PaintEventArgs e)
