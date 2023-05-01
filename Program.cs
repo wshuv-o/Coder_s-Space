@@ -33,7 +33,7 @@ namespace media
                 }
             }
 
-            Application.Run(new FormSignIn());
+            Application.Run(new FormCRUD());
         }
 
         [DllImport("user32.dll")]

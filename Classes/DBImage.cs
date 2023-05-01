@@ -59,7 +59,7 @@ namespace media
 
             if (imageBytes == null)
             {
-                MessageBox.Show("No image found for user ID " + userId + ".", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                //MessageBox.Show("No image found for user ID " + userId + ".", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return null;
             }
 
@@ -104,8 +104,7 @@ namespace media
                 connection.Open();
 
                 string query = "SELECT user_photo FROM user WHERE user_id = @userId";
-                MessageBox.Show("sss");
-
+               
                 using (MySqlCommand command = new MySqlCommand(query, connection))
                 {
                     command.Parameters.AddWithValue("@userId", userId);
