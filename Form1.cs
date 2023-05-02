@@ -44,9 +44,11 @@ namespace Coder_s_space
             panel3.Parent = this;
             panel3.BackColor = Color.Transparent; // Set the background color of panel3 to transparent
             panel3.BorderStyle = BorderStyle.None; // Set the border style of panel3 to none to remove the frame
-            //Image a = new Image(user.ProfilePhoto);
-            //GetCircularImage(a);
-           // button1.BackgroundImage = FunctionsAll.GetCircularImage(user.ProfilePhoto);
+
+            Image a = user.ProfilePhoto;
+
+            FunctionsAll.GetCircularImage(a);
+            button1.BackgroundImage = FunctionsAll.GetCircularImage(user.ProfilePhoto);
 
 
             label1.Visible = false;
@@ -385,5 +387,9 @@ namespace Coder_s_space
             guna2GradientPanel2.BorderThickness=0;
         }
 
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

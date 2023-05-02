@@ -138,5 +138,10 @@ namespace Coder_s_space
             selectedButton = (Guna2Button)sender;
             UpdateButtonColors();
         }
+
+        private void guna2CirclePictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

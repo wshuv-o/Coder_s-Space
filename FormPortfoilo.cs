@@ -16,11 +16,13 @@ namespace Coder_s_space
     {
         private int projectAdderClicked = 1;
 
-        User userThs;
+        User user;
         public FormPortfoilo(User user)
         {
             InitializeComponent();
-            userThs = user;
+            this.user = user;
+            Image pp = user.ProfilePhoto;
+            profilePictureBox2.Image = pp;
 
         }
 
@@ -79,7 +81,7 @@ namespace Coder_s_space
                 if (projDetails != null)
                 {
                     //FormProfile formP = new FormProfile(user);
-                    string userName = userThs.UserName; // get the username from FormProfile
+                    string userName = user.UserName; // get the username from FormProfile
                     //Image userImage = formP.pictureBox3.Image;
 
                     UC_ProjectAdded projAdd = new UC_ProjectAdded(projDetails.textBoxTitle.Text, projDetails.textBoxDesc.Text, projDetails.textBoxTools.Text, projDetails.imageLocation);
@@ -159,6 +161,11 @@ namespace Coder_s_space
         }
 
         private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void profilePictureBox2_Click(object sender, EventArgs e)
         {
 
         }

@@ -56,7 +56,6 @@ namespace Coder_s_space
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label25 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel7 = new System.Windows.Forms.Panel();
             this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
@@ -65,6 +64,8 @@ namespace Coder_s_space
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.toolTipControlPanel = new System.Windows.Forms.ToolTip(this.components);
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+            this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.panelMenu.SuspendLayout();
             this.panel10.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -75,12 +76,13 @@ namespace Coder_s_space
             this.panel11.SuspendLayout();
             this.guna2GradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel7.SuspendLayout();
             this.guna2GradientPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.guna2CustomGradientPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMenu
@@ -376,8 +378,8 @@ namespace Coder_s_space
             // panel11
             // 
             this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.panel11.Controls.Add(this.guna2CustomGradientPanel1);
             this.panel11.Controls.Add(this.guna2GradientPanel1);
-            this.panel11.Controls.Add(this.pictureBox3);
             this.panel11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel11.Location = new System.Drawing.Point(0, 33);
             this.panel11.Name = "panel11";
@@ -393,7 +395,7 @@ namespace Coder_s_space
             this.guna2GradientPanel1.Controls.Add(this.pictureBox4);
             this.guna2GradientPanel1.Controls.Add(this.label25);
             this.guna2GradientPanel1.CustomBorderColor = System.Drawing.Color.Red;
-            this.guna2GradientPanel1.Location = new System.Drawing.Point(530, 254);
+            this.guna2GradientPanel1.Location = new System.Drawing.Point(282, 221);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
             this.guna2GradientPanel1.Padding = new System.Windows.Forms.Padding(2);
             this.guna2GradientPanel1.Size = new System.Drawing.Size(56, 26);
@@ -422,17 +424,6 @@ namespace Coder_s_space
             this.label25.TabIndex = 13;
             this.label25.Text = "1.6";
             this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.pictureBox3.BackColor = System.Drawing.Color.Blue;
-            this.pictureBox3.Image = global::Coder_s_space.Properties.Resources.logo;
-            this.pictureBox3.Location = new System.Drawing.Point(81, 99);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(403, 480);
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
             // 
             // panel7
             // 
@@ -487,6 +478,7 @@ namespace Coder_s_space
             this.label1.TabIndex = 13;
             this.label1.Text = "5.0";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // pictureBox2
             // 
@@ -523,6 +515,36 @@ namespace Coder_s_space
             this.toolTipControlPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(9)))), ((int)(((byte)(9)))));
             this.toolTipControlPanel.ForeColor = System.Drawing.Color.LightSalmon;
             // 
+            // guna2CustomGradientPanel1
+            // 
+            this.guna2CustomGradientPanel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel1.BorderRadius = 100;
+            this.guna2CustomGradientPanel1.Controls.Add(this.guna2CirclePictureBox2);
+            this.guna2CustomGradientPanel1.FillColor = System.Drawing.Color.Cyan;
+            this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.Color.Magenta;
+            this.guna2CustomGradientPanel1.FillColor3 = System.Drawing.Color.Aqua;
+            this.guna2CustomGradientPanel1.FillColor4 = System.Drawing.Color.Fuchsia;
+            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(578, 244);
+            this.guna2CustomGradientPanel1.Margin = new System.Windows.Forms.Padding(10);
+            this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
+            this.guna2CustomGradientPanel1.Padding = new System.Windows.Forms.Padding(3);
+            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(210, 210);
+            this.guna2CustomGradientPanel1.TabIndex = 44;
+            // 
+            // guna2CirclePictureBox2
+            // 
+            this.guna2CirclePictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2CirclePictureBox2.Image = global::Coder_s_space.Properties.Resources.Wahid;
+            this.guna2CirclePictureBox2.ImageRotate = 0F;
+            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(3, 3);
+            this.guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
+            this.guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(204, 204);
+            this.guna2CirclePictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2CirclePictureBox2.TabIndex = 4;
+            this.guna2CirclePictureBox2.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
@@ -550,12 +572,13 @@ namespace Coder_s_space
             this.panel11.ResumeLayout(false);
             this.guna2GradientPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel7.ResumeLayout(false);
             this.guna2GradientPanel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.guna2CustomGradientPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -584,7 +607,6 @@ namespace Coder_s_space
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel11;
-        private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.ToolTip toolTipControlPanel;
         private System.Windows.Forms.ToolTip toolTip;
         private System.Windows.Forms.Button buttonArticle;
@@ -594,6 +616,8 @@ namespace Coder_s_space
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel2;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.Label label1;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox2;
     }
 }
 
