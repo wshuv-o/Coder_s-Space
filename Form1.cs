@@ -51,9 +51,9 @@ namespace Coder_s_space
             panel3.BorderStyle = BorderStyle.None; // Set the border style of panel3 to none to remove the frame
 
             Image profileImage = dbi.LoadImageFromDataBase(user.Key);
-
-            FunctionsAll.GetCircularImage(profileImage);
-            button1.BackgroundImage = FunctionsAll.GetCircularImage(profileImage);
+            buttPictureBox.Image = profileImage;   
+            //FunctionsAll.GetCircularImage(profileImage);
+            //button1.BackgroundImage = FunctionsAll.GetCircularImage(profileImage);
 
 
             label1.Visible = false;
@@ -76,7 +76,7 @@ namespace Coder_s_space
            FunctionsAll.RoundPanel(panel5, 50);
             FunctionsAll.RoundPanel(panelMenu, 50);
             
-            FunctionsAll.RoundButton(button1,50 );
+            //FunctionsAll.RoundButton(button1,50 );
             //RoundButtonParams(50,buttonCourse,buttonArticle, button3,buttonComm,buttonCompile,buttonPortfolio,buttonProblems,buttonJob,buttonWork );
     
             foreach(Button btn in panel2.Controls.OfType<Button>())
@@ -406,6 +406,25 @@ namespace Coder_s_space
         private void label1_Click_1(object sender, EventArgs e)
         {
 
+        }
+        private void guna2CirclePictureBox2_MouseHover(object sender, EventArgs e)
+        {
+            this.guna2BackPanel1.FillColor = System.Drawing.Color.Cyan;
+            this.guna2BackPanel1.FillColor2 = System.Drawing.Color.Magenta;
+            this.guna2BackPanel1.FillColor3 = System.Drawing.Color.Aqua;
+            this.guna2BackPanel1.FillColor4 = System.Drawing.Color.Fuchsia;
+        }
+        private void guna2CirclePictureBox2_MouseLeave(object sender, EventArgs e)
+        {
+            this.guna2BackPanel1.FillColor = System.Drawing.Color.Transparent;
+            this.guna2BackPanel1.FillColor2 = System.Drawing.Color.Transparent;
+            this.guna2BackPanel1.FillColor3 = System.Drawing.Color.Transparent;
+            this.guna2BackPanel1.FillColor4 = System.Drawing.Color.Transparent;
+        }
+
+        private void buttPictureBox1_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new FormProfile(user), panel11);
         }
     }
 }
