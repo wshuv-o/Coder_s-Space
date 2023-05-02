@@ -212,6 +212,7 @@ namespace Coder_s_space
                                         //MessageBox.Show("userFound!"+"user name is"+user.UserFirstName);
                                         FormPortfoilo f = new FormPortfoilo(user);
                                         //MessageBox.Show(user.Email+"-"+user.UserName+"kkk"+user.Password);
+
                                         f.ShowDialog();
                                         this.Close();
                                     }
