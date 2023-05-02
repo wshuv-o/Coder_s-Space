@@ -1,4 +1,5 @@
-﻿using media.Classes;
+﻿using media;
+using media.Classes;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -32,7 +33,11 @@ namespace Coder_s_space
         {
             InitializeComponent();
             this.user = user;
-             OpenChildForm(new FormProfile(user), panel11);
+            DBImage dbi=new DBImage();
+            FormProfile pr = new FormProfile(user);
+            OpenChildForm(pr, panel11);
+            pr.buttonGitHub.Click += buttonGitHub_Click;
+
             // Make the form transparent
             this.BackColor = Color.Magenta;
             this.TransparencyKey = Color.Magenta;
@@ -45,10 +50,10 @@ namespace Coder_s_space
             panel3.BackColor = Color.Transparent; // Set the background color of panel3 to transparent
             panel3.BorderStyle = BorderStyle.None; // Set the border style of panel3 to none to remove the frame
 
-            Image a = user.ProfilePhoto;
+            Image profileImage = dbi.LoadImageFromDataBase(user.Key);
 
-            FunctionsAll.GetCircularImage(a);
-            button1.BackgroundImage = FunctionsAll.GetCircularImage(user.ProfilePhoto);
+            FunctionsAll.GetCircularImage(profileImage);
+            button1.BackgroundImage = FunctionsAll.GetCircularImage(profileImage);
 
 
             label1.Visible = false;
@@ -83,7 +88,16 @@ namespace Coder_s_space
 
 
         }
-        
+        public void buttonGitHub_Click(object sender, EventArgs e)
+        {
+
+
+            this.Hide();
+            FormProfileEditor pe = new FormProfileEditor(user);
+            pe.ShowDialog();
+            this.Close();
+        }
+
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -192,7 +206,9 @@ namespace Coder_s_space
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-             OpenChildForm(new FormProfile(user), panel11);
+            FormProfile pr = new FormProfile(user);
+             OpenChildForm(pr, panel11);
+
         }
 
         private void button2_Click(object sender, EventArgs e)

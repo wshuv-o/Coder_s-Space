@@ -138,5 +138,13 @@ namespace Coder_s_space
         {
             
         }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormSignIn signIn= new FormSignIn();
+            signIn.ShowDialog();
+            this.Close();
+        }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Guna.UI2.WinForms;
+using media;
 using media.Classes;
 using System;
 using System.Collections.Generic;
@@ -18,11 +19,12 @@ namespace Coder_s_space
 
         User user;
         public FormPortfoilo(User user)
-        {
+        {   DBImage dbi=new DBImage();
             InitializeComponent();
             this.user = user;
-            Image pp = user.ProfilePhoto;
-            profilePictureBox2.Image = pp;
+
+            Image profileImage = dbi.LoadImageFromDataBase(user.Key);
+            profilePictureBox2.Image = profileImage;
 
         }
 

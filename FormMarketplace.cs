@@ -1,4 +1,5 @@
 ﻿using Guna.UI2.WinForms;
+using media;
 using media.Classes;
 using System;
 using System.Collections.Generic;
@@ -16,8 +17,10 @@ namespace Coder_s_space
     {
         private Guna2Button selectedButton;
         User user;
+        DBImage dbi = new DBImage();
         public FormMarketplace(User user)
         {
+            
             InitializeComponent();
             this.user = user;
         }
@@ -66,9 +69,9 @@ namespace Coder_s_space
             {
                 
                 string userName = user.UserName;// get the username from FormProfile
-                Image userImage = user.ProfilePhoto;
+                Image profileImage = dbi.LoadImageFromDataBase(user.Key);
 
-                PostTask postTask = new PostTask(taskDetails.TaskPrice,taskDetails.TaskTitle,taskDetails.TaskDescription,userName,userImage,clickTime);
+                PostTask postTask = new PostTask(taskDetails.TaskPrice,taskDetails.TaskTitle,taskDetails.TaskDescription,userName, profileImage, clickTime);
                 flowLayoutPanel1.Controls.Add(postTask);
                 postTask.BringToFront();
                 taskDetails.Dispose();
