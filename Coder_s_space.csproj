@@ -319,6 +319,12 @@
     <Compile Include="FormCompiler.Designer.cs">
       <DependentUpon>FormCompiler.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormRegistrationNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRegistrationNew.Designer.cs">
+      <DependentUpon>FormRegistrationNew.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormTest.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -337,11 +343,11 @@
     <Compile Include="FormProfile.Designer.cs">
       <DependentUpon>FormProfile.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formregistation.cs">
+    <Compile Include="FormProfileEditor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formregistation.Designer.cs">
-      <DependentUpon>Formregistation.cs</DependentUpon>
+    <Compile Include="FormProfileEditor.Designer.cs">
+      <DependentUpon>FormProfileEditor.cs</DependentUpon>
     </Compile>
     <Compile Include="FormSignInPage.cs">
       <SubType>Form</SubType>
@@ -437,6 +443,9 @@
     <EmbeddedResource Include="FormCompiler.resx">
       <DependentUpon>FormCompiler.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormRegistrationNew.resx">
+      <DependentUpon>FormRegistrationNew.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormTest.resx">
       <DependentUpon>FormTest.cs</DependentUpon>
     </EmbeddedResource>
@@ -446,8 +455,8 @@
     <EmbeddedResource Include="FormProfile.resx">
       <DependentUpon>FormProfile.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formregistation.resx">
-      <DependentUpon>Formregistation.cs</DependentUpon>
+    <EmbeddedResource Include="FormProfileEditor.resx">
+      <DependentUpon>FormProfileEditor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormSignInPage.resx">
       <DependentUpon>FormSignInPage.cs</DependentUpon>
@@ -1216,6 +1225,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\profile-user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

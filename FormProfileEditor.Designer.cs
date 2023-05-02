@@ -1,6 +1,6 @@
 ﻿namespace Coder_s_space
 {
-    partial class Formregistation
+    partial class FormProfileEditor
     {
         /// <summary>
         /// Required designer variable.
@@ -36,12 +36,17 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.txtComPassword = new System.Windows.Forms.Label();
             this.checkboxShowPass = new System.Windows.Forms.CheckBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonUpdate = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.buttonGitHub = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.PictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2CustomGradientPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -49,7 +54,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("MS UI Gothic", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
-            this.label1.Location = new System.Drawing.Point(106, 51);
+            this.label1.Location = new System.Drawing.Point(208, 34);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(155, 27);
             this.label1.TabIndex = 0;
@@ -61,9 +66,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(99, 177);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 19);
+            this.label2.Size = new System.Drawing.Size(75, 19);
             this.label2.TabIndex = 1;
-            this.label2.Text = "name";
+            this.label2.Text = "Institution";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // txtUsername
@@ -93,9 +98,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(99, 251);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(73, 19);
+            this.label3.Size = new System.Drawing.Size(114, 19);
             this.label3.TabIndex = 3;
-            this.label3.Text = "password";
+            this.label3.Text = "University(BSc.)";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // textBox2
@@ -114,9 +119,9 @@
             this.txtComPassword.AutoSize = true;
             this.txtComPassword.Location = new System.Drawing.Point(99, 327);
             this.txtComPassword.Name = "txtComPassword";
-            this.txtComPassword.Size = new System.Drawing.Size(129, 19);
+            this.txtComPassword.Size = new System.Drawing.Size(118, 19);
             this.txtComPassword.TabIndex = 5;
-            this.txtComPassword.Text = "confirm password";
+            this.txtComPassword.Text = "University(MSc.)";
             this.txtComPassword.Click += new System.EventHandler(this.txtComPassword_Click);
             // 
             // checkboxShowPass
@@ -132,20 +137,20 @@
             this.checkboxShowPass.UseVisualStyleBackColor = true;
             this.checkboxShowPass.CheckedChanged += new System.EventHandler(this.checkboxShowPass_CheckedChanged);
             // 
-            // button1
+            // buttonUpdate
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(93, 436);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(216, 35);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "REGISTER";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.buttonUpdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
+            this.buttonUpdate.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonUpdate.FlatAppearance.BorderSize = 0;
+            this.buttonUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonUpdate.ForeColor = System.Drawing.Color.White;
+            this.buttonUpdate.Location = new System.Drawing.Point(93, 436);
+            this.buttonUpdate.Name = "buttonUpdate";
+            this.buttonUpdate.Size = new System.Drawing.Size(216, 35);
+            this.buttonUpdate.TabIndex = 8;
+            this.buttonUpdate.Text = "UPDATE";
+            this.buttonUpdate.UseVisualStyleBackColor = false;
+            this.buttonUpdate.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -198,24 +203,83 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(99, 110);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(45, 19);
+            this.label6.Size = new System.Drawing.Size(70, 19);
             this.label6.TabIndex = 12;
-            this.label6.Text = "Email";
+            this.label6.Text = "Job Titile";
             // 
-            // Formregistation
+            // buttonGitHub
+            // 
+            this.buttonGitHub.AutoRoundedCorners = true;
+            this.buttonGitHub.BackColor = System.Drawing.Color.Transparent;
+            this.buttonGitHub.BorderColor = System.Drawing.Color.Red;
+            this.buttonGitHub.BorderRadius = 15;
+            this.buttonGitHub.BorderStyle = System.Drawing.Drawing2D.DashStyle.DashDotDot;
+            this.buttonGitHub.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.buttonGitHub.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.buttonGitHub.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.buttonGitHub.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.buttonGitHub.FillColor = System.Drawing.Color.Transparent;
+            this.buttonGitHub.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Bold);
+            this.buttonGitHub.ForeColor = System.Drawing.Color.White;
+            this.buttonGitHub.HoverState.BorderColor = System.Drawing.Color.Transparent;
+            this.buttonGitHub.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.buttonGitHub.HoverState.FillColor = System.Drawing.Color.LightSeaGreen;
+            this.buttonGitHub.Image = global::Coder_s_space.Properties.Resources.camera;
+            this.buttonGitHub.ImageSize = new System.Drawing.Size(25, 25);
+            this.buttonGitHub.Location = new System.Drawing.Point(449, 318);
+            this.buttonGitHub.Name = "buttonGitHub";
+            this.buttonGitHub.Size = new System.Drawing.Size(32, 32);
+            this.buttonGitHub.TabIndex = 48;
+            this.buttonGitHub.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.buttonGitHub.TextOffset = new System.Drawing.Point(-4, 0);
+            this.buttonGitHub.UseTransparentBackground = true;
+            this.buttonGitHub.Click += new System.EventHandler(this.buttonGitHub_Click);
+            // 
+            // guna2CustomGradientPanel1
+            // 
+            this.guna2CustomGradientPanel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel1.BorderRadius = 100;
+            this.guna2CustomGradientPanel1.Controls.Add(this.PictureBox2);
+            this.guna2CustomGradientPanel1.FillColor = System.Drawing.Color.Cyan;
+            this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.Color.Magenta;
+            this.guna2CustomGradientPanel1.FillColor3 = System.Drawing.Color.Aqua;
+            this.guna2CustomGradientPanel1.FillColor4 = System.Drawing.Color.Fuchsia;
+            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(361, 110);
+            this.guna2CustomGradientPanel1.Margin = new System.Windows.Forms.Padding(10);
+            this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
+            this.guna2CustomGradientPanel1.Padding = new System.Windows.Forms.Padding(3);
+            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(210, 210);
+            this.guna2CustomGradientPanel1.TabIndex = 47;
+            // 
+            // PictureBox2
+            // 
+            this.PictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.PictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PictureBox2.ImageRotate = 0F;
+            this.PictureBox2.Location = new System.Drawing.Point(3, 3);
+            this.PictureBox2.Name = "PictureBox2";
+            this.PictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.PictureBox2.Size = new System.Drawing.Size(204, 204);
+            this.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PictureBox2.TabIndex = 4;
+            this.PictureBox2.TabStop = false;
+            // 
+            // FormProfileEditor
             // 
             this.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(415, 686);
+            this.ClientSize = new System.Drawing.Size(590, 686);
+            this.Controls.Add(this.buttonGitHub);
+            this.Controls.Add(this.guna2CustomGradientPanel1);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.buttonUpdate);
             this.Controls.Add(this.checkboxShowPass);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.txtComPassword);
@@ -227,10 +291,12 @@
             this.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(165)))), ((int)(((byte)(169)))));
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "Formregistation";
+            this.Name = "FormProfileEditor";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.guna2CustomGradientPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -246,12 +312,15 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label txtComPassword;
         private System.Windows.Forms.CheckBox checkboxShowPass;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonUpdate;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label6;
+        private Guna.UI2.WinForms.Guna2Button buttonGitHub;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox PictureBox2;
     }
 }
 

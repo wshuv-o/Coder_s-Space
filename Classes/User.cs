@@ -84,8 +84,10 @@ namespace media.Classes
         {
             get { return this.profilePhoto; }
             set
-            {
-                this.profilePhoto = value;
+            {   if (value != null)
+                    this.profilePhoto = value;
+                else
+                    this.profilePhoto = Coder_s_space.Properties.Resources.profile_user;
             }
         }
 

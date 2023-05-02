@@ -38,16 +38,16 @@ namespace media
             return image;
         }
 
-        public void SaveToDataBase(int userId)
+        public void SaveToDataBase(int userId,Image image1)
         {
             this.UserId = userId;
-            if (image == null)
+            if (image1 == null)
             {
                 MessageBox.Show("Please select an image first.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
-            byte[] imageBytes = ImageToByteArray(image);
+            byte[] imageBytes = ImageToByteArray(image1);
             UpdateUserImage(imageBytes, this.UserId);
             MessageBox.Show("Image saved successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
@@ -67,7 +67,7 @@ namespace media
             return image;
         }
 
-        private byte[] ImageToByteArray(Image image)
+        public byte[] ImageToByteArray(Image image)
         {
             using (MemoryStream stream = new MemoryStream())
             {
@@ -84,7 +84,7 @@ namespace media
             {
                 connection.Open();
 
-                string query = "UPDATE user SET userimage = @userimage WHERE userId = @userId";
+                string query = "UPDATE user SET user_photo = @userimage WHERE user_id = @userId";
 
                 using (MySqlCommand command = new MySqlCommand(query, connection))
                 {

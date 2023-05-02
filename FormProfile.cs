@@ -16,9 +16,11 @@ namespace Coder_s_space
 {
     public partial class FormProfile : Form
     {
+        User user;
         public FormProfile(User user)
         {
             DBImage dbi=new DBImage();
+            this.user = user;
             InitializeComponent();
             Image profileImage = dbi.LoadImageFromDataBase(user.Key);
 
@@ -73,5 +75,7 @@ namespace Coder_s_space
         {
 
         }
+
+        
     }
 }
