@@ -174,59 +174,69 @@ namespace Coder_s_space
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            
-           /* this.Hide();
-            Form1 f = new Form1();
-            f.ShowDialog();
-            this.Close();*/
-
             string email = textBoxEmail.Text;
-            string connString = "server=localhost;user=root;database=csdb;port=3306;password=";
-            try
+            /* this.Hide();
+             Form1 f = new Form1();
+             f.ShowDialog();
+             this.Close();*/
+            if (email=="admin"&&textBoxPass.Text=="admin")
+            { 
+                this.Hide();
+                FormCRUD cRUD= new FormCRUD();
+                cRUD.ShowDialog();
+                this.Close();
+                
+            }
+            else
             {
-                using (MySqlConnection conn = new MySqlConnection(connString))
+                
+                string connString = "server=localhost;user=root;database=csdb;port=3306;password=";
+                try
                 {
-                    conn.Open();
-                    string query = "SELECT user_pass FROM user WHERE user_email= @Email";
-
-                    using (MySqlCommand cmd = new MySqlCommand(query, conn))
+                    using (MySqlConnection conn = new MySqlConnection(connString))
                     {
-                        cmd.Parameters.AddWithValue("@Email", email);
+                        conn.Open();
+                        string query = "SELECT user_pass FROM user WHERE user_email= @Email";
 
-                        using (MySqlDataReader reader = cmd.ExecuteReader())
+                        using (MySqlCommand cmd = new MySqlCommand(query, conn))
                         {
-                            if (reader.Read())
-                            {
-                                string password = reader.GetString(0);
-                                if (password.Equals(textBoxPass.Text))
-                                {
+                            cmd.Parameters.AddWithValue("@Email", email);
 
-                                    this.Hide();
-                                    User user = this.GetUserByEmail(email);
-                                    //MessageBox.Show("userFound!"+"user name is"+user.UserFirstName);
-                                    Form1 f = new Form1 (user);
-                                    //MessageBox.Show(user.Email+"-"+user.UserName+"kkk"+user.Password);
-                                    f.ShowDialog();
-                                    this.Close();
+                            using (MySqlDataReader reader = cmd.ExecuteReader())
+                            {
+                                if (reader.Read())
+                                {
+                                    string password = reader.GetString(0);
+                                    if (password.Equals(textBoxPass.Text))
+                                    {
+
+                                        this.Hide();
+                                        User user = this.GetUserByEmail(email);
+                                        //MessageBox.Show("userFound!"+"user name is"+user.UserFirstName);
+                                        Form1 f = new Form1(user);
+                                        //MessageBox.Show(user.Email+"-"+user.UserName+"kkk"+user.Password);
+                                        f.ShowDialog();
+                                        this.Close();
+                                    }
+                                    else
+                                    {
+                                        MessageBox.Show("password not matched");
+                                        return;
+                                    }
                                 }
                                 else
                                 {
-                                    MessageBox.Show("password not matched");
+                                    MessageBox.Show("User not found, or maybe died");
                                     return;
                                 }
-                            }
-                            else
-                            {
-                                MessageBox.Show("User not found, or maybe died");
-                                return;
                             }
                         }
                     }
                 }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
             }
         }
 

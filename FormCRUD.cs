@@ -88,7 +88,6 @@ namespace Coder_s_space
 
         private void button1_Click(object sender, EventArgs e)
         {
-
             textBoxGender.Text = " ";
             textBoxLN.Text = " ";
             textBoxMail.Text = " ";
@@ -97,6 +96,7 @@ namespace Coder_s_space
             //dateTimePickerDob.Text = " ";
             textBoxFN.Text = " ";
             textBox8.Text = " ";
+
         }
 
         private void button9_Click(object sender, EventArgs e)
@@ -132,6 +132,11 @@ namespace Coder_s_space
             DataTable dt = new DataTable();
             da.Fill(dt);
             dataGridView1.DataSource = dt;
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            
         }
     }
 }
