@@ -426,5 +426,13 @@ namespace Coder_s_space
         {
             OpenChildForm(new FormProfile(user), panel11);
         }
+
+        private void guna2ImageButton1_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            FormSignIn sn = new FormSignIn();
+            sn.ShowDialog();
+            this.Close();
+        }
     }
 }

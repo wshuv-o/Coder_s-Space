@@ -210,7 +210,7 @@ namespace Coder_s_space
                                         this.Hide();
                                         User user = this.GetUserByEmail(email);
                                         //MessageBox.Show("userFound!"+"user name is"+user.UserFirstName);
-                                        FormPortfoilo f = new FormPortfoilo(user);
+                                        Form1 f = new Form1(user);
                                         //MessageBox.Show(user.Email+"-"+user.UserName+"kkk"+user.Password);
 
                                         f.ShowDialog();
@@ -267,13 +267,13 @@ namespace Coder_s_space
                 {
                     user.Key = reader.GetInt32("user_id");
 
-                    //user.UserFirstName = reader.GetString("userfirstname");
-                   // user.UserLastName = reader.GetString("userlastname");
-                   // user.Dob = reader.GetDateTime("dob");
+                    user.UserFirstName = reader.GetString("first_name");
+                    user.UserLastName = reader.GetString("last_name");
+                    user.Dob = reader.GetDateTime("user_dob");
                     user.Email = reader.GetString("user_email");
                     user.UserName = reader.GetString("user_name");
                     user.ProfilePhoto = dbio.LoadImageFromDataBase(reader.GetInt32("user_id"));
-                    //user.Gender = reader.GetString("gender");
+                    user.Gender = reader.GetString("user_gender");
                     //user.Bio = reader.GetString("bio");
                     //MessageBox.Show(" " + user.Key);
 

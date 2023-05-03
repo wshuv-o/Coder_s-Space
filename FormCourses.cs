@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Media;
 
 namespace Coder_s_space
 {
@@ -64,6 +65,7 @@ namespace Coder_s_space
             {
                 currentOpacity += fadeStepOpacity;
                 guna2PictureBox1.Image = _images[_currentIndex];
+                //guna2PictureBox1.SizeMode = imaStretch();
                 guna2PictureBox1.Image = ChangeOpacity(guna2PictureBox1.Image, currentOpacity);
                 guna2PictureBox1.Refresh();
                 Application.DoEvents();
@@ -126,6 +128,11 @@ namespace Coder_s_space
         }
 
         private void guna2ImageButton3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2PictureBox1_Click(object sender, EventArgs e)
         {
 
         }

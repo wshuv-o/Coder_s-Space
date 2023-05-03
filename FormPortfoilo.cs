@@ -25,6 +25,7 @@ namespace Coder_s_space
 
             Image profileImage = dbi.LoadImageFromDataBase(user.Key);
             profilePictureBox2.Image = profileImage;
+            labelDesc.Text = "Hi! I’m " + user.UserFirstName + " " + user.UserLastName+ ". \r\nI write about personal development, creativity, UX/UI design, culture, and futuristic things/cyberpunk. ";
 
         }
 
@@ -168,6 +169,11 @@ namespace Coder_s_space
         }
 
         private void profilePictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelDesc_Click(object sender, EventArgs e)
         {
 
         }

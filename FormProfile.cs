@@ -28,7 +28,7 @@ namespace Coder_s_space
             this.TransparencyKey = Color.Magenta;
             this.FormBorderStyle = FormBorderStyle.None;
             
-            labelUserName.Text = user.UserName;
+            labelUserName.Text =  user.UserFirstName + " " + user.UserLastName;
             if (profileImage != null)
             {
                 guna2CirclePictureBox1.Image = profileImage;
@@ -76,6 +76,9 @@ namespace Coder_s_space
 
         }
 
-        
+        private void labelUserName_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

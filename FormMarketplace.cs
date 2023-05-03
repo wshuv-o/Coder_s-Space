@@ -16,13 +16,13 @@ namespace Coder_s_space
     public partial class FormMarketplace : Form
     {
         private Guna2Button selectedButton;
-        User user;
+        User userLocal;
         DBImage dbi = new DBImage();
         public FormMarketplace(User user)
         {
             
             InitializeComponent();
-            this.user = user;
+            this.userLocal = user;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -68,10 +68,10 @@ namespace Coder_s_space
             if (taskDetails != null)
             {
                 
-                string userName = user.UserName;// get the username from FormProfile
-                Image profileImage = dbi.LoadImageFromDataBase(user.Key);
+                string userName =userLocal.UserFirstName+" "+userLocal.UserLastName;// get the username from FormProfile
+                Image profileImage = dbi.LoadImageFromDataBase(userLocal.Key);
 
-                PostTask postTask = new PostTask(taskDetails.TaskPrice,taskDetails.TaskTitle,taskDetails.TaskDescription,userName, profileImage, clickTime);
+                PostTask postTask = new PostTask(taskDetails.TaskPrice,taskDetails.TaskTitle,taskDetails.TaskDescription, userName, profileImage, clickTime);
                 flowLayoutPanel1.Controls.Add(postTask);
                 postTask.BringToFront();
                 taskDetails.Dispose();
@@ -143,6 +143,16 @@ namespace Coder_s_space
         }
 
         private void guna2CirclePictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
         {
 
         }
