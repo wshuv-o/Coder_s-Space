@@ -210,7 +210,7 @@ namespace Coder_s_space
                                         this.Hide();
                                         User user = this.GetUserByEmail(email);
                                         //MessageBox.Show("userFound!"+"user name is"+user.UserFirstName);
-                                        FormPortfoilo f = new FormPortfoilo(user);
+                                        Form1 f = new Form1(user);
                                         //MessageBox.Show(user.Email+"-"+user.UserName+"kkk"+user.Password);
 
                                         f.ShowDialog();

@@ -33,7 +33,7 @@ namespace Coder_s_space
             {
                 guna2CirclePictureBox1.Image = profileImage;
                 //FunctionsAll.RoundPanel(panel6, 50);
-
+               
                 Color color1 = FunctionsAll.GetBackgroundAverageColor((Bitmap)profileImage);
                 Color color2 = FunctionsAll.GetClothColor((Bitmap)profileImage);
                 LinearGradientBrush brush = new LinearGradientBrush(new Point(0, 0), new Point(panel1.Width, panel1.Height), color1, color2);
@@ -76,6 +76,9 @@ namespace Coder_s_space
 
         }
 
-        
+        private void guna2CustomGradientPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

@@ -45,7 +45,6 @@ namespace Coder_s_space
             // guna2Panel1
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
-            this.guna2Panel1.Controls.Add(this.buttonGitHub);
             this.guna2Panel1.Controls.Add(this.guna2CustomGradientPanel2);
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
@@ -72,7 +71,7 @@ namespace Coder_s_space
             this.buttonGitHub.HoverState.CustomBorderColor = System.Drawing.Color.Transparent;
             this.buttonGitHub.HoverState.FillColor = System.Drawing.Color.LightSeaGreen;
             this.buttonGitHub.Image = global::Coder_s_space.Properties.Resources.edit;
-            this.buttonGitHub.Location = new System.Drawing.Point(1324, 595);
+            this.buttonGitHub.Location = new System.Drawing.Point(1301, 218);
             this.buttonGitHub.Name = "buttonGitHub";
             this.buttonGitHub.Size = new System.Drawing.Size(32, 32);
             this.buttonGitHub.TabIndex = 49;
@@ -94,19 +93,21 @@ namespace Coder_s_space
             this.guna2CustomGradientPanel2.Margin = new System.Windows.Forms.Padding(10);
             this.guna2CustomGradientPanel2.Name = "guna2CustomGradientPanel2";
             this.guna2CustomGradientPanel2.Padding = new System.Windows.Forms.Padding(5);
-            this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(1346, 218);
+            this.guna2CustomGradientPanel2.Size = new System.Drawing.Size(1346, 263);
             this.guna2CustomGradientPanel2.TabIndex = 4;
+            this.guna2CustomGradientPanel2.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2CustomGradientPanel2_Paint);
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
+            this.panel1.Controls.Add(this.buttonGitHub);
             this.panel1.Controls.Add(this.labelUserName);
             this.panel1.Controls.Add(this.guna2CirclePictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(5, 5);
             this.panel1.Name = "panel1";
             this.panel1.Padding = new System.Windows.Forms.Padding(20);
-            this.panel1.Size = new System.Drawing.Size(1336, 208);
+            this.panel1.Size = new System.Drawing.Size(1336, 253);
             this.panel1.TabIndex = 2;
             // 
             // labelUserName
@@ -132,7 +133,7 @@ namespace Coder_s_space
             this.guna2CirclePictureBox1.Location = new System.Drawing.Point(1103, 20);
             this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
             this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(213, 168);
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(213, 213);
             this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2CirclePictureBox1.TabIndex = 2;
             this.guna2CirclePictureBox1.TabStop = false;

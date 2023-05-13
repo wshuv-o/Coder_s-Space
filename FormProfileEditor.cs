@@ -10,6 +10,10 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ImageProcessor;
+using ImageProcessor.Imaging.Formats;
+using System.IO;
+
 
 
 namespace Coder_s_space
@@ -104,8 +108,32 @@ namespace Coder_s_space
 
         private void buttonGitHub_Click(object sender, EventArgs e)
         {
-            PictureBox2.Image = dbi.SelectImageFromFile();
-            
-        }
+
+            // Load the image from file
+            Image image = dbi.SelectImageFromFile();
+
+            // Create a MemoryStream to store the compressed image
+            MemoryStream ms = new MemoryStream();
+
+            // Compress the image using ImageProcessor
+            using (ImageFactory imageFactory = new ImageFactory(preserveExifData: true))
+            {
+                // Load the image
+                imageFactory.Load(image);
+
+                // Set the encoder
+                imageFactory.Format(new JpegFormat { Quality = 80 });
+
+                // Save the compressed image to the MemoryStream
+                imageFactory.Save(ms);
+            }
+
+            // Create a new Image from the compressed MemoryStream
+            Image compressedImage = Image.FromStream(ms);
+
+            // Set the compressed Image to the PictureBox
+            PictureBox2.Image = compressedImage;
+        }   
+
     }
 }
