@@ -239,239 +239,239 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\DBImage.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Forms\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="Forms\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="formAbout.cs">
+    <Compile Include="Forms\formAbout.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="formAbout.Designer.cs">
+    <Compile Include="Forms\formAbout.Designer.cs">
       <DependentUpon>formAbout.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormArticle.cs">
+    <Compile Include="Forms\FormArticle.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormArticle.Designer.cs">
+    <Compile Include="Forms\FormArticle.Designer.cs">
       <DependentUpon>FormArticle.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormClouds.cs">
+    <Compile Include="Forms\FormClouds.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormClouds.Designer.cs">
+    <Compile Include="Forms\FormClouds.Designer.cs">
       <DependentUpon>FormClouds.cs</DependentUpon>
     </Compile>
-    <Compile Include="formContact.cs">
+    <Compile Include="Forms\formContact.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="formContact.Designer.cs">
+    <Compile Include="Forms\formContact.Designer.cs">
       <DependentUpon>formContact.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormCourses.cs">
+    <Compile Include="Forms\FormCourses.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormCourses.Designer.cs">
+    <Compile Include="Forms\FormCourses.Designer.cs">
       <DependentUpon>FormCourses.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormCRUD.cs">
+    <Compile Include="Forms\FormCRUD.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormCRUD.Designer.cs">
+    <Compile Include="Forms\FormCRUD.Designer.cs">
       <DependentUpon>FormCRUD.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormJobs.cs">
+    <Compile Include="Forms\FormJobs.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormJobs.Designer.cs">
+    <Compile Include="Forms\FormJobs.Designer.cs">
       <DependentUpon>FormJobs.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormMarketplace.cs">
+    <Compile Include="Forms\FormMarketplace.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormMarketplace.Designer.cs">
+    <Compile Include="Forms\FormMarketplace.Designer.cs">
       <DependentUpon>FormMarketplace.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormPortfoilo.cs">
+    <Compile Include="Forms\FormPortfoilo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormPortfoilo.Designer.cs">
+    <Compile Include="Forms\FormPortfoilo.Designer.cs">
       <DependentUpon>FormPortfoilo.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormProblems.cs">
+    <Compile Include="Forms\FormProblems.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormProblems.Designer.cs">
+    <Compile Include="Forms\FormProblems.Designer.cs">
       <DependentUpon>FormProblems.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormCommunity.cs">
+    <Compile Include="Forms\FormCommunity.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormCommunity.Designer.cs">
+    <Compile Include="Forms\FormCommunity.Designer.cs">
       <DependentUpon>FormCommunity.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormChatBox.cs">
+    <Compile Include="Forms\FormChatBox.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormChatBox.Designer.cs">
+    <Compile Include="Forms\FormChatBox.Designer.cs">
       <DependentUpon>FormChatBox.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormCompiler.cs">
+    <Compile Include="Forms\FormCompiler.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormCompiler.Designer.cs">
+    <Compile Include="Forms\FormCompiler.Designer.cs">
       <DependentUpon>FormCompiler.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormRegistrationNew.cs">
+    <Compile Include="Forms\FormRegistrationNew.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormRegistrationNew.Designer.cs">
+    <Compile Include="Forms\FormRegistrationNew.Designer.cs">
       <DependentUpon>FormRegistrationNew.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormTest.cs">
+    <Compile Include="Forms\FormTest.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormTest.Designer.cs">
+    <Compile Include="Forms\FormTest.Designer.cs">
       <DependentUpon>FormTest.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormTypeSpeed.cs">
+    <Compile Include="Forms\FormTypeSpeed.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormTypeSpeed.Designer.cs">
+    <Compile Include="Forms\FormTypeSpeed.Designer.cs">
       <DependentUpon>FormTypeSpeed.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormProfile.cs">
+    <Compile Include="Forms\FormProfile.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormProfile.Designer.cs">
+    <Compile Include="Forms\FormProfile.Designer.cs">
       <DependentUpon>FormProfile.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormProfileEditor.cs">
+    <Compile Include="Forms\FormProfileEditor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormProfileEditor.Designer.cs">
+    <Compile Include="Forms\FormProfileEditor.Designer.cs">
       <DependentUpon>FormProfileEditor.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSignInPage.cs">
+    <Compile Include="Forms\FormSignInPage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSignInPage.Designer.cs">
+    <Compile Include="Forms\FormSignInPage.Designer.cs">
       <DependentUpon>FormSignInPage.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormVote.cs">
+    <Compile Include="Forms\FormVote.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormVote.Designer.cs">
+    <Compile Include="Forms\FormVote.Designer.cs">
       <DependentUpon>FormVote.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmContact.cs">
+    <Compile Include="Forms\frmContact.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="frmContact.Designer.cs">
+    <Compile Include="Forms\frmContact.Designer.cs">
       <DependentUpon>frmContact.cs</DependentUpon>
     </Compile>
     <Compile Include="FunctionsAll.cs" />
-    <Compile Include="PostTask.cs">
+    <Compile Include="Forms\PostTask.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="PostTask.Designer.cs">
+    <Compile Include="Forms\PostTask.Designer.cs">
       <DependentUpon>PostTask.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UC_ProjectAdded.cs">
+    <Compile Include="Forms\UC_ProjectAdded.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UC_ProjectAdded.Designer.cs">
+    <Compile Include="Forms\UC_ProjectAdded.Designer.cs">
       <DependentUpon>UC_ProjectAdded.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCTaskDetails.cs">
+    <Compile Include="Forms\UCTaskDetails.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCTaskDetails.Designer.cs">
+    <Compile Include="Forms\UCTaskDetails.Designer.cs">
       <DependentUpon>UCTaskDetails.cs</DependentUpon>
     </Compile>
-    <Compile Include="UC_ProjectDetails.cs">
+    <Compile Include="Forms\UC_ProjectDetails.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UC_ProjectDetails.Designer.cs">
+    <Compile Include="Forms\UC_ProjectDetails.Designer.cs">
       <DependentUpon>UC_ProjectDetails.cs</DependentUpon>
     </Compile>
-    <Compile Include="UC_SkillDetails.cs">
+    <Compile Include="Forms\UC_SkillDetails.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UC_SkillDetails.Designer.cs">
+    <Compile Include="Forms\UC_SkillDetails.Designer.cs">
       <DependentUpon>UC_SkillDetails.cs</DependentUpon>
     </Compile>
     <Compile Include="Classes\User.cs" />
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="Forms\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="formAbout.resx">
+    <EmbeddedResource Include="Forms\formAbout.resx">
       <DependentUpon>formAbout.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormArticle.resx">
+    <EmbeddedResource Include="Forms\FormArticle.resx">
       <DependentUpon>FormArticle.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormClouds.resx">
+    <EmbeddedResource Include="Forms\FormClouds.resx">
       <DependentUpon>FormClouds.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="formContact.resx">
+    <EmbeddedResource Include="Forms\formContact.resx">
       <DependentUpon>formContact.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormCourses.resx">
+    <EmbeddedResource Include="Forms\FormCourses.resx">
       <DependentUpon>FormCourses.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormCRUD.resx">
+    <EmbeddedResource Include="Forms\FormCRUD.resx">
       <DependentUpon>FormCRUD.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormJobs.resx">
+    <EmbeddedResource Include="Forms\FormJobs.resx">
       <DependentUpon>FormJobs.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormMarketplace.resx">
+    <EmbeddedResource Include="Forms\FormMarketplace.resx">
       <DependentUpon>FormMarketplace.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormPortfoilo.resx">
+    <EmbeddedResource Include="Forms\FormPortfoilo.resx">
       <DependentUpon>FormPortfoilo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormProblems.resx">
+    <EmbeddedResource Include="Forms\FormProblems.resx">
       <DependentUpon>FormProblems.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormCommunity.resx">
+    <EmbeddedResource Include="Forms\FormCommunity.resx">
       <DependentUpon>FormCommunity.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormChatBox.resx">
+    <EmbeddedResource Include="Forms\FormChatBox.resx">
       <DependentUpon>FormChatBox.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormCompiler.resx">
+    <EmbeddedResource Include="Forms\FormCompiler.resx">
       <DependentUpon>FormCompiler.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormRegistrationNew.resx">
+    <EmbeddedResource Include="Forms\FormRegistrationNew.resx">
       <DependentUpon>FormRegistrationNew.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormTest.resx">
+    <EmbeddedResource Include="Forms\FormTest.resx">
       <DependentUpon>FormTest.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormTypeSpeed.resx">
+    <EmbeddedResource Include="Forms\FormTypeSpeed.resx">
       <DependentUpon>FormTypeSpeed.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormProfile.resx">
+    <EmbeddedResource Include="Forms\FormProfile.resx">
       <DependentUpon>FormProfile.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormProfileEditor.resx">
+    <EmbeddedResource Include="Forms\FormProfileEditor.resx">
       <DependentUpon>FormProfileEditor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSignInPage.resx">
+    <EmbeddedResource Include="Forms\FormSignInPage.resx">
       <DependentUpon>FormSignInPage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormVote.resx">
+    <EmbeddedResource Include="Forms\FormVote.resx">
       <DependentUpon>FormVote.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmContact.resx">
+    <EmbeddedResource Include="Forms\frmContact.resx">
       <DependentUpon>frmContact.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PostTask.resx">
+    <EmbeddedResource Include="Forms\PostTask.resx">
       <DependentUpon>PostTask.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -484,16 +484,16 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="UC_ProjectAdded.resx">
+    <EmbeddedResource Include="Forms\UC_ProjectAdded.resx">
       <DependentUpon>UC_ProjectAdded.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UC_ProjectDetails.resx">
+    <EmbeddedResource Include="Forms\UC_ProjectDetails.resx">
       <DependentUpon>UC_ProjectDetails.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UCTaskDetails.resx">
+    <EmbeddedResource Include="Forms\UCTaskDetails.resx">
       <DependentUpon>UCTaskDetails.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UC_SkillDetails.resx">
+    <EmbeddedResource Include="Forms\UC_SkillDetails.resx">
       <DependentUpon>UC_SkillDetails.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
