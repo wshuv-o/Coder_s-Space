@@ -426,5 +426,10 @@ namespace Coder_s_space
         {
             OpenChildForm(new FormProfile(user), panel11);
         }
+
+        private void pictureBox3_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
