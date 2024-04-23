@@ -312,7 +312,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.webView21.CreationProperties = null;
             this.webView21.DefaultBackgroundColor = System.Drawing.Color.White;
-            this.webView21.Location = new System.Drawing.Point(-1, -93);
+            this.webView21.Location = new System.Drawing.Point(-1, -58);
             this.webView21.Name = "webView21";
             this.webView21.Size = new System.Drawing.Size(1452, 818);
             this.webView21.TabIndex = 0;
