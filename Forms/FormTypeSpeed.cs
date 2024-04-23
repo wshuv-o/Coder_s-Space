@@ -39,7 +39,7 @@ namespace Coder_s_space
             if (e.IsSuccess)
             {
                 // Navigate to your desired website
-                webView21.CoreWebView2.Navigate("https://www.facebook.com");
+                webView21.CoreWebView2.Navigate("https://monkeytype.com/");
             }
         }
 

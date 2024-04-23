@@ -65,6 +65,7 @@ namespace Coder_s_space
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.toolTipControlPanel = new System.Windows.Forms.ToolTip(this.components);
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+            this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.panelMenu.SuspendLayout();
             this.panel10.SuspendLayout();
             this.guna2BackPanel1.SuspendLayout();
@@ -441,6 +442,7 @@ namespace Coder_s_space
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.panel7.Controls.Add(this.guna2ImageButton1);
             this.panel7.Controls.Add(this.guna2GradientPanel2);
             this.panel7.Controls.Add(this.pictureBox2);
             this.panel7.Controls.Add(this.pictureBox1);
@@ -528,6 +530,22 @@ namespace Coder_s_space
             this.toolTipControlPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(9)))), ((int)(((byte)(9)))));
             this.toolTipControlPanel.ForeColor = System.Drawing.Color.LightSalmon;
             // 
+            // guna2ImageButton1
+            // 
+            this.guna2ImageButton1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ImageButton1.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.guna2ImageButton1.HoverState.ImageSize = new System.Drawing.Size(25, 25);
+            this.guna2ImageButton1.Image = global::Coder_s_space.Properties.Resources.icons8_filled_circle_32;
+            this.guna2ImageButton1.ImageOffset = new System.Drawing.Point(0, 0);
+            this.guna2ImageButton1.ImageRotate = 0F;
+            this.guna2ImageButton1.ImageSize = new System.Drawing.Size(20, 20);
+            this.guna2ImageButton1.Location = new System.Drawing.Point(1272, 6);
+            this.guna2ImageButton1.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2ImageButton1.Name = "guna2ImageButton1";
+            this.guna2ImageButton1.Size = new System.Drawing.Size(30, 30);
+            this.guna2ImageButton1.TabIndex = 48;
+            this.toolTip.SetToolTip(this.guna2ImageButton1, "Log Out");
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
@@ -600,6 +618,7 @@ namespace Coder_s_space
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2BackPanel1;
         private Guna.UI2.WinForms.Guna2CirclePictureBox buttPictureBox;
+        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton1;
     }
 }
 
