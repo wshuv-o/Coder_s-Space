@@ -87,7 +87,7 @@ namespace Coder_s_space
         }
 
         // Function to initialize the calendar
-        private void InitializeCalendar()
+        private void InitializeCalendar() 
         {
             // Starting date for the calendar
             DateTime startDate = new DateTime(2023, 4, 1);
