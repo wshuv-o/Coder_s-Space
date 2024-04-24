@@ -24,6 +24,9 @@ namespace Coder_s_space
         private const int BoxHeight = 10;
         private const int BoxMargin = 5;
 
+        // Define a dictionary to store contributions for each date
+        Dictionary<DateTime, int> contributions = new Dictionary<DateTime, int>();
+
         public FormProfile(User user)
         {
             DBImage dbi = new DBImage();
@@ -53,9 +56,37 @@ namespace Coder_s_space
             }
 
             InitializeCalendar();
+            UpdateContributions(new DateTime(2023, 4, 5), 1);
+            UpdateContributions(new DateTime(2023, 4, 6), 3);
+            UpdateContributions(new DateTime(2023, 4, 7), 5);
+            UpdateContributions(new DateTime(2023, 4, 8), 8);
+
+            UpdateContributions(new DateTime(2023, 6, 5), 3);
+            UpdateContributions(new DateTime(2024, 2, 1), 7);
+            UpdateContributions(new DateTime(2023, 7, 2), 5);
+
+
+            Random random = new Random();
+            DateTime startDate = new DateTime(2023, 5, 1);
+            DateTime endDate = new DateTime(2024, 4, 24);
+            int daysInRange = (int)(endDate - startDate).TotalDays;
+
+            for (int i = 0; i < 300; i++)
+            {
+                // Generate a random date within the range
+                DateTime randomDate = startDate.AddDays(random.Next(daysInRange));
+
+                // Generate a random contribution count (between 1 and 10 for example)
+                int randomCount = random.Next(1, 11); // Generates a random integer between 1 and 10
+
+                // Update contributions for the random date with the random count
+                UpdateContributions(randomDate, randomCount);
+            }
+
+
         }
 
-       
+        // Function to initialize the calendar
         private void InitializeCalendar()
         {
             // Starting date for the calendar
@@ -64,7 +95,7 @@ namespace Coder_s_space
             // Calculate total width and height of the calendar
             int totalWidth = NumColumns * (BoxWidth + BoxMargin) + BoxMargin;
             int totalHeight = NumRows * (BoxHeight + BoxMargin) + BoxMargin;
-            
+
             // Set size of guna2ShadowPanel1 to fit the calendar
             guna2ShadowPanel1.Size = new Size(totalWidth, totalHeight);
 
@@ -78,13 +109,12 @@ namespace Coder_s_space
                     int y = row * (BoxHeight + BoxMargin) + BoxMargin;
 
                     // Create and customize the day box
-                    Button dayBox = new Button();
+                    Guna.UI2.WinForms.Guna2Button dayBox = new Guna.UI2.WinForms.Guna2Button();
                     dayBox.Size = new Size(BoxWidth, BoxHeight);
                     dayBox.Location = new Point(x, y);
-                    dayBox.FlatStyle = FlatStyle.Flat;
-                    dayBox.FlatAppearance.BorderSize = 0;
-                    dayBox.BackColor = Color.White; // Default color
-                                                    // Add event handler for click event if needed
+                    dayBox.BorderRadius = 2;
+                    dayBox.FillColor = Color.Gray;
+                   // dayBox.BackColor = Color.Gray; // Default color
 
                     // Add the date to the box
                     dayBox.Tag = startDate.AddDays(col * NumRows + row);
@@ -93,8 +123,56 @@ namespace Coder_s_space
                     ToolTip toolTip = new ToolTip();
                     toolTip.SetToolTip(dayBox, ((DateTime)dayBox.Tag).ToString("dd/MM/yyyy"));
 
+                    // Add event handler for click event if needed
+
                     // Add the day box to guna2ShadowPanel1
                     guna2ShadowPanel1.Controls.Add(dayBox);
+                }
+            }
+        }
+
+        // Function to update contributions and color the day box
+        // Function to update contributions and color the day box
+        private void UpdateContributions(DateTime date, int count)
+        {
+            // Check if the date already exists in contributions dictionary
+            if (contributions.ContainsKey(date))
+            {
+                // Update contributions count
+                contributions[date] += count;
+            }
+            else
+            {
+                // Add new date to contributions dictionary
+                contributions.Add(date, count);
+            }
+
+            // Get the corresponding day box for the given date
+            Guna.UI2.WinForms.Guna2Button dayBox = guna2ShadowPanel1.Controls.OfType<Guna.UI2.WinForms.Guna2Button>().FirstOrDefault(b => (DateTime)b.Tag == date);
+
+            // Change color of the day box based on contributions count
+            if (dayBox != null)
+            {
+                int contributionCount = contributions[date];
+                if (contributionCount >= 7)
+                {
+                    dayBox.FillColor = Color.FromArgb(57, 211, 83); // Bright Green
+                }
+                else if (contributionCount >= 5)
+                {
+                    dayBox.FillColor = Color.FromArgb(38, 166, 65); // Light Green
+                }
+                else if (contributionCount >= 3)
+                {
+                    dayBox.FillColor = Color.FromArgb(0, 109, 50); // Green
+                }
+                else if (contributionCount >= 1)
+                {
+                    dayBox.FillColor = Color.FromArgb(14, 68, 41); // Dark Green
+                }
+                else
+                {
+                    dayBox.FillColor = Color.Gray; // Default color
                 }
             }
         }
@@ -133,6 +211,12 @@ namespace Coder_s_space
 
         private void guna2CircleButton1_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            UpdateContributions(new DateTime(2023, 4, 5), 1);
 
         }
     }
