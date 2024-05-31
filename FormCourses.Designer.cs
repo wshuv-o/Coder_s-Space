@@ -222,7 +222,7 @@
             this.flowLayoutPanel1.Controls.Add(this.guna2CustomGradientPanel52);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Padding = new System.Windows.Forms.Padding(23, 12, 20, 18);
             this.flowLayoutPanel1.Size = new System.Drawing.Size(1621, 897);
@@ -238,9 +238,9 @@
             this.guna2CustomGradientPanel1.FillColor3 = System.Drawing.Color.Aqua;
             this.guna2CustomGradientPanel1.FillColor4 = System.Drawing.Color.Fuchsia;
             this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(27, 16);
-            this.guna2CustomGradientPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2CustomGradientPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
-            this.guna2CustomGradientPanel1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2CustomGradientPanel1.Padding = new System.Windows.Forms.Padding(4);
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1445, 434);
             this.guna2CustomGradientPanel1.TabIndex = 1;
             // 
@@ -251,7 +251,7 @@
             this.guna2PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2PictureBox1.ImageRotate = 0F;
             this.guna2PictureBox1.Location = new System.Drawing.Point(4, 4);
-            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.Size = new System.Drawing.Size(1437, 426);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -327,7 +327,7 @@
             this.guna2ImageButton9.ImageRotate = 0F;
             this.guna2ImageButton9.ImageSize = new System.Drawing.Size(194, 112);
             this.guna2ImageButton9.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageButton9.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageButton9.Name = "guna2ImageButton9";
             this.guna2ImageButton9.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton9.Size = new System.Drawing.Size(259, 138);
@@ -379,7 +379,7 @@
             this.guna2ImageButton3.ImageRotate = 0F;
             this.guna2ImageButton3.ImageSize = new System.Drawing.Size(194, 112);
             this.guna2ImageButton3.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageButton3.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageButton3.Name = "guna2ImageButton3";
             this.guna2ImageButton3.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton3.Size = new System.Drawing.Size(259, 138);
@@ -432,7 +432,7 @@
             this.guna2ImageButton14.ImageRotate = 0F;
             this.guna2ImageButton14.ImageSize = new System.Drawing.Size(194, 112);
             this.guna2ImageButton14.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageButton14.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageButton14.Name = "guna2ImageButton14";
             this.guna2ImageButton14.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton14.Size = new System.Drawing.Size(259, 138);
@@ -484,7 +484,7 @@
             this.guna2ImageButton15.ImageRotate = 0F;
             this.guna2ImageButton15.ImageSize = new System.Drawing.Size(194, 112);
             this.guna2ImageButton15.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageButton15.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageButton15.Name = "guna2ImageButton15";
             this.guna2ImageButton15.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton15.Size = new System.Drawing.Size(259, 138);
@@ -536,7 +536,7 @@
             this.guna2ImageButton16.ImageRotate = 0F;
             this.guna2ImageButton16.ImageSize = new System.Drawing.Size(194, 112);
             this.guna2ImageButton16.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageButton16.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageButton16.Name = "guna2ImageButton16";
             this.guna2ImageButton16.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton16.Size = new System.Drawing.Size(259, 138);
@@ -588,7 +588,7 @@
             this.guna2ImageButton17.ImageRotate = 0F;
             this.guna2ImageButton17.ImageSize = new System.Drawing.Size(194, 112);
             this.guna2ImageButton17.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageButton17.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageButton17.Name = "guna2ImageButton17";
             this.guna2ImageButton17.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton17.Size = new System.Drawing.Size(259, 138);
@@ -618,7 +618,7 @@
             this.guna2CustomGradientPanel29.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.guna2CustomGradientPanel29.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.guna2CustomGradientPanel29.Location = new System.Drawing.Point(0, 0);
-            this.guna2CustomGradientPanel29.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2CustomGradientPanel29.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CustomGradientPanel29.Name = "guna2CustomGradientPanel29";
             this.guna2CustomGradientPanel29.Size = new System.Drawing.Size(1504, 54);
             this.guna2CustomGradientPanel29.TabIndex = 44;
@@ -720,7 +720,7 @@
             this.guna2ImageButton29.ImageRotate = 0F;
             this.guna2ImageButton29.ImageSize = new System.Drawing.Size(194, 118);
             this.guna2ImageButton29.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton29.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageButton29.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageButton29.Name = "guna2ImageButton29";
             this.guna2ImageButton29.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton29.Size = new System.Drawing.Size(259, 145);
@@ -772,7 +772,7 @@
             this.guna2ImageButton4.ImageRotate = 0F;
             this.guna2ImageButton4.ImageSize = new System.Drawing.Size(194, 118);
             this.guna2ImageButton4.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageButton4.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageButton4.Name = "guna2ImageButton4";
             this.guna2ImageButton4.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton4.Size = new System.Drawing.Size(259, 145);
@@ -824,7 +824,7 @@
             this.guna2ImageButton5.ImageRotate = 0F;
             this.guna2ImageButton5.ImageSize = new System.Drawing.Size(194, 118);
             this.guna2ImageButton5.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageButton5.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageButton5.Name = "guna2ImageButton5";
             this.guna2ImageButton5.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton5.Size = new System.Drawing.Size(259, 145);
@@ -877,7 +877,7 @@
             this.guna2ImageButton6.ImageRotate = 0F;
             this.guna2ImageButton6.ImageSize = new System.Drawing.Size(194, 118);
             this.guna2ImageButton6.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageButton6.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageButton6.Name = "guna2ImageButton6";
             this.guna2ImageButton6.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton6.Size = new System.Drawing.Size(259, 145);
@@ -929,7 +929,7 @@
             this.guna2ImageButton8.ImageRotate = 0F;
             this.guna2ImageButton8.ImageSize = new System.Drawing.Size(194, 118);
             this.guna2ImageButton8.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageButton8.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageButton8.Name = "guna2ImageButton8";
             this.guna2ImageButton8.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton8.Size = new System.Drawing.Size(259, 145);
@@ -981,7 +981,7 @@
             this.guna2ImageButton13.ImageRotate = 0F;
             this.guna2ImageButton13.ImageSize = new System.Drawing.Size(194, 118);
             this.guna2ImageButton13.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageButton13.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageButton13.Name = "guna2ImageButton13";
             this.guna2ImageButton13.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton13.Size = new System.Drawing.Size(259, 145);
@@ -1034,7 +1034,7 @@
             this.guna2ImageButton11.ImageRotate = 0F;
             this.guna2ImageButton11.ImageSize = new System.Drawing.Size(194, 118);
             this.guna2ImageButton11.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageButton11.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageButton11.Name = "guna2ImageButton11";
             this.guna2ImageButton11.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton11.Size = new System.Drawing.Size(259, 145);
@@ -1086,7 +1086,7 @@
             this.guna2ImageButton7.ImageRotate = 0F;
             this.guna2ImageButton7.ImageSize = new System.Drawing.Size(194, 118);
             this.guna2ImageButton7.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageButton7.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageButton7.Name = "guna2ImageButton7";
             this.guna2ImageButton7.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton7.Size = new System.Drawing.Size(259, 145);
@@ -1102,7 +1102,7 @@
             this.guna2CustomGradientPanel43.FillColor3 = System.Drawing.Color.Violet;
             this.guna2CustomGradientPanel43.FillColor4 = System.Drawing.Color.Fuchsia;
             this.guna2CustomGradientPanel43.Location = new System.Drawing.Point(0, 0);
-            this.guna2CustomGradientPanel43.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2CustomGradientPanel43.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CustomGradientPanel43.Name = "guna2CustomGradientPanel43";
             this.guna2CustomGradientPanel43.Size = new System.Drawing.Size(1504, 54);
             this.guna2CustomGradientPanel43.TabIndex = 44;
@@ -1186,7 +1186,7 @@
             this.guna2ImageButton1.ImageRotate = 0F;
             this.guna2ImageButton1.ImageSize = new System.Drawing.Size(194, 112);
             this.guna2ImageButton1.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageButton1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageButton1.Name = "guna2ImageButton1";
             this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(194, 112);
             this.guna2ImageButton1.Size = new System.Drawing.Size(259, 138);
@@ -1238,7 +1238,7 @@
             this.guna2ImageButton18.ImageRotate = 0F;
             this.guna2ImageButton18.ImageSize = new System.Drawing.Size(194, 112);
             this.guna2ImageButton18.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageButton18.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageButton18.Name = "guna2ImageButton18";
             this.guna2ImageButton18.PressedState.ImageSize = new System.Drawing.Size(194, 112);
             this.guna2ImageButton18.Size = new System.Drawing.Size(259, 138);
@@ -1290,7 +1290,7 @@
             this.guna2ImageButton19.ImageRotate = 0F;
             this.guna2ImageButton19.ImageSize = new System.Drawing.Size(194, 112);
             this.guna2ImageButton19.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageButton19.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageButton19.Name = "guna2ImageButton19";
             this.guna2ImageButton19.PressedState.ImageSize = new System.Drawing.Size(194, 112);
             this.guna2ImageButton19.Size = new System.Drawing.Size(259, 138);
@@ -1342,7 +1342,7 @@
             this.guna2ImageButton20.ImageRotate = 0F;
             this.guna2ImageButton20.ImageSize = new System.Drawing.Size(194, 112);
             this.guna2ImageButton20.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton20.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageButton20.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageButton20.Name = "guna2ImageButton20";
             this.guna2ImageButton20.PressedState.ImageSize = new System.Drawing.Size(194, 112);
             this.guna2ImageButton20.Size = new System.Drawing.Size(259, 138);
@@ -1373,7 +1373,7 @@
             this.guna2CustomGradientPanel15.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.guna2CustomGradientPanel15.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.guna2CustomGradientPanel15.Location = new System.Drawing.Point(0, 0);
-            this.guna2CustomGradientPanel15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2CustomGradientPanel15.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CustomGradientPanel15.Name = "guna2CustomGradientPanel15";
             this.guna2CustomGradientPanel15.Size = new System.Drawing.Size(1504, 54);
             this.guna2CustomGradientPanel15.TabIndex = 44;
@@ -1473,7 +1473,7 @@
             this.guna2ImageButton21.ImageRotate = 0F;
             this.guna2ImageButton21.ImageSize = new System.Drawing.Size(194, 118);
             this.guna2ImageButton21.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageButton21.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageButton21.Name = "guna2ImageButton21";
             this.guna2ImageButton21.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton21.Size = new System.Drawing.Size(259, 145);
@@ -1525,7 +1525,7 @@
             this.guna2ImageButton10.ImageRotate = 0F;
             this.guna2ImageButton10.ImageSize = new System.Drawing.Size(194, 118);
             this.guna2ImageButton10.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageButton10.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageButton10.Name = "guna2ImageButton10";
             this.guna2ImageButton10.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton10.Size = new System.Drawing.Size(259, 145);
@@ -1577,7 +1577,7 @@
             this.guna2ImageButton22.ImageRotate = 0F;
             this.guna2ImageButton22.ImageSize = new System.Drawing.Size(194, 118);
             this.guna2ImageButton22.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton22.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageButton22.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageButton22.Name = "guna2ImageButton22";
             this.guna2ImageButton22.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton22.Size = new System.Drawing.Size(259, 145);
@@ -1629,7 +1629,7 @@
             this.guna2ImageButton23.ImageRotate = 0F;
             this.guna2ImageButton23.ImageSize = new System.Drawing.Size(194, 118);
             this.guna2ImageButton23.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton23.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageButton23.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageButton23.Name = "guna2ImageButton23";
             this.guna2ImageButton23.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton23.Size = new System.Drawing.Size(259, 145);
@@ -1681,7 +1681,7 @@
             this.guna2ImageButton24.ImageRotate = 0F;
             this.guna2ImageButton24.ImageSize = new System.Drawing.Size(194, 118);
             this.guna2ImageButton24.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton24.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageButton24.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageButton24.Name = "guna2ImageButton24";
             this.guna2ImageButton24.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton24.Size = new System.Drawing.Size(259, 145);
@@ -1733,7 +1733,7 @@
             this.guna2ImageButton25.ImageRotate = 0F;
             this.guna2ImageButton25.ImageSize = new System.Drawing.Size(194, 118);
             this.guna2ImageButton25.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton25.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageButton25.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageButton25.Name = "guna2ImageButton25";
             this.guna2ImageButton25.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton25.Size = new System.Drawing.Size(259, 145);
@@ -1749,7 +1749,7 @@
             this.guna2CustomGradientPanel32.FillColor3 = System.Drawing.Color.Violet;
             this.guna2CustomGradientPanel32.FillColor4 = System.Drawing.Color.Fuchsia;
             this.guna2CustomGradientPanel32.Location = new System.Drawing.Point(0, 0);
-            this.guna2CustomGradientPanel32.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2CustomGradientPanel32.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CustomGradientPanel32.Name = "guna2CustomGradientPanel32";
             this.guna2CustomGradientPanel32.Size = new System.Drawing.Size(1504, 54);
             this.guna2CustomGradientPanel32.TabIndex = 44;
@@ -1832,7 +1832,7 @@
             this.guna2ImageButton2.ImageRotate = 0F;
             this.guna2ImageButton2.ImageSize = new System.Drawing.Size(194, 112);
             this.guna2ImageButton2.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageButton2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageButton2.Name = "guna2ImageButton2";
             this.guna2ImageButton2.PressedState.ImageSize = new System.Drawing.Size(194, 112);
             this.guna2ImageButton2.Size = new System.Drawing.Size(259, 138);
@@ -1884,7 +1884,7 @@
             this.guna2ImageButton26.ImageRotate = 0F;
             this.guna2ImageButton26.ImageSize = new System.Drawing.Size(194, 112);
             this.guna2ImageButton26.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton26.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageButton26.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageButton26.Name = "guna2ImageButton26";
             this.guna2ImageButton26.PressedState.ImageSize = new System.Drawing.Size(194, 112);
             this.guna2ImageButton26.Size = new System.Drawing.Size(259, 138);
@@ -1937,7 +1937,7 @@
             this.guna2ImageButton27.ImageRotate = 0F;
             this.guna2ImageButton27.ImageSize = new System.Drawing.Size(194, 112);
             this.guna2ImageButton27.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton27.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageButton27.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageButton27.Name = "guna2ImageButton27";
             this.guna2ImageButton27.PressedState.ImageSize = new System.Drawing.Size(194, 112);
             this.guna2ImageButton27.Size = new System.Drawing.Size(259, 138);
@@ -1968,7 +1968,7 @@
             this.guna2CustomGradientPanel51.FillColor3 = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.guna2CustomGradientPanel51.FillColor4 = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.guna2CustomGradientPanel51.Location = new System.Drawing.Point(0, 0);
-            this.guna2CustomGradientPanel51.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2CustomGradientPanel51.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CustomGradientPanel51.Name = "guna2CustomGradientPanel51";
             this.guna2CustomGradientPanel51.Size = new System.Drawing.Size(1504, 54);
             this.guna2CustomGradientPanel51.TabIndex = 44;
@@ -2066,7 +2066,7 @@
             this.guna2ImageButton12.ImageRotate = 0F;
             this.guna2ImageButton12.ImageSize = new System.Drawing.Size(194, 118);
             this.guna2ImageButton12.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageButton12.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageButton12.Name = "guna2ImageButton12";
             this.guna2ImageButton12.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton12.Size = new System.Drawing.Size(259, 145);
@@ -2118,7 +2118,7 @@
             this.guna2ImageButton28.ImageRotate = 0F;
             this.guna2ImageButton28.ImageSize = new System.Drawing.Size(194, 118);
             this.guna2ImageButton28.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton28.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageButton28.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageButton28.Name = "guna2ImageButton28";
             this.guna2ImageButton28.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton28.Size = new System.Drawing.Size(259, 145);
@@ -2170,7 +2170,7 @@
             this.guna2ImageButton30.ImageRotate = 0F;
             this.guna2ImageButton30.ImageSize = new System.Drawing.Size(194, 118);
             this.guna2ImageButton30.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton30.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageButton30.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageButton30.Name = "guna2ImageButton30";
             this.guna2ImageButton30.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton30.Size = new System.Drawing.Size(259, 145);
@@ -2222,7 +2222,7 @@
             this.guna2ImageButton31.ImageRotate = 0F;
             this.guna2ImageButton31.ImageSize = new System.Drawing.Size(194, 118);
             this.guna2ImageButton31.Location = new System.Drawing.Point(0, 0);
-            this.guna2ImageButton31.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ImageButton31.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ImageButton31.Name = "guna2ImageButton31";
             this.guna2ImageButton31.PressedState.ImageSize = new System.Drawing.Size(64, 64);
             this.guna2ImageButton31.Size = new System.Drawing.Size(259, 145);
@@ -2238,7 +2238,7 @@
             this.guna2CustomGradientPanel61.FillColor3 = System.Drawing.Color.Violet;
             this.guna2CustomGradientPanel61.FillColor4 = System.Drawing.Color.Fuchsia;
             this.guna2CustomGradientPanel61.Location = new System.Drawing.Point(0, 0);
-            this.guna2CustomGradientPanel61.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2CustomGradientPanel61.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CustomGradientPanel61.Name = "guna2CustomGradientPanel61";
             this.guna2CustomGradientPanel61.Size = new System.Drawing.Size(1504, 54);
             this.guna2CustomGradientPanel61.TabIndex = 44;
@@ -2295,11 +2295,11 @@
             // 
             this.flowLayoutPanel2.AutoScroll = true;
             this.flowLayoutPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(36)))), ((int)(((byte)(59)))));
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 52);
-            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(-40, 52);
+            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(4);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.flowLayoutPanel2.Padding = new System.Windows.Forms.Padding(7, 6, 27, 123);
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(288, 842);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(328, 842);
             this.flowLayoutPanel2.TabIndex = 2;
             // 
             // guna2CustomGradientPanel41
@@ -2313,7 +2313,7 @@
             this.guna2CustomGradientPanel41.FillColor3 = System.Drawing.Color.Black;
             this.guna2CustomGradientPanel41.FillColor4 = System.Drawing.SystemColors.InactiveCaptionText;
             this.guna2CustomGradientPanel41.Location = new System.Drawing.Point(1571, 0);
-            this.guna2CustomGradientPanel41.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2CustomGradientPanel41.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CustomGradientPanel41.Name = "guna2CustomGradientPanel41";
             this.guna2CustomGradientPanel41.Size = new System.Drawing.Size(229, 897);
             this.guna2CustomGradientPanel41.TabIndex = 8;
@@ -2326,7 +2326,7 @@
             this.Controls.Add(this.guna2CustomGradientPanel41);
             this.Controls.Add(this.flowLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormCourses";
             this.Text = "FormCourses";
             this.flowLayoutPanel1.ResumeLayout(false);

@@ -270,5 +270,10 @@ namespace Coder_s_space
         {
 
         }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
