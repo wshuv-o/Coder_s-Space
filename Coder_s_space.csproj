@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="packages\SixLabors.ImageSharp.3.0.1\build\SixLabors.ImageSharp.props" Condition="Exists('packages\SixLabors.ImageSharp.3.0.1\build\SixLabors.ImageSharp.props')" />
   <Import Project="packages\CefSharp.Common.112.2.70\build\CefSharp.Common.props" Condition="Exists('packages\CefSharp.Common.112.2.70\build\CefSharp.Common.props')" />
   <Import Project="packages\cef.redist.x86.112.2.7\build\cef.redist.x86.props" Condition="Exists('packages\cef.redist.x86.112.2.7\build\cef.redist.x86.props')" />
   <Import Project="packages\cef.redist.x64.112.2.7\build\cef.redist.x64.props" Condition="Exists('packages\cef.redist.x64.112.2.7\build\cef.redist.x64.props')" />
@@ -62,9 +61,6 @@
     </Reference>
     <Reference Include="Guna.UI2, Version=2.0.4.4, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
       <HintPath>packages\Guna.UI2.WinForms.2.0.4.4\lib\net48\Guna.UI2.dll</HintPath>
-    </Reference>
-    <Reference Include="ImageProcessor, Version=2.9.1.225, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\ImageProcessor.2.9.1\lib\net452\ImageProcessor.dll</HintPath>
     </Reference>
     <Reference Include="K4os.Compression.LZ4, Version=1.3.5.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
       <HintPath>packages\K4os.Compression.LZ4.1.3.5\lib\net462\K4os.Compression.LZ4.dll</HintPath>
@@ -239,239 +235,239 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\DBImage.cs" />
-    <Compile Include="Forms\Form1.cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form1.Designer.cs">
+    <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\formAbout.cs">
+    <Compile Include="formAbout.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Forms\formAbout.Designer.cs">
+    <Compile Include="formAbout.Designer.cs">
       <DependentUpon>formAbout.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormArticle.cs">
+    <Compile Include="FormArticle.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FormArticle.Designer.cs">
+    <Compile Include="FormArticle.Designer.cs">
       <DependentUpon>FormArticle.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormClouds.cs">
+    <Compile Include="FormClouds.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FormClouds.Designer.cs">
+    <Compile Include="FormClouds.Designer.cs">
       <DependentUpon>FormClouds.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\formContact.cs">
+    <Compile Include="formContact.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Forms\formContact.Designer.cs">
+    <Compile Include="formContact.Designer.cs">
       <DependentUpon>formContact.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormCourses.cs">
+    <Compile Include="FormCourses.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FormCourses.Designer.cs">
+    <Compile Include="FormCourses.Designer.cs">
       <DependentUpon>FormCourses.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormCRUD.cs">
+    <Compile Include="FormCRUD.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FormCRUD.Designer.cs">
+    <Compile Include="FormCRUD.Designer.cs">
       <DependentUpon>FormCRUD.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormJobs.cs">
+    <Compile Include="FormJobs.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FormJobs.Designer.cs">
+    <Compile Include="FormJobs.Designer.cs">
       <DependentUpon>FormJobs.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormMarketplace.cs">
+    <Compile Include="FormMarketplace.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FormMarketplace.Designer.cs">
+    <Compile Include="FormMarketplace.Designer.cs">
       <DependentUpon>FormMarketplace.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormPortfoilo.cs">
+    <Compile Include="FormPortfoilo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FormPortfoilo.Designer.cs">
+    <Compile Include="FormPortfoilo.Designer.cs">
       <DependentUpon>FormPortfoilo.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormProblems.cs">
+    <Compile Include="FormProblems.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FormProblems.Designer.cs">
+    <Compile Include="FormProblems.Designer.cs">
       <DependentUpon>FormProblems.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormCommunity.cs">
+    <Compile Include="FormCommunity.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FormCommunity.Designer.cs">
+    <Compile Include="FormCommunity.Designer.cs">
       <DependentUpon>FormCommunity.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormChatBox.cs">
+    <Compile Include="FormChatBox.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FormChatBox.Designer.cs">
+    <Compile Include="FormChatBox.Designer.cs">
       <DependentUpon>FormChatBox.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormCompiler.cs">
+    <Compile Include="FormCompiler.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FormCompiler.Designer.cs">
+    <Compile Include="FormCompiler.Designer.cs">
       <DependentUpon>FormCompiler.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormRegistrationNew.cs">
+    <Compile Include="FormRegistrationNew.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FormRegistrationNew.Designer.cs">
+    <Compile Include="FormRegistrationNew.Designer.cs">
       <DependentUpon>FormRegistrationNew.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormTest.cs">
+    <Compile Include="FormTest.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FormTest.Designer.cs">
+    <Compile Include="FormTest.Designer.cs">
       <DependentUpon>FormTest.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormTypeSpeed.cs">
+    <Compile Include="FormTypeSpeed.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FormTypeSpeed.Designer.cs">
+    <Compile Include="FormTypeSpeed.Designer.cs">
       <DependentUpon>FormTypeSpeed.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormProfile.cs">
+    <Compile Include="FormProfile.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FormProfile.Designer.cs">
+    <Compile Include="FormProfile.Designer.cs">
       <DependentUpon>FormProfile.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormProfileEditor.cs">
+    <Compile Include="FormProfileEditor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FormProfileEditor.Designer.cs">
+    <Compile Include="FormProfileEditor.Designer.cs">
       <DependentUpon>FormProfileEditor.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormSignInPage.cs">
+    <Compile Include="FormSignInPage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FormSignInPage.Designer.cs">
+    <Compile Include="FormSignInPage.Designer.cs">
       <DependentUpon>FormSignInPage.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormVote.cs">
+    <Compile Include="FormVote.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FormVote.Designer.cs">
+    <Compile Include="FormVote.Designer.cs">
       <DependentUpon>FormVote.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\frmContact.cs">
+    <Compile Include="frmContact.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Forms\frmContact.Designer.cs">
+    <Compile Include="frmContact.Designer.cs">
       <DependentUpon>frmContact.cs</DependentUpon>
     </Compile>
     <Compile Include="FunctionsAll.cs" />
-    <Compile Include="Forms\PostTask.cs">
+    <Compile Include="PostTask.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Forms\PostTask.Designer.cs">
+    <Compile Include="PostTask.Designer.cs">
       <DependentUpon>PostTask.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Forms\UC_ProjectAdded.cs">
+    <Compile Include="UC_ProjectAdded.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Forms\UC_ProjectAdded.Designer.cs">
+    <Compile Include="UC_ProjectAdded.Designer.cs">
       <DependentUpon>UC_ProjectAdded.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\UCTaskDetails.cs">
+    <Compile Include="UCTaskDetails.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Forms\UCTaskDetails.Designer.cs">
+    <Compile Include="UCTaskDetails.Designer.cs">
       <DependentUpon>UCTaskDetails.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\UC_ProjectDetails.cs">
+    <Compile Include="UC_ProjectDetails.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Forms\UC_ProjectDetails.Designer.cs">
+    <Compile Include="UC_ProjectDetails.Designer.cs">
       <DependentUpon>UC_ProjectDetails.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\UC_SkillDetails.cs">
+    <Compile Include="UC_SkillDetails.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Forms\UC_SkillDetails.Designer.cs">
+    <Compile Include="UC_SkillDetails.Designer.cs">
       <DependentUpon>UC_SkillDetails.cs</DependentUpon>
     </Compile>
     <Compile Include="Classes\User.cs" />
-    <EmbeddedResource Include="Forms\Form1.resx">
+    <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\formAbout.resx">
+    <EmbeddedResource Include="formAbout.resx">
       <DependentUpon>formAbout.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormArticle.resx">
+    <EmbeddedResource Include="FormArticle.resx">
       <DependentUpon>FormArticle.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormClouds.resx">
+    <EmbeddedResource Include="FormClouds.resx">
       <DependentUpon>FormClouds.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\formContact.resx">
+    <EmbeddedResource Include="formContact.resx">
       <DependentUpon>formContact.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormCourses.resx">
+    <EmbeddedResource Include="FormCourses.resx">
       <DependentUpon>FormCourses.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormCRUD.resx">
+    <EmbeddedResource Include="FormCRUD.resx">
       <DependentUpon>FormCRUD.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormJobs.resx">
+    <EmbeddedResource Include="FormJobs.resx">
       <DependentUpon>FormJobs.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormMarketplace.resx">
+    <EmbeddedResource Include="FormMarketplace.resx">
       <DependentUpon>FormMarketplace.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormPortfoilo.resx">
+    <EmbeddedResource Include="FormPortfoilo.resx">
       <DependentUpon>FormPortfoilo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormProblems.resx">
+    <EmbeddedResource Include="FormProblems.resx">
       <DependentUpon>FormProblems.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormCommunity.resx">
+    <EmbeddedResource Include="FormCommunity.resx">
       <DependentUpon>FormCommunity.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormChatBox.resx">
+    <EmbeddedResource Include="FormChatBox.resx">
       <DependentUpon>FormChatBox.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormCompiler.resx">
+    <EmbeddedResource Include="FormCompiler.resx">
       <DependentUpon>FormCompiler.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormRegistrationNew.resx">
+    <EmbeddedResource Include="FormRegistrationNew.resx">
       <DependentUpon>FormRegistrationNew.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormTest.resx">
+    <EmbeddedResource Include="FormTest.resx">
       <DependentUpon>FormTest.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormTypeSpeed.resx">
+    <EmbeddedResource Include="FormTypeSpeed.resx">
       <DependentUpon>FormTypeSpeed.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormProfile.resx">
+    <EmbeddedResource Include="FormProfile.resx">
       <DependentUpon>FormProfile.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormProfileEditor.resx">
+    <EmbeddedResource Include="FormProfileEditor.resx">
       <DependentUpon>FormProfileEditor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormSignInPage.resx">
+    <EmbeddedResource Include="FormSignInPage.resx">
       <DependentUpon>FormSignInPage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormVote.resx">
+    <EmbeddedResource Include="FormVote.resx">
       <DependentUpon>FormVote.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\frmContact.resx">
+    <EmbeddedResource Include="frmContact.resx">
       <DependentUpon>frmContact.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\PostTask.resx">
+    <EmbeddedResource Include="PostTask.resx">
       <DependentUpon>PostTask.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -484,16 +480,16 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Forms\UC_ProjectAdded.resx">
+    <EmbeddedResource Include="UC_ProjectAdded.resx">
       <DependentUpon>UC_ProjectAdded.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\UC_ProjectDetails.resx">
+    <EmbeddedResource Include="UC_ProjectDetails.resx">
       <DependentUpon>UC_ProjectDetails.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\UCTaskDetails.resx">
+    <EmbeddedResource Include="UCTaskDetails.resx">
       <DependentUpon>UCTaskDetails.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\UC_SkillDetails.resx">
+    <EmbeddedResource Include="UC_SkillDetails.resx">
       <DependentUpon>UC_SkillDetails.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
@@ -1243,16 +1239,13 @@
     <None Include="Resources\Untitled_design-removebg-preview.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\office.png" />
+    <None Include="Resources\building.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\maps-and-flags.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\mail.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\building.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
@@ -1265,7 +1258,6 @@
     <Error Condition="!Exists('packages\CefSharp.Common.112.2.70\build\CefSharp.Common.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\CefSharp.Common.112.2.70\build\CefSharp.Common.targets'))" />
     <Error Condition="!Exists('packages\Microsoft.Web.WebView2.1.0.1722.45\build\Microsoft.Web.WebView2.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.Web.WebView2.1.0.1722.45\build\Microsoft.Web.WebView2.targets'))" />
     <Error Condition="!Exists('packages\Microsoft.Data.SqlClient.SNI.5.1.0\build\net462\Microsoft.Data.SqlClient.SNI.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.Data.SqlClient.SNI.5.1.0\build\net462\Microsoft.Data.SqlClient.SNI.targets'))" />
-    <Error Condition="!Exists('packages\SixLabors.ImageSharp.3.0.1\build\SixLabors.ImageSharp.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\SixLabors.ImageSharp.3.0.1\build\SixLabors.ImageSharp.props'))" />
   </Target>
   <Import Project="packages\CefSharp.Common.112.2.70\build\CefSharp.Common.targets" Condition="Exists('packages\CefSharp.Common.112.2.70\build\CefSharp.Common.targets')" />
   <Import Project="packages\Microsoft.Web.WebView2.1.0.1722.45\build\Microsoft.Web.WebView2.targets" Condition="Exists('packages\Microsoft.Web.WebView2.1.0.1722.45\build\Microsoft.Web.WebView2.targets')" />

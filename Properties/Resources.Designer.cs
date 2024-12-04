@@ -1913,16 +1913,6 @@ namespace Coder_s_space.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap office {
-            get {
-                object obj = ResourceManager.GetObject("office", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap online_training_web_banner_design_free_vector {
             get {
                 object obj = ResourceManager.GetObject("online-training-web-banner-design-free-vector", resourceCulture);
